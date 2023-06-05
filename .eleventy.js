@@ -12,6 +12,7 @@ module.exports = function (eleventyConfig) {
   })
 
   eleventyConfig.addPassthroughCopy('uploads')
+  eleventyConfig.addPassthroughCopy('admin')
   eleventyConfig.addPassthroughCopy('filters')
   eleventyConfig.addPassthroughCopy('assets')
 
