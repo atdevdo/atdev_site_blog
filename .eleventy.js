@@ -11,10 +11,9 @@ module.exports = function (eleventyConfig) {
       .sort((a, b) => b.data.publishDate - a.data.publishDate)
   })
 
-  eleventyConfig.addPassthroughCopy('images')
-  eleventyConfig.addPassthroughCopy('admin')
+  eleventyConfig.addPassthroughCopy('uploads')
   eleventyConfig.addPassthroughCopy('filters')
-  eleventyConfig.addPassthroughCopy('js')
+  eleventyConfig.addPassthroughCopy('assets')
 
   eleventyConfig.addPlugin(pluginRss)
 
