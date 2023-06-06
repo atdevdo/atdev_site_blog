@@ -3,27 +3,49 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <meta
       name="description"
-      content="ATDEV Blog" />
+      content="ATDEV Blog"/>
     <meta
       http-equiv="X-UA-Compatible"
-      content="IE=edge" />
+      content="IE=edge"/>
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0" />
+      content="width=device-width, initial-scale=1.0"/>
     <link
       rel="shortcut icon"
       href=""
-      type="image/x-icon" />
+      type="image/x-icon"/>
+
+    {# BEGIN CSS IMPORTS #}
+    <link rel="stylesheet" href="/assets/css/index.css">
+    {# END CSS IMPORTS #}
+
+    {# BEGIN JS IMPORTS #}
+    <script defer src="/assets/js/sort-posts.js"></script>
+    <script defer type="text/javascript" src="/assets/js/search.js"></script>
+    <script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"></script>
+    {# END JS IMPORTS #}
+
     <title>{{ title }}</title>
   </head>
   <body>
-    {% include "./header.njk" %}
+    <span index="top"></span>
+    {# BEGIN HEADER #}
+    {% include "../components/blocks/header.block.njk" %}
+    {# END HEADER #}
+
+    {# BEGIN MAIN CONTENT #}
     <main>
       {{ content | safe }}
     </main>
-    {% include "./footer.njk" %}
+    {# END MAIN CONTENT #}
+
+    <a href="#top">Click</a>
+
+    {# BEGIN FOOTER #}
+    {% include "../components/blocks/footer.block.njk" %}
+    {# END FOOTER #}
   </body>
 </html>

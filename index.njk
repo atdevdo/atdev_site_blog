@@ -2,7 +2,76 @@
 layout: 'layouts/base.njk'
 title: 'ATDEV Blog'
 ---
-{% from "./_includes/components/post.macro.njk" import macro_post %}
+{# BEGIN MACROS - IMPORTS #}
+{% from "./_includes/components/macros/sort-posts.macro.njk" import macro_sorted_list_title %}
+{% from "./_includes/components/macros/sort-posts.macro.njk" import macro_sorted_list_time %}
+{% from "./_includes/components/macros/sort-posts.macro.njk" import macro_sorted_list_category %}
+{% from "./_includes/components/macros/sort-posts.macro.njk" import macro_sorted_list_date %}
+{% from "./_includes/components/macros/sort-posts.macro.njk" import macro_no_sort %}
+{# END MACROS - IMPORTS #}
+
+{# BEGIN FILTER - SORTING #}
+<div id="filter-sort-container">
+    <div id="filterbox">
+        <div class="field">
+            <input type="search" placeholder="Search..." id="searchField"/>
+        </div>
+        <ol id="searchResults"></ol>
+        <div id="noResultsFound" style="display: none">
+            <p>No results found.</p>
+        </div>
+    </div>
+
+    <div id="sort-by-title-box">
+        <h2>SORT BY</h2>
+    </div>
+
+    <div id="sort_controls">
+        <button id="sort-btn-title">
+            <p>Title</p>
+            <img src="/assets/icons/sort-az.png" alt="sort az"/>
+        </button>
+        <button id="sort-btn-time-read">
+            <p>Time</p>
+            <img src="/assets/icons/sort-time-read.png" alt="sort time to read"/>
+        </button>
+        <button id="sort-btn-category">
+            <P>Category</P>
+            <img src="/assets/icons/sort-category.png" alt="sort category"/>
+        </button>
+        <button id="sort-btn-date">
+            <p>Date</p>
+            <img src="/assets/icons/release-date-icon.png" alt="sort date"/>
+        </button>
+    </div>
+</div>
+{# END FILTER - SORTING #}
+
+{# BEGIN POST LIST #}
+<div id="sorting">
+    <div id="sorted_title">
+        {{ macro_sorted_list_title('title') }}
+    </div>
+
+    <div id="sorted_time">
+        {{ macro_sorted_list_time('minRead') }}
+    </div>
+
+    <div id="sorted_category">
+        {{ macro_sorted_list_category('category') }}
+    </div>
+
+    <div id="sorted_date">
+        {{ macro_sorted_list_date('publishDate') }}
+    </div>
+
+    <div id="not_sorted">
+        {{ macro_no_sort() }}
+    </div>
+</div>
+{# END POST LIST #}
+
+{% from "./_includes/components/macros/post.macro.njk" import macro_post %}
 
 {% for post in collections.decapPosts %}
     {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.author, post.data.minRead, post.data.featuredImage, post.url) }}
