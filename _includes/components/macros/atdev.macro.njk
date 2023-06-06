@@ -1,0 +1,11 @@
+{% macro macro_atdev(atdev_id, atdev_title, atdev_link, atdev_img, atdev_img_alt) %}
+    <div class="atdev">
+        <div id="{{ atdev_id }}" class="atdev_content">
+            <h2>{{ atdev_title }}</h2>
+            <a href="{{ atdev_link }}" >Check Our Web Page</a>
+        </div>
+        <div class="atdev_imgBox">
+            <img src="{{ atdev_img }}" alt="{{ atdev_img_alt }}"/>
+        </div>
+    </div>
+{% endmacro %}

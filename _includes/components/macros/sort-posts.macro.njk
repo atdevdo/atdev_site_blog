@@ -1,9 +1,19 @@
-{% macro macro_sorted_list_title(title) %}{% endmacro %}
+{% macro macro_sorted_list_title(collection, title) %}{% endmacro %}
 
-{% macro macro_sorted_list_time(minRead) %}{% endmacro %}
+{% macro macro_sorted_list_time(collection, minRead) %}{% endmacro %}
 
-{% macro macro_sorted_list_category(category) %}{% endmacro %}
+{% macro macro_sorted_list_category(collection, category) %}{% endmacro %}
 
-{% macro macro_sorted_list_date(publishDate) %}{% endmacro %}
+{% macro macro_sorted_list_date(collection, publishDate) %}{% endmacro %}
 
-{% macro macro_no_sort() %}{% endmacro %}
+{% macro macro_no_sort(collection) %}
+    {% from "./post.macro.njk" import macro_post %}
+
+    <div class="posts-container">
+        {% for post in collection %}
+            {% if loop.index <= 7 %}
+                {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.author, post.data.minRead, post.data.featuredImage, post.url) }}
+            {% endif %}
+        {% endfor %}
+    </div>
+{% endmacro %}

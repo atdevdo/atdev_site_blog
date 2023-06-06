@@ -8,6 +8,8 @@ title: 'ATDEV Blog'
 {% from "./_includes/components/macros/sort-posts.macro.njk" import macro_sorted_list_category %}
 {% from "./_includes/components/macros/sort-posts.macro.njk" import macro_sorted_list_date %}
 {% from "./_includes/components/macros/sort-posts.macro.njk" import macro_no_sort %}
+{% from "./_includes/components/macros/category-post.macro.njk" import macro_category_post %}
+{% from "./_includes/components/macros/atdev.macro.njk" import macro_atdev %}
 {# END MACROS - IMPORTS #}
 
 {# BEGIN FILTER - SORTING #}
@@ -26,7 +28,7 @@ title: 'ATDEV Blog'
         <h2>SORT BY</h2>
     </div>
 
-    <div id="sort_controls">
+    <div id="sort-controls">
         <button id="sort-btn-title">
             <p>Title</p>
             <img src="/assets/icons/sort-az.png" alt="sort az"/>
@@ -49,30 +51,100 @@ title: 'ATDEV Blog'
 
 {# BEGIN POST LIST #}
 <div id="sorting">
-    <div id="sorted_title">
-        {{ macro_sorted_list_title('title') }}
+    <div id="sorted-title">
+        {{ macro_sorted_list_title(collections.decapPosts, 'title') }}
     </div>
 
-    <div id="sorted_time">
-        {{ macro_sorted_list_time('minRead') }}
+    <div id="sorted-time">
+        {{ macro_sorted_list_time(collections.decapPosts, 'minRead') }}
     </div>
 
-    <div id="sorted_category">
-        {{ macro_sorted_list_category('category') }}
+    <div id="sorted-category">
+        {{ macro_sorted_list_category(collections.decapPosts, 'category') }}
     </div>
 
-    <div id="sorted_date">
-        {{ macro_sorted_list_date('publishDate') }}
+    <div id="sorted-date">
+        {{ macro_sorted_list_date(collections.decapPosts, 'publishDate') }}
     </div>
 
-    <div id="not_sorted">
-        {{ macro_no_sort() }}
+    <div id="not-sorted">
+        {{ macro_no_sort(collections.decapPosts) }}
     </div>
 </div>
 {# END POST LIST #}
 
-{% from "./_includes/components/macros/post.macro.njk" import macro_post %}
+{# BEGIN CATEGORIES #}
 
-{% for post in collections.decapPosts %}
-    {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.author, post.data.minRead, post.data.featuredImage, post.url) }}
-{% endfor %}
+{# BEGIN CODE - CATEGORY #}
+<div class="category-container">
+    <div class="category-container__head">
+        <h2>Code</h2>
+        <a href="/categories/code/">View More</a>
+    </div>
+    <div class="posts-container">
+        {{ macro_category_post(collections.decapPosts, 'code', 6) }}
+    </div>
+</div>
+{# END CODE - CATEGORY #}
+
+{# BEGIN ATDEV CUSTOM SOFTWARE DEVELOPMENT #}
+{{
+  macro_atdev(
+    'atdev-content-customsd',
+    'Custom Software Development',
+    'https://beautiful-speculoos-bb658e.netlify.app/en/customsd/',
+    '/assets/images/customsd.png',
+    'Custom Software Development Image'
+  )
+}}
+{# END ATDEV CUSTOM SOFTWARE DEVELOPMENT #}
+
+{# BEGIN COMMUNITY - CATEGORY #}
+<div class="category-container">
+    <div class="category-container__head">
+        <h2>Community</h2>
+        <a href="/categories/community/">View More</a>
+    </div>
+    <div class="posts-container">
+        {{ macro_category_post(collections.decapPosts, 'community', 6) }}
+    </div>
+</div>
+{# END COMMUNITY - CATEGORY #}
+
+{# BEGIN ATDEV ABOUT #}
+{{
+  macro_atdev(
+    'atdev-content-about',
+    'About Us',
+    'https://beautiful-speculoos-bb658e.netlify.app/en/about/',
+    '/assets/images/about.png',
+    'About Image'
+  )
+}}
+{# END ATDEV ABOUT #}
+
+{# BEGIN GROWTH - CATEGORY #}
+<div class="category-container">
+    <div class="category-container__head">
+        <h2>Growth</h2>
+        <a href="/categories/growth/">View More</a>
+    </div>
+    <div class="posts-container">
+        {{ macro_category_post(collections.decapPosts, 'growth', 6) }}
+    </div>
+</div>
+{# END GROWTH - CATEGORY #}
+
+{# BEGIN ATDEV NEARSHORE #}
+{{
+  macro_atdev(
+    'atdev-content-nearshore',
+    'Nearshore Augmentation',
+    'https://beautiful-speculoos-bb658e.netlify.app/en/nearshore/',
+    '/assets/images/nearshore.png',
+    'Nearshore Image'
+  )
+}}
+{# END ATDEV NEARSHORE #}
+
+{# END CATEGORIES #}

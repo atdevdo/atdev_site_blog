@@ -4,11 +4,15 @@
             <img src={{ image }} alt="post image">
         </div>
         <div class="post-card__contentBox">
-            <p>{{ category }}</p>
+            <p class="post-card__contentBox-category">{{ category }}</p>
             <h2>{{ title }}</h2>
             <p>{{ description }}</p>
-            <h3>Author: <span>{{ author }}</span></h3>
-            <h4>{{ minRead }} min read</h4>
+            <div class="post-card__contentBox-author_minRead">
+                <h3>
+                    <span>Author: </span>{{ author }}
+                </h3>
+                <h4>{{ minRead }} min read</h4>
+            </div>
         </div>
     </a>
 {% endmacro %}

@@ -1,0 +1,9 @@
+---
+layout: 'layouts/category.njk'
+category: code
+---
+
+{% from "../../_includes/components/macros/category-post.macro.njk" import macro_category_post %}
+<div class="posts-container">
+    {{ macro_category_post(collections.decapPosts, category, 20) }}
+</div>
