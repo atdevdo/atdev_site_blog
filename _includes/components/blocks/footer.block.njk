@@ -1,0 +1,82 @@
+<!-- @format -->
+
+{% block footer %}
+    <footer>
+        {# BEGIN FOOTER MAIN CONTENT #}
+        <div>
+            {# BEGIN FIRST BLOCK #}
+            <div>
+                <div>
+                    <img src="/uploads/images/logo.png" alt="Logo Image">
+                </div>
+                <div>
+                    <span>{{ footer['main-content']['first-block'].span }}</span>
+                    <p>{{ footer['main-content']['first-block'].text }}</p>
+                </div>
+                <ul>
+                    <li>
+                        <img src="/assets/icons/linkedin-icon.png" alt="LinkedIn Icon">
+                    </li>
+                    <li>
+                        <img src="/assets/icons/twitter-icon.png" alt="Twitter Icon">
+                    </li>
+                    <li>
+                        <img src="/assets/icons/instagram-icon.png" alt="Instagram Icon">
+                    </li>
+                </ul>
+            </div>
+            {# END FIRST BLOCK #}
+
+            {# BEGIN SECOND BLOCK #}
+            <div>
+                <h3>{{ footer['main-content']['second-block'].title }}</h3>
+                <ul>
+                    {% for item in footer['main-content']['second-block'].links %}
+                        <li>
+                            <a href={{ item.link }}>
+                                {{ item.label }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {# END SECOND BLOCK #}
+
+            {# BEGIN THIRD BLOCK #}
+            <div>
+                <h3>{{ footer['main-content']['third-block'].title }}</h3>
+                <ul>
+                    {% for item in footer['main-content']['third-block'].links %}
+                        <li>
+                            <a href={{ item.link }}>
+                                {{ item.label }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {# END THIRD BLOCK #}
+
+            {# BEGIN FOURTH BLOCK #}
+            <div>
+                <h3>{{ footer['main-content']['fourth-block'].title }}</h3>
+                <ul>
+                    {% for item in footer['main-content']['fourth-block'].items %}
+                        <li>
+                            <img src={{ item.icon }} alt="Contact Icon">
+                            <p>
+                                {{ item.text }}
+                            </p>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {# END FOURTH BLOCK #}
+        </div>
+        {# END FOOTER MAIN CONTENT #}
+
+        {# BEGIN FOOTER SECONDARY CONTENT #}
+        <div></div>
+        {# END FOOTER SECONDARY CONTENT #}
+    </footer>
+{% endblock footer %}
