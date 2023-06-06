@@ -4,6 +4,6 @@ title: 'ATDEV Blog'
 ---
 {% from "./_includes/components/post.macro.njk" import macro_post %}
 
-{% for post in collections.posts %}
-    {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.author, post.data.minRead, post.data.featuredImage) }}
+{% for post in collections.decapPosts %}
+    {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.author, post.data.minRead, post.data.featuredImage, post.url) }}
 {% endfor %}

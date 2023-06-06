@@ -1,5 +1,5 @@
-{% macro macro_post(title, description, category, author, minRead, image) %}
-    <div class="post-card">
+{% macro macro_post(title, description, category, author, minRead, image, url) %}
+    <a href={{url}} class="post-card">
         <div class="post-card__imgBox">
             <img src={{ image }} alt="post image">
         </div>
@@ -10,5 +10,5 @@
             <h3>Author: <span>{{ author }}</span></h3>
             <h4>{{ minRead }} min read</h4>
         </div>
-    </div>
+    </a>
 {% endmacro %}

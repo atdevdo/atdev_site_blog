@@ -1,10 +1,14 @@
 /** @format */
-
+const { EleventyI18nPlugin } = require('@11ty/eleventy')
 const { DateTime } = require('luxon')
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 const searchFilter = require('./filters/searchFilter')
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addPlugin(EleventyI18nPlugin, {
+    defaultLanguage: 'en', // Required
+  })
+
   eleventyConfig.addCollection('decapPosts', function (collection) {
     return collection
       .getFilteredByGlob('./posts/**/*.md')
