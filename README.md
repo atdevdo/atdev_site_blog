@@ -2,7 +2,7 @@
 
 # ATDEV - Web Page Clone
 
-ATDEV Blog
+ATDEV Official Blog
 
 ## Table of contents
 
