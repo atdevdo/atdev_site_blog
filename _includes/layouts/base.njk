@@ -26,6 +26,7 @@
     <script defer src="/assets/js/sort-posts.js"></script>
     <script defer type="text/javascript" src="/assets/js/search.js"></script>
     <script defer type="text/javascript" src="/assets/js/header.js"></script>
+    <script defer type="text/javascript" src="/assets/js/global.js"></script>
     <script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"></script>
     {# END JS IMPORTS #}
 
@@ -43,7 +44,9 @@
     </main>
     {# END MAIN CONTENT #}
 
-    <a href="#top">Click</a>
+    <a id="scroll-button" href="#top">
+      <img src="/assets/icons/up-arrow-icon.png" alt="Up arrow icon"/>
+    </a>
 
     {# BEGIN FOOTER #}
     {% include "../components/blocks/footer.block.njk" %}

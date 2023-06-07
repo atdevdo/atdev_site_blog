@@ -24,15 +24,6 @@ module.exports = function (eleventyConfig) {
       .sort((a, b) => b.data.publishDate - a.data.publishDate)
   })
 
-  // ? BEGIN CODE COLLECTION
-  eleventyConfig.addCollection('codeCollection', function (collection) {
-    return collection
-      .getFilteredByGlob('./posts/**/*.md')
-      .filter((item) => item.data.category === 'code')
-  })
-
-  // ? END CODE COLLECTION
-
   // ? BEGIN COLLECTION SORTED BY TITLE
   eleventyConfig.addCollection('sortedByTitle', function (collection) {
     return collection

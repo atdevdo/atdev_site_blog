@@ -1,0 +1,5 @@
+{
+  "layout": "layouts/category.njk",
+  "category": "community",
+  "tags": "community"
+}
