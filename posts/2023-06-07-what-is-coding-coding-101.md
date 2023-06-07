@@ -19,26 +19,6 @@ As you may have expected, you were just **viewing the code behind this webpage*
 
 Now, in simple terms, l*et’s define coding as the basic act of writing* – in a programming language – **a script that a computer can understand**. This script will tell the computer **to behave in a certain way**, to do a certain thing, and to, ultimately, **perform the actions that you want it to** – *if your code is right*.
 
-
-
-### Table of Contents
-
-* [1. Code As a ‘Translator’](https://www.bitdegree.org/tutorials/what-is-coding/#code-as-a-lsquotranslatorrsquo)
-* [2. Why Should I Learn Coding?](https://www.bitdegree.org/tutorials/what-is-coding/#why-should-i-learn-coding)
-* [3. What Types Of Coders Are There?](https://www.bitdegree.org/tutorials/what-is-coding/#what-types-of-coders-are-there)
-* [3.1. Front-End Developer](https://www.bitdegree.org/tutorials/what-is-coding/#front-end-developer)
-* [3.2. Back-End Developer](https://www.bitdegree.org/tutorials/what-is-coding/#back-end-developer)
-* [3.3. Mobile App Developer](https://www.bitdegree.org/tutorials/what-is-coding/#mobile-app-developer)
-* [4. Coding VS Programming?](https://www.bitdegree.org/tutorials/what-is-coding/#coding-vs-programming)
-* [5. Popular Coding Languages](https://www.bitdegree.org/tutorials/what-is-coding/#popular-coding-languages)
-* [5.1. HTML](https://www.bitdegree.org/tutorials/what-is-coding/#html)
-* [5.2. CSS](https://www.bitdegree.org/tutorials/what-is-coding/#css)
-* [5.3. Python](https://www.bitdegree.org/tutorials/what-is-coding/#python)
-* [5.4. Java](https://www.bitdegree.org/tutorials/what-is-coding/#java)
-* [5.5. JavaScript](https://www.bitdegree.org/tutorials/what-is-coding/#javascript)
-* [6. How Can I Fast-Track My Learning?](https://www.bitdegree.org/tutorials/what-is-coding/#how-can-i-fast-track-my-learning)
-* [7. Time to Start Learning](https://www.bitdegree.org/tutorials/what-is-coding/#time-to-start-learning)
-
 ## Code As a ‘Translator’
 
 <!--StartFragment-->
