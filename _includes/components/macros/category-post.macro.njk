@@ -1,15 +1,39 @@
-{% macro macro_category_post(collection, category, amount) %}
+{% macro macro_category_post(collection, category) %}
     {% from "./post.macro.njk" import macro_post %}
 
     {% for post in collection %}
-        {% if post.data.category == category and loop.index < amount %}
+        {% if post.data.category == category and loop.index < 20 %}
             {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.author, post.data.minRead, post.data.featuredImage, post.url) }}
         {% endif %}
     {% endfor %}
 {% endmacro %}
 
-{% macro macro_category_inner_navigation(numberPages) %}
+{% macro macro_category_inner_navigation(category, max_posts, current_page, next_page, previous_page) %}
+    {% set collection_length = max_posts %}
+
     <div class="category-inner_navigation">
-        <h2>PAGE 1</h2>
+        {% if collection_length == 1 %}
+            <h2>PAGE 1</h2>
+        {% elif collection_length == current_page %}
+            {# ? LAST PAGE #}
+            <a href="/categories/code/1/">FIRST</a>
+            <a href="/categories/code/{{ current_page - 1 }}/">BACK</a>
+            <h2>PAGE {{ current_page }} of {{ collection_length }}</h2>
+        {% elif collection_length == current_page + 1 %}
+            {# ? PENULTIMATE PAGE #}
+            <a href="/categories/code/{{ current_page - 1 }}/">BACK</a>
+            <h2>PAGE {{ current_page }} of {{ collection_length }}</h2>
+            <a href="/categories/code/{{ collection_length}}/">LAST</a>
+        {% elif collection_length != current_page + 1 %}
+            {# ? ANY PAGE BETWEEN THE FIRST AND THE LAST #}
+            {% if current_page == 1 %}
+                <h2>PAGE {{ current_page }} of {{ collection_length }}</h2>
+                <a href="/categories/code/{{ current_page + 1}}/">NEXT</a>
+            {% else %}
+                <a href="/categories/code/{{ current_page - 1 }}/">BACK</a>
+                <h2>PAGE {{ current_page }} of {{ collection_length }}</h2>
+                <a href="/categories/code/{{ current_page + 1}}/">NEXT</a>
+            {% endif %}
+        {% endif %}
     </div>
 {% endmacro %}

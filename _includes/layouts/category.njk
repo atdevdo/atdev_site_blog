@@ -15,9 +15,10 @@
             {{content | safe}}
         </main>
 
+        {# BEGIN INNER NAVIGATION #}
         {% from "../components/macros/category-post.macro.njk" import macro_category_inner_navigation %}
 
-        {{ macro_category_inner_navigation(1) }}
-
+        {{ macro_category_inner_navigation(category, collections.code | length, current_page, next_page, previous_page) }}
+        {# END INNER NAVIGATION #}
     </body>
 </html>
