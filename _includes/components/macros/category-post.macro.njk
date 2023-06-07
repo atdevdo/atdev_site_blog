@@ -8,7 +8,7 @@
     {% endfor %}
 {% endmacro %}
 
-{% macro macro_category_inner_navigation(category, max_posts, current_page, next_page, previous_page) %}
+{% macro macro_category_inner_navigation(max_posts, current_page) %}
     {% set collection_length = max_posts %}
 
     <div class="category-inner_navigation">

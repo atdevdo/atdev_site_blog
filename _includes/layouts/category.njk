@@ -18,7 +18,7 @@
         {# BEGIN INNER NAVIGATION #}
         {% from "../components/macros/category-post.macro.njk" import macro_category_inner_navigation %}
 
-        {{ macro_category_inner_navigation(category, collections.code | length, current_page, next_page, previous_page) }}
+        {{ macro_category_inner_navigation(collections.code | length, current_page) }}
         {# END INNER NAVIGATION #}
     </body>
 </html>
