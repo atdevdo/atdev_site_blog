@@ -9,18 +9,24 @@ module.exports = {
     'second-block': {
       title: 'Menu',
       links: [
-        { label: 'Services', link: '' },
-        { label: 'Careers', link: '' },
-        { label: 'About', link: '' },
-        { label: 'Contact', link: '' },
+        { label: 'Services', link: 'https://atdev.do/pages/service/' },
+        { label: 'Careers', link: 'https://atdev.do/pages/careersus/' },
+        { label: 'About', link: 'https://atdev.do/pages/about/' },
+        { label: 'Contact', link: 'https://atdev.do/pages/contact/' },
         { label: 'Blog', link: '/' },
       ],
     },
     'third-block': {
       title: 'What We Offer',
       links: [
-        { label: 'Custom Software Development', link: '' },
-        { label: 'Nearshore Staff Augmentation', link: '' },
+        {
+          label: 'Custom Software Development',
+          link: 'https://atdev.do/services/app-development/',
+        },
+        {
+          label: 'Nearshore Staff Augmentation',
+          link: 'https://atdev.do/services/nearshore/',
+        },
       ],
     },
     'fourth-block': {

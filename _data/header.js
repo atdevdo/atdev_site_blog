@@ -3,11 +3,11 @@
 module.exports = {
   logo: '/assets/icons/logo.png',
   links: [
-    { label: 'Home', link: '' },
-    { label: 'Services', link: '' },
-    { label: 'Careers', link: '' },
-    { label: 'About', link: '' },
-    { label: 'Contact', link: '' },
+    { label: 'Home', link: 'https://atdev.do/' },
+    { label: 'Services', link: 'https://atdev.do/pages/service/' },
+    { label: 'Careers', link: 'https://atdev.do/pages/careersus/' },
+    { label: 'About', link: 'https://atdev.do/pages/about/' },
+    { label: 'Contact', link: 'https://atdev.do/pages/contact/' },
     { label: 'Blog', link: '/' },
   ],
 }

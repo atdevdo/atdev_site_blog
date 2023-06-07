@@ -6,9 +6,9 @@
         <div id="footer-main-content">
             {# BEGIN FIRST BLOCK #}
             <div id="footer-main-content__first_block" class="footer-main-content__block">
-                <div id="footer-main-content__first_block-imgBox">
+                <a id="footer-main-content__first_block-imgBox" href="https://atdev.do/">
                     <img src="/uploads/images/logo.png" alt="Logo Image">
-                </div>
+                </a>
                 <div id="footer-main-content__first_block-contentBox">
                     <p>
                         <span>{{ footer['main-content']['first-block'].span }}</span>
@@ -17,13 +17,19 @@
                 </div>
                 <ul>
                     <li>
-                        <img src="/assets/icons/linkedin-icon.png" alt="LinkedIn Icon">
+                        <a href="https://www.linkedin.com/company/atdev/about/" target="_blank">
+                            <img src="/assets/icons/linkedin-icon.png" alt="LinkedIn Icon">
+                        </a>
                     </li>
                     <li>
-                        <img src="/assets/icons/twitter-icon.png" alt="Twitter Icon">
+                        <a href="https://twitter.com/AtdevConsulting" target="_blank">
+                            <img src="/assets/icons/twitter-icon.png" alt="Twitter Icon">
+                        </a>
                     </li>
                     <li>
-                        <img src="/assets/icons/instagram-icon.png" alt="Instagram Icon">
+                        <a href="https://www.instagram.com/atdev.do/" target="_blank">
+                            <img src="/assets/icons/instagram-icon.png" alt="Instagram Icon">
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -35,7 +41,7 @@
                 <ul class="footer-main-content__block-list">
                     {% for item in footer['main-content']['second-block'].links %}
                         <li>
-                            <a href={{ item.link }}>
+                            <a href={{ item.link }} target="_blank">
                                 {{ item.label }}
                             </a>
                         </li>
@@ -50,7 +56,7 @@
                 <ul class="footer-main-content__block-list">
                     {% for item in footer['main-content']['third-block'].links %}
                         <li>
-                            <a href={{ item.link }}>
+                            <a href={{ item.link }} target="_blank">
                                 {{ item.label }}
                             </a>
                         </li>

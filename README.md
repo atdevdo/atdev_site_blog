@@ -2,7 +2,7 @@
 
 # ATDEV - Web Page Clone
 
-ATDEV Official Blog
+ATDEV Blog
 
 ## Table of contents
 
@@ -31,12 +31,12 @@ In this blog you will see articles of different types, such as:
 
 ### Screenshot
 
-![Home](./images/uploads/home.png)
+![Home](/assets/images/blog-home.png)
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/AdryAtDev/atdev-blog-decap)
-- Live Site URL: [Netlify](https://dreamy-daifuku-582381.netlify.app/)
+- Solution URL: [GitHub](https://github.com/AdryAtDev/adrydev_atdev_site_blog)
+- Live Site URL: [Netlify](https://melodic-pasca-5d1c5d.netlify.app/)
 
 ## My process
 
@@ -65,38 +65,32 @@ In this blog you will see articles of different types, such as:
 
 ### Folder Structure
 
-```
-.
+```.
 ├── _data
-    └── navigation.js
 ├── _includes
+    ├── components
+        ├── blocks
+        └── macros
     └── layouts
 ├── admin
-    ├── config.yml
-    └── index.html
+├── assets
+    ├── css
+    ├── icons
+    ├── images
+    └── js
 ├── categories
     ├── code
     ├── community
-    ├── growth
-    ├── remote_work
-    └── categories.json
+    └── growth
 ├── filters
-├── images
-    └── uploads
-├── js
 ├── posts
-├── .eleventy.js
-├── .gitignore
-├── posts.njk
-├── search-index.json.njk
-├── package-lock.json
-├── package.json
-└── README.md
+└── uploads
+    └── images
 ```
 
 ### Install dependencies
 
-```
+```.
 npm install
 ```
 
@@ -104,12 +98,12 @@ npm install
 
 Starts watch tasks to compile when changes detected
 
-```
+```.
 npm start
 ```
 
 ### Creating a production build
 
-```
+```.
 npm run build
 ```

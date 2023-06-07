@@ -29,7 +29,7 @@
             <div>
                 {% from "../components/macros/category-post.macro.njk" import macro_category_inner_navigation %}
 
-                {{ macro_category_inner_navigation(collections.code | length, current_page) }}
+                {{ macro_category_inner_navigation(collections[category] | length, current_page) }}
             </div>
             {# END INNER NAVIGATION #}
         </main>
