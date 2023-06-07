@@ -1,82 +1,82 @@
 /** @format */
 
 .atdev {
-  position: relative;
+	position: relative;
 }
 
-.atdev_content {
-  z-index: 4;
-  position: absolute;
-  top: 25%;
-  left: 32%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2.6rem;
+.atdev-content {
+	z-index: 4;
+	position: absolute;
+	top: 25%;
+	left: 32%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2.6rem;
 }
 
-.atdev_content h2 {
-  font-size: 2rem;
-  font-weight: bolder;
-  color: var(--color-h2);
+.atdev-content h2 {
+	font-size: 2rem;
+	font-weight: bolder;
+	color: var(--color-h2);
 }
 
-.atdev_content a {
-  font-weight: 600;
-  font-size: 0.8rem;
-  color: var(--color-minRead);
-  padding: 1rem;
-  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.4);
+.atdev-content a {
+	font-weight: 600;
+	font-size: 0.8rem;
+	color: var(--color-minRead);
+	padding: 1rem;
+	box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.4);
 }
 
-.atdev_content a:hover {
-  color: rgba(0, 0, 0, 0.9);
+.atdev-content a:hover {
+	color: rgba(0, 0, 0, 0.9);
 }
 
-.atdev_imgBox {
-  z-index: 3;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  filter: blur(6px);
-  -webkit-filter: blur(8px);
+.atdev-imgBox {
+	z-index: 3;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	filter: blur(6px);
+	-webkit-filter: blur(8px);
 }
 
-.atdev_imgBox img {
-  width: 100%;
+.atdev-imgBox img {
+	width: 100%;
 }
 
-#atdev_content_customsd {
-  left: 28%;
+#atdev-content-customsd {
+	left: 28%;
 }
 
-#atdev_content_about {
-  top: 30%;
-  left: 42%;
+#atdev-content-about {
+	top: 30%;
+	left: 42%;
 }
 
-#atdev_content_contact {
-  left: 42%;
+#atdev-content-contact {
+	left: 42%;
 }
 
-#atdev_content_about,
-#atdev_content_nearshore,
-#atdev_content_customsd,
-#atdev_content_contact {
-  background-color: transparent;
+#atdev-content-about,
+#atdev-content-nearshore,
+#atdev-content-customsd,
+#atdev-content-contact {
+	background-color: transparent;
 }
 
-#atdev_content_about a,
-#atdev_content_nearshore a,
-#atdev_content_customsd a,
-#atdev_content_contact a {
-  transition: transform 0.2s;
+#atdev-content-about a,
+#atdev-content-nearshore a,
+#atdev-content-customsd a,
+#atdev-content-contact a {
+	transition: transform 0.2s;
 }
 
-#atdev_content_about a:hover,
-#atdev_content_nearshore a:hover,
-#atdev_content_customsd a:hover,
-#atdev_content_contact a:hover {
-  transform: scale(1.06);
+#atdev-content-about a:hover,
+#atdev-content-nearshore a:hover,
+#atdev-content-customsd a:hover,
+#atdev-content-contact a:hover {
+	transform: scale(1.06);
 }

@@ -1,141 +1,151 @@
 /** @format */
 
 #filterbox {
-  display: flex;
-  align-items: start;
-  flex-direction: column;
-  width: 55.4vw;
+	display: flex;
+	align-items: start;
+	flex-direction: column;
+	width: 55.4vw;
 }
 
 .field {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  /* gap: 0.6rem; */
-  width: 100%;
-  height: 100%;
-  /* padding: 0 1rem; */
-  /* border: 0.001px solid var(--color-h3); */
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
 }
 
 #search-text {
-  font-size: 1.8rem;
-  font-weight: bolder;
-  color: var(--color-h3);
+	font-size: 1.8rem;
+	font-weight: bolder;
+	color: var(--color-h3);
 }
 
 #searchField {
-  width: 100%;
-  margin-top: 0.1rem;
-  font-size: 1rem;
-  font-weight: bolder;
-  padding: 0.8rem 0.6rem;
-  border-radius: 0.2rem;
-  border: none;
-  outline: none;
-  box-shadow: var(--box-shadow);
-  transition: transform 0.2s;
+	width: 100%;
+	margin-top: 0.1rem;
+	font-size: 1rem;
+	font-weight: bolder;
+	padding: 0.8rem 0.6rem;
+	border-radius: 0.2rem;
+	border: none;
+	outline: none;
+	box-shadow: var(--box-shadow);
+	transition: transform 0.2s;
 }
 
 input {
-  color: var(--color-h1);
+	color: var(--color-h1);
 }
 
 #searchField::placeholder {
-  color: var(--color-h1);
-  opacity: 1; /* Firefox */
+	color: var(--color-h1);
+	opacity: 1; /* Firefox */
 }
 
 #searchField:-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: var(--color-paragraph);
+	/* Internet Explorer 10-11 */
+	color: var(--color-paragraph);
 }
 
 #searchField::-ms-input-placeholder {
-  /* Microsoft Edge */
-  color: var(--color-paragraph);
+	/* Microsoft Edge */
+	color: var(--color-paragraph);
 }
 
 #searchField:focus {
-  box-shadow: var(--box-shadow);
-  transform: scale(1.002);
+	box-shadow: var(--box-shadow);
+	transform: scale(1.002);
 }
 
 #field-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 #filter-sort-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: column;
-  gap: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+	gap: 2rem;
 }
 
 #sort-by-title-box {
-  color: var(--color-h1);
+	color: var(--color-h1);
+}
+
+#sort-by-title-box h2 {
+	font-size: 1.2rem;
 }
 
 #sort-controls {
-  width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  gap: 1rem;
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	gap: 1rem;
 }
 
 #sort-controls button {
-  width: 8rem;
-  padding: 0.8rem 2rem;
-  color: var(--color-paragraph-secondary);
-  font-size: 0.8rem;
-  font-weight: bold;
-  border-radius: 0.2rem;
-  cursor: pointer;
-  border: none;
+	width: 8rem;
+	padding: 0.8rem 2rem;
+	color: var(--color-paragraph-secondary);
+	font-size: 0.8rem;
+	font-weight: bold;
+	border-radius: 0.2rem;
+	cursor: pointer;
+	border: none;
 }
 
 #sort-btn-title,
 #sort-btn-time-read,
 #sort-btn-category,
 #sort-btn-date {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.6rem;
-  height: 8.4vh;
-  color: var(--color-h2);
-  background-color: white;
-  box-shadow: var(--box-shadow);
-  transition: transform 0.2s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.6rem;
+	height: 7.8vh;
+	color: var(--color-h2);
+	background-color: white;
+	box-shadow: var(--box-shadow);
+	transition: transform 0.2s;
 }
 
 #sort-btn-title:hover,
 #sort-btn-time-read:hover,
 #sort-btn-category:hover,
 #sort-btn-date:hover {
-  transform: scale(1.08);
+	transform: scale(1.08);
 }
 
 #sort-btn-title img,
 #sort-btn-time-read img,
 #sort-btn-category img,
 #sort-btn-date img {
-  width: 100%;
-  height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
 #sort-btn-title.active,
 #sort-btn-time-read.active,
 #sort-btn-category.active,
 #sort-btn-date.active {
-  background-color: white;
-  box-shadow: var(--box-shadow);
+	background-color: white;
+	box-shadow: var(--box-shadow);
 }
 
 .active button {
-  box-shadow: var(--box-shadow-hover);
+	box-shadow: var(--box-shadow-hover);
+}
+
+#searchResults h3 {
+	font-size: 1rem;
+	padding-top: 1rem;
+}
+
+#searchResults h3 a {
+	color: var(--color-h3);
 }

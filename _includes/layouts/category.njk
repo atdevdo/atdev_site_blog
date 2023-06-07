@@ -4,11 +4,14 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {# BEGIN CSS IMPORTS #}
+        <link rel="stylesheet" href="/assets/css/category.css">
+        {# END CSS IMPORTS #}
         <title>{{ category | upper }} | CATEGORY </title>
     </head>
     <body>
-        <h1>{{ category }}</h1>
-        <main>
+        <main class="category-posts">
+            <h1>{{ category }}</h1>
             {{content | safe}}
         </main>
 

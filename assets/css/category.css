@@ -15,9 +15,41 @@
 .category-container__head h2 {
   color: var(--color-h2);
   font-weight: 900;
+  font-size: 1.6rem;
 }
 
 .category-container__head a {
   color: var(--color-paragraph);
   font-weight: 700;
+  font-size: 1.2rem;
 }
+
+/* BEGIN CATEGORY POSTS */
+.category-posts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.category-posts .posts-container {
+  background-color: antiquewhite;
+  width: 40vw;
+}
+
+.category-posts .posts-container .post-card {
+  /* width: 10vw !important; */
+}
+
+.category-posts .posts-container .post-card__imgBox {
+  /* width: 30%; */
+}
+
+.category-posts .posts-container .post-card__imgBox img {
+  width: 100%;
+}
+
+.category-posts .posts-container .post-card__contentBox {
+  /* width: 30%; */
+}
+/* END CATEGORY POSTS */
