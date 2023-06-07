@@ -25,31 +25,19 @@
 }
 
 /* BEGIN CATEGORY POSTS */
-.category-posts {
+.category-posts h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--color-h4);
+}
+
+.category-inner_navigation {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
 }
 
-.category-posts .posts-container {
-  background-color: antiquewhite;
-  width: 40vw;
-}
-
-.category-posts .posts-container .post-card {
-  /* width: 10vw !important; */
-}
-
-.category-posts .posts-container .post-card__imgBox {
-  /* width: 30%; */
-}
-
-.category-posts .posts-container .post-card__imgBox img {
-  width: 100%;
-}
-
-.category-posts .posts-container .post-card__contentBox {
-  /* width: 30%; */
+.category-inner_navigation > h2 {
+  color: var(--color-paragraph);
 }
 /* END CATEGORY POSTS */
