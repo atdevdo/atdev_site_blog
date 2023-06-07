@@ -1,8 +1,8 @@
-{% macro macro_category_post(collection, category) %}
+{% macro macro_category_post(collection, category, from, to) %}
     {% from "./post.macro.njk" import macro_post %}
 
     {% for post in collection %}
-        {% if post.data.category == category and loop.index < 20 %}
+        {% if post.data.category == category and loop.index >= from and loop.index < to %}
             {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.author, post.data.minRead, post.data.featuredImage, post.url) }}
         {% endif %}
     {% endfor %}

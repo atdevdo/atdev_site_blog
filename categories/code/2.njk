@@ -4,5 +4,5 @@ current_page: 2
 
 {% from "../../_includes/components/macros/category-post.macro.njk" import macro_category_post %}
 <div class="posts-container">
-    {{ macro_category_post(collections.decapPosts, category) }}
+    {{ macro_category_post(collections.decapPosts, category, 40, 80) }}
 </div>

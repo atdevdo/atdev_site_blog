@@ -4,9 +4,15 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         {# BEGIN CSS IMPORTS #}
         <link rel="stylesheet" href="/assets/css/index.css">
         {# END CSS IMPORTS #}
+
+        {# BEGIN JS IMPORTS #}
+        <script defer type="text/javascript" src="/assets/js/header.js"></script>
+        {# END JS IMPORTS #}
+
         <title>{{ category | upper }} | CATEGORY </title>
     </head>
     <body>
@@ -16,17 +22,17 @@
 
         <main class="category-posts">
             <h1>{{ category }}</h1>
+
             {{content | safe}}
+
+            {# BEGIN INNER NAVIGATION #}
+            <div>
+                {% from "../components/macros/category-post.macro.njk" import macro_category_inner_navigation %}
+
+                {{ macro_category_inner_navigation(collections.code | length, current_page) }}
+            </div>
+            {# END INNER NAVIGATION #}
         </main>
-
-        {# BEGIN INNER NAVIGATION #}
-        <div>
-            {% from "../components/macros/category-post.macro.njk" import macro_category_inner_navigation %}
-
-            {{ macro_category_inner_navigation(collections.code | length, current_page) }}
-        </div>
-        {# END INNER NAVIGATION #}
-
         {# BEGIN FOOTER #}
         {% include "../components/blocks/footer.block.njk" %}
         {# END FOOTER #}

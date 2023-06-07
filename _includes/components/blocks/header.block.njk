@@ -1,5 +1,14 @@
 <!-- @format -->
 
 {% block header %}
-<header>TEMPORARY HEADER</header>
+    <header>
+        <div>
+            <img src="/assets/icons/logo.png" alt="ATDEV Logo">
+        </div>
+        <nav>
+            {% for item in header.links %}
+                <a href={{ item.link }}>{{ item.label }}</a>
+            {% endfor %}
+        </nav>
+    </header>
 {% endblock header %}

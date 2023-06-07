@@ -13,6 +13,7 @@ module.exports = {
         { label: 'Careers', link: '' },
         { label: 'About', link: '' },
         { label: 'Contact', link: '' },
+        { label: 'Blog', link: '/' },
       ],
     },
     'third-block': {
