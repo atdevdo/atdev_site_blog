@@ -1,13 +1,49 @@
-{% macro macro_sorted_list_title(collection, title) %}{% endmacro %}
+{# BEGIN IMPORTS #}
+{% from "./post.macro.njk" import macro_post %}
+{# END IMPORTS #}
 
-{% macro macro_sorted_list_time(collection, minRead) %}{% endmacro %}
+{# BEGIN SORTED BY TITLE MACRO #}
+{% macro macro_sorted_list_title(collection, amount) %}
+    {% for post in collection %}
+        {% if loop.index < amount %}
+            {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.author, post.data.minRead, post.data.featuredImage, post.url) }}
+        {% endif %}
+    {% endfor %}
+{% endmacro %}
+{# END SORTED BY TITLE MACRO #}
 
-{% macro macro_sorted_list_category(collection, category) %}{% endmacro %}
+{# BEGIN SORTED BY TIME MACRO #}
+{% macro macro_sorted_list_time(collection, amount) %}
+    {% for post in collection %}
+        {% if loop.index < amount %}
+            {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.author, post.data.minRead, post.data.featuredImage, post.url) }}
+        {% endif %}
+    {% endfor %}
+{% endmacro %}
+{# END SORTED BY TIME MACRO #}
 
-{% macro macro_sorted_list_date(collection, publishDate) %}{% endmacro %}
+{# BEGIN SORTED BY CATEGORY MACRO #}
+{% macro macro_sorted_list_category(collection, amount) %}
+    {% for post in collection %}
+        {% if loop.index < amount %}
+            {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.author, post.data.minRead, post.data.featuredImage, post.url) }}
+        {% endif %}
+    {% endfor %}
+{% endmacro %}
+{# END SORTED BY CATEGORY MACRO #}
 
+{# BEGIN SORTED BY DATE MACRO #}
+{% macro macro_sorted_list_date(collection, amount) %}
+    {% for post in collection %}
+        {% if loop.index < amount %}
+            {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.author, post.data.minRead, post.data.featuredImage, post.url) }}
+        {% endif %}
+    {% endfor %}
+{% endmacro %}
+{# END SORTED BY DATE MACRO #}
+
+{# BEGIN NO SORT MACRO #}
 {% macro macro_no_sort(collection) %}
-    {% from "./post.macro.njk" import macro_post %}
 
     <div class="posts-container">
         {% for post in collection %}
@@ -17,3 +53,4 @@
         {% endfor %}
     </div>
 {% endmacro %}
+{# END NO SORT MACRO #}

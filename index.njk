@@ -52,19 +52,19 @@ title: 'ATDEV Blog'
 {# BEGIN POST LIST #}
 <div id="sorting">
     <div id="sorted-title">
-        {{ macro_sorted_list_title(collections.decapPosts, 'title') }}
+        {{ macro_sorted_list_title(collections.sortedByTitle, 6) }}
     </div>
 
     <div id="sorted-time">
-        {{ macro_sorted_list_time(collections.decapPosts, 'minRead') }}
+        {{ macro_sorted_list_time(collections.sortedByTime, 6) }}
     </div>
 
     <div id="sorted-category">
-        {{ macro_sorted_list_category(collections.decapPosts, 'category') }}
+        {{ macro_sorted_list_category(collections.sortedByCategory, 6) }}
     </div>
 
     <div id="sorted-date">
-        {{ macro_sorted_list_date(collections.decapPosts, 'publishDate') }}
+        {{ macro_sorted_list_date(collections.sortedByDate, 6) }}
     </div>
 
     <div id="not-sorted">

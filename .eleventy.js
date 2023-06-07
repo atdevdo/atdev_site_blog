@@ -5,8 +5,17 @@ const pluginRss = require('@11ty/eleventy-plugin-rss')
 const searchFilter = require('./filters/searchFilter')
 
 module.exports = function (eleventyConfig) {
+  // BEGIN PLUGINS
   eleventyConfig.addPlugin(EleventyI18nPlugin, {
     defaultLanguage: 'en', // Required
+  })
+
+  eleventyConfig.addPlugin(pluginRss)
+  // END PLUGINS
+
+  // * BEGIN CUSTOM COLLECTIONS
+  eleventyConfig.addCollection('posts', (collection) => {
+    return [...collection.getFilteredByGlob('./posts/**/*.md')]
   })
 
   eleventyConfig.addCollection('decapPosts', function (collection) {
@@ -15,20 +24,58 @@ module.exports = function (eleventyConfig) {
       .sort((a, b) => b.data.publishDate - a.data.publishDate)
   })
 
-  eleventyConfig.addPassthroughCopy('uploads')
-  eleventyConfig.addPassthroughCopy('admin')
-  eleventyConfig.addPassthroughCopy('filters')
-  eleventyConfig.addPassthroughCopy('assets')
+  // ? BEGIN COLLECTION SORTED BY TITLE
+  eleventyConfig.addCollection('sortedByTitle', function (collection) {
+    return collection
+      .getFilteredByGlob('./posts/**/*.md')
+      .sort(function (a, b) {
+        if (a.data.title && b.data.title) {
+          return a.data.title.localeCompare(b.data.title)
+        }
+        return 0
+      })
+  })
+  // ? END COLLECTION SORTED BY TITLE
 
-  eleventyConfig.addPlugin(pluginRss)
+  // ? BEGIN COLLECTION SORTED BY TIME
+  eleventyConfig.addCollection('sortedByTime', function (collection) {
+    return collection
+      .getFilteredByGlob('./posts/**/*.md')
+      .sort((a, b) => b.data.minRead - a.data.minRead)
+  })
+  // ? END COLLECTION SORTED BY TIME
 
+  // ? BEGIN COLLECTION SORTED BY CATEGORY
+  eleventyConfig.addCollection('sortedByCategory', function (collection) {
+    return collection
+      .getFilteredByGlob('./posts/**/*.md')
+      .sort(function (a, b) {
+        if (a.data.category && b.data.category) {
+          return a.data.category.localeCompare(b.data.category)
+        }
+        return 0
+      })
+  })
+  // ? END COLLECTION SORTED BY CATEGORY
+
+  // ? BEGIN COLLECTION SORTED BY DATE
+  eleventyConfig.addCollection('sortedByDate', function (collection) {
+    return collection
+      .getFilteredByGlob('./posts/**/*.md')
+      .reverse()
+      .sort((a, b) => b.data.publishDate - a.data.publishDate)
+  })
+  // ? END COLLECTION SORTED BY DATE
+
+  // * END CUSTOM COLLECTIONS
+
+  // BEGIN CUSTOM FILTERS
   eleventyConfig.addFilter('search', searchFilter)
 
-  eleventyConfig.addCollection('posts', (collection) => {
-    return [...collection.getFilteredByGlob('./posts/**/*.md')]
+  eleventyConfig.addFilter('postDate', (dateObj) => {
+    return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED)
   })
 
-  // CUSTOM FILTERS
   eleventyConfig.addNunjucksFilter('dateNow', function () {
     return new Date().toLocaleDateString('en-us', {
       weekday: 'long',
@@ -37,10 +84,14 @@ module.exports = function (eleventyConfig) {
       day: 'numeric',
     })
   })
+  // END CUSTOM FILTERS
 
-  eleventyConfig.addFilter('postDate', (dateObj) => {
-    return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED)
-  })
+  // BEGIN COPY
+  eleventyConfig.addPassthroughCopy('uploads')
+  eleventyConfig.addPassthroughCopy('admin')
+  eleventyConfig.addPassthroughCopy('filters')
+  eleventyConfig.addPassthroughCopy('assets')
+  // END COPY
 
   return {
     passthroughFileCopy: true,
