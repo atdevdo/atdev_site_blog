@@ -10,15 +10,25 @@
         <title>{{ category | upper }} | CATEGORY </title>
     </head>
     <body>
+        {# BEGIN HEADER #}
+        {% include "../components/blocks/header.block.njk" %}
+        {# END HEADER #}
+
         <main class="category-posts">
             <h1>{{ category }}</h1>
             {{content | safe}}
         </main>
 
         {# BEGIN INNER NAVIGATION #}
-        {% from "../components/macros/category-post.macro.njk" import macro_category_inner_navigation %}
+        <div>
+            {% from "../components/macros/category-post.macro.njk" import macro_category_inner_navigation %}
 
-        {{ macro_category_inner_navigation(collections.code | length, current_page) }}
+            {{ macro_category_inner_navigation(collections.code | length, current_page) }}
+        </div>
         {# END INNER NAVIGATION #}
+
+        {# BEGIN FOOTER #}
+        {% include "../components/blocks/footer.block.njk" %}
+        {# END FOOTER #}
     </body>
 </html>

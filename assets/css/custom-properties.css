@@ -1,22 +1,23 @@
 /** @format */
 
 :root {
-	/* BEGIN COLORS */
-	--color-h1: #6a8dc8;
-	--color-h2: #3d8ecd;
-	--color-h3: #3d8ecd;
-	--color-h4: #6a8dc8;
-	--color-paragraph: #54647a;
-	--color-paragraph-secondary: #3cbee2;
-	--color-span: #6a8dc8;
-	/* END COLORS */
+  /* BEGIN COLORS */
+  --color-h1: #6a8dc8;
+  --color-h2: #3d8ecd;
+  --color-h3: #3d8ecd;
+  --color-h4: #6a8dc8;
+  --color-paragraph: #54647a;
+  --color-paragraph-secondary: #3cbee2;
+  --color-span: #6a8dc8;
+  /* END COLORS */
 
-	/* BEGIN BACKGROUND */
-	--background-base: #ffffff;
-	/* END BACKGROUND */
+  /* BEGIN BACKGROUND */
+  --background-base: #ffffff;
+  --background-black: #2e2e33;
+  /* END BACKGROUND */
 
-	/* BEGIN BOX SHADOW */
-	--box-shadow: 0 0.00001px 0.91px 0 #6a8dc8;
-	--box-shadow-hover: 0 1px 10px 0 #6689c4;
-	/* END BOX SHADOW */
+  /* BEGIN BOX SHADOW */
+  --box-shadow: 0 0.00001px 0.91px 0 #6a8dc8;
+  --box-shadow-hover: 0 1px 10px 0 #6689c4;
+  /* END BOX SHADOW */
 }

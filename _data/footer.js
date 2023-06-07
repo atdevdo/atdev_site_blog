@@ -26,11 +26,11 @@ module.exports = {
       title: 'Our Contacts',
       items: [
         {
-          icon: '/assets/icons/address-icon.png',
+          icon: '/assets/icons/address-icon.svg',
           text: 'Aut: San Isidro, Santo Domingo este. Plaza Coral Mall, Pyhex Work 3',
         },
-        { icon: '/assets/icons/email-icon.png', text: 'info@atdev.do' },
-        { icon: '/assets/icons/phone-icon.png', text: '809-568-3277' },
+        { icon: '/assets/icons/email-icon.svg', text: 'info@atdev.do' },
+        { icon: '/assets/icons/phone-icon.svg', text: '809-568-3277' },
       ],
     },
   },

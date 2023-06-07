@@ -36,9 +36,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
 }
 
 .category-inner_navigation > h2 {
   color: var(--color-paragraph);
+}
+
+.category-inner_navigation a {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: var(--color-h2);
 }
 /* END CATEGORY POSTS */

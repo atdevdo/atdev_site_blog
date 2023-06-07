@@ -3,15 +3,17 @@
 {% block footer %}
     <footer>
         {# BEGIN FOOTER MAIN CONTENT #}
-        <div>
+        <div id="footer-main-content">
             {# BEGIN FIRST BLOCK #}
-            <div>
-                <div>
+            <div id="footer-main-content__first_block" class="footer-main-content__block">
+                <div id="footer-main-content__first_block-imgBox">
                     <img src="/uploads/images/logo.png" alt="Logo Image">
                 </div>
-                <div>
-                    <span>{{ footer['main-content']['first-block'].span }}</span>
-                    <p>{{ footer['main-content']['first-block'].text }}</p>
+                <div id="footer-main-content__first_block-contentBox">
+                    <p>
+                        <span>{{ footer['main-content']['first-block'].span }}</span>
+                        {{ footer['main-content']['first-block'].text }}
+                    </p>
                 </div>
                 <ul>
                     <li>
@@ -28,9 +30,9 @@
             {# END FIRST BLOCK #}
 
             {# BEGIN SECOND BLOCK #}
-            <div>
+            <div id="footer-main-content__second-block" class="footer-main-content__block">
                 <h3>{{ footer['main-content']['second-block'].title }}</h3>
-                <ul>
+                <ul class="footer-main-content__block-list">
                     {% for item in footer['main-content']['second-block'].links %}
                         <li>
                             <a href={{ item.link }}>
@@ -43,9 +45,9 @@
             {# END SECOND BLOCK #}
 
             {# BEGIN THIRD BLOCK #}
-            <div>
+            <div id="footer-main-content__third-block" class="footer-main-content__block">
                 <h3>{{ footer['main-content']['third-block'].title }}</h3>
-                <ul>
+                <ul class="footer-main-content__block-list">
                     {% for item in footer['main-content']['third-block'].links %}
                         <li>
                             <a href={{ item.link }}>
@@ -58,9 +60,9 @@
             {# END THIRD BLOCK #}
 
             {# BEGIN FOURTH BLOCK #}
-            <div>
+            <div id="footer-main-content__fourth-block" class="footer-main-content__block">
                 <h3>{{ footer['main-content']['fourth-block'].title }}</h3>
-                <ul>
+                <ul class="footer-main-content__block-list">
                     {% for item in footer['main-content']['fourth-block'].items %}
                         <li>
                             <img src={{ item.icon }} alt="Contact Icon">
@@ -76,7 +78,13 @@
         {# END FOOTER MAIN CONTENT #}
 
         {# BEGIN FOOTER SECONDARY CONTENT #}
-        <div></div>
+        <div id="footer-secondary-content">
+            <div>
+                <a href={{ footer['secondary-content']['terms'].link }}>{{ footer['secondary-content']['terms'].label }}</a>
+                <a href={{ footer['secondary-content']['policy'].link }}>{{ footer['secondary-content']['policy'].label }}</a>
+            </div>
+            <a href="">{{ footer['secondary-content']['copyright'] }}</a>
+        </div>
         {# END FOOTER SECONDARY CONTENT #}
     </footer>
 {% endblock footer %}
