@@ -50,9 +50,11 @@
                 {# END POST CONTENT #}
 
                 {# BEGIN FEATURED VIDEO #}
-                <div>
-                    <iframe width="600" height="315" src={{ featuredVideo }} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
+                {% if featuredVideo != undefined %}
+                    <div>
+                        <iframe width="600" height="315" src={{ featuredVideo }} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                {% endif %}
                 {# END FEATURED VIDEO #}
 
                 {# BEGIN POST REACTION #}

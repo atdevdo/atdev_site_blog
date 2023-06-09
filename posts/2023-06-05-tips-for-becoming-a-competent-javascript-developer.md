@@ -9,6 +9,9 @@ minRead: 3
 featuredImage: https://miro.medium.com/v2/resize:fit:1100/0*YF0DEqdBTo0Xj7py
 featuredVideo: https://www.youtube.com/watch?v=Mus_vwhTCq0
 ---
+
+<!-- @format -->
+
 # 1. Understand Plain JavaScript
 
 As simple as this might sound, it’s often overlooked. There is a huge contrast between developers who can utilize popular tools and frameworks such as [React](https://reactjs.org/), [Vue](https://vuejs.org/), and [Angular](https://angularjs.org/) on one side and developers who know JavaScript by heart on the other side.
@@ -17,7 +20,7 @@ Obviously, they are not mutually exclusive. A good JavaScript developer will pic
 
 I cannot emphasize enough how much value it will bring you if you know the fundamentals of the actual language. Whenever you see a fragment of JavaScript code, whether is written by a colleague or a contributor to one of the libraries mentioned above, you should at least have a broad understanding of what’s going on.
 
-*Core principles such as scopes and closures should not be mysteries to you. The same goes for garbage collection, prototyping, and syntax.*
+_Core principles such as scopes and closures should not be mysteries to you. The same goes for garbage collection, prototyping, and syntax._
 
 Have a look at the following code:
 
@@ -38,8 +41,6 @@ Not because some random author tells you so but because sooner or later, you wil
 Don’t learn to just please other people such as recruiters, interviewers, or potential employers. Learn to add value. Value to yourself, as a competent JavaScript developer. You will bring this value with you, no matter where life brings you.
 
 ![](https://miro.medium.com/v2/resize:fit:1100/0*eLtu4JGQK_dRMRZf)
-
-
 
 # 2. Read Quality Content
 
