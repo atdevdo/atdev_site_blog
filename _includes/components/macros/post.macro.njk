@@ -4,7 +4,7 @@
             <img src={{ image }} alt="post image">
         </div>
         <div class="post-card__contentBox">
-            <p class="post-card__contentBox-category">{{ category }}</p>
+            <p class="post-card__contentBox-category">{{ category | fixCategory }}</p>
             <h2>{{ title }}</h2>
             <p>{{ description }}</p>
             <div class="post-card__contentBox-author_minRead">

@@ -4,6 +4,7 @@ const { DateTime } = require('luxon')
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 const searchFilter = require('./filters/searchFilter')
 
+/** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 module.exports = function (eleventyConfig) {
   // BEGIN PLUGINS
   eleventyConfig.addPlugin(EleventyI18nPlugin, {
@@ -52,7 +53,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection('remoteWorkCollection', function (collection) {
     return collection
       .getFilteredByGlob('./posts/**/*.md')
-      .filter((item) => item.data.category === 'remote work')
+      .filter((item) => item.data.category === 'remote-work')
   })
   // ? END GROWTH COLLECTION
 
@@ -101,8 +102,12 @@ module.exports = function (eleventyConfig) {
 
   // * END CUSTOM COLLECTIONS
 
-  // BEGIN CUSTOM FILTERS
+  // * BEGIN CUSTOM FILTERS
   eleventyConfig.addFilter('search', searchFilter)
+
+  eleventyConfig.addNunjucksFilter('fixCategory', (category) => {
+    return category.replace(/-/g, ' ')
+  })
 
   eleventyConfig.addFilter('postDate', (dateObj) => {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED)
@@ -116,7 +121,7 @@ module.exports = function (eleventyConfig) {
       day: 'numeric',
     })
   })
-  // END CUSTOM FILTERS
+  // * END CUSTOM FILTERS
 
   // BEGIN COPY
   eleventyConfig.addPassthroughCopy('uploads')

@@ -21,7 +21,7 @@
         {# END HEADER #}
 
         <main class="category-posts">
-            <h1>{{ category }}</h1>
+            <h1>{{ category | fixCategory }}</h1>
 
             {{content | safe}}
 
@@ -29,7 +29,7 @@
             <div>
                 {% from "../components/macros/category-post.macro.njk" import macro_category_inner_navigation %}
 
-                {{ macro_category_inner_navigation(collections[category] | length, current_page) }}
+                {{ macro_category_inner_navigation(collections[category] | length, current_page, tags) }}
             </div>
             {# END INNER NAVIGATION #}
         </main>
