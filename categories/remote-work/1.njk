@@ -1,0 +1,8 @@
+---
+current_page: 1
+---
+
+{% from "../../_includes/components/macros/category-post.macro.njk" import macro_category_post %}
+<div class="posts-container">
+    {{ macro_category_post(collections.remoteWorkCollection, category, 0, 40) }}
+</div>

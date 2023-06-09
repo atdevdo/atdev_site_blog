@@ -147,4 +147,16 @@ title: 'ATDEV Blog'
 }}
 {# END ATDEV NEARSHORE #}
 
+{# BEGIN REMOTE WORK - CATEGORY #}
+<div class="category-container">
+    <div class="category-container__head">
+        <h2>Remote Work</h2>
+        <a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/remote-work/1">View More</a>
+    </div>
+    <div class="posts-container">
+        {{ macro_category_post(collections.decapPosts, 'remote-work', 0, 6) }}
+    </div>
+</div>
+{# END REMOTE WORK - CATEGORY #}
+
 {# END CATEGORIES #}

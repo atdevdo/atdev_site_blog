@@ -48,6 +48,14 @@ module.exports = function (eleventyConfig) {
   })
   // ? END GROWTH COLLECTION
 
+  // ? BEGIN GROWTH COLLECTION
+  eleventyConfig.addCollection('remoteWorkCollection', function (collection) {
+    return collection
+      .getFilteredByGlob('./posts/**/*.md')
+      .filter((item) => item.data.category === 'remote work')
+  })
+  // ? END GROWTH COLLECTION
+
   // ? BEGIN COLLECTION SORTED BY TITLE
   eleventyConfig.addCollection('sortedByTitle', function (collection) {
     return collection
