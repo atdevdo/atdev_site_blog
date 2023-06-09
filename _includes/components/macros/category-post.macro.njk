@@ -16,23 +16,23 @@
             <h2>PAGE 1</h2>
         {% elif collection_length == current_page %}
             {# ? LAST PAGE #}
-            <a href="/categories/code/1/">FIRST</a>
-            <a href="/categories/code/{{ current_page - 1 }}/">BACK</a>
+            <a onclick="mixpanel.track('Go First Category Post Page Button - Blog')" href="/categories/code/1/">FIRST</a>
+            <a onclick="mixpanel.track('Go Back Category Post Page Button - Blog')" href="/categories/code/{{ current_page - 1 }}/">BACK</a>
             <h2>PAGE {{ current_page }} of {{ collection_length }}</h2>
         {% elif collection_length == current_page + 1 %}
             {# ? PENULTIMATE PAGE #}
-            <a href="/categories/code/{{ current_page - 1 }}/">BACK</a>
+            <a onclick="mixpanel.track('Go Back Category Post Page Button - Blog')" href="/categories/code/{{ current_page - 1 }}/">BACK</a>
             <h2>PAGE {{ current_page }} of {{ collection_length }}</h2>
-            <a href="/categories/code/{{ collection_length}}/">LAST</a>
+            <a onclick="mixpanel.track('Go Last Category Post Page Button - Blog')" href="/categories/code/{{ collection_length}}/">LAST</a>
         {% elif collection_length != current_page + 1 %}
             {# ? ANY PAGE BETWEEN THE FIRST AND THE LAST #}
             {% if current_page == 1 %}
                 <h2>PAGE {{ current_page }} of {{ collection_length }}</h2>
-                <a href="/categories/code/{{ current_page + 1}}/">NEXT</a>
+                <a onclick="mixpanel.track('Go Next Category Post Page Button - Blog')" href="/categories/code/{{ current_page + 1}}/">NEXT</a>
             {% else %}
-                <a href="/categories/code/{{ current_page - 1 }}/">BACK</a>
+                <a onclick="mixpanel.track('Go Back Category Post Page Button - Blog')" href="/categories/code/{{ current_page - 1 }}/">BACK</a>
                 <h2>PAGE {{ current_page }} of {{ collection_length }}</h2>
-                <a href="/categories/code/{{ current_page + 1}}/">NEXT</a>
+                <a onclick="mixpanel.track('Go Next Category Post Page Button - Blog')" href="/categories/code/{{ current_page + 1}}/">NEXT</a>
             {% endif %}
         {% endif %}
     </div>

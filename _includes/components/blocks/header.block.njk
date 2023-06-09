@@ -3,11 +3,11 @@
 {% block header %}
     <header>
         <div>
-            <img src="/assets/icons/logo.png" alt="ATDEV Logo">
+            <a onclick="mixpanel.track('Go to Home Page Button')" href="https://atdev.do/"><img src="/assets/icons/logo.png" alt="ATDEV Logo"></a>
         </div>
         <nav>
             {% for item in header.links %}
-                <a href={{ item.link }}>{{ item.label }}</a>
+                <a onclick="mixpanel.track('Go to ' + item.label + ' Page Button')" href={{ item.link }}>{{ item.label }}</a>
             {% endfor %}
         </nav>
     </header>
