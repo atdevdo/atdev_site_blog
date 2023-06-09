@@ -8,7 +8,7 @@ category: code
 author: Stephen J. Obie
 minRead: 1
 featuredImage: /uploads/images/coding-becomes-criminal.jpg
-featuredVideo: https://www.youtube.com/watch?v=GfNBZ7awHGo
+featuredVideo: https://www.youtube.com/watch?v=mCt2hzpyWZc
 ---
 <!--StartFragment-->
 
