@@ -6,10 +6,10 @@
         <div class="post-card__contentBox">
             <p class="post-card__contentBox-category">{{ category | fixCategory }}</p>
             <h2>{{ title }}</h2>
-            <p>{{ description }}</p>
+            <p>{{ description | capitalize  }}</p>
             <div class="post-card__contentBox-author_minRead">
                 <h3>
-                    <span>Author: </span>{{ author }}
+                    <span>Author: </span>{{ author | capitalize }}
                 </h3>
                 <h4>{{ minRead }} min read</h4>
             </div>
