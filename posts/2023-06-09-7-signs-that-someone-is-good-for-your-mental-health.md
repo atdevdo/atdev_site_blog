@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: 7 Signs That Someone is Good for Your Mental Health
+title: Signs That Someone is Good for Your Mental Health
 description: Being able to be your true self is one of the strongest components
   of good mental health.
 publishDate: 2023-06-09
