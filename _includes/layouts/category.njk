@@ -59,15 +59,15 @@
             {# BEGIN POST LIST #}
             <div id="sorting">
                 <div id="sorted-title">
-                    {{ macro_sorted_list_title(collections[collectionByTitle], 40) }}
+                    {{ macro_sorted_list_title(collections[collectionByTitle], to) }}
                 </div>
 
                 <div id="sorted-time">
-                    {{ macro_sorted_list_time(collections[collectionByTime], 40) }}
+                    {{ macro_sorted_list_time(collections[collectionByTime], to) }}
                 </div>
 
                 <div id="sorted-date">
-                    {{ macro_sorted_list_date(collections[collectionByDate], 40) }}
+                    {{ macro_sorted_list_date(collections[collectionByDate], to) }}
                 </div>
 
                 <div id="not-sorted">
