@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: Absolute Truths I Unlearned as Junior Developer
 description: A few things I strongly believed when I was a junior developer
   which turned out to be wrong.
-publishDate: 2023-09-02
+publishDate: 2021-09-02
 category: code
 author: Monica Lent
 minRead: 15
