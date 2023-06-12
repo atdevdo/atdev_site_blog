@@ -1,5 +1,9 @@
 {
   "layout": "layouts/category.njk",
   "category": "remote-work",
-  "tags": "remote-work"
+  "tags": "remote-work",
+  "collection": "remoteWorkCollection",
+  "collectionByTitle": "sortedRemoteWorkByTitle",
+  "collectionByTime": "sortedRemoteWorkByTime",
+  "collectionByDate": "sortedRemoteWorkByDate"
 }

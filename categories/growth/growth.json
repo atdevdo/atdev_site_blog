@@ -1,5 +1,9 @@
 {
   "layout": "layouts/category.njk",
   "category": "growth",
-  "tags": "growth"
+  "tags": "growth",
+  "collection": "growthCollection",
+  "collectionByTitle": "sortedGrowthByTitle",
+  "collectionByTime": "sortedGrowthByTime",
+  "collectionByDate": "sortedGrowthByDate"
 }

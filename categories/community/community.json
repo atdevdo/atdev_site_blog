@@ -1,5 +1,9 @@
 {
   "layout": "layouts/category.njk",
   "category": "community",
-  "tags": "community"
+  "tags": "community",
+  "collection": "communityCollection",
+  "collectionByTitle": "sortedCommunityByTitle",
+  "collectionByTime": "sortedCommunityByTime",
+  "collectionByDate": "sortedCommunityByDate"
 }
