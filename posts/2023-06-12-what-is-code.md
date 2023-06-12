@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: What is Code?
 description: Unless you know the code, it has no meaning
 publishDate: 2023-02-12
-category: code
+category: technology
 author: Paul Ford
 minRead: 30
 featuredImage: https://images.unsplash.com/photo-1483817101829-339b08e8d83f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdoYXQlMjBpcyUyMGNvZGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60
@@ -832,8 +832,6 @@ Here’s the HTML—make changes below!
 
 ```
 
-
-
 And that looks like this:
 
 On today’s agenda: How to make sure that registration is a positive experience for users but also a secure experience for the company. The questions to be discussed, the programmer tells you, are along the lines of, “Where will you put this data? Will you put it in a text file? What will you do with it? How will you act upon it?”
@@ -841,8 +839,6 @@ On today’s agenda: How to make sure that registration is a positive experience
 Enter the remaining two programmers. Programmer A, who is senior, takes her place at the whiteboard. …
 
 **Programmer A:** “Let’s just start with e-mail validation.”
-
-
 
 **Programmer B:** “Can you define valid?”
 

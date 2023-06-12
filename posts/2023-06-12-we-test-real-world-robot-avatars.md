@@ -3,12 +3,15 @@ layout: layouts/post.njk
 title: We test real-world robot avatars
 description: Rise of the avatar robots
 publishDate: 2023-06-10
-category: code
+category: technology
 author: David Stock
 minRead: 3
 featuredImage: https://images.unsplash.com/photo-1601132359864-c974e79890ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80
 featuredVideo: https://www.youtube.com/watch?v=n_GJwr7tjYY
 ---
+
+<!-- @format -->
+
 <!--StartFragment-->
 
 The world’s largest robotics conference, [the IEEE International Conference on Robotics and Automation](https://www.icra2023.org/), came to London last week, where a dizzying array of cutting-edge robots were on display, including robotic dogs, flying robots, controllable androids and robot artists. But it was avatars – robots that allow a human to interact with and experience a remote location in real time – that were the hottest trend this year.

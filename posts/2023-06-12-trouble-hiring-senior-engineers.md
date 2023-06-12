@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: Trouble hiring senior engineers?
 description: It's probably you
 publishDate: 2023-04-19
-category: code
+category: technology
 author: Alexander
 minRead: 17
 featuredImage: https://plus.unsplash.com/premium_photo-1661759255631-02559c1e0bc8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c29mdHdhcmUlMjBlbmdpbmVlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60

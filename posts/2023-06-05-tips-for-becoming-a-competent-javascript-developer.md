@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: Tips for Becoming a Competent JavaScript Developer
 description: To move towards the next level, let’s focus on certain areas
 publishDate: 2023-05-30
-category: code
+category: technology
 author: Gerard Van Der Put
 minRead: 3
 featuredImage: https://miro.medium.com/v2/resize:fit:1100/0*YF0DEqdBTo0Xj7py

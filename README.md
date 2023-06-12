@@ -79,8 +79,9 @@ In this blog you will see articles of different types, such as:
     ├── images
     └── js
 ├── categories
-    ├── code
+    ├── technology
     ├── community
+    ├── remote work
     └── growth
 ├── filters
 ├── posts

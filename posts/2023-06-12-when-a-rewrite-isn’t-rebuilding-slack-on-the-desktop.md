@@ -4,7 +4,7 @@ title: 'When a rewrite isn’t: rebuilding Slack on the desktop'
 description: A new version of Slack is rolling out for our desktop customers,
   built from the ground up to be faster, more efficient, and easier to work on.
 publishDate: 2023-03-12
-category: code
+category: technology
 author: Mark Christian
 minRead: 7
 featuredImage: https://slack.engineering/wp-content/uploads/sites/7/2020/04/0_cgkWRCMtQXti3jbA-scaled-1.jpeg?resize=1536,1152

@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: A.I. Can Now Write Its Own Computer Code
 description: That’s Good News for Humans.
 publishDate: 2020-06-12
-category: code
+category: technology
 author: Cade Metz
 minRead: 13
 featuredImage: https://static01.nyt.com/images/2021/08/31/autossell/00codex-video1/00codex-video1-superJumbo.jpg

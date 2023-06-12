@@ -4,7 +4,7 @@ title: The Impact of Coding Apps to Support Young Children
 description: Data that shows that young children can learn and acquire
   Computational Thinking (CT) skills
 publishDate: 2022-02-12
-category: code
+category: technology
 author: Stamatis Papadakis
 minRead: 11
 featuredImage: https://plus.unsplash.com/premium_photo-1681999454449-012689714097?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80

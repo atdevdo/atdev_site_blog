@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: 'What Is Coding: Coding 101'
 description: What is coding? How to start coding? Find out all the answers in this article!
 publishDate: 2015-04-07
-category: code
+category: technology
 author: Laura M. - Senior Editor
 minRead: 4
 featuredImage: https://images.unsplash.com/photo-1485988412941-77a35537dae4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGNvbXB1dGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60

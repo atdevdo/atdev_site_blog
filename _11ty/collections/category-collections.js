@@ -1,13 +1,13 @@
 /** @format */
 
-// ? BEGIN CODE COLLECTION
-function codeCollection(collection) {
+// ? BEGIN TECHNOLOGY COLLECTION
+function technologyCollection(collection) {
   return collection
     .getFilteredByGlob('./posts/**/*.md')
-    .filter((item) => item.data.category === 'code')
+    .filter((item) => item.data.category === 'technology')
     .sort((a, b) => b.data.publishDate - a.data.publishDate)
 }
-// ? END CODE COLLECTION
+// ? END TECHNOLOGY COLLECTION
 
 // ? BEGIN COMMUNITY COLLECTION
 function communityCollection(collection) {
@@ -37,7 +37,7 @@ function remoteWorkCollection(collection) {
 // ? END REMOTE WORK COLLECTION
 
 module.exports = {
-  codeCollection,
+  technologyCollection,
   communityCollection,
   growthCollection,
   remoteWorkCollection,

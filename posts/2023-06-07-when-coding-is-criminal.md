@@ -4,7 +4,7 @@ title: When Coding Is Criminal
 description: Programmers whose code is used to commit a crime face new and
   perilous legal threats.
 publishDate: 2019-08-12
-category: code
+category: technology
 author: Stephen J. Obie
 minRead: 1
 featuredImage: /uploads/images/coding-becomes-criminal.jpg

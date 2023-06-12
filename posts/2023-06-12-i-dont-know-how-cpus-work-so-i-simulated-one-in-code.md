@@ -4,7 +4,7 @@ title: I don't know how CPUs work so I simulated one in code
 description: A few months ago it dawned on me that I didn’t really understand
   how computers work under the hood ...
 publishDate: 2011-07-13
-category: code
+category: technology
 author: No Author
 minRead: 10
 featuredImage: /uploads/images/logo.png

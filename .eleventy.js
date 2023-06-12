@@ -7,7 +7,7 @@ const pluginRss = require('@11ty/eleventy-plugin-rss')
 // * BEGIN IMPORTING COLLECTIONS
 const { posts, decapPosts } = require('./_11ty/collections/posts-collections')
 const {
-  codeCollection,
+  technologyCollection,
   communityCollection,
   growthCollection,
   remoteWorkCollection,
@@ -37,7 +37,7 @@ module.exports = function (eleventyConfig) {
 
   // * BEGIN CUSTOM COLLECTIONS
   // ? BEGIN CATEGORY COLLECTIONS
-  eleventyConfig.addCollection('codeCollection', codeCollection)
+  eleventyConfig.addCollection('technologyCollection', technologyCollection)
   eleventyConfig.addCollection('communityCollection', communityCollection)
   eleventyConfig.addCollection('growthCollection', growthCollection)
   eleventyConfig.addCollection('remoteWorkCollection', remoteWorkCollection)

@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: The Differences Between a Junior, Mid-Level, and Senior Developer
 description: And what you can do to get to the next level
 publishDate: 2022-06-18
-category: code
+category: technology
 author: Daan
 minRead: 5
 featuredImage: https://miro.medium.com/v2/resize:fit:1100/format:webp/1*6NsIBhzaRwsnV8ecfzGW0Q.jpeg

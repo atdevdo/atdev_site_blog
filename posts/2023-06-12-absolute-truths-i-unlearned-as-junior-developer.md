@@ -4,7 +4,7 @@ title: Absolute Truths I Unlearned as Junior Developer
 description: A few things I strongly believed when I was a junior developer
   which turned out to be wrong.
 publishDate: 2021-09-02
-category: code
+category: technology
 author: Monica Lent
 minRead: 15
 featuredImage: https://monicalent.com/images/typing-with-flowers.jpg

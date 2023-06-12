@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: JavaScript Tricks You Won’t Find in Most Tutorials
 description: Useful tips for writing more concise and performant JavaScript
 publishDate: 2021-07-12
-category: code
+category: technology
 author: Bret Cameron
 minRead: 9
 featuredImage: https://miro.medium.com/v2/resize:fit:2860/format:webp/1*7cRAqUE493wd988uxuTIUg.png

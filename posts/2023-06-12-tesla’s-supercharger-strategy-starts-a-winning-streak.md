@@ -3,24 +3,27 @@ layout: layouts/post.njk
 title: Tesla’s Supercharger Strategy Starts a Winning Streak
 description: Supercharger network into a competitive advantage
 publishDate: 2023-06-12
-category: code
+category: technology
 author: Aarian Marshall
 minRead: 6
 featuredImage: https://images.unsplash.com/photo-1554744512-d6c603f27c54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80
 ---
+
+<!-- @format -->
+
 <!--StartFragment-->
 
 Electric vehicles are more abundant than ever. Charging your shiny new EV at a public station? That could hardly get worse.
 
 Since 2021, automotive research firm J.D. Power has regularly polled [electric car](https://www.wired.com/tag/electric-vehicles/) owners on their experiences at public charging stations. That infrastructure is [vital to the world’s transition](https://www.wired.com/story/people-love-electric-vehicles-now-comes-the-hard-part/) away from fuel-burning cars and [drivers’ comfort](https://arstechnica.com/cars/2023/03/why-its-time-to-officially-get-over-your-ev-range-anxiety/) with battery-powered vehicles. Many of today’s EV owners can charge at home, but a complete transition to electric requires a solution for cars that park on the street or take longer trips. The latest data suggests public charging is currently a mess.
 
-According to J.D. Power, 21 percent of EV owners who attempted to charge at a public charging station in the first three months of 2023 were unable to do so, up from 15 percent in 2021. The failure rate stems from a [range of problems](https://www.wired.com/story/ev-charger-broken-us-electric-cars/), such as broken displays, software bugs, severed power cords, or gas-guzzling drivers hogging charging spots. 
+According to J.D. Power, 21 percent of EV owners who attempted to charge at a public charging station in the first three months of 2023 were unable to do so, up from 15 percent in 2021. The failure rate stems from a [range of problems](https://www.wired.com/story/ev-charger-broken-us-electric-cars/), such as broken displays, software bugs, severed power cords, or gas-guzzling drivers hogging charging spots.
 
 “It’s mind-boggling and really unfathomable for someone who is used to going into a gas station,” says Brent Gruber, the J.D. Power executive who oversees the survey.
 
-There is one bright spot in J.D. Power’s data: Tesla’s public “Superchargers.” Just 4 percent of Tesla owners reported a charging failure in the first three months of 2023. “The seamlessness of the Tesla charging station is unmatched,” Gruber says. 
+There is one bright spot in J.D. Power’s data: Tesla’s public “Superchargers.” Just 4 percent of Tesla owners reported a charging failure in the first three months of 2023. “The seamlessness of the Tesla charging station is unmatched,” Gruber says.
 
-In the past year, Tesla has begun to better exploit the advantage its Supercharger network provides—and accelerate a slow-burning infrastructure war with the rest of the electric vehicle world. It solidified its dominance this week, when General Motors became the second major automaker in less than two weeks to announce it would use Tesla’s own charging ports on its vehicles. 
+In the past year, Tesla has begun to better exploit the advantage its Supercharger network provides—and accelerate a slow-burning infrastructure war with the rest of the electric vehicle world. It solidified its dominance this week, when General Motors became the second major automaker in less than two weeks to announce it would use Tesla’s own charging ports on its vehicles.
 
 Reliability isn’t the only thing that makes Tesla’s charging network unique. For starters, it’s one of the only public charging networks—and by far the largest—that’s built, owned, and operated by a major automaker. Tesla has sold more than 4 million EVs, more than any other manufacturer, but it now faces stiff competition as traditional automakers spend billions to electrify their lineups. The network of Tesla Superchargers has emerged as a stealthy strength.
 
@@ -30,13 +33,13 @@ Tesla owners rave about the ease of Superchargers: Drive up, plug in, wait 15 to
 
 Most Popular
 
-Charging ports are not in the same place on every vehicle, even across the same automaker’s lineup, which makes it logistically difficult to park and charge. And drivers sometimes find that their vehicle is simply incompatible with a particular charger. 
+Charging ports are not in the same place on every vehicle, even across the same automaker’s lineup, which makes it logistically difficult to park and charge. And drivers sometimes find that their vehicle is simply incompatible with a particular charger.
 
-The race for charging station dominance has played out over months. In November, Tesla [opened up the design and specifications](https://www.tesla.com/blog/opening-north-american-charging-standard) for the inlets and plugs that connect its vehicles to charging stations, inviting other automakers to use its sleek, lightweight connector. In a neat bit of marketing, Tesla renamed its plug the North American Charging Standard, positioning its proprietary design as the standard everyone else should join. All other automakers selling cars in the US have used a connector called the Combined Charging System, designed by a committee of professional engineering standards experts. (Because of government regulations, Tesla uses CCS in Europe. It also sells adapters that allow its cars to charge on CCS-enabled chargers.) 
+The race for charging station dominance has played out over months. In November, Tesla [opened up the design and specifications](https://www.tesla.com/blog/opening-north-american-charging-standard) for the inlets and plugs that connect its vehicles to charging stations, inviting other automakers to use its sleek, lightweight connector. In a neat bit of marketing, Tesla renamed its plug the North American Charging Standard, positioning its proprietary design as the standard everyone else should join. All other automakers selling cars in the US have used a connector called the Combined Charging System, designed by a committee of professional engineering standards experts. (Because of government regulations, Tesla uses CCS in Europe. It also sells adapters that allow its cars to charge on CCS-enabled chargers.)
 
 In February, Tesla and the White House [jointly announced](https://www.politico.com/news/2023/02/15/tesla-chargers-public-electric-vehicles-00082875) that the carmaker would allow any electric vehicle owner to use 7,500 or more of Tesla’s roughly 17,000 US chargers by adding CCS connectors that can charge most non-Tesla vehicles. That aligns with what Tesla CEO Elon Musk has said is the carmaker’s ultimate goal: promoting sustainable transportation for all. But it also has a serious upside for the carmaker.
 
-By making its stations into public charging points, Tesla will qualify for some $5 billion in federal funding marked for public charging infrastructure, part of a broader White House attempt to build half a million EV chargers. (So far, only 11 US Supercharger sites, most of them in New York,  are open to other vehicles, according to Tesla’s website. [Reports](https://www.motortrend.com/features/tesla-supercharger-magic-dock-hands-on-review-charging-other-evs/) [suggest](https://insideevs.com/news/655138/tesla-magic-dock-supercharger-review/) there have been compatibility issues with non-Tesla vehicles.) 
+By making its stations into public charging points, Tesla will qualify for some $5 billion in federal funding marked for public charging infrastructure, part of a broader White House attempt to build half a million EV chargers. (So far, only 11 US Supercharger sites, most of them in New York,  are open to other vehicles, according to Tesla’s website. [Reports](https://www.motortrend.com/features/tesla-supercharger-magic-dock-hands-on-review-charging-other-evs/) [suggest](https://insideevs.com/news/655138/tesla-magic-dock-supercharger-review/) there have been compatibility issues with non-Tesla vehicles.)
 
 Then, in late May, a big win: Musk and Ford CEO Jim Farley appeared on a Twitter Spaces audiostream to announce that Ford was taking Tesla up on its offer. By next spring, Farley said, new Ford EVs will come with adapters allowing them to charge at Tesla Superchargers. By 2025, those Ford vehicles will come with a Tesla-compatible inlet built right in.
 
@@ -54,13 +57,13 @@ One potential downside to Tesla’s newly invigorated charging strategy is that 
 
 For years, the electric automaker offered free, unlimited Supercharging to people who bought Model S sedans and Model X SUVs, before officially ending the promotion in 2018. Now, the automaker appears to be trying to claw the benefit back.
 
-In offers emailed to customers, the company proposed trading the free juice benefit for $3,000 off a new car and three years of Supercharging, then upped the discount to $5,000. Until the end of this month, Tesla is offering six years of unlimited Supercharging to anyone willing to trade in their old S or X with indefinite years of unlimited charging attached. 
+In offers emailed to customers, the company proposed trading the free juice benefit for $3,000 off a new car and three years of Supercharging, then upped the discount to $5,000. Until the end of this month, Tesla is offering six years of unlimited Supercharging to anyone willing to trade in their old S or X with indefinite years of unlimited charging attached.
 
-No deal, says Kagai Kinyua, a Model S owner who lives between Maryland and Georgia. He doesn’t charge at home because he wasn’t allowed to install a personal charging station in his high-rise apartment building’s parking garage. So Kinyua does most of his charging at local Tesla fast-charging stations. He estimates the perk saves him almost $3,000 a year. 
+No deal, says Kagai Kinyua, a Model S owner who lives between Maryland and Georgia. He doesn’t charge at home because he wasn’t allowed to install a personal charging station in his high-rise apartment building’s parking garage. So Kinyua does most of his charging at local Tesla fast-charging stations. He estimates the perk saves him almost $3,000 a year.
 
-Tesla’s attempts to lure customers into giving up free charging for life has drivers puzzled over the company’s motives or strategy. “I guess they realize that legacy owners are sticking to their old cars,” Kinyua says. 
+Tesla’s attempts to lure customers into giving up free charging for life has drivers puzzled over the company’s motives or strategy. “I guess they realize that legacy owners are sticking to their old cars,” Kinyua says.
 
-Or maybe Tesla has stumbled into a trap that has caught other tech companies that have offered a perk to entice early adopters, like unlimited phone minutes or cloud storage, only to realize that it was too good to give away for free. Musk said as much in a 2018, declaring that unlimited, free Supercharging was “not really sustainable at volume production & doesn’t incent optimal behavior.” He concluded, “We probably should have ended this earlier.” 
+Or maybe Tesla has stumbled into a trap that has caught other tech companies that have offered a perk to entice early adopters, like unlimited phone minutes or cloud storage, only to realize that it was too good to give away for free. Musk said as much in a 2018, declaring that unlimited, free Supercharging was “not really sustainable at volume production & doesn’t incent optimal behavior.” He concluded, “We probably should have ended this earlier.”
 
 Tesla’s latest moves to flex the power of its charging network suggest another motive to end unlimited free charging: The automaker is trying to clear charging stations to make room for hordes of paying customers. Tesla, which reportedly disbanded its press team in 2021, didn’t respond to a request for comment.
 

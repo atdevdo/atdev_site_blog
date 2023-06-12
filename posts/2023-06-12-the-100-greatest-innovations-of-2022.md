@@ -3,42 +3,45 @@ layout: layouts/post.njk
 title: The 100 greatest innovations of 2022
 description: The 35th annual Best of What's New awards.
 publishDate: 2023-06-06
-category: code
-author: " POPSCI STAFF"
+category: technology
+author: ' POPSCI STAFF'
 minRead: 29
 featuredImage: https://www.popsci.com/uploads/2022/11/28/BOWN22_MainOpener.jpg?auto=webp&width=1440&height=960
 featuredVideo: https://www.youtube.com/watch?v=mtXUtX0c1YE
 ---
+
+<!-- @format -->
+
 <!--StartFragment-->
 
 On a cloudy Christmas morning last year, a rocket carrying the most powerful space telescope ever built blasted off from a launchpad in French Guiana. After reaching its destination in space about a month later, the James Webb Space Telescope (JWST) began sending back sparkling presents to humanity—jaw-dropping images that are revealing our universe in stunning new ways.
 
-Every year since 1988, *Popular Science* has highlighted the innovations that make living on Earth even a tiny bit better. And this year—our 35th—has been remarkable, thanks to the successful deployment of the JWST, which earned our highest honor as the Innovation of the Year. But it’s just one item out of the 100 stellar technological accomplishments our editors have selected to recognize. 
+Every year since 1988, *Popular Science* has highlighted the innovations that make living on Earth even a tiny bit better. And this year—our 35th—has been remarkable, thanks to the successful deployment of the JWST, which earned our highest honor as the Innovation of the Year. But it’s just one item out of the 100 stellar technological accomplishments our editors have selected to recognize.
 
-The list below represents months of research, testing, discussion, and debate. It celebrates exciting inventions that are improving our lives in ways both big and small. These technologies and discoveries are teaching us about the nature of the universe and treating diseases, but they’re also giving us better ways of entertaining and expressing ourselves. 
+The list below represents months of research, testing, discussion, and debate. It celebrates exciting inventions that are improving our lives in ways both big and small. These technologies and discoveries are teaching us about the nature of the universe and treating diseases, but they’re also giving us better ways of entertaining and expressing ourselves.
 
-With 10 categories spanning from aerospace to sports and outdoors, the list is a doozy. We’ve got Naval fighter jets on the big screen and TikTok filters on your phone. There’s gear to help you explore the great outdoors, and devices to help you improve your health and home. We’ve got gadgets galore, a very long suspension bridge, and an EV with a range of 747 miles. So buckle up, and explore the winners below. 
+With 10 categories spanning from aerospace to sports and outdoors, the list is a doozy. We’ve got Naval fighter jets on the big screen and TikTok filters on your phone. There’s gear to help you explore the great outdoors, and devices to help you improve your health and home. We’ve got gadgets galore, a very long suspension bridge, and an EV with a range of 747 miles. So buckle up, and explore the winners below.
 
-* **[Aerospace](https://www.popsci.com/technology/best-of-whats-new-2022/#aerospace)**
-* **[Engineering](https://www.popsci.com/technology/best-of-whats-new-2022/#engineering)**
-* **[Gadgets](https://www.popsci.com/technology/best-of-whats-new-2022/#gadgets)**
-* **[Health](https://www.popsci.com/technology/best-of-whats-new-2022/#health)**
-* **[Entertainment](https://www.popsci.com/technology/best-of-whats-new-2022/#entertainment)**
-* **[Personal Care](https://www.popsci.com/technology/best-of-whats-new-2022/#personal)**
-* **[Emergency Services and Defense](https://www.popsci.com/technology/best-of-whats-new-2022/#emergency)**
-* **[Automotive](https://www.popsci.com/technology/best-of-whats-new-2022/#automotive)**
-* **[Sports and Outdoors](https://www.popsci.com/technology/best-of-whats-new-2022/#sports)**
-* **[Home](https://www.popsci.com/technology/best-of-whats-new-2022/#home)**
+- **[Aerospace](https://www.popsci.com/technology/best-of-whats-new-2022/#aerospace)**
+- **[Engineering](https://www.popsci.com/technology/best-of-whats-new-2022/#engineering)**
+- **[Gadgets](https://www.popsci.com/technology/best-of-whats-new-2022/#gadgets)**
+- **[Health](https://www.popsci.com/technology/best-of-whats-new-2022/#health)**
+- **[Entertainment](https://www.popsci.com/technology/best-of-whats-new-2022/#entertainment)**
+- **[Personal Care](https://www.popsci.com/technology/best-of-whats-new-2022/#personal)**
+- **[Emergency Services and Defense](https://www.popsci.com/technology/best-of-whats-new-2022/#emergency)**
+- **[Automotive](https://www.popsci.com/technology/best-of-whats-new-2022/#automotive)**
+- **[Sports and Outdoors](https://www.popsci.com/technology/best-of-whats-new-2022/#sports)**
+- **[Home](https://www.popsci.com/technology/best-of-whats-new-2022/#home)**
 
-- - -
+---
 
 ## **[Aerospace](https://www.popsci.com/technology/best-aerospace-innovations-2022/)**
 
 ![Deep Space photo](https://www.popsci.com/uploads/2022/11/28/Aerospace_Opener.jpg.jpg)
 
-*NASA*
+_NASA_
 
-[In space, no one can hear a probe](<>) smash into an asteroid—but that’s just what happened in September, when NASA’s successful DART experiment proved that it’s possible to reroute a space rock by crashing into it on purpose. And that wasn’t even the most important event to materialize in space this year—more on the JWST in a moment. Back on Earth, innovation also reached new heights in the aviation industry, as a unique electric airplane took off, as did a Black Hawk helicopter that can fly itself. 
+[In space, no one can hear a probe]() smash into an asteroid—but that’s just what happened in September, when NASA’s successful DART experiment proved that it’s possible to reroute a space rock by crashing into it on purpose. And that wasn’t even the most important event to materialize in space this year—more on the JWST in a moment. Back on Earth, innovation also reached new heights in the aviation industry, as a unique electric airplane took off, as did a Black Hawk helicopter that can fly itself.
 
 ## Innovation of the Year
 
@@ -46,7 +49,7 @@ With 10 categories spanning from aerospace to sports and outdoors, the list is a
 
 [![NASA's James Webb Space telescope before launch](https://www.popsci.com/uploads/2022/12/02/NASA_JWST.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://webb.nasa.gov/)
 
-*NASA*
+_NASA_
 
 [LEARN MORE](https://webb.nasa.gov/)
 
@@ -54,7 +57,7 @@ Once a generation, an astronomical tool arrives that surpasses everything that c
 
 The JWST can see deep into fields of [forming stars](https://www.nasa.gov/webbfirstimages). It can peer 13 billion years back in time at [ancient galaxies](https://www.popsci.com/science/big-bang-galaxy-formation-james-webb-space-telescope/), still in their nursery. It can peek at [exoplanets](https://www.popsci.com/science/james-webb-space-telescope-exoplanet-image/), seeing them directly where astronomers would have once had to reconstruct meager traces of their existence. It can teach us about how [those stars](https://www.popsci.com/science/jwst-protostar/) and [galaxies](https://www.popsci.com/science/james-webb-space-telescope-dwarf-galaxy/) came together from primordial matter, something [Hubble could only glimpse](https://www.popsci.com/science/pillars-of-creations-space-telescope/).
 
-While Hubble circles in low Earth orbit, JWST instead sits hundreds of thousands of miles farther away, in Earth’s shadow. It will never see sunlight. There, protected even further by a multi-layer sunshield thinner than a human fingernail, the telescope chills at -370 degrees F, where JWST’s [infrared sight](https://webb.nasa.gov/content/observatory/instruments/nircam.html) works best. Its home is a fascinating location called L2, one of several points where the sun and Earth’s gravities balance each other out. 
+While Hubble circles in low Earth orbit, JWST instead sits hundreds of thousands of miles farther away, in Earth’s shadow. It will never see sunlight. There, protected even further by a multi-layer sunshield thinner than a human fingernail, the telescope chills at -370 degrees F, where JWST’s [infrared sight](https://webb.nasa.gov/content/observatory/instruments/nircam.html) works best. Its home is a fascinating location called L2, one of several points where the sun and Earth’s gravities balance each other out.
 
 All this might just be JWST’s prologue. Since the telescope used less fuel than initially anticipated when reaching its perch, the instrument [might have](https://www.newscientist.com/article/2303339-james-webb-space-telescope-is-carrying-out-its-most-critical-manoeuvre/) enough to last well past its anticipated 10-year-long window. We can’t wait to see what else it dazzles us with.
 
@@ -62,47 +65,47 @@ All this might just be JWST’s prologue. Since the telescope used less fuel tha
 
 [![a woman looks at Delta's Parallel Reality screen in Detroit airport](https://www.popsci.com/uploads/2022/12/02/Delta_ParallelReality.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://news.delta.com/mediakit/parallel-realitytm-experience)
 
-*Delta*
+_Delta_
 
 [LEARN MORE](https://news.delta.com/mediakit/parallel-realitytm-experience)
 
-You’ve probably found yourself running through an airport at some point, squinting up at a screen filled with rows of flight information. A futuristic new offering from Delta and a startup called Misapplied Sciences aims to change that. At Detroit Metro Airport, an installation can show travelers customized information for their flight. A scan of your boarding pass in McNamara Terminal is one way to tell the system who you are. Then, when you look at the overhead screen, you see that it displays only personalized data about your journey, like which gate you need to find. The tech behind the system works because the pixels in the display itself can shine in one of 18,000 directions, meaning many different people can see distinct information while looking at the same screen at the same time. 
+You’ve probably found yourself running through an airport at some point, squinting up at a screen filled with rows of flight information. A futuristic new offering from Delta and a startup called Misapplied Sciences aims to change that. At Detroit Metro Airport, an installation can show travelers customized information for their flight. A scan of your boarding pass in McNamara Terminal is one way to tell the system who you are. Then, when you look at the overhead screen, you see that it displays only personalized data about your journey, like which gate you need to find. The tech behind the system works because the pixels in the display itself can shine in one of 18,000 directions, meaning many different people can see distinct information while looking at the same screen at the same time.
 
 ## Electronic bag tags by Alaska Airlines: The last tag you’ll need (for one airline)
 
 [![Alaska Airline's electronic bag tags](https://www.popsci.com/uploads/2022/12/02/AlaskaAir_etags.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://news.alaskaair.com/guest-experience/alaska-airlines-first-us-airline-to-launch-electronic-bag-tag/)
 
-*Alaska Airlines*
+_Alaska Airlines_
 
 [LEARN MORE](https://news.alaskaair.com/guest-experience/alaska-airlines-first-us-airline-to-launch-electronic-bag-tag/)
 
-Believe it or not, some travelers do still check bags, and a new offering from this Seattle-based airline aims to make that process easier. Flyers who can get an electronic bag tag from Alaska Airlines (at first, 2,500 members of their frequent flier plan will get them, and in 2023 they’ll be available to buy) can use their mobile phone to create the appropriate luggage tag on this device’s e-ink display while at home, up to 24 hours before a flight. The 5-inch-long tag itself gets the power it needs to generate the information on the screen from your phone, thanks to an NFC connection. After the traveler has done this step at home, they just need to drop the tagged bag off in the right place at the airport, avoiding the line to get a tag. 
+Believe it or not, some travelers do still check bags, and a new offering from this Seattle-based airline aims to make that process easier. Flyers who can get an electronic bag tag from Alaska Airlines (at first, 2,500 members of their frequent flier plan will get them, and in 2023 they’ll be available to buy) can use their mobile phone to create the appropriate luggage tag on this device’s e-ink display while at home, up to 24 hours before a flight. The 5-inch-long tag itself gets the power it needs to generate the information on the screen from your phone, thanks to an NFC connection. After the traveler has done this step at home, they just need to drop the tagged bag off in the right place at the airport, avoiding the line to get a tag.
 
 ## Alice by Eviation: A totally electric commuter airplane 
 
 [![Eviation's Alice electric commuter jet](https://www.popsci.com/uploads/2022/12/02/Eviation_Alice.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.eviation.com/)
 
-*Eviation*
+_Eviation_
 
 [LEARN MORE](https://www.eviation.com/)
 
-The aviation industry is a major producer of carbon emissions. One way to try to solve that problem is to run aircraft on electric power, utilizing them just for short hops. That’s what Eviation aims to do with a plane called Alice: 8,000 pounds of batteries in the belly of this commuter aircraft give its two motors the power it needs to fly. In fact, it [made its first flight in September](https://www.popsci.com/technology/eviation-alice-electric-plane-first-flight/), a scant but successful eight minutes in the air. Someday, as battery tech improves, the company hopes that it can carry nine passengers for distances of 200 miles or so. 
+The aviation industry is a major producer of carbon emissions. One way to try to solve that problem is to run aircraft on electric power, utilizing them just for short hops. That’s what Eviation aims to do with a plane called Alice: 8,000 pounds of batteries in the belly of this commuter aircraft give its two motors the power it needs to fly. In fact, it [made its first flight in September](https://www.popsci.com/technology/eviation-alice-electric-plane-first-flight/), a scant but successful eight minutes in the air. Someday, as battery tech improves, the company hopes that it can carry nine passengers for distances of 200 miles or so.
 
 ## OPV Black Hawk by Sikorsky: A military helicopter that flies itself 
 
 [![Sikorsky's self-flying black hawk helicopter](https://www.popsci.com/uploads/2022/12/02/Sikorsky_Blackhawk.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.lockheedmartin.com/en-us/news/features/2022/safe-reliable-and-uninhabited-first-autonomous-black-hawk-flight.html)
 
-*Sikorsky*
+_Sikorsky_
 
 [LEARN MORE](https://www.lockheedmartin.com/en-us/news/features/2022/safe-reliable-and-uninhabited-first-autonomous-black-hawk-flight.html)
 
-Two pilots sit up front at the controls of the Army’s Black Hawk helicopters, but what if that number could be zero for missions that are especially hazardous? That’s exactly what a modified UH-60 helicopter can do, a product of a DARPA program called ALIAS, which stands for Aircrew Labor In-Cockpit Automation System. The self-flying whirlybird made its first flights with zero occupants on board in February, and in October, it took flight again, even carrying a 2,600-pound load beneath it. The technology comes from helicopter-maker Sikorsky, and allows the modified UH-60 to be flown by two pilots, one pilot, or zero. The idea is that this type of autonomy can help in several ways: to assist the one or two humans at the controls, or as a way for an uninhabited helicopter to execute tasks like flying somewhere dangerous to deliver supplies without putting any people on board at risk. 
+Two pilots sit up front at the controls of the Army’s Black Hawk helicopters, but what if that number could be zero for missions that are especially hazardous? That’s exactly what a modified UH-60 helicopter can do, a product of a DARPA program called ALIAS, which stands for Aircrew Labor In-Cockpit Automation System. The self-flying whirlybird made its first flights with zero occupants on board in February, and in October, it took flight again, even carrying a 2,600-pound load beneath it. The technology comes from helicopter-maker Sikorsky, and allows the modified UH-60 to be flown by two pilots, one pilot, or zero. The idea is that this type of autonomy can help in several ways: to assist the one or two humans at the controls, or as a way for an uninhabited helicopter to execute tasks like flying somewhere dangerous to deliver supplies without putting any people on board at risk.
 
 ## Detect and Avoid by Zipline: Drones that can listen for in-flight obstacles
 
 [![Zipline Detect and Avoid](https://www.popsci.com/uploads/2022/12/02/Zipline_DetectandAvoid.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.flyzipline.com/detect-and-avoid)
 
-*Zipline*
+_Zipline_
 
 [LEARN MORE](https://www.flyzipline.com/detect-and-avoid)
 
@@ -112,7 +115,7 @@ As drones and other small aircraft continue to fill the skies, all parties invol
 
 [![NASA's DART spacecraft before launch](https://www.popsci.com/uploads/2022/12/02/NASA_DART.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://dart.jhuapl.edu/)
 
-*NASA*
+_NASA_
 
 [LEARN MORE](https://dart.jhuapl.edu/)
 
@@ -122,7 +125,7 @@ Earthlings who look at the sky in fear that a space rock might tumble down and d
 
 [![Advanced Space's Capstone satellite](https://www.popsci.com/uploads/2022/12/02/AdvancedSpace_Capstone.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://advancedspace.com/missions/capstone/)
 
-*Advanced Space*
+_Advanced Space_
 
 [LEARN MORE](https://advancedspace.com/missions/capstone/)
 
@@ -132,7 +135,7 @@ Some lunar craft fill up whole rooms. On the other hand, there’s CAPSTONE, a s
 
 [![The giant LSST camera for the Vera C. Rubin Observatory](https://www.popsci.com/uploads/2022/12/02/SLAC_LSST.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.lsst.org/about/camera)
 
-*SLAC/Vera C. Rubin Observatory*
+_SLAC/Vera C. Rubin Observatory_
 
 [LEARN MORE](https://www.lsst.org/about/camera)
 
@@ -142,31 +145,31 @@ Very soon, the Vera C. Rubin Observatory in the high desert of Northern Chile wi
 
 [![satellite dishes that are part of the ESO Event Horizon Telescope](https://www.popsci.com/uploads/2022/12/02/EHT_EventHorizon.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://eventhorizontelescope.org/)
 
-*ESO*
+_ESO_
 
 [LEARN MORE](https://eventhorizontelescope.org/)
 
-Just a few decades ago, Sagittarius A*, the supermassive black hole at our galaxy’s heart, was a hazy concept. Now, thanks to the Event Horizon Telescope (EHT), we have a [blurry image](https://www.eso.org/public/news/eso2208-eht-mw/) of it—or, since a black hole doesn’t let out light, of its surrounding accretion disc. The EHT is actually a global network of radio telescopes stretching from Germany to Hawaii, and from Chile to the South Pole. EHT released the image in May, following years of painstaking reconstruction by over 300 scientists, who learned much about the black hole’s inner workings in the process. This is EHT’s second black hole image, following its [2019 portrait](https://www.nasa.gov/mission_pages/chandra/news/black-hole-image-makes-history/) of a behemoth in the galaxy M87.
+Just a few decades ago, Sagittarius A\*, the supermassive black hole at our galaxy’s heart, was a hazy concept. Now, thanks to the Event Horizon Telescope (EHT), we have a [blurry image](https://www.eso.org/public/news/eso2208-eht-mw/) of it—or, since a black hole doesn’t let out light, of its surrounding accretion disc. The EHT is actually a global network of radio telescopes stretching from Germany to Hawaii, and from Chile to the South Pole. EHT released the image in May, following years of painstaking reconstruction by over 300 scientists, who learned much about the black hole’s inner workings in the process. This is EHT’s second black hole image, following its [2019 portrait](https://www.nasa.gov/mission_pages/chandra/news/black-hole-image-makes-history/) of a behemoth in the galaxy M87.
 
 ## Starliner by Boeing: A new way of getting to the ISS 
 
 [![Boeing's Starliner space capsule with the Earth in the background](https://www.popsci.com/uploads/2022/12/02/Boeing_Starliner.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.boeing.com/space/starliner/)
 
-*Boeing*
+_Boeing_
 
 [LEARN MORE](https://www.boeing.com/space/starliner/)
 
-After years of budget issues, technical delays, and testing failures, Boeing’s much-awaited Starliner crew capsule finally took to the skies and made it to its destination. An uncrewed test launch in May successfully departed Florida, docked at the International Space Station (ISS), and landed back on Earth. Now, Boeing and NASA are preparing for Starliner’s first crewed test, set to launch sometime in 2023. When that happens, Starliner will take its place alongside SpaceX’s Crew Dragon, and NASA will have more than one option to get astronauts into orbit. There are a few differences between the two: Where Crew Dragon splashes down in the sea, Starliner touches down on land, making it easier to recover. And, where Crew Dragon was designed to launch on SpaceX’s own Falcon 9 rockets, Starliner is more flexible. 
+After years of budget issues, technical delays, and testing failures, Boeing’s much-awaited Starliner crew capsule finally took to the skies and made it to its destination. An uncrewed test launch in May successfully departed Florida, docked at the International Space Station (ISS), and landed back on Earth. Now, Boeing and NASA are preparing for Starliner’s first crewed test, set to launch sometime in 2023. When that happens, Starliner will take its place alongside SpaceX’s Crew Dragon, and NASA will have more than one option to get astronauts into orbit. There are a few differences between the two: Where Crew Dragon splashes down in the sea, Starliner touches down on land, making it easier to recover. And, where Crew Dragon was designed to launch on SpaceX’s own Falcon 9 rockets, Starliner is more flexible.
 
-- - -
+---
 
 ## **[Engineering](https://www.popsci.com/technology/best-engineering-innovations-2022/)**
 
 ![Deep Space photo](https://www.popsci.com/uploads/2022/11/28/Engineering_Opener.jpg)
 
-*IBM*
+_IBM_
 
-[Zero-emissions vehicles, artificial intelligence,](<>) and self-charging gadgets are helping remake and update some of the most important technologies of the last few centuries. Personal devices like headphones and remote controls may be headed for a wireless, grid-less future, thanks to a smaller and more flexible solar panel. Boats can now sail human-free from the UK to the US, using a suite of sensors and AI. Chemical factories, energy facilities, trucks and ships are getting green makeovers as engineers figure out clever new ways to make them run on hydrogen, batteries, or other alternative, non-fossil fuel power sources.
+[Zero-emissions vehicles, artificial intelligence,]() and self-charging gadgets are helping remake and update some of the most important technologies of the last few centuries. Personal devices like headphones and remote controls may be headed for a wireless, grid-less future, thanks to a smaller and more flexible solar panel. Boats can now sail human-free from the UK to the US, using a suite of sensors and AI. Chemical factories, energy facilities, trucks and ships are getting green makeovers as engineers figure out clever new ways to make them run on hydrogen, batteries, or other alternative, non-fossil fuel power sources.
 
 ## Grand Award Winner
 
@@ -174,7 +177,7 @@ After years of budget issues, technical delays, and testing failures, Boeing’s
 
 [![Bridge in Turkey by Ãanakkale Motorway Bridge Construction Investment Operation](https://www.popsci.com/uploads/2022/12/02/Turkey_c%C3%8C%C2%A7anakkaleBridge.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.1915canakkale.com/en-us)
 
-*Çanakkale Motorway Bridge Construction Investment Operation*
+_Çanakkale Motorway Bridge Construction Investment Operation_
 
 [LEARN MORE](https://www.1915canakkale.com/en-us)
 
@@ -184,7 +187,7 @@ An international team of engineers had to solve several difficult challenges to 
 
 [![Anglo American and NuGen's hydrogen-powered truck](https://www.popsci.com/uploads/2022/12/02/AngloAmerican_NuGen.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.angloamerican.com/)
 
-*Anglo American*
+_Anglo American_
 
 [LEARN MORE](https://www.angloamerican.com/)
 
@@ -194,17 +197,17 @@ When carrying a full load of rock, the standard issue Komatsu 930E-5 mining truc
 
 [![an illustration of hydrogen tanks](https://www.popsci.com/uploads/2022/12/02/HyDeal.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://corporate.arcelormittal.com/)
 
-*Negro Elkha – stock.adobe.com*
+_Negro Elkha – stock.adobe.com_
 
 [LEARN MORE](https://corporate.arcelormittal.com/)
 
-Hydrogen can be a valuable fuel source for decarbonizing industrial processes. But obtaining the gas at scale requires using energy from natural gas to split water into hydrogen and oxygen with electrical currents. To be sustainable, this process needs to be powered with renewables. That’s the goal of an industrial consortium in Spain, comprised of the four companies listed above. It’s beginning work on HyDeal España, set to be the world’s largest green hydrogen hub. Solar panels with a capacity of 9.5 GW will power electrolysers that will separate hydrogen from water at an unprecedented scale. The project will help create fossil-free ammonia (for fertilizer and other purposes), and hydrogen for use in the production of [green steel](https://www.popsci.com/technology/best-of-whats-new-2021/#Engineering). The hub is scheduled to be completed in 2030, and according to its estimates, the project will reduce the greenhouse gas footprint of Spain by 4 percent. 
+Hydrogen can be a valuable fuel source for decarbonizing industrial processes. But obtaining the gas at scale requires using energy from natural gas to split water into hydrogen and oxygen with electrical currents. To be sustainable, this process needs to be powered with renewables. That’s the goal of an industrial consortium in Spain, comprised of the four companies listed above. It’s beginning work on HyDeal España, set to be the world’s largest green hydrogen hub. Solar panels with a capacity of 9.5 GW will power electrolysers that will separate hydrogen from water at an unprecedented scale. The project will help create fossil-free ammonia (for fertilizer and other purposes), and hydrogen for use in the production of [green steel](https://www.popsci.com/technology/best-of-whats-new-2021/#Engineering). The hub is scheduled to be completed in 2030, and according to its estimates, the project will reduce the greenhouse gas footprint of Spain by 4 percent.
 
 ## DALL-E 2 by Open AI: A groundbreaking text-to-image generator
 
 [![an example artwork generated by Open AI's image to text generator DALL-E](https://www.popsci.com/uploads/2022/12/02/OpenAI_DALLE.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://openai.com/)
 
-*OpenAI*
+_OpenAI_
 
 [LEARN MORE](https://openai.com/)
 
@@ -214,7 +217,7 @@ Art students will often mimic the style of a master as part of their training. D
 
 [![Candela's ferry on water](https://www.popsci.com/uploads/2022/12/02/Candela_P12_2.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://candela.com/)
 
-*Candela*
+_Candela_
 
 [LEARN MORE](https://candela.com/)
 
@@ -224,7 +227,7 @@ When the first Candela P12 electric hydrofoil goes into service next year in Sto
 
 [![Solugen's Bioforge factory](https://www.popsci.com/uploads/2022/12/02/Solugen_Biofroge.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://solugen.com/)
 
-*Solugen*
+_Solugen_
 
 [LEARN MORE](https://solugen.com/)
 
@@ -234,7 +237,7 @@ Petrochemical plants typically require acres of towering columns and snaking pip
 
 [![an illustration of the design behind ILEK's Hydroskin](https://www.popsci.com/uploads/2022/12/02/ILEK_Hydroskin.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://onlinelibrary.wiley.com/doi/full/10.1002/cend.202200003)
 
-*Institute for Lightweight Structures and Conceptual Design (ILEK), University of Stuttgart*
+_Institute for Lightweight Structures and Conceptual Design (ILEK), University of Stuttgart_
 
 [LEARN MORE](https://onlinelibrary.wiley.com/doi/full/10.1002/cend.202200003)
 
@@ -244,7 +247,7 @@ Air conditioners and fans already consume 10 percent of the world’s electricit
 
 [![a pair of headphones with the Powerfoyle solar panels on its banding](https://www.popsci.com/uploads/2022/12/02/Exeger_Powerfoyle.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.amazon.com/adidas-1006145-Adidas-RPT-02-SOL/dp/B0BBHG29NW/?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
-*Exeger*
+_Exeger_
 
 [LEARN MORE](https://www.amazon.com/adidas-1006145-Adidas-RPT-02-SOL/dp/B0BBHG29NW/?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
@@ -254,7 +257,7 @@ Consumer electronics in the U.S. used about 176 terawatt hours of electricity in
 
 [![IBM's AI Mayflower ship sailing at sea](https://www.popsci.com/uploads/2022/12/02/IBM_Mayflower.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.promare.org/)
 
-*IBM*
+_IBM_
 
 [LEARN MORE](https://www.promare.org/)
 
@@ -264,21 +267,21 @@ Collecting data in the corrosive salt waves and high winds of the Atlantic can b
 
 [![Portland General's renewable energy facility](https://www.popsci.com/uploads/2022/12/02/NextEra_Wheatridge.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://portlandgeneral.com/about/who-we-are/innovative-energy/wheatridge-renewable-energy-facility)
 
-*Portland General Electric*
+_Portland General Electric_
 
 [LEARN MORE](https://portlandgeneral.com/about/who-we-are/innovative-energy/wheatridge-renewable-energy-facility)
 
-In Oregon, the Wheatridge Renewable Energy Facilities, co-owned by [NextEra Energy Resources](https://c212.net/c/link/?t=0&l=en&o=3662277-1&h=1317794468&u=https%3A%2F%2Fwww.nexteraenergyresources.com%2F&a=NextEra+Energy+Resources%2C+LLC) and [Portland General Electric](https://c212.net/c/link/?t=0&l=en&o=3662277-1&h=1929248404&u=https%3A%2F%2Fportlandgeneral.com%2F&a=Portland+General+Electric) (PGE), is combining solar, wind, and battery storage to bring renewable energy to the grid at utility scale. Key to the equation are those batteries, which stabilize the intermittency of wind and solar power. All told, it touts 300 megawatts of wind, 50 megawatts of solar, and 30 megawatts of battery storage capable of serving around 100,000 homes, and it’s already started producing power. The facility is all part of the Pacific Northwestern state’s plan to achieve 100-percent carbon-free electricity by 2040. 
+In Oregon, the Wheatridge Renewable Energy Facilities, co-owned by [NextEra Energy Resources](https://c212.net/c/link/?t=0&l=en&o=3662277-1&h=1317794468&u=https%3A%2F%2Fwww.nexteraenergyresources.com%2F&a=NextEra+Energy+Resources%2C+LLC) and [Portland General Electric](https://c212.net/c/link/?t=0&l=en&o=3662277-1&h=1929248404&u=https%3A%2F%2Fportlandgeneral.com%2F&a=Portland+General+Electric) (PGE), is combining solar, wind, and battery storage to bring renewable energy to the grid at utility scale. Key to the equation are those batteries, which stabilize the intermittency of wind and solar power. All told, it touts 300 megawatts of wind, 50 megawatts of solar, and 30 megawatts of battery storage capable of serving around 100,000 homes, and it’s already started producing power. The facility is all part of the Pacific Northwestern state’s plan to achieve 100-percent carbon-free electricity by 2040.
 
-- - -
+---
 
 ## **[Gadgets](https://www.popsci.com/technology/best-gadget-innovations-2022/)**
 
 ![Deep Space photo](https://www.popsci.com/uploads/2022/11/28/Gadgets_Opener.jpg)
 
-*Nothing*
+_Nothing_
 
-[Over the past 15 years or so,](<>) smartphones have consumed many familiar gizmos. Calculators, TV remotes, cameras, and other standalone devices have converged into the smartphone that lives in our pockets. Recently, however, that trend has slowed. Phones have been iteratively improving with increasingly granular updates. The gadget and computer market has felt more diverse as more and more devices find their niche outside the confines of a smartphone. That includes hardcore computer hardware, VR and AR devices, and even smart-home tech. Our winner this year addresses the ever-present disparity in the ways we use electronic devices, because gadgets should ultimately give us as many options as possible for how we interact with them.
+[Over the past 15 years or so,]() smartphones have consumed many familiar gizmos. Calculators, TV remotes, cameras, and other standalone devices have converged into the smartphone that lives in our pockets. Recently, however, that trend has slowed. Phones have been iteratively improving with increasingly granular updates. The gadget and computer market has felt more diverse as more and more devices find their niche outside the confines of a smartphone. That includes hardcore computer hardware, VR and AR devices, and even smart-home tech. Our winner this year addresses the ever-present disparity in the ways we use electronic devices, because gadgets should ultimately give us as many options as possible for how we interact with them.
 
 ## Grand Award Winner
 
@@ -286,7 +289,7 @@ In Oregon, the Wheatridge Renewable Energy Facilities, co-owned by [NextEra Ene
 
 [![Microsoft Adaptive Mouse](https://www.popsci.com/uploads/2022/12/02/Microsoft_AdaptiveMouse.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://click.linksynergy.com/deeplink?id=Bz2jtBVCVhA&mid=24542&u1=PS-EC&murl=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fd%2Fmicrosoft-adaptive-mouse%2F8pjx197lnqd7%3Factivetab%3Dpivot%3Aoverviewtab)
 
-*Microsoft*
+_Microsoft_
 
 [LEARN MORE](https://click.linksynergy.com/deeplink?id=Bz2jtBVCVhA&mid=24542&u1=PS-EC&murl=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fd%2Fmicrosoft-adaptive-mouse%2F8pjx197lnqd7%3Factivetab%3Dpivot%3Aoverviewtab)
 
@@ -296,7 +299,7 @@ Microsoft’s Adaptive Mouse might not look very advanced. It’s a simple, squi
 
 [![Opal](https://www.popsci.com/uploads/2022/12/02/Opal.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://opalcamera.com/)
 
-*Opal*
+_Opal_
 
 [LEARN MORE](https://opalcamera.com/)
 
@@ -306,7 +309,7 @@ Computational photography relies on software and processing power in order to ma
 
 [![Intel Arc](https://www.popsci.com/uploads/2022/12/02/Intel_Arc.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.intel.com/content/www/us/en/products/details/discrete-gpus/arc.html)
 
-*Intel*
+_Intel_
 
 [LEARN MORE](https://www.intel.com/content/www/us/en/products/details/discrete-gpus/arc.html)
 
@@ -316,7 +319,7 @@ The market for graphics processing units (or GPUs) isn’t very crowded. Two com
 
 [![Breylon Ultra Reality](https://www.popsci.com/uploads/2022/12/02/Breylon_UltraReality.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://brelyon.com/#preOrder)
 
-*Brelyon*
+_Brelyon_
 
 [LEARN MORE](https://brelyon.com/#preOrder)
 
@@ -326,7 +329,7 @@ Typical virtual reality headsets create shallow stereoscopic depth by showing ea
 
 [![AMD Ryzen](https://www.popsci.com/uploads/2022/12/02/AMD_Ryzen.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.amd.com/en/processors/ryzen)
 
-*AMD*
+_AMD_
 
 [LEARN MORE](https://www.amd.com/en/processors/ryzen)
 
@@ -336,7 +339,7 @@ CPUs (or central processing units) get faster all the time. AMD’s latest Ryzen
 
 [![LG OLEDFlex](https://www.popsci.com/uploads/2022/12/02/LG_OLEDFlex.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://howl.me/ciBAxR9gh63)
 
-*LG*
+_LG_
 
 [LEARN MORE](https://howl.me/ciBAxR9gh63)
 
@@ -346,7 +349,7 @@ Curved displays can immerse you in a viewing or video game experience. Try watch
 
 [![Meta Quest](https://www.popsci.com/uploads/2022/12/02/Meta_Quest.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.amazon.com/Meta-Quest-Pro-Oculus/dp/B09Z7KGTVW/?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
-*Meta*
+_Meta_
 
 [LEARN MORE](https://www.amazon.com/Meta-Quest-Pro-Oculus/dp/B09Z7KGTVW/?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
@@ -356,7 +359,7 @@ Until a company convinces us to collectively install *Matrix*-style data jacks 
 
 [![Nikon Z9](https://www.popsci.com/uploads/2022/12/02/Nikon_Z9.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.amazon.com/Nikon-FX-Format-Mirrorless-Camera-Body/dp/B09KHC4XCT?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
-*Nikon*
+_Nikon_
 
 [LEARN MORE](https://www.amazon.com/Nikon-FX-Format-Mirrorless-Camera-Body/dp/B09KHC4XCT?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
@@ -366,7 +369,7 @@ Take the lens off a high-end mirrorless camera and you’ll still find a mechani
 
 [![TP Archer Link](https://www.popsci.com/uploads/2022/12/02/TP_ArcherLink.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.tp-link.com/us/home-networking/wifi-router/archer-axe200-omni/)
 
-*TP-Link*
+_TP-Link_
 
 [LEARN MORE](https://www.tp-link.com/us/home-networking/wifi-router/archer-axe200-omni/)
 
@@ -376,7 +379,7 @@ Single-point routers have fallen out of fashion thanks to the popularity of mesh
 
 [![Connectivity Matter](https://www.popsci.com/uploads/2022/12/02/Connectivity_Matter.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://csa-iot.org/all-solutions/matter/)
 
-*Matter*
+_Matter_
 
 [LEARN MORE](https://csa-iot.org/all-solutions/matter/)
 
@@ -386,7 +389,7 @@ Smart home gadgets are stubborn and territorial. Their refusal to play together 
 
 [![Xiaomi 12SUltra](https://www.popsci.com/uploads/2022/12/02/Xiaomi_12SUltra.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.giztop.com/xiaomi-12s-ultra.html)
 
-*Xiaomi*
+_Xiaomi_
 
 [LEARN MORE](https://www.giztop.com/xiaomi-12s-ultra.html)
 
@@ -396,7 +399,7 @@ Smartphone cameras rely heavily on processing and AI to make their videos and im
 
 [![Nothing](https://www.popsci.com/uploads/2022/12/02/Nothing.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://us.nothing.tech/pages/phone-1)
 
-*Nothing*
+_Nothing_
 
 [LEARN MORE](https://us.nothing.tech/pages/phone-1)
 
@@ -406,21 +409,21 @@ From the front, Nothing’s debut phone looks a lot like a typical flagship Andr
 
 [![Apple CarCrash](https://www.popsci.com/uploads/2022/12/02/Apple_CarCrash.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.amazon.com/Apple-Watch-Midnight-Aluminum-Always/dp/B0BDHW8P4P?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
-*Apple*
+_Apple_
 
 [LEARN MORE](https://www.amazon.com/Apple-Watch-Midnight-Aluminum-Always/dp/B0BDHW8P4P?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
 One of the most advanced features of this year’s iPhone and Apple Watch models is one the company hopes you’ll never have to use. Car Crash detection uses an iPhone 14 Pro’s or Apple Watch 8’s upgraded gyroscope, which can measure up to 256 G of force, and checks for changes 3,000 times per second. This data, along with information collected by an accelerometer and the built-in barometer, can sense the change in a car’s cabin pressure caused by a deployed airbag. Once it detects a crash, the watch will automatically send emergency services to your location if you don’t respond to an alert within a few seconds. Your device will also give you the option to manually call emergency services if you’re conscious but need help. The feature is enabled by default, and the information your phone collects is never shared with Apple or a third party.
 
-- - -
+---
 
 ## **[Health](https://www.popsci.com/technology/best-health-innovations-2022/)**
 
 ![Deep Space photo](https://www.popsci.com/uploads/2022/11/28/Health_Opener-1.jpg)
 
-*STAAR Surgical*
+_STAAR Surgical_
 
-[Almost three years into the pandemic,](<>) the spotlight isn’t just on [COVID medicine](https://www.popsci.com/health/best-health-innovations-2021/) anymore. While booster shots and take-home antiviral pills gave us new tools to fight the infectious disease, health researchers and drug makers regained momentum in other crucial areas, like organ transplants, STI prevention, and white-whale therapies for alopecia and HIV. At the same time, AI deepened its role as a diagnostic aid, while mental health services got an accessibility boost across the US. We know [the pandemic isn’t over](https://www.popsci.com/health/holiday-travel-cdc-tripledemic-masks/)—and other pathogens and illnesses are likely lurking undetected—but the progress we make in medical labs, factories, and care centers can help nurse societies back to health before the next storm hits.
+[Almost three years into the pandemic,]() the spotlight isn’t just on [COVID medicine](https://www.popsci.com/health/best-health-innovations-2021/) anymore. While booster shots and take-home antiviral pills gave us new tools to fight the infectious disease, health researchers and drug makers regained momentum in other crucial areas, like organ transplants, STI prevention, and white-whale therapies for alopecia and HIV. At the same time, AI deepened its role as a diagnostic aid, while mental health services got an accessibility boost across the US. We know [the pandemic isn’t over](https://www.popsci.com/health/holiday-travel-cdc-tripledemic-masks/)—and other pathogens and illnesses are likely lurking undetected—but the progress we make in medical labs, factories, and care centers can help nurse societies back to health before the next storm hits.
 
 ## Grand Award Winner
 
@@ -428,17 +431,17 @@ One of the most advanced features of this year’s iPhone and Apple Watch models
 
 [![3DBio ear transplant](https://www.popsci.com/uploads/2022/12/02/3DBio_AuriNovo.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://3dbiocorp.com/science-and-technology/#process-for-aurinovo)
 
-*3DBio*
+_3DBio_
 
 [LEARN MORE](https://3dbiocorp.com/science-and-technology/#process-for-aurinovo)
 
-About 1,500 people in the US are born each year with absent or underdeveloped external ears. Traditional reconstruction techniques might fix the cosmetic issue, but a new 3D-printed ear transplant, called AuriNovo, offers a living substitute. The implant is made with proteins, hydrogel, and a patient’s own cells, giving it far more flexibility than any constructed with synthetic materials; plus, the procedure is less invasive than, say, transplanting tissue from a patient’s ribs. To [build the replacement](https://www.nytimes.com/2022/06/02/health/ear-transplant-3d-printer.html), a surgeon first takes a sample of an individual’s ear tissue to separate and culture the cartilage-making cells. Then, based on a 3D scan of the fully formed ear on the patient, the part is printed with [collagen-based “bio ink”](https://3dbiocorp.com/science-and-technology/) and surgically inserted above the jaw. A 20-year-old woman from Mexico was the first to get the implant this June. 3DBio Therapeutics, the New York-based regenerative medicine company behind AuriNovo, hopes to use the technology to one day create other replacement body parts, like noses, spinal discs, and larger organs. 
+About 1,500 people in the US are born each year with absent or underdeveloped external ears. Traditional reconstruction techniques might fix the cosmetic issue, but a new 3D-printed ear transplant, called AuriNovo, offers a living substitute. The implant is made with proteins, hydrogel, and a patient’s own cells, giving it far more flexibility than any constructed with synthetic materials; plus, the procedure is less invasive than, say, transplanting tissue from a patient’s ribs. To [build the replacement](https://www.nytimes.com/2022/06/02/health/ear-transplant-3d-printer.html), a surgeon first takes a sample of an individual’s ear tissue to separate and culture the cartilage-making cells. Then, based on a 3D scan of the fully formed ear on the patient, the part is printed with [collagen-based “bio ink”](https://3dbiocorp.com/science-and-technology/) and surgically inserted above the jaw. A 20-year-old woman from Mexico was the first to get the implant this June. 3DBio Therapeutics, the New York-based regenerative medicine company behind AuriNovo, hopes to use the technology to one day create other replacement body parts, like noses, spinal discs, and larger organs.
 
 ## Paxlovid by Pfizer: The first take-home treatment for COVID-19
 
 [![Pfizer Paxlovid COVID pills in wrapper](https://www.popsci.com/uploads/2022/12/02/Pfizer_PAXLOVID.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.paxlovid.com/)
 
-*Pfizer*
+_Pfizer_
 
 [LEARN MORE](https://www.paxlovid.com/)
 
@@ -448,7 +451,7 @@ COVID therapies have come a long way since the start of the pandemic, and now in
 
 [![STAAR Surgical EVO permanent vision-correcting lenses in an eye diagram](https://www.popsci.com/uploads/2022/12/02/STAAR_EVO.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://us.discovericl.com/)
 
-*STAAR Surgical*
+_STAAR Surgical_
 
 [LEARN MORE](https://us.discovericl.com/)
 
@@ -458,7 +461,7 @@ Most cases of nearsightedness and astigmatism, which is blurred vision caused by
 
 [![Eli Lilly and Incyte Olumiant alopecia medicine in bottle](https://www.popsci.com/uploads/2022/12/02/ELiLilly_Olumiant.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.olumiant.com/)
 
-*Eli Lilly and Incyte*
+_Eli Lilly and Incyte_
 
 [LEARN MORE](https://www.olumiant.com/)
 
@@ -468,7 +471,7 @@ More than 300,000 people of all ages in the US live with [severe alopecia areat
 
 [![GE Healthcare AIR Recon sharper MRI images of ankle bones](https://www.popsci.com/uploads/2022/12/02/GEHealth_AIR_Recon.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.gehealthcare.com/products/magnetic-resonance-imaging/air-technology/air-recon-dl)
 
-*GE Healthcare*
+_GE Healthcare_
 
 [LEARN MORE](https://www.gehealthcare.com/products/magnetic-resonance-imaging/air-technology/air-recon-dl)
 
@@ -478,7 +481,7 @@ Laying motionless for an hour or longer in a magnetic scanner can be a claustrop
 
 [![One Male condoms marketed for anal sex in colorful packagine](https://www.popsci.com/uploads/2022/12/02/ONE_OneMaleCondom.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.onecondoms.com/collections/all/)
 
-*ONE*
+_ONE_
 
 [LEARN MORE](https://www.onecondoms.com/collections/all/)
 
@@ -488,17 +491,17 @@ At first glance this condom isn’t all that different from those by other brand
 
 [![Moderna COVID bivalent vaccine in a bottle](https://www.popsci.com/uploads/2022/12/02/ModernaPfizer_COVID.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.cdc.gov/mmwr/volumes/71/wr/mm7148e1.htm#:~:text=On%20September%201%2C%202022%2C%20bivalent,SARS%2DCoV%2D2%20Omicron%20variant)
 
-*Ringo Chiu, AFP via Getty Images*
+_Ringo Chiu, AFP via Getty Images_
 
 [LEARN MORE](https://www.cdc.gov/mmwr/volumes/71/wr/mm7148e1.htm#:~:text=On%20September%201%2C%202022%2C%20bivalent,SARS%2DCoV%2D2%20Omicron%20variant)
 
-One of the niftiest features of mRNA vaccines such as Moderna and Pfizer-BioNTech’s COVID shots is that they can be tweaked and scaled up quickly to keep up with an ever-changing virus. This August, the FDA authorized [the first bivalent COVID boosters](https://www.popsci.com/health/covid-vaccines-omicron-boosters-explained/), modified with new genetic data to target both the original version of SARS-CoV-2 and the Omicron sub-variants BA.4 and BA.5. Just how much added protection the bivalent shots offer against the latest versions of COVID remains to be seen, although in early results, [the Pfizer-BioNTech booster](https://www.pfizer.com/news/press-release/press-release-detail/pfizer-and-biontech-report-new-data-omicron-ba4ba5-adapted) increased antibodies against the BA.4 and BA.5 sub-variants by up to 11 times, while [the Moderna booster](https://investors.modernatx.com/news/news-details/2022/Modernas-BA.4BA.5-Targeting-Bivalent-Booster-mRNA-1273.222-Meets-Primary-Endpoint-of-Superiority-Against-Omicron-Variants-Compared-to-Booster-Dose-of-mRNA-1273-in-Phase-23-Clinical-Trial/default.aspx) did so by up to 15 times. Experts anticipate that the bivalent COVID vaccines, which are available to all adults and children ages 5 and older in the US, could [save thousands of lives](https://www.vox.com/science-and-health/23393321/covid-vaccine-bivalent-booster-pfizer-moderna) if the virus surges again this winter. 
+One of the niftiest features of mRNA vaccines such as Moderna and Pfizer-BioNTech’s COVID shots is that they can be tweaked and scaled up quickly to keep up with an ever-changing virus. This August, the FDA authorized [the first bivalent COVID boosters](https://www.popsci.com/health/covid-vaccines-omicron-boosters-explained/), modified with new genetic data to target both the original version of SARS-CoV-2 and the Omicron sub-variants BA.4 and BA.5. Just how much added protection the bivalent shots offer against the latest versions of COVID remains to be seen, although in early results, [the Pfizer-BioNTech booster](https://www.pfizer.com/news/press-release/press-release-detail/pfizer-and-biontech-report-new-data-omicron-ba4ba5-adapted) increased antibodies against the BA.4 and BA.5 sub-variants by up to 11 times, while [the Moderna booster](https://investors.modernatx.com/news/news-details/2022/Modernas-BA.4BA.5-Targeting-Bivalent-Booster-mRNA-1273.222-Meets-Primary-Endpoint-of-Superiority-Against-Omicron-Variants-Compared-to-Booster-Dose-of-mRNA-1273-in-Phase-23-Clinical-Trial/default.aspx) did so by up to 15 times. Experts anticipate that the bivalent COVID vaccines, which are available to all adults and children ages 5 and older in the US, could [save thousands of lives](https://www.vox.com/science-and-health/23393321/covid-vaccine-bivalent-booster-pfizer-moderna) if the virus surges again this winter.
 
 ## Umbilical cord blood transplant for HIV by Fred Hutchinson Cancer Research Center and Weill Cornell Medicine: The right cells for viral resistance
 
 [![HIV-resistant blood stem cells under a microscope stained in purple and orange](https://www.popsci.com/uploads/2022/12/02/WillCornell_CordBlood.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://news.weill.cornell.edu/news/2022/02/patient-possibly-cured-of-hiv-infection-by-special-stem-cell-transplant)
 
-*NIH*
+_NIH_
 
 [LEARN MORE](https://news.weill.cornell.edu/news/2022/02/patient-possibly-cured-of-hiv-infection-by-special-stem-cell-transplant)
 
@@ -508,7 +511,7 @@ There are now three official cases of patients in long-term HIV remission—but 
 
 [![SAMHSA 988 suicide crisis lifeline on a smartphone call screen](https://www.popsci.com/uploads/2022/12/02/SAMHSA_988.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://988lifeline.org/current-events/the-lifeline-and-988/)
 
-*SAMHSA*
+_SAMHSA_
 
 [LEARN MORE](https://988lifeline.org/current-events/the-lifeline-and-988/)
 
@@ -518,21 +521,21 @@ When you have a general emergency, you might call 911. But for people experienci
 
 [![Valencia Technologies eCoin neurostimulator for bladder control](https://www.popsci.com/uploads/2022/12/02/Valencia_eCoin.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://ecoin.us/)
 
-*Valencia Technologies*
+_Valencia Technologies_
 
 [LEARN MORE](https://ecoin.us/)
 
 Pads, vaginal seals, and skin patches can be a burden for anyone who has to deal with urinary incontinence on a daily basis. A new electrode device, about as small as a nickel and implanted above the ankle, nips the issue in the bud in a more private and convenient way. Incontinence typically occurs when [the muscles in and around the bladder](https://www.hopkinsmedicine.org/health/conditions-and-diseases/urinary-incontinence/solutions-for-a-leaky-bladder) contract too often or too much. To prevent leaks and constant trips to the toilet, [the eCoin sends low-key shocks through the tibial nerve](https://www.fda.gov/medical-devices/recently-approved-devices/ecoin-peripheral-neurostimulator-p200036), targeting the pelvic organs and relaxing the bladder wall. A doctor can control the intensity of the pulses with a remote, making the device more customizable for a broad range of patients. Neurostimulators have become a vanguard treatment for [different nervous system conditions](https://www.fda.gov/medical-devices/neurological-devices/regulatory-overview-neurological-devices), including chronic back pain and [even paralysis](https://www.popsci.com/health/paralysis-electrode-therapy-success/)—but few are so adaptable as this.
 
-- - -
+---
 
 ## **[Entertainment](https://www.popsci.com/technology/best-entertainment-innovations-2022/)**
 
 ![Deep Space photo](https://www.popsci.com/uploads/2022/11/28/Entertainnment_Opener.jpg)
 
-*Paramount Pictures, Skydance and Jerry Bruckheimer Films*
+_Paramount Pictures, Skydance and Jerry Bruckheimer Films_
 
-[The entertainment category for Best of What’s New](<>) used to primarily contain devices meant for consuming content. But that’s changed. While our Grand Award Winner goes to a big-budget movie this year, you’ll find an increasing number of devices meant for actually making content. Self-flying drones, all-encompassing camera rigs, and even high-end monitors give people the opportunity to make their own content rather than simply consuming it. Other items on this list—primarily the earbuds—provide a reminder that content is a constant part of our lives. We’ve changed the content we consume for entertainment, but more than that, we’ve changed the way we interact with it. And these gadgets help shape that relationship.
+[The entertainment category for Best of What’s New]() used to primarily contain devices meant for consuming content. But that’s changed. While our Grand Award Winner goes to a big-budget movie this year, you’ll find an increasing number of devices meant for actually making content. Self-flying drones, all-encompassing camera rigs, and even high-end monitors give people the opportunity to make their own content rather than simply consuming it. Other items on this list—primarily the earbuds—provide a reminder that content is a constant part of our lives. We’ve changed the content we consume for entertainment, but more than that, we’ve changed the way we interact with it. And these gadgets help shape that relationship.
 
 ## Grand Award Winner
 
@@ -540,7 +543,7 @@ Pads, vaginal seals, and skin patches can be a burden for anyone who has to deal
 
 [![Top Gun](https://www.popsci.com/uploads/2022/12/02/Skydance_TopGun.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.popsci.com/technology/top-gun-maverick-glossary-aviation-terms/)
 
-*Paramount Pictures, Skydance and Jerry Bruckheimer Films*
+_Paramount Pictures, Skydance and Jerry Bruckheimer Films_
 
 [LEARN MORE](https://www.popsci.com/technology/top-gun-maverick-glossary-aviation-terms/)
 
@@ -550,7 +553,7 @@ We’re all too used to watching computer-generated action sequences in movies. 
 
 [![Samsung Freestyle2](https://www.popsci.com/uploads/2022/12/02/Samsung_Freestyle2.jpeg?auto=webp&width=800&crop=16:10,offset-x50)](https://howl.me/cisDn37VbWg)
 
-*Samsung*
+_Samsung_
 
 [LEARN MORE](https://howl.me/cisDn37VbWg)
 
@@ -560,7 +563,7 @@ Samsung’s Freestyle fixes one of our biggest complaints with projectors: that 
 
 [![Samsung Frame](https://www.popsci.com/uploads/2022/12/02/Samsung_Frame.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://howl.me/ciwwnsOyxgB)
 
-*Samsung*
+_Samsung_
 
 [LEARN MORE](https://howl.me/ciwwnsOyxgB)
 
@@ -570,7 +573,7 @@ A couple of years ago, Samsung imagined a creative way to make use of a large, b
 
 [![Sony linkbuds](https://www.popsci.com/uploads/2022/12/02/Sony_linkbuds.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.amazon.com/Sony-LinkBuds-Wireless-Headphones-Open-Ring/dp/B09QNLR4GD?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
-*Sony*
+_Sony_
 
 [LEARN MORE](https://www.amazon.com/Sony-LinkBuds-Wireless-Headphones-Open-Ring/dp/B09QNLR4GD?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
@@ -580,7 +583,7 @@ Sony created its LinkBuds to be the antithesis of noise-canceling headphones. Th
 
 [![BOSE QCII](https://www.popsci.com/uploads/2022/12/02/BOSE_QCII.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.amazon.com/Bose-QuietComfort-Cancelling-Personalized-Cancellation/dp/B0B4PSQHD5?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
-*Bose*
+_Bose_
 
 [LEARN MORE](https://www.amazon.com/Bose-QuietComfort-Cancelling-Personalized-Cancellation/dp/B0B4PSQHD5?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
@@ -590,7 +593,7 @@ Typical noise-canceling headphones have trouble blocking out sound in the middle
 
 [![DJI Ronin](https://www.popsci.com/uploads/2022/12/02/DJI_Ronin.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.amazon.com/DJI-Ronin-4D-Stabilization-Intuitive/dp/B09XHN7SRM?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
-*DJI*
+_DJI_
 
 [LEARN MORE](https://www.amazon.com/DJI-Ronin-4D-Stabilization-Intuitive/dp/B09XHN7SRM?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
@@ -600,7 +603,7 @@ DJI’s Ronin 4D rig looks like a futuristic weapon pulled from a *Star Wars* 
 
 [![DELL Alienware](https://www.popsci.com/uploads/2022/12/02/DELL_Alienware.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.amazon.com/Alienware-AW3423DW-34-18-inch-3440x1440-Curvature/dp/B09VQ48X5Q?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
-*Dell*
+_Dell_
 
 [LEARN MORE](https://www.amazon.com/Alienware-AW3423DW-34-18-inch-3440x1440-Curvature/dp/B09VQ48X5Q?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
@@ -610,7 +613,7 @@ OLED monitors typically provide unmatched contrast, image quality, and color rep
 
 [![SteelSeries Arctis Nova](https://www.popsci.com/uploads/2022/12/02/SteelSeries_ArctisNova.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.amazon.com/SteelSeries-Arctis-Multi-System-Gaming-Headset/dp/B09ZW52XSQ?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
-*SteelSeries*
+_SteelSeries_
 
 [LEARN MORE](https://www.amazon.com/SteelSeries-Arctis-Multi-System-Gaming-Headset/dp/B09ZW52XSQ?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
@@ -620,7 +623,7 @@ Gaming headsets typically require players to pick a platform for compatibility w
 
 [![Skydio](https://www.popsci.com/uploads/2022/12/02/Skydio.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.amazon.com/Skydio-Pro-Kit-Autonomous-Cinematic/dp/B0B6Q7WPLJ/?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
-*Skydio*
+_Skydio_
 
 [LEARN MORE](https://www.amazon.com/Skydio-Pro-Kit-Autonomous-Cinematic/dp/B0B6Q7WPLJ/?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
@@ -630,21 +633,21 @@ Crashing a drone is bad for your footage—and your budget. But this high-end fl
 
 [![Devialet Dione](https://www.popsci.com/uploads/2022/12/02/Devialet_Dione.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.amazon.com/Devialet-Dione-Dolby-Atmos-Soundbar/dp/B09VYHX3CZ?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
-*Devialet*
+_Devialet_
 
 [LEARN MORE](https://www.amazon.com/Devialet-Dione-Dolby-Atmos-Soundbar/dp/B09VYHX3CZ?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
 Most soundbars allow buyers a chance to expand their audio system and add satellite speakers or at least a subwoofer. The Dione is different. It’s a totally stand-alone system that relies on nine 41mm drivers and eight built-in subwoofers in order to fulfill the entire sonic range you need to enjoy everything from high-pitched tire squeals to rumbling explosions. Thanks to its Dolby Atmos integration, it mimics a true 5.1.2 surround sound system. The sphere in the center of the bar contains one of the 41mm drivers; it rotates to allow the soundbar to achieve its spatial audio ambitions, whether it’s sitting on a TV stand or mounted somewhere around the television. Devialet’s Speaker Active Matching technology watches over the entire array to make sure none of the individual drivers surpass their optimal operating frequencies, and it even has a dynamic EQ mode that brings up dialog—so you can finally turn off the closed captioning and still understand what the actors are saying.
 
-- - -
+---
 
 ## **[Personal Care](https://www.popsci.com/technology/best-personal-care-innovations-2022/)**
 
 ![Deep Space photo](https://www.popsci.com/uploads/2022/11/28/PersonalCare_Opener.jpg)
 
-*The Unseen and Schwarzkopf Professional*
+_The Unseen and Schwarzkopf Professional_
 
-[Our new pandemic normal made](<>) soothing stress and monitoring our health the main goals of most personal care products in 2021. But this year saw a flood of launches geared at leaving home and showing off: vibrant cosmetics, anti-aging formulas and gizmos, and skincare products designed to protect from outdoor pollutants. From a multi-dimensional hair dye that draws upon the iridescence of butterfly wings to an end-of-life solution that nourishes the Earth instead of polluting it, these 10 wellness and beauty products stood out above the rest, offering true innovations in a world too often flooded with trendy buzzwords and empty promises.
+[Our new pandemic normal made]() soothing stress and monitoring our health the main goals of most personal care products in 2021. But this year saw a flood of launches geared at leaving home and showing off: vibrant cosmetics, anti-aging formulas and gizmos, and skincare products designed to protect from outdoor pollutants. From a multi-dimensional hair dye that draws upon the iridescence of butterfly wings to an end-of-life solution that nourishes the Earth instead of polluting it, these 10 wellness and beauty products stood out above the rest, offering true innovations in a world too often flooded with trendy buzzwords and empty promises.
 
 ## Grand Award Winner
 
@@ -652,7 +655,7 @@ Most soundbars allow buyers a chance to expand their audio system and add satell
 
 [![The Grace Choi makeup filter is the Grand Award Winner for Popular Science's Best of What's New in 2022 for personal care items.](https://www.popsci.com/uploads/2022/12/02/GraceChoi_Makeupfilters.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.tiktok.com/@gracemchoi?lang=en)
 
-*Grace Choi*
+_Grace Choi_
 
 [LEARN MORE](https://www.tiktok.com/@gracemchoi?lang=en)
 
@@ -662,7 +665,7 @@ Most TikTok filters let you play pretend and “try on” makeup—or, more insi
 
 [![Loreal YSL Rouge Sur Mesure is a winner in Popular Science's Best of What's New in 2022 for the personal care category.](https://www.popsci.com/uploads/2022/12/02/Loreal_YSLRougeSurMesure.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://go.skimresources.com/?id=138113X1700773&xs=1&xcust=PS-RU&url=https%3A%2F%2Fwww.yslbeautyus.com%2Fmakeup%2Flips%2Flipstick%2Frouge-sur-mesure-custom-lip-color-creator%2FWW-50912YSL.html)
 
-*YSL*
+_YSL_
 
 [LEARN MORE](https://go.skimresources.com/?id=138113X1700773&xs=1&xcust=PS-RU&url=https%3A%2F%2Fwww.yslbeautyus.com%2Fmakeup%2Flips%2Flipstick%2Frouge-sur-mesure-custom-lip-color-creator%2FWW-50912YSL.html)
 
@@ -672,7 +675,7 @@ Whether you want your lipstick to match the sunset or your blouse, the Yves Sain
 
 [![Vegamor Gro Ageless is a winner in Popular Science's Best of What's New in 2022 in the personal care category.](https://www.popsci.com/uploads/2022/12/02/Vegamor_GroAgeless.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://howl.me/cisDby71x2X)
 
-*Vegamour*
+_Vegamour_
 
 [LEARN MORE](https://howl.me/cisDby71x2X)
 
@@ -682,7 +685,7 @@ Less than 30 percent of hair graying is dictated by your genes, according to a 2
 
 [![PorMoi Smoke Alarm Drops are a winner in Popular Science's Best of What's New in 2022 in the personal care category.](https://www.popsci.com/uploads/2022/12/02/PorMoi_Smokealarm.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://shop.pourmoiskincare.com/products/smoke-alarm-drops)
 
-*Pour Moi*
+_Pour Moi_
 
 [LEARN MORE](https://shop.pourmoiskincare.com/products/smoke-alarm-drops)
 
@@ -692,7 +695,7 @@ It’s no secret that our planet is in trouble—and that means your skin is, to
 
 [![The Dr. Harris Anti-Wrinkle Sleep Mask by CurrentBody is a winner in Popular Science's Best of What's New in 2022 in the personal care category.](https://www.popsci.com/uploads/2022/12/02/CurrentBody_SleepMask.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://us.currentbody.com/products/dr-harris-anti-wrinkle-sleep-mask)
 
-*CurrentBody*
+_CurrentBody_
 
 [LEARN MORE](https://us.currentbody.com/products/dr-harris-anti-wrinkle-sleep-mask)
 
@@ -702,7 +705,7 @@ This mask aims to help you get your beauty sleep—literally and figuratively. T
 
 [![The Loop Biotech Living Coffin is a winner in Popular Science's Best of What's New in 2022 in the personal care category.](https://www.popsci.com/uploads/2022/12/02/LoopBiotech_LivingCoffin.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.loop-of-life.com/services-4)
 
-*Loop Biotech*
+_Loop Biotech_
 
 [LEARN MORE](https://www.loop-of-life.com/services-4)
 
@@ -712,7 +715,7 @@ It’s time to close the loop on the circle of life. [Modern burial practices](
 
 [![Therabody's TheraFace PRO is a winner in Popular Science's Best of What's New in 2022 in the personal care category.](https://www.popsci.com/uploads/2022/12/02/Therabody_theraface.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.amazon.com/TheraFace-Facial-Percussive-Therapy-Massage/dp/B09TZ4DPRN?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
-*Therabody*
+_Therabody_
 
 [LEARN MORE](https://www.amazon.com/TheraFace-Facial-Percussive-Therapy-Massage/dp/B09TZ4DPRN?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
@@ -722,7 +725,7 @@ There are nearly endless beauty gadgets you can buy to scrub, massage, and even 
 
 [![Color Alchemy by The Unseen and Schwarzkopf Professional is a winner in Popular Science's Best of What's New in 2022 in the personal care category.](https://www.popsci.com/uploads/2022/12/02/UnseenColorAlchemy.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://theunseenbeauty.co.uk/products/colour-alchemy-hair-colour)
 
-*The Unseen and Schwarzkopf Professional*
+_The Unseen and Schwarzkopf Professional_
 
 [LEARN MORE](https://theunseenbeauty.co.uk/products/colour-alchemy-hair-colour)
 
@@ -732,7 +735,7 @@ Most people who color their hair are looking for multi-faceted, prismatic hues�
 
 [![Venom GO by Hyperice is a winner in Popular Science's Best of What's New in 2022 for the personal care category.](https://www.popsci.com/uploads/2022/12/02/Hyperrice_VenomGO.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://howl.me/cisDbNcnI61)
 
-*Hyperice*
+_Hyperice_
 
 [LEARN MORE](https://howl.me/cisDbNcnI61)
 
@@ -742,21 +745,21 @@ Recovery brand Hyperice has designed a super-portable gadget that melts muscle t
 
 [![Maybelline's Super Stay Vinyl Ink Longwear Liquid Lipcolor is one of the winners in Popular Science's Best of What's New in 2022.](https://www.popsci.com/uploads/2022/12/02/Maybeline_VinylInk.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.amazon.com/Maybelline-Longwear-No-Budge-Lipcolor-Pigmented/dp/B09T83HHJP?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
-*Maybelline*
+_Maybelline_
 
 [LEARN MORE](https://www.amazon.com/Maybelline-Longwear-No-Budge-Lipcolor-Pigmented/dp/B09T83HHJP?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
 Many lipsticks claim to be transfer-proof, but tell-tale signs prove otherwise—ruby stains on a coffee cup, pink smudges inside a face mask, berry splotches after a smooch. Products that truly offer longevity usually manage the feat by drying with a plaster-like finish, leaving your lips feeling like drywall (and sometimes flaking as badly, too). Maybelline Vinyl Ink promises 16 hours of wear without any of those pitfalls. Seven years of research involving some 100 scientists are behind its dual-phase formula, which combines a long-wear pigment with an emollient silicone resin for moisture and shine. The two components purposefully stay separated until application, when the user shakes the tube to combine them—a process that borrows the trick protein shaker bottles use to blend powder and water on the go.
 
-- - -
+---
 
 ## **[Emergency Services and Defense](https://www.popsci.com/technology/best-emergency-services-defense-innovations-2022/)**
 
 ![Deep Space photo](https://www.popsci.com/uploads/2022/11/28/EmergencyDefense_Opener.jpg)
 
-*L3Harris*
+_L3Harris_
 
-[The past year has been marked](<>) by serious challenges, from the ongoing climate emergency, a subsequent [increase](https://www.unep.org/resources/report/spreading-wildfire-rising-threat-extraordinary-landscape-fires) in extreme forest fire frequency, and the devastating war in Ukraine following Russia’s invasion. But we’ve also seen true innovation in the field of crisis response. More exact location systems will help emergency services find people in trouble quicker. Better respirator technology is rolling out, designed to help wildland firefighters breathe a little easier. And fire trucks are finally starting to go electric. This year’s best emergency services and defense innovations offer paths out of tight spots, aiming to create a safer future—or at least a better way to handle its myriad disasters.
+[The past year has been marked]() by serious challenges, from the ongoing climate emergency, a subsequent [increase](https://www.unep.org/resources/report/spreading-wildfire-rising-threat-extraordinary-landscape-fires) in extreme forest fire frequency, and the devastating war in Ukraine following Russia’s invasion. But we’ve also seen true innovation in the field of crisis response. More exact location systems will help emergency services find people in trouble quicker. Better respirator technology is rolling out, designed to help wildland firefighters breathe a little easier. And fire trucks are finally starting to go electric. This year’s best emergency services and defense innovations offer paths out of tight spots, aiming to create a safer future—or at least a better way to handle its myriad disasters.
 
 ## Grand Award Winner 
 
@@ -764,7 +767,7 @@ Many lipsticks claim to be transfer-proof, but tell-tale signs prove otherwise�
 
 [![The TDA respirator for firefighters fighting wild fires](https://www.popsci.com/uploads/2022/12/02/TDA_Respirator2.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.dhs.gov/publication/st-frg-wildland-firefighter-respiratory-protection-fact-sheet)
 
-*TDA*
+_TDA_
 
 [LEARN MORE](https://www.dhs.gov/publication/st-frg-wildland-firefighter-respiratory-protection-fact-sheet)
 
@@ -774,7 +777,7 @@ Forest fire fighters need a lightweight wearable respirator to protect them from
 
 [![Connect AED by Avive: Connecting defibrillators to those in need, faster](https://www.popsci.com/uploads/2022/12/02/Avive_Connect.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://avive.life/)
 
-*Avive*
+_Avive_
 
 [LEARN MORE](https://avive.life/)
 
@@ -784,7 +787,7 @@ Avive’s Connect AED (Automated External Defibrillator) is designed to be a lif
 
 [![Scalable Traffic Management for Emergency Response Operations by Ames Research Center: Letting drone pilots clear skies for aerial emergency vehiclesÂ ](https://www.popsci.com/uploads/2022/12/02/Ames_Scalable.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.nasa.gov/ames/stereo)
 
-*Ames Research Center*
+_Ames Research Center_
 
 [LEARN MORE](https://www.nasa.gov/ames/stereo)
 
@@ -794,7 +797,7 @@ The sky above a forest fire can be a dangerous, crowded place, and that was befo
 
 [![Locate Before Route by AT&T: Pinpointing the emergencyÂ ](https://www.popsci.com/uploads/2022/12/02/ATT_locate.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://about.att.com/story/2022/nationwide-location-based-routing.html)
 
-*AT&T*
+_AT&T_
 
 [LEARN MORE](https://about.att.com/story/2022/nationwide-location-based-routing.html)
 
@@ -804,7 +807,7 @@ When a person in an emergency calls 911 for help, that call is routed, based on 
 
 [![GridStar Flow by Lockheed Martin: Helping to power defense with renewable energy](https://www.popsci.com/uploads/2022/12/02/Lockheed_gridflow.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.lockheedmartin.com/en-us/capabilities/energy/energy-storage.html)
 
-*Lockheed Martin*
+_Lockheed Martin_
 
 [LEARN MORE](https://www.lockheedmartin.com/en-us/capabilities/energy/energy-storage.html)
 
@@ -814,7 +817,7 @@ The US military is a massive consumer of fossil fuels, but if it wants to use mo
 
 [![Volterra Electric Firetruck by Pierce: A more sustainable, quieter fire truck](https://www.popsci.com/uploads/2022/12/02/Pierce_Volterra.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.piercemfg.com/electric-fire-trucks/pierce-volterra)
 
-*Pierce*
+_Pierce_
 
 [LEARN MORE](https://www.piercemfg.com/electric-fire-trucks/pierce-volterra)
 
@@ -824,11 +827,11 @@ Fire trucks are big, powerful vehicles, but they run on diesel, a polluting foss
 
 [![Vampire Drone by L3Harris: Taking down drones from kilometers away](https://www.popsci.com/uploads/2022/12/02/L3HArris_Vampire.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.l3harris.com/all-capabilities/vampire)
 
-*L3Harris*
+_L3Harris_
 
 [LEARN MORE](https://www.l3harris.com/all-capabilities/vampire)
 
-Drones are increasingly a part of modern battles, seen in wars across the globe but especially with Russia’s invasion of Ukraine, with both countries using a range of uncrewed aircraft to scout and fight. In August 2022, the Department of Defense announced it would send a new tool to aid Ukrainian forces as a way to counter Russian drones. Made by L3Harris, the Vehicle-Agnostic Modular Palletized ISR Rocket Equipment (VAMPIRE) system is a rocket launcher and sensor kit that can be mounted to a range of vehicles, providing a means to damage and destroy drones at a range of at least three miles. The laser-guided rockets, directed by a human operator, explode with a proximity fuse, making near misses into effective takedowns. 
+Drones are increasingly a part of modern battles, seen in wars across the globe but especially with Russia’s invasion of Ukraine, with both countries using a range of uncrewed aircraft to scout and fight. In August 2022, the Department of Defense announced it would send a new tool to aid Ukrainian forces as a way to counter Russian drones. Made by L3Harris, the Vehicle-Agnostic Modular Palletized ISR Rocket Equipment (VAMPIRE) system is a rocket launcher and sensor kit that can be mounted to a range of vehicles, providing a means to damage and destroy drones at a range of at least three miles. The laser-guided rockets, directed by a human operator, explode with a proximity fuse, making near misses into effective takedowns.
 
 ## Emergency SOS via satellite by Apple: Locating lost hikers with satellites
 
@@ -838,15 +841,15 @@ Drones are increasingly a part of modern battles, seen in wars across the globe 
 
 For hikers lost in remote parts of the United States and Canada, calling for help means hoping for cell phone coverage, or waiting for a serendipitous rescue. But Apple’s Emergency SOS via Satellite, announced September 2022, will let people with an iPhone 14 transmit emergency messages via satellite, provided they can’t first establish a cellular connection. Texters will have a tap-through menu to create an information-dense but data-light report, and provided trees or mountains don’t block the signal, they can transmit crucial information, like what kind of injuries someone has sustained. With a clear view of the sky and fifteen seconds, a cry for help can reach space and then, even better, rescuers on Earth.
 
-- - -
+---
 
 ## **[Automotive](https://www.popsci.com/technology/the-best-automotive-innovations-2022/)**
 
 ![Deep Space photo](https://www.popsci.com/uploads/2022/11/28/Auto_Opener.jpg)
 
-*Rimac*
+_Rimac_
 
-[We may be decades away from](<>) replacing fossil-fuel-powered vehicles with a fully electric fleet, but at the same time, EVs have continued their impressive gains on US roadways. But the most innovative companies in the automotive industry are looking beyond just batteries and charging infrastructure. They’re making the most of what we’ve got while doing the heavy lifting that goes unnoticed: Making vehicles lighter, more aerodynamic, more useful, and less wasteful. They’re also giving us faster and extremely entertaining cars—and we’re here to honor their technical brilliance.
+[We may be decades away from]() replacing fossil-fuel-powered vehicles with a fully electric fleet, but at the same time, EVs have continued their impressive gains on US roadways. But the most innovative companies in the automotive industry are looking beyond just batteries and charging infrastructure. They’re making the most of what we’ve got while doing the heavy lifting that goes unnoticed: Making vehicles lighter, more aerodynamic, more useful, and less wasteful. They’re also giving us faster and extremely entertaining cars—and we’re here to honor their technical brilliance.
 
 ## Grand Award Winner
 
@@ -854,7 +857,7 @@ For hikers lost in remote parts of the United States and Canada, calling for hel
 
 [![Mercedes Vision](https://www.popsci.com/uploads/2022/12/02/Mercedes_Vision.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://media.mercedes-benz.com/vision_eqxx)
 
-*Mercedes*
+_Mercedes_
 
 [LEARN MORE](https://media.mercedes-benz.com/vision_eqxx)
 
@@ -864,7 +867,7 @@ This year, Mercedes-Benz introduced a one-off, world-beating car with an altruis
 
 [![Jeep Grand Wagoneer](https://www.popsci.com/uploads/2022/12/02/Jeep_GrandWagoneer.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.driveuconnect.com/)
 
-*Jeep*
+_Jeep_
 
 [LEARN MORE](https://www.driveuconnect.com/)
 
@@ -874,17 +877,17 @@ Large SUVs typically allow the people in the back to zone out and watch whatever
 
 [![Michelin Pilot Sport EV](https://www.popsci.com/uploads/2022/12/02/Michelin_PilotSportEV.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.michelinman.com/auto/tires/michelin-pilot-sport-ev)
 
-*Michelin*
+_Michelin_
 
 [LEARN MORE](https://www.michelinman.com/auto/tires/michelin-pilot-sport-ev)
 
-Electric vehicles—performance models especially—put the strain of extra mass and torque onto their tires. The Pilot Sport EV is the first of a growing segment of EV-specific treads designed to improve both range and grip. Typically, a manufacturer can increase range by reducing the rolling resistance—the slowing effects of friction—at the expense of grip. These Michelins find balance by putting different parts of the tire in charge of handling torque and mass: The center of the tire has a grippier compound to take the brunt of an EV’s torque, while the shoulders are optimized for lower rolling resistance. It’s a mix they honed over the last eight years on Formula E racers. Compared to the company’s gold standard, the Pilot Sport 4S, the Pilot Sport EV increases range by as much as 20 percent with nearly the same level of traction. 
+Electric vehicles—performance models especially—put the strain of extra mass and torque onto their tires. The Pilot Sport EV is the first of a growing segment of EV-specific treads designed to improve both range and grip. Typically, a manufacturer can increase range by reducing the rolling resistance—the slowing effects of friction—at the expense of grip. These Michelins find balance by putting different parts of the tire in charge of handling torque and mass: The center of the tire has a grippier compound to take the brunt of an EV’s torque, while the shoulders are optimized for lower rolling resistance. It’s a mix they honed over the last eight years on Formula E racers. Compared to the company’s gold standard, the Pilot Sport 4S, the Pilot Sport EV increases range by as much as 20 percent with nearly the same level of traction.
 
 ## Android Automotive OS by Google: A car OS from an OS company
 
 [![Google Android Automotive](https://www.popsci.com/uploads/2022/12/02/Google_AndroidAutomotive.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.android.com/auto/)
 
-*Google*
+_Google_
 
 [LEARN MORE](https://www.android.com/auto/)
 
@@ -894,17 +897,17 @@ Google’s suite of car-specific software has been mediocre for the past several
 
 [![Toyota Carolla](https://www.popsci.com/uploads/2022/12/02/Toyota_Carolla.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.toyota.com/grcorolla/)
 
-*Toyota*
+_Toyota_
 
 [LEARN MORE](https://www.toyota.com/grcorolla/)
 
-In 2022, it’s rare to see automakers develop all-new gasoline engines. To see Toyota craft an engine with as much output per liter as a Bugatti Chiron? That’s a cosmic event. The G16E-GTS spews 300 turbocharged ponies from three tiny cylinders displacing only 1.6 liters. This is the ferocious heart of the 2023 GR Corolla, an ordinary-looking hatchback. On the Morizo Edition, the turbocharger pumps 26.3 PSI of air through the intake—a monstrous amount that the fortified engine block can handle. First offered overseas in the smaller GR Yaris, this engine transforms the humdrum Corolla—the world’s best-selling car of all time—into an everyday sports car. It’s comfortable, practical, gets 28 mpg on the highway, and will absolutely embarrass a Porsche on a twisty road. 
+In 2022, it’s rare to see automakers develop all-new gasoline engines. To see Toyota craft an engine with as much output per liter as a Bugatti Chiron? That’s a cosmic event. The G16E-GTS spews 300 turbocharged ponies from three tiny cylinders displacing only 1.6 liters. This is the ferocious heart of the 2023 GR Corolla, an ordinary-looking hatchback. On the Morizo Edition, the turbocharger pumps 26.3 PSI of air through the intake—a monstrous amount that the fortified engine block can handle. First offered overseas in the smaller GR Yaris, this engine transforms the humdrum Corolla—the world’s best-selling car of all time—into an everyday sports car. It’s comfortable, practical, gets 28 mpg on the highway, and will absolutely embarrass a Porsche on a twisty road.
 
 ## FC1-X by Nitro: Rally racing at its most extreme
 
 [![Nitro Rallycross](https://www.popsci.com/uploads/2022/12/02/Nitro_Rallycross.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.nitrorallycross.com/)
 
-*Nitro*
+_Nitro_
 
 [LEARN MORE](https://www.nitrorallycross.com/)
 
@@ -914,7 +917,7 @@ The FC1-X is what happens when motorcycle stuntman and record-breaking rally dri
 
 [![GM Supercruise](https://www.popsci.com/uploads/2022/12/02/GM_Supercruise.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.chevrolet.com/electric/super-cruise)
 
-*GM*
+_GM_
 
 [LEARN MORE](https://www.chevrolet.com/electric/super-cruise)
 
@@ -924,17 +927,17 @@ General Motors’ Super Cruise strikes an ideal balance between hands-free drivi
 
 [![GMC Hummer](https://www.popsci.com/uploads/2022/12/02/GMC_Hummer.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.gmc.com/electric/hummer-ev)
 
-*GMC*
+_GMC_
 
 [LEARN MORE](https://www.gmc.com/electric/hummer-ev)
 
-Let’s get this out of the way. From the standpoint of energy consumption, the GMC Hummer EV is wasteful—and, at nearly 10,000 pounds, it’s a behemoth. Its battery pack is twice the capacity of the best Tesla Model S but delivers 80 percent of the EPA-estimated range compared to that vehicle. But underneath this super truck’s extravagance is a mind-blowing method of four-wheel steering. CrabWalk sounds too ridiculous and motion sickness-inducing to be true, but it is: All four wheels can steer the truck diagonally. The rear rims steer in tandem with the front at up to 10 degrees, enough to let this massive vehicle dance sideways like a crustacean that needs to parallel park, moving up to 25 mph. 
+Let’s get this out of the way. From the standpoint of energy consumption, the GMC Hummer EV is wasteful—and, at nearly 10,000 pounds, it’s a behemoth. Its battery pack is twice the capacity of the best Tesla Model S but delivers 80 percent of the EPA-estimated range compared to that vehicle. But underneath this super truck’s extravagance is a mind-blowing method of four-wheel steering. CrabWalk sounds too ridiculous and motion sickness-inducing to be true, but it is: All four wheels can steer the truck diagonally. The rear rims steer in tandem with the front at up to 10 degrees, enough to let this massive vehicle dance sideways like a crustacean that needs to parallel park, moving up to 25 mph.
 
 ## Nevera by Rimac: The most powerful production car
 
 [![Rimac Nevera](https://www.popsci.com/uploads/2022/12/02/Rimac_Nevera.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.rimac-automobili.com/nevera/)
 
-*Rimac*
+_Rimac_
 
 [LEARN MORE](https://www.rimac-automobili.com/nevera/)
 
@@ -944,21 +947,21 @@ A Croatian scientist who converted his broken BMW to run on electricity is now, 
 
 [![Ducati MotoE](https://www.popsci.com/uploads/2022/12/02/Ducati_MotoE.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.ducati.com/ww/en/company/product-innovation/moto-e)
 
-*Ducati*
+_Ducati_
 
 [LEARN MORE](https://www.ducati.com/ww/en/company/product-innovation/moto-e)
 
-The heavy batteries that can be packaged easily in a car are harder to incorporate into a motorcycle that needs to balance. Instead of allowing a bulky, off-the-shelf battery pack to dictate the bike’s design, Ducati designed the battery on its MotoE—which the entire field of the 2023 FIM MotoE World Cup will ride—so that it functions as an integral part of the bike’s central frame instead of a bulky add-on. Two separate cooling systems (one for the 18-kWh battery, the other for the 150-hp motor and inverter) ensure the MotoE can sustain 171 mph and then pit for a recharge without needing to cool down. It might not be the first electric racing bike, but it is the first such bike that customers will ultimately want to ride on the road. 
+The heavy batteries that can be packaged easily in a car are harder to incorporate into a motorcycle that needs to balance. Instead of allowing a bulky, off-the-shelf battery pack to dictate the bike’s design, Ducati designed the battery on its MotoE—which the entire field of the 2023 FIM MotoE World Cup will ride—so that it functions as an integral part of the bike’s central frame instead of a bulky add-on. Two separate cooling systems (one for the 18-kWh battery, the other for the 150-hp motor and inverter) ensure the MotoE can sustain 171 mph and then pit for a recharge without needing to cool down. It might not be the first electric racing bike, but it is the first such bike that customers will ultimately want to ride on the road.
 
-- - -
+---
 
 ## **[Sports and Outdoors](https://www.popsci.com/technology/best-sports-outdoors-innovations-2022/)**
 
 ![Deep Space photo](https://www.popsci.com/uploads/2022/11/28/SportsOutdoors_Opener.jpg)
 
-*Taiga*
+_Taiga_
 
-[This year’s sports and outdoor innovations](<>) make our adrenaline-filled adventures smarter, while going easier on the Earth. On land, a bike helmet can be broken down and recycled at the end of its life. In the snow, a ski that helps you tear down the mountain can also be similarly repurposed. But the best sports and outdoor tech this year helps us communicate better—whether that be a new system for catchers to relay plays to pitchers, or a satellite safety beacon that keeps you connected to family and friends. One winner represents both: an electric joy ride that makes careening through the water easy, fun, and carbon-neutral.
+[This year’s sports and outdoor innovations]() make our adrenaline-filled adventures smarter, while going easier on the Earth. On land, a bike helmet can be broken down and recycled at the end of its life. In the snow, a ski that helps you tear down the mountain can also be similarly repurposed. But the best sports and outdoor tech this year helps us communicate better—whether that be a new system for catchers to relay plays to pitchers, or a satellite safety beacon that keeps you connected to family and friends. One winner represents both: an electric joy ride that makes careening through the water easy, fun, and carbon-neutral.
 
 ## Grand Award Winner
 
@@ -966,7 +969,7 @@ The heavy batteries that can be packaged easily in a car are harder to incorpora
 
 [![The Taiga Orca Carbon on a blue, yellow, and pink background](https://www.popsci.com/uploads/2022/12/02/Taiga_Orca.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.taigamotors.com/products/orca)
 
-*Taiga*
+_Taiga_
 
 [LEARN MORE](https://www.taigamotors.com/products/orca)
 
@@ -976,7 +979,7 @@ Personal watercraft like Jet Skis are fun to ride, but this year’s winner make
 
 [![A Slot Canyon Pack on a yellow, blue, and pink background](https://www.popsci.com/uploads/2022/12/02/Slot_CanyonPack.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://slot-usa.com/collections/packs)
 
-*Slot*
+_Slot_
 
 [LEARN MORE](https://slot-usa.com/collections/packs)
 
@@ -986,17 +989,17 @@ Adventurers who go canyoneering squeeze through narrow sandstone passages, somet
 
 [![The TaylorMade Stealth Driver on a yellow, blue and pink background](https://www.popsci.com/uploads/2022/12/02/TaylorMade_Stealth.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://imp.i366014.net/c/2536217/848981/11865?subId1=PS-RU&u=https%3A%2F%2Fwww.taylormadegolf.com%2FStealth-Driver%2FDW-TA026.html%3Flang%3Den_US)
 
-*TaylorMade*
+_TaylorMade_
 
 [LEARN MORE](https://imp.i366014.net/c/2536217/848981/11865?subId1=PS-RU&u=https%3A%2F%2Fwww.taylormadegolf.com%2FStealth-Driver%2FDW-TA026.html%3Flang%3Den_US)
 
-Drivers suffer the most damage compared to other golf clubs, [experiencing 30,000 Gs of force in one swing](https://www.popsci.com/technology/taylormade-stealth-carbon-fiber-driver/). Carbon fiber—a lightweight, strong material—usually cracks under that amount of power, which led clubmakers to use flexible titanium faces for their drivers. But TaylorMade changes the golf club game with its new StealthDriver, finding a way to use carbon after all. Its light face can handle plenty of strokes, higher ball speeds, and longer drives, thanks to its 60 layers of carbon, reduced weight, and aerodynamic shape. Despite the changes, it still gives off the satisfying *thwack* golfers love from a club with an all-metal head.  
+Drivers suffer the most damage compared to other golf clubs, [experiencing 30,000 Gs of force in one swing](https://www.popsci.com/technology/taylormade-stealth-carbon-fiber-driver/). Carbon fiber—a lightweight, strong material—usually cracks under that amount of power, which led clubmakers to use flexible titanium faces for their drivers. But TaylorMade changes the golf club game with its new StealthDriver, finding a way to use carbon after all. Its light face can handle plenty of strokes, higher ball speeds, and longer drives, thanks to its 60 layers of carbon, reduced weight, and aerodynamic shape. Despite the changes, it still gives off the satisfying *thwack* golfers love from a club with an all-metal head.
 
 ## Piston Pro X by Kuat: An easy-loading and safe bike rack
 
 [![A KUAT PistonProX on a yellow, pink, and blue background](https://www.popsci.com/uploads/2022/12/02/KUAT_PistonProX.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.amazon.com/Kuat-Piston-Bike-Hitch-Rack-GalaxyGray-2/dp/B09W84YFWC/?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
-*Kuat*
+_Kuat_
 
 [LEARN MORE](https://www.amazon.com/Kuat-Piston-Bike-Hitch-Rack-GalaxyGray-2/dp/B09W84YFWC/?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
@@ -1006,7 +1009,7 @@ Bike racks are notoriously difficult and annoying to load. Most require two hand
 
 [](https://www.avantlink.com/click.php?tt=cl&mi=10248&pw=281805&ctc=PS-RU&url=https%3A%2F%2Fwww.rei.com%2Fproduct%2F203105%2Fpoc-myelin-bike-helmet%3FCAWELAID%3D120217890013494387)
 
-*POC Sports*
+_POC Sports_
 
 [LEARN MORE](https://www.avantlink.com/click.php?tt=cl&mi=10248&pw=281805&ctc=PS-RU&url=https%3A%2F%2Fwww.rei.com%2Fproduct%2F203105%2Fpoc-myelin-bike-helmet%3FCAWELAID%3D120217890013494387)
 
@@ -1016,7 +1019,7 @@ Bike helmets are [typically in service for five to 10 years,](https://www.cpsc.
 
 [](https://www.avantlink.com/click.php?tt=cl&mi=15585&pw=281805&ctc=PS-RU&url=https%3A%2F%2Fwww.trekbikes.com%2Fus%2Fen_US%2Fbikes%2Fmountain-bikes%2Felectric-mountain-bikes%2Ffuel-exe%2Fc%2FB346%2F)
 
-*Trek Bikes*
+_Trek Bikes_
 
 [LEARN MORE](https://www.avantlink.com/click.php?tt=cl&mi=15585&pw=281805&ctc=PS-RU&url=https%3A%2F%2Fwww.trekbikes.com%2Fus%2Fen_US%2Fbikes%2Fmountain-bikes%2Felectric-mountain-bikes%2Ffuel-exe%2Fc%2FB346%2F)
 
@@ -1026,7 +1029,7 @@ Typical ebikes deliver a whiny hum and noticeable surge when you pedal with the 
 
 [![A diagram of the new GORE-TEX ePeMembrane on a yellow, pink, and blue background](https://www.popsci.com/uploads/2022/12/02/GORE-TEX_ePeMembrane.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.gore-tex.com/)
 
-*Gore*
+_Gore_
 
 [LEARN MORE](https://www.gore-tex.com/)
 
@@ -1036,7 +1039,7 @@ Gore, the company that invented the waterproof but breathable GORE-TEX membrane 
 
 [![A PitchCom Sports device on a yellow, pink, and blue background](https://www.popsci.com/uploads/2022/12/02/PitchCom.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://pitchcom.com/)
 
-*PitchCom Sports*
+_PitchCom Sports_
 
 [LEARN MORE](https://pitchcom.com/)
 
@@ -1046,7 +1049,7 @@ Signs in baseball vary from team to team and player to player: Catchers flash tw
 
 [](https://www.avantlink.com/click.php?tt=cl&mi=18041&pw=281805&ctc=PS-EC&url=https%3A%2F%2Fwww.wearfoehn.com%2Fproducts%2Fmens-salem-dyneema-down-parka)
 
-*Foehn*
+_Foehn_
 
 [LEARN MORE](https://www.avantlink.com/click.php?tt=cl&mi=18041&pw=281805&ctc=PS-EC&url=https%3A%2F%2Fwww.wearfoehn.com%2Fproducts%2Fmens-salem-dyneema-down-parka)
 
@@ -1056,7 +1059,7 @@ Down jackets are known for their warmth—and their short life span. Sportswear 
 
 [![A Garmin InReach messenger on a yellow, pink, and blue background](https://www.popsci.com/uploads/2022/12/02/Garmin_InReach2.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.amazon.com/Garmin-Messenger-Satellite-Communicator-Messaging/dp/B0BFBZR4KW?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
-*Garmin*
+_Garmin_
 
 [LEARN MORE](https://www.amazon.com/Garmin-Messenger-Satellite-Communicator-Messaging/dp/B0BFBZR4KW?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
@@ -1066,21 +1069,21 @@ Satellite communicators can be expensive, tricky to connect to a signal when you
 
 [](https://www.avantlink.com/click.php?tt=cl&mi=16801&pw=281809&ctc=PS-RU&url=https%3A%2F%2Fwww.rossignol.com%2Fus%2Fessential)
 
-*Rossignol*
+_Rossignol_
 
 [LEARN MORE](https://www.avantlink.com/click.php?tt=cl&mi=16801&pw=281809&ctc=PS-RU&url=https%3A%2F%2Fwww.rossignol.com%2Fus%2Fessential)
 
-[The Essential Ski is a first](<>)—and a feat—for Rossignol: It’s made from 62 percent recycled, certified natural, and bio-sourced materials, including aluminum, steel, and wood. The design process uses no solvents or water. Plus, the ski can be recycled through a partnership with MTB Recycling that will repurpose the ski’s materials to the automotive, garden, or construction industries. And it’s produced using renewable energy. But don’t let its Earth-friendliness fool you: It’s a real-deal ski that lives up to Rossignol’s performance and durability standards. Plus, they’re not even guarding the secret of how they made it, so that others can make greener skis, too.
+[The Essential Ski is a first]()—and a feat—for Rossignol: It’s made from 62 percent recycled, certified natural, and bio-sourced materials, including aluminum, steel, and wood. The design process uses no solvents or water. Plus, the ski can be recycled through a partnership with MTB Recycling that will repurpose the ski’s materials to the automotive, garden, or construction industries. And it’s produced using renewable energy. But don’t let its Earth-friendliness fool you: It’s a real-deal ski that lives up to Rossignol’s performance and durability standards. Plus, they’re not even guarding the secret of how they made it, so that others can make greener skis, too.
 
-- - -
+---
 
 ## **[Home](https://www.popsci.com/technology/best-home-innovations-2022/)**
 
 ![Deep Space photo](https://www.popsci.com/uploads/2022/11/28/Home_Opener.jpg)
 
-*hai*
+_hai_
 
-[Renters, homeowners, and DIY-ers](<>) don’t always have the time, money, or skills to accomplish the home improvement tasks on their lists. We get it. Fortunately, one of the benefits of living in a time of rapid innovation is that technology can easily step in where our brains, brawn, and bank accounts fall short. This year, you can upgrade your living space with an easy-install smart showerhead, use spray paint that doesn’t drip, or even consider the most compact in-home water recycling system we’ve ever seen—and that’s just the tip of the screw.
+[Renters, homeowners, and DIY-ers]() don’t always have the time, money, or skills to accomplish the home improvement tasks on their lists. We get it. Fortunately, one of the benefits of living in a time of rapid innovation is that technology can easily step in where our brains, brawn, and bank accounts fall short. This year, you can upgrade your living space with an easy-install smart showerhead, use spray paint that doesn’t drip, or even consider the most compact in-home water recycling system we’ve ever seen—and that’s just the tip of the screw.
 
 ## Grand Award Winner
 
@@ -1088,7 +1091,7 @@ Satellite communicators can be expensive, tricky to connect to a signal when you
 
 [![The Hydraloop H300, a gray water recycling system for homes and apartments.](https://www.popsci.com/uploads/2022/12/02/Hydraloop_H300.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.hydraloop.com/)
 
-*Hydraloop*
+_Hydraloop_
 
 [LEARN MORE](https://www.hydraloop.com/)
 
@@ -1098,7 +1101,7 @@ Gray water is the stuff that spirals down your shower and sink drains, and it’
 
 [![GAF Energy's solar shingles on the roof of a white house during the day with white clouds in the background.](https://www.popsci.com/uploads/2022/12/02/GAF_Shingles.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.gaf.energy/timberline-solar/)
 
-*GAF Energy*
+_GAF Energy_
 
 [LEARN MORE](https://www.gaf.energy/timberline-solar/)
 
@@ -1108,7 +1111,7 @@ Installing traditional rack-mounted solar panels requires drilling through your 
 
 [![The Dremel 3-in-1 laser measuring tool.](https://www.popsci.com/uploads/2022/12/02/Dremel_3in1.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.amazon.com/Dremel-HSLM-01-Digital-Measurement-Accuracy/dp/B09QRRFX6Q/?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
-*Dremel*
+_Dremel_
 
 [LEARN MORE](https://www.amazon.com/Dremel-HSLM-01-Digital-Measurement-Accuracy/dp/B09QRRFX6Q/?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
@@ -1118,7 +1121,7 @@ Anyone who’s tried to measure an odd-shaped object knows the struggle of fumbl
 
 [![The Anker 757 PowerHouse portable power station.](https://www.popsci.com/uploads/2022/12/02/Anker_powerstation.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.amazon.com/Anker-A1770-Powerhouse/dp/B099Z2RDS5?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
-*Anker*
+_Anker_
 
 [LEARN MORE](https://www.amazon.com/Anker-A1770-Powerhouse/dp/B099Z2RDS5?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
@@ -1128,7 +1131,7 @@ Whether you need portable outdoor power or are trying to [sustain your home thr
 
 [![Three cans of Glidden Max-Flex all-surface spray paint. From left to right: elemental, black, and clear.](https://www.popsci.com/uploads/2022/12/02/Glidden_SprayPaint.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://homedepot.sjv.io/c/2084711/456723/8154?subId1=PS-EC&u=https%3A%2F%2Fwww.homedepot.com%2Fp%2FGLIDDEN-MAX-FLEX-12-oz-Matte-Black-Interior-Exterior-All-Surface-Spray-Paint-and-Primer-GMF1011-54%2F319420374)
 
-*PPG*
+_PPG_
 
 [LEARN MORE](https://homedepot.sjv.io/c/2084711/456723/8154?subId1=PS-EC&u=https%3A%2F%2Fwww.homedepot.com%2Fp%2FGLIDDEN-MAX-FLEX-12-oz-Matte-Black-Interior-Exterior-All-Surface-Spray-Paint-and-Primer-GMF1011-54%2F319420374)
 
@@ -1138,7 +1141,7 @@ Few things are more disheartening to a DIY-er than completing a project, shaking
 
 [![The Milwaukee M18 18-volt cordless tire inflator.](https://www.popsci.com/uploads/2022/12/02/Milwaukee_M18Inflator.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.amazon.com/Milwaukee-2848-20-M18-Inflator/dp/B0B1VHG484?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
-*Milwaukee*
+_Milwaukee_
 
 [LEARN MORE](https://www.amazon.com/Milwaukee-2848-20-M18-Inflator/dp/B0B1VHG484?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
@@ -1148,7 +1151,7 @@ It goes without saying that cordless inflators produce lots of air, but they als
 
 [![The hai smart Bluetooth showerhead, featuring an orange color on the face and spray slider.](https://www.popsci.com/uploads/2022/12/02/Hai_SmartShowerhead.jpg?auto=webp&width=800&crop=16:10,offset-x50)](https://www.amazon.com/hai-Installation-Citron-2-5-GPM/dp/B0BKK22LVC?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 
-*hai*
+_hai_
 
 [LEARN MORE](https://www.amazon.com/hai-Installation-Citron-2-5-GPM/dp/B0BKK22LVC?tag=camdenxpsc-20&038%3Bascsubtag=0000PS0000492074O1280060520230612161212%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&asc_source=browser&asc_refurl=https%3A%2F%2Fwww.popsci.com%2Ftechnology%2Fbest-of-whats-new-2022&ascsubtag=0000PS0000492074O0000000020230612160000%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)
 

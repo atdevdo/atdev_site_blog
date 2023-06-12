@@ -44,7 +44,7 @@ collections:
           label: 'Category',
           name: 'category',
           widget: 'select',
-          options: ['community', 'remote-work', 'code', 'growth'],
+          options: ['community', 'remote-work', 'technology', 'growth'],
           required: true,
         }
       - {
