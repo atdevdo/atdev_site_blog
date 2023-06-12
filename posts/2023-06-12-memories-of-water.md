@@ -3,26 +3,29 @@ layout: layouts/post.njk
 title: Memories of Water
 description: In the small towns of West Bengal and Bangladesh, every pond has
   stories to tell
-publishDate: 2023-06-11
+publishDate: 2023-01-11
 category: community
 author: AMITANGSHU ACHARYA
 minRead: 20
 featuredImage: https://placesjournal.org/wp-content/uploads/2023/04/LUeKK0R8.CMS_.jpg
 featuredVideo: https://www.youtube.com/watch?v=rDYdeq3JW_E
 ---
+
+<!-- @format -->
+
 <!--StartFragment-->
 
 In the small town of Kalna, every pond — or *pukur* in Bangla — tells a story.
 
-*Amlapukur*, a pond near my ancestral home, borrows its name from a row of *amla* trees — Indian gooseberry — that once adorned its banks.
+_Amlapukur_, a pond near my ancestral home, borrows its name from a row of *amla* trees — Indian gooseberry — that once adorned its banks.
 
-*Mallickpukur*, behind our house, was named for the caste of its owners, and served as habitat for a waddling of domesticated ducks, who noisily asserted their presence in the evenings.
+_Mallickpukur_, behind our house, was named for the caste of its owners, and served as habitat for a waddling of domesticated ducks, who noisily asserted their presence in the evenings.
 
 > The pond was once carpeted with Indian lotus, water droplets adorning their leaves like scattered pearls. It used to attract migratory birds.
 
 East of us, massive *Poddopukur* — “Lotus Pond” — was once carpeted with Indian lotus, water droplets adorning their hydrophobic leaves like scattered pearls. The pond used to attract migratory birds, especially the common teal, who rested here on journeys between West Asia and Australia. It also attracted hunters and trappers. Wealthy hunters shot the teals — *baali-haans* in Bangla — for sport, and considered their meager flesh a delicacy. The poorer trappers caught them alive, to be sold in urban markets. The killing and trapping took place at such a scale that, by the 1970s, the teals had vanished, and Poddopukur went quiet.
 
-*Gumropukur*, to the west, evoked a different kind of silence. *Gumro* is a Bangla word meaning pain and anguish bottled up within. This pond, its surface coated with shiny blue-green algae, received the murdered victims of political violence. Everyone avoided it — except for crickets, frogs, and fireflies who made the eerie habitat their home.
+_Gumropukur_, to the west, evoked a different kind of silence. *Gumro* is a Bangla word meaning pain and anguish bottled up within. This pond, its surface coated with shiny blue-green algae, received the murdered victims of political violence. Everyone avoided it — except for crickets, frogs, and fireflies who made the eerie habitat their home.
 
 To the north, our house faced a smaller pond. Breaking with tradition, it remained nameless.
 
@@ -44,7 +47,7 @@ The pond, too, has been a victim of vicissitudes.
 
 Real-estate encroachment has claimed a third of it. Filth now flows freely in from the surrounding houses, painted pink, blue, and yellow. No one swims in it anymore. I am witnessing the slow erasure of my past.
 
-- - -
+---
 
 I belong to a partitioned family.
 
@@ -60,7 +63,7 @@ A. De Hone, photograph of Dalhousie Square and the Old Tank, Calcutta, 1878. Nam
 
 [](https://placesjournal.org/wp-content/uploads/2023/04/General-Post-office.CMS_.jpg)
 
-Rathin Mitra, *Sketch of the Red Tank next to the General Post Office*, 1991. *Lal Dighi* (Red Tank) adjoins Kolkata’s iconic heritage building. The waterbody is believed to predate the foundation of the city itself. H.E.A Cotton, in *Calcutta, Old and New: A Historical and Descriptive Handbook to the City* (1907) claimed that the tank was converted in 1709 “from a dirty pond full of weeds and noxious matter into a much needed reservoir of sweet water.” The tank initially provided water exclusively to European quarters of the city. Unlike other tanks in the area, Lal Dighi survives, though no definitive accounts explain its relation to the color red (*lal*). \[Courtesy Rina Mitra]
+Rathin Mitra, *Sketch of the Red Tank next to the General Post Office*, 1991. *Lal Dighi* (Red Tank) adjoins Kolkata’s iconic heritage building. The waterbody is believed to predate the foundation of the city itself. H.E.A Cotton, in *Calcutta, Old and New: A Historical and Descriptive Handbook to the City* (1907) claimed that the tank was converted in 1709 “from a dirty pond full of weeds and noxious matter into a much needed reservoir of sweet water.” The tank initially provided water exclusively to European quarters of the city. Unlike other tanks in the area, Lal Dighi survives, though no definitive accounts explain its relation to the color red (_lal_). \[Courtesy Rina Mitra]
 
 Instead, he shifted his expanding family from the banks of the Gomti River in Lucknow to Kalna, on the western bank of the Bhagirathi River in the delta, north of Kolkata. Why did he leave the grandeur of urban Lucknow for the peri-urban backwaters of post-partition Bengal? Clues emerge in his journals. Yellowed by time and perforated by cellulose-loving arthropods, they contain detailed recollections from the early 1900s of the pastoral waterscapes of East Bengal. Each pond was a placemark for memories. One in which he swam with his friends; another where they collected water chestnuts; one in which they fished. In his watery adventures, his closest comrade, Karimuddin, was always by his side.
 
@@ -90,11 +93,11 @@ The wrought-iron pavilion of Armenian Ghat (sometimes called Maliks Ghat) on the
 
 In Bengali partition narratives, attachment to place is crystalized in the emotive phrase *bhite-maati*,  “homestead and land.” It is encoded in the Bengali word for refugee — *udbastu* — “one without a homestead.” Water doesn’t find a place in these expressions. Yet reading the reminiscences collected by Basu, and my grandfather’s memoirs, I sense an intense longing, not just for pastoral waterscapes but for a pre-partition Bengal where water did the work of erasing difference.
 
-- - -
+---
 
 In the Bengal delta, land exists where water allows it.
 
-Melting glaciers and monsoon rains flow together in the rivers Ganga, Brahmaputra, and Meghna, carrying more than a billion tons of Himalayan silt and mixing it with a trillion cubic meters of water every year to create the world’s largest delta. [1](https://placesjournal.org/article/ponds-and-climate-crisis-in-the-bengal-delta/#ref_1 "Read Footnote 1") Emerging from this interplay of river and silt with deep time, mud long ago became an adhesive that joins water, land, and people.
+Melting glaciers and monsoon rains flow together in the rivers Ganga, Brahmaputra, and Meghna, carrying more than a billion tons of Himalayan silt and mixing it with a trillion cubic meters of water every year to create the world’s largest delta. [1](https://placesjournal.org/article/ponds-and-climate-crisis-in-the-bengal-delta/#ref_1 'Read Footnote 1') Emerging from this interplay of river and silt with deep time, mud long ago became an adhesive that joins water, land, and people.
 
 Pukurs surfaced at such intersections, as numerous as iridescent eyespots on a peacock’s feathers.
 
@@ -104,13 +107,13 @@ The 19th century Bengali philosopher Shibnath Shastri theorized that pukurs prol
 
 [](https://placesjournal.org/wp-content/uploads/2023/04/zbADxkFs.CMS_.jpg)
 
-Bivas Bhattacharjee, *Sunset by the Pond*, 2012. *Taal* palm trees (*Borassus flabellifer*) hem the bank of a *pukur* in rural West Bengal. Native to South and Southeast Asia, its deep roots stabilize soil and recharge groundwater. Both the fruit and the seed of the taal palm are eaten; their leaves were historically used for thatching and writing paper; their sap, crystallized into jaggery, is used as sugar, and fermented as an alcoholic drink. \[Courtesy Bivas Bhattacharjee]
+Bivas Bhattacharjee, *Sunset by the Pond*, 2012. *Taal* palm trees (_Borassus flabellifer_) hem the bank of a *pukur* in rural West Bengal. Native to South and Southeast Asia, its deep roots stabilize soil and recharge groundwater. Both the fruit and the seed of the taal palm are eaten; their leaves were historically used for thatching and writing paper; their sap, crystallized into jaggery, is used as sugar, and fermented as an alcoholic drink. \[Courtesy Bivas Bhattacharjee]
 
 Pukurs simultaneously expanded settled agriculture in the delta, shaping the region into a laboratory for rice cultivation. Debal Deb, a conservator of Indigenous rice varieties, records the presence of 15,000 different varieties across West Bengal and Bangladesh, an abundance that lasted until the 1940s.
 
 > *Pukurs* expanded settled agriculture in the delta, and entered the Bengali imagination as bridges to an intimate encounter with the nonhuman world.
 
-Pukurs also entered the Bengali imagination as bridges to an intimate encounter with the nonhuman world. Rabindranath Tagore — the first non-White recipient of the Nobel Prize — movingly writes of such an experience in his poem *Pukur Dhaarey* (*By the Bank of a Pond*, 1932), which describes a place teeming with life — six flowering plants, two aquatic vegetables, eight fruit-bearing trees, two species of birds. In poet Jasimuddin’s *Puran Pukur* (*Ancient Pond*, 1933), pukurs symbolize the entanglement of social and ecological life in rural Bengal.
+Pukurs also entered the Bengali imagination as bridges to an intimate encounter with the nonhuman world. Rabindranath Tagore — the first non-White recipient of the Nobel Prize — movingly writes of such an experience in his poem *Pukur Dhaarey* (_By the Bank of a Pond_, 1932), which describes a place teeming with life — six flowering plants, two aquatic vegetables, eight fruit-bearing trees, two species of birds. In poet Jasimuddin’s *Puran Pukur* (_Ancient Pond_, 1933), pukurs symbolize the entanglement of social and ecological life in rural Bengal.
 
 > পুরান পুকুর, তব তীরে বসি ভাবিয়া উদাস হই,
 >
@@ -134,7 +137,7 @@ Pukurs also entered the Bengali imagination as bridges to an intimate encounter 
 >
 > All day, they collect your abundant nectar.
 >
-> Sloshing in those vessels, laughter reaches every home. [2](https://placesjournal.org/article/ponds-and-climate-crisis-in-the-bengal-delta/#ref_2 "Read Footnote 2")
+> Sloshing in those vessels, laughter reaches every home. [2](https://placesjournal.org/article/ponds-and-climate-crisis-in-the-bengal-delta/#ref_2 'Read Footnote 2')
 
 In the Bengali middle-class imagination, owning a pukur used to be a sign of wealth and aspiration, condensed in the popular saying *gari, bari, kukur, pukur* (“car, house, dog, pond”).
 
@@ -142,7 +145,7 @@ With time, however, the pukur lost its place.
 
 This was, in some ways, the result of nearly 150 years of vilification by colonial science, which viewed ponds, like the bodies of the colonized, as disease-producing entities. In 1856, Irish surgeon James Johnson argued that Bengal’s tropical climate was suffused with “marsh exhalations” harmful to the health of Europeans. Colonial administrators were quick to catch on. In 1872, C. Fabre-Tonnerre, Health Officer for Calcutta Municipality, wrote:
 
-> In these *bustees* are found green and slimy stagnant ponds, full of putrid vegetable and animal matter in a state of decomposition and whose bubbling surfaces exhale, under a tropical sun, noxious gases, poisoning the atmosphere and spreading around disease and death. These ponds supply the natives with water for domestic purposes and are very often the receptacles of filth. [3](https://placesjournal.org/article/ponds-and-climate-crisis-in-the-bengal-delta/#ref_3 "Read Footnote 3")
+> In these *bustees* are found green and slimy stagnant ponds, full of putrid vegetable and animal matter in a state of decomposition and whose bubbling surfaces exhale, under a tropical sun, noxious gases, poisoning the atmosphere and spreading around disease and death. These ponds supply the natives with water for domestic purposes and are very often the receptacles of filth. [3](https://placesjournal.org/article/ponds-and-climate-crisis-in-the-bengal-delta/#ref_3 'Read Footnote 3')
 
 In reality, colonial infrastructure was often the culprit. “Improvements” such as railways and river embankments fragmented natural drainage, converting interconnected waterbodies into stagnant pools, and furthering the spread of malaria.
 
@@ -162,17 +165,17 @@ Thomas Daniell, etching with aquatint of the Old Tank in Calcutta, 1786. This vi
 
 Shaikh Muhammad Amir of Karraya, *Watercolour of a Calcutta House*, c. 1845. The house is surrounded by a garden with a tank and other buildings. [[British Library](https://www.bl.uk/onlinegallery/onlineex/apac/addorimss/c/019addor0000488u00000000.html), in the public domain]
 
-Colonial cities also produced uneven zones of congestion and pollution. It was hardly surprising, therefore, that in 1884, German bacteriologist Robert Koch discovered the cholera bacillus in a pukur in the low-income neighborhood of Beliaghata in the capital of British India, Calcutta (now Kolkata). This conflict between progress and tradition is movingly narrated in the 1914 novel *Pandit Moshai* (*The Teacher*) by renowned Bengali writer Sharat Chandra Chattopadhyay.
+Colonial cities also produced uneven zones of congestion and pollution. It was hardly surprising, therefore, that in 1884, German bacteriologist Robert Koch discovered the cholera bacillus in a pukur in the low-income neighborhood of Beliaghata in the capital of British India, Calcutta (now Kolkata). This conflict between progress and tradition is movingly narrated in the 1914 novel *Pandit Moshai* (_The Teacher_) by renowned Bengali writer Sharat Chandra Chattopadhyay.
 
 > An audit revealed that 3842 pukurs had been filled in since the 1990s. One affluent South Kolkata neighborhood recorded 823 pukurs in 1888. By 1961, 33 remained.
 
-Cholera has broken out, and people try to wash the clothes of the diseased in the village pond. The protagonist, Brindaban, a wealthy and educated man from a lower caste, tries to protect the waters from contamination. But his efforts are ridiculed by village Brahmins, who argue that the pond has been dug according to rituals laid down in the Hindu sacred texts, and cannot be tainted by human action: “Just because you can read two pages in English doesn’t mean you stop believing in our holy books.” [4](https://placesjournal.org/article/ponds-and-climate-crisis-in-the-bengal-delta/#ref_4 "Read Footnote 4") Brindaban is cursed and ostracized. In the end, after losing his son to the epidemic, he donates his entire family fortune to dig a tubewell for the village.
+Cholera has broken out, and people try to wash the clothes of the diseased in the village pond. The protagonist, Brindaban, a wealthy and educated man from a lower caste, tries to protect the waters from contamination. But his efforts are ridiculed by village Brahmins, who argue that the pond has been dug according to rituals laid down in the Hindu sacred texts, and cannot be tainted by human action: “Just because you can read two pages in English doesn’t mean you stop believing in our holy books.” [4](https://placesjournal.org/article/ponds-and-climate-crisis-in-the-bengal-delta/#ref_4 'Read Footnote 4') Brindaban is cursed and ostracized. In the end, after losing his son to the epidemic, he donates his entire family fortune to dig a tubewell for the village.
 
 Increasingly, ponds came to be seen as relics of a regressive and unscientific past. Tubewells were enshrined as symbols of modernity, a solution to rising mortality rates from waterborne diseases in the Bengal delta. With colonial science guaranteeing the purity of groundwater from a tubewell, public health departments scrambled to wean people away from ponds.
 
 In urban areas, pukurs were also being erased by the growing greed for land.
 
-Historian Debjani Bhattacharya illustrates this for Kolkata in *Empire and Ecology in the Bengal Delta* (2018). The steady expansion of urban land markets undermined the centrality of waterbodies in people’s lives. Bhattacharya refers to the 1934 novel *Agamikaal* (*Tomorrow*) by Bengali author Premendra Mitra, which describes urban development in Calcutta through the loss of ponds, tanks, and other water sources.
+Historian Debjani Bhattacharya illustrates this for Kolkata in *Empire and Ecology in the Bengal Delta* (2018). The steady expansion of urban land markets undermined the centrality of waterbodies in people’s lives. Bhattacharya refers to the 1934 novel *Agamikaal* (_Tomorrow_) by Bengali author Premendra Mitra, which describes urban development in Calcutta through the loss of ponds, tanks, and other water sources.
 
 Environmentalist Mohit Ray also tallies such disappearances in his book *Five Thousand Mirrors: The Waterbodies of Kolkata* (2014). His audit revealed that 3842 pukurs had been filled in since the 1990s. In the affluent South Kolkata neighborhood of Bhowanipur, 823 pukurs were recorded in 1888. By 1961, only 33 remained.
 
@@ -192,7 +195,7 @@ Urbanization had become a shorthand for displacing water to reclaim land. And, a
 
 > Governments and international aid agencies patented an endless array of water-purifying technologies, only to leave behind a landscape littered with dysfunctional water filters.
 
-Arsenic, an odorless and tasteless heavy metal, familiar as a poison in antiquity and known in the present as a carcinogen, had existed, latent, in aquifers of the Bengal delta since the Holocene period. Then, in the 1980s, a massive outbreak of severe skin disorders and other illnesses occurred. A Kolkata-based scientist, Dipankar Chakrabarti, established that drinking water from tubewells was contaminated with high levels of arsenic. The World Health Organization later cited the outbreak as “mass poisoning on an unprecedented scale,” with almost 120 million people exposed in Bangladesh and India. [5](https://placesjournal.org/article/ponds-and-climate-crisis-in-the-bengal-delta/#ref_5 "Read Footnote 5")
+Arsenic, an odorless and tasteless heavy metal, familiar as a poison in antiquity and known in the present as a carcinogen, had existed, latent, in aquifers of the Bengal delta since the Holocene period. Then, in the 1980s, a massive outbreak of severe skin disorders and other illnesses occurred. A Kolkata-based scientist, Dipankar Chakrabarti, established that drinking water from tubewells was contaminated with high levels of arsenic. The World Health Organization later cited the outbreak as “mass poisoning on an unprecedented scale,” with almost 120 million people exposed in Bangladesh and India. [5](https://placesjournal.org/article/ponds-and-climate-crisis-in-the-bengal-delta/#ref_5 'Read Footnote 5')
 
 Populations in the Bengal delta — which is perforated by millions of tubewells — were deeply shaken by the arsenic crisis. For almost two decades, governments and international aid agencies designed, patented, and piloted an endless array of water-purifying technologies, only to leave behind a landscape littered with dysfunctional water filters. Scientists and policy pundits are now divided on the best course of action going forward. A majority favors centralized infrastructure projects that would reduce dependence on groundwater by returning to rivers as surface sources. A smaller group argues for a more decentralized system, accessing shallow aquifers through dug wells — and ponds.
 
@@ -208,7 +211,7 @@ The Bengal delta, 2017. [[Stuart Rankin](https://www.flickr.com/photos/24354425@
 
 Ponds are not just about carbon, however. As those whose memories are gathered in *The Village I Left Behind* attested in the post-partition era, ponds are also about people.
 
-The late wetland ecologist Dhrubajyoti Ghosh has drawn attention to the pre-industrial custom of sleeping under trees beside ponds and lakes to survive the summer heat, affectionately referring to pukurs as “*goriber AC*” — air-conditioners for the poor. As the climate crisis sears South Asia with record-setting heat waves, the disappearance of ponds leaves the poor at the mercy of fatal heat stroke.
+The late wetland ecologist Dhrubajyoti Ghosh has drawn attention to the pre-industrial custom of sleeping under trees beside ponds and lakes to survive the summer heat, affectionately referring to pukurs as “_goriber AC_” — air-conditioners for the poor. As the climate crisis sears South Asia with record-setting heat waves, the disappearance of ponds leaves the poor at the mercy of fatal heat stroke.
 
 > Globally, ponds store as much carbon as the world’s oceans, and sequester atmospheric carbon at a rate 20 to 50 times faster than trees.
 
@@ -222,9 +225,9 @@ Pockmarked with innumerable pukurs, a hydrological cross-section of Kolkata once
 
 Bivas Bhattacharjee, two photographs of flooding in Kolkata, 2006. Left: A tubewell assembly emerging from the waters; right: a schoolgirl walks home. \[Courtesy Bivas Bhattacharjee]
 
-- - -
+---
 
-“*Pukur bodh hocche*” (“ponds are being slaughtered”) a former municipal councillor whispered to me on a crowded road in Kalna. He is in his 80s, and chooses his words carefully. The word “bodh” in Bangla means both ritual sacrifice and slaughter. Urbanization in India has produced plenty of both.
+“_Pukur bodh hocche_” (“ponds are being slaughtered”) a former municipal councillor whispered to me on a crowded road in Kalna. He is in his 80s, and chooses his words carefully. The word “bodh” in Bangla means both ritual sacrifice and slaughter. Urbanization in India has produced plenty of both.
 
 > Bureaucratic disinterest in ponds mirrored that of the aspiring middle class, who had turned their backs on ponds the moment pipes and taps entered their homes.
 
