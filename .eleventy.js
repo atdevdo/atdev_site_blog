@@ -1,138 +1,74 @@
 /** @format */
+// * BEGIN IMPORTING LIBRARIES
 const { EleventyI18nPlugin } = require('@11ty/eleventy')
-const { DateTime } = require('luxon')
 const pluginRss = require('@11ty/eleventy-plugin-rss')
-const searchFilter = require('./filters/searchFilter')
+// * END IMPORTING LIBRARIES
+
+// * BEGIN IMPORTING COLLECTIONS
+const { posts, decapPosts } = require('./_11ty/collections/posts-collections')
+const {
+  codeCollection,
+  communityCollection,
+  growthCollection,
+  remoteWorkCollection,
+} = require('./_11ty/collections/category-collections')
+const {
+  sortedByTitle,
+  sortedByTime,
+  sortedByCategory,
+  sortedByDate,
+} = require('./_11ty/collections/sort-posts-collections')
+// * END IMPORTING COLLECTIONS
+
+// * BEGIN IMPORTING FILTERS
+const searchFilter = require('./_11ty/filters/searchFilter')
+const { postDate } = require('./_11ty/filters/filters')
+const { fixCategory, dateNow } = require('./_11ty/filters/nunjucks-filters')
+// * END IMPORTING FILTER
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 module.exports = function (eleventyConfig) {
-  // BEGIN PLUGINS
+  // ? BEGIN PLUGINS
+  eleventyConfig.addPlugin(pluginRss)
   eleventyConfig.addPlugin(EleventyI18nPlugin, {
     defaultLanguage: 'en', // Required
   })
-
-  eleventyConfig.addPlugin(pluginRss)
-  // END PLUGINS
+  // ? END PLUGINS
 
   // * BEGIN CUSTOM COLLECTIONS
-  eleventyConfig.addCollection('posts', (collection) => {
-    return [...collection.getFilteredByGlob('./posts/**/*.md')]
-  })
+  // ? BEGIN CATEGORY COLLECTIONS
+  eleventyConfig.addCollection('codeCollection', codeCollection)
+  eleventyConfig.addCollection('communityCollection', communityCollection)
+  eleventyConfig.addCollection('growthCollection', growthCollection)
+  eleventyConfig.addCollection('remoteWorkCollection', remoteWorkCollection)
+  // ? END CATEGORY COLLECTIONS
 
-  eleventyConfig.addCollection('decapPosts', function (collection) {
-    return collection
-      .getFilteredByGlob('./posts/**/*.md')
-      .sort((a, b) => b.data.publishDate - a.data.publishDate)
-  })
+  // ? BEGIN POSTS COLLECTIONS
+  eleventyConfig.addCollection('posts', posts)
+  eleventyConfig.addCollection('decapPosts', decapPosts)
+  // ? END POSTS COLLECTIONS
 
-  // ? BEGIN CODE COLLECTION
-  eleventyConfig.addCollection('codeCollection', function (collection) {
-    return collection
-      .getFilteredByGlob('./posts/**/*.md')
-      .filter((item) => item.data.category === 'code')
-      .sort((a, b) => b.data.publishDate - a.data.publishDate)
-  })
-  // ? END CODE COLLECTION
-
-  // ? BEGIN COMMUNITY COLLECTION
-  eleventyConfig.addCollection('communityCollection', function (collection) {
-    return collection
-      .getFilteredByGlob('./posts/**/*.md')
-      .filter((item) => item.data.category === 'community')
-      .sort((a, b) => b.data.publishDate - a.data.publishDate)
-  })
-  // ? END COMMUNITY COLLECTION
-
-  // ? BEGIN GROWTH COLLECTION
-  eleventyConfig.addCollection('growthCollection', function (collection) {
-    return collection
-      .getFilteredByGlob('./posts/**/*.md')
-      .filter((item) => item.data.category === 'growth')
-      .sort((a, b) => b.data.publishDate - a.data.publishDate)
-  })
-  // ? END GROWTH COLLECTION
-
-  // ? BEGIN GROWTH COLLECTION
-  eleventyConfig.addCollection('remoteWorkCollection', function (collection) {
-    return collection
-      .getFilteredByGlob('./posts/**/*.md')
-      .filter((item) => item.data.category === 'remote-work')
-      .sort((a, b) => b.data.publishDate - a.data.publishDate)
-  })
-  // ? END GROWTH COLLECTION
-
-  // ? BEGIN COLLECTION SORTED BY TITLE
-  eleventyConfig.addCollection('sortedByTitle', function (collection) {
-    return collection
-      .getFilteredByGlob('./posts/**/*.md')
-      .sort(function (a, b) {
-        if (a.data.title && b.data.title) {
-          return a.data.title.localeCompare(b.data.title)
-        }
-        return 0
-      })
-  })
-  // ? END COLLECTION SORTED BY TITLE
-
-  // ? BEGIN COLLECTION SORTED BY TIME
-  eleventyConfig.addCollection('sortedByTime', function (collection) {
-    return collection
-      .getFilteredByGlob('./posts/**/*.md')
-      .sort((a, b) => b.data.minRead - a.data.minRead)
-  })
-  // ? END COLLECTION SORTED BY TIME
-
-  // ? BEGIN COLLECTION SORTED BY CATEGORY
-  eleventyConfig.addCollection('sortedByCategory', function (collection) {
-    return collection
-      .getFilteredByGlob('./posts/**/*.md')
-      .sort(function (a, b) {
-        if (a.data.category && b.data.category) {
-          return a.data.category.localeCompare(b.data.category)
-        }
-        return 0
-      })
-  })
-  // ? END COLLECTION SORTED BY CATEGORY
-
-  // ? BEGIN COLLECTION SORTED BY DATE
-  eleventyConfig.addCollection('sortedByDate', function (collection) {
-    return collection
-      .getFilteredByGlob('./posts/**/*.md')
-      .sort((a, b) => b.data.publishDate - a.data.publishDate)
-      .reverse()
-  })
-  // ? END COLLECTION SORTED BY DATE
-
+  // ? BEGIN SORTED POSTS COLLECTIONS
+  eleventyConfig.addCollection('sortedByTitle', sortedByTitle)
+  eleventyConfig.addCollection('sortedByTime', sortedByTime)
+  eleventyConfig.addCollection('sortedByCategory', sortedByCategory)
+  eleventyConfig.addCollection('sortedByDate', sortedByDate)
+  // ? END SORTED POSTS COLLECTIONS
   // * END CUSTOM COLLECTIONS
 
   // * BEGIN CUSTOM FILTERS
   eleventyConfig.addFilter('search', searchFilter)
-
-  eleventyConfig.addNunjucksFilter('fixCategory', (category) => {
-    return category.replace(/-/g, ' ')
-  })
-
-  eleventyConfig.addFilter('postDate', (dateObj) => {
-    return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED)
-  })
-
-  eleventyConfig.addNunjucksFilter('dateNow', function () {
-    return new Date().toLocaleDateString('en-us', {
-      weekday: 'long',
-      year: 'numeric',
-      month: 'short',
-      day: 'numeric',
-    })
-  })
+  eleventyConfig.addNunjucksFilter('fixCategory', fixCategory)
+  eleventyConfig.addFilter('postDate', postDate)
+  eleventyConfig.addNunjucksFilter('dateNow', dateNow)
   // * END CUSTOM FILTERS
 
-  // BEGIN COPY
+  // * BEGIN COPY
   eleventyConfig.addPassthroughCopy('uploads')
   eleventyConfig.addPassthroughCopy('admin')
   eleventyConfig.addPassthroughCopy('filters')
   eleventyConfig.addPassthroughCopy('assets')
-  // END COPY
+  // * END COPY
 
   return {
     passthroughFileCopy: true,

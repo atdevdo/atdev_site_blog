@@ -109,7 +109,6 @@
 
 .post__imgBox-textBox__category {
   color: var(--color-h1);
-  /* width: 5rem; */
   text-align: start;
 }
 
@@ -120,7 +119,6 @@
 
 .post__imgBox-textBox__publishDate {
   text-align: end;
-  /* width: 8rem; */
   color: var(--color-h1);
 }
 
