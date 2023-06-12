@@ -54,7 +54,7 @@
 {% macro macro_no_sort(collection) %}
     <div class="posts-container">
         {% for post in collection %}
-            {% if loop.index < 6 %}
+            {% if loop.index < 7 %}
                 {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.author, post.data.minRead, post.data.featuredImage, post.url) }}
             {% endif %}
         {% endfor %}

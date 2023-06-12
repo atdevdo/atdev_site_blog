@@ -56,6 +56,10 @@ ol {
   list-style: none;
 }
 
+img {
+  object-fit: cover;
+}
+
 #scroll-button {
   /* display: none; */
   position: fixed;

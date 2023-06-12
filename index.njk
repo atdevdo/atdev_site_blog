@@ -52,19 +52,19 @@ title: 'ATDEV Blog'
 {# BEGIN POST LIST #}
 <div id="sorting">
     <div id="sorted-title">
-        {{ macro_sorted_list_title(collections.sortedByTitle, 6) }}
+        {{ macro_sorted_list_title(collections.sortedByTitle, 7) }}
     </div>
 
     <div id="sorted-time">
-        {{ macro_sorted_list_time(collections.sortedByTime, 6) }}
+        {{ macro_sorted_list_time(collections.sortedByTime, 7) }}
     </div>
 
     <div id="sorted-category">
-        {{ macro_sorted_list_category(collections.sortedByCategory, 6) }}
+        {{ macro_sorted_list_category(collections.sortedByCategory, 7) }}
     </div>
 
     <div id="sorted-date">
-        {{ macro_sorted_list_date(collections.sortedByDate, 6) }}
+        {{ macro_sorted_list_date(collections.sortedByDate, 7) }}
     </div>
 
     <div id="not-sorted">
@@ -82,7 +82,7 @@ title: 'ATDEV Blog'
         <a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/code/1">View More</a>
     </div>
     <div class="posts-container">
-        {{ macro_category_post(collections.codeCollection, 'code', 0, 6) }}
+        {{ macro_category_post(collections.codeCollection, 'code', 0, 7) }}
     </div>
 </div>
 {# END CODE - CATEGORY #}
@@ -106,7 +106,7 @@ title: 'ATDEV Blog'
         <a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/community/1">View More</a>
     </div>
     <div class="posts-container">
-        {{ macro_category_post(collections.communityCollection, 'community', 0, 6) }}
+        {{ macro_category_post(collections.communityCollection, 'community', 0, 7) }}
     </div>
 </div>
 {# END COMMUNITY - CATEGORY #}
@@ -130,7 +130,7 @@ title: 'ATDEV Blog'
         <a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/growth/1">View More</a>
     </div>
     <div class="posts-container">
-        {{ macro_category_post(collections.growthCollection, 'growth', 0, 6) }}
+        {{ macro_category_post(collections.growthCollection, 'growth', 0, 7) }}
     </div>
 </div>
 {# END GROWTH - CATEGORY #}
@@ -154,7 +154,7 @@ title: 'ATDEV Blog'
         <a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/remote-work/1">View More</a>
     </div>
     <div class="posts-container">
-        {{ macro_category_post(collections.remoteWorkCollection, 'remote-work', 0, 6) }}
+        {{ macro_category_post(collections.remoteWorkCollection, 'remote-work', 0, 7) }}
     </div>
 </div>
 {# END REMOTE WORK - CATEGORY #}

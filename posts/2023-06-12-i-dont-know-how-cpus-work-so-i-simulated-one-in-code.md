@@ -10,6 +10,9 @@ minRead: 10
 featuredImage: /uploads/images/logo.png
 featuredVideo: https://www.youtube.com/watch?v=jx-w2o-Lj8g
 ---
+
+<!-- @format -->
+
 <!--StartFragment-->
 
 A few months ago it dawned on me that I didn’t really understand how computers work under the hood. I still don’t understand how *modern* computers work.
@@ -19,8 +22,6 @@ However, after making my way through *[But How Do It Know?](http://buthowdoitkn
 While I’m not *that* interested in the physics of the circuitry, the book just about skims the surface of those waters and gives a neat overview of the wiring and how bits move around the system without the requisite electrical engineering knowledge. For me though I can’t get comfortable with book descriptions, I have to see things in action and learn from my inevitable mistakes, which led me to chart a course on the rough seas of writing a circuit in code and getting a bit weepy about it.
 
 The fruits of my voyage can be seen in [simple-computer](https://github.com/djhworld/simple-computer); a simple computer that’s simple and computes things.
-
-[![](https://djhworld.github.io/img/simple-computer/ascii1.png "ASCII")](https://djhworld.github.io/img/simple-computer/ascii.png)[![](https://djhworld.github.io/img/simple-computer/brush1.png "brush")](https://djhworld.github.io/img/simple-computer/brush.png)[![](https://djhworld.github.io/img/simple-computer/text-writer1.png "doing the typesin'")](https://djhworld.github.io/img/simple-computer/text-writer.png)
 
 \
 Example programs
@@ -33,7 +34,7 @@ I even wrote a [crude assembler](https://github.com/djhworld/simple-computer/bl
 
 ## But why you do that?
 
-> *“I’ve seen thirteen year old children do this in Minecraft, come back to me when you’ve built a REAL CPU out of telegraph relays”*
+> _“I’ve seen thirteen year old children do this in Minecraft, come back to me when you’ve built a REAL CPU out of telegraph relays”_
 
 My mental model of computing is stuck in beginner computer science textbooks, and the CPU that powers the [gameboy emulator I wrote back in 2013](https://github.com/djhworld/gomeboycolor) is really nothing like the CPUs that are running today. Even saying that, the emulator is just a state machine, it doesn’t describe the stuff at the logic gate level. You can implement most of it using just a `switch` statement and storing the state of the registers.
 
@@ -45,7 +46,7 @@ But all that is built on a foundation of knowledge you need to earn your stripes
 
 The Scott computer is an 8-bit processor attached to 256 bytes of RAM, all connected via an 8-bit system bus. It has 4 general purpose registers and can execute [17 machine instructions](https://github.com/djhworld/simple-computer#instructions). Someone built a visual simulator [for the web here](http://www.buthowdoitknow.com/but_how_do_it_know_cpu_model.html), which is really cool, I dread to think how long it took to track all the wiring states!
 
-[![](https://djhworld.github.io/img/simple-computer/scott-cpu.png "The Scott CPU")](https://djhworld.github.io/img/simple-computer/scott-cpu.png)
+[![](https://djhworld.github.io/img/simple-computer/scott-cpu.png 'The Scott CPU')](https://djhworld.github.io/img/simple-computer/scott-cpu.png)
 
 \
 A diagram outlining all the components that make up the Scott CPU\
@@ -108,15 +109,15 @@ This was a fun and very rewarding project for me. In the midst of programming in
 
 While the CPU in the is very simple and a long way from what’s sitting in my laptop, I think this project has taught me a lot, namely:
 
-* How bits move around between all components using a bus
-* How a *simple* ALU works
-* What a *simple* Fetch-Decode-Execute cycle looks like
-* That a machine without a stack pointer register + concept of a stack sucks
-* That a machine without interrupts sucks
-* What an assembler is and does
-* How a peripherals communicate with a simple CPU
-* How *simple* fonts work and an approach to rendering them on a display
-* What a *simple* operating system might start to look like
+- How bits move around between all components using a bus
+- How a *simple* ALU works
+- What a *simple* Fetch-Decode-Execute cycle looks like
+- That a machine without a stack pointer register + concept of a stack sucks
+- That a machine without interrupts sucks
+- What an assembler is and does
+- How a peripherals communicate with a simple CPU
+- How *simple* fonts work and an approach to rendering them on a display
+- What a *simple* operating system might start to look like
 
 So what’s next? The book said that no-one has built a computer like this since 1952, meaning I’ve got 67 years of material to brush up on, so that should keep me occupied for a while. I see the [x86 manual is 4800 pages long](https://software.intel.com/sites/default/files/managed/39/c5/325462-sdm-vol-1-2abcd-3abcd.pdf), enough for some fun, light reading at bedtime.
 

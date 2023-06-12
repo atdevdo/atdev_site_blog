@@ -9,6 +9,9 @@ minRead: 13
 featuredImage: https://static01.nyt.com/images/2021/08/31/autossell/00codex-video1/00codex-video1-superJumbo.jpg
 featuredVideo: https://www.youtube.com/watch?v=_j1eODrkGS4
 ---
+
+<!-- @format -->
+
 <!--StartFragment-->
 
 As soon as Tom Smith got his hands on Codex — a new artificial intelligence technology that writes its own computer programs — he gave it a job interview.
@@ -22,10 +25,6 @@ Codex seemed like a technology that would soon replace human workers. As Mr. Smi
 Yet after several weeks working with this new technology, Mr. Smith believes it poses no threat to professional coders. In fact, like many other experts, he sees it as a tool that will end up boosting human productivity. It may even help a whole new generation of people learn the art of computers, by showing them how to write simple pieces of code, almost like a personal tutor.
 
 “This is a tool that can make a coder’s life a lot easier,” Mr. Smith said.
-
-Image
-
-![Testing Codex convinced Mr. Smith, who runs an artificial intelligence start-up, that it will only enhance how people work with computers.](https://static01.nyt.com/images/2021/08/31/business/00codex/00codex-articleLarge.jpg?quality=75&auto=webp&disable=upscale)
 
 Testing Codex convinced Mr. Smith, who runs an artificial intelligence start-up, that it will only enhance how people work with computers.Credit...Jason Henry for The New York Times
 
@@ -47,11 +46,11 @@ Card 1 of 5
 
 **Ernie.** The search giant Baidu unveiled China’s first major rival to ChatGPT in March. The debut of Ernie, short for Enhanced Representation through Knowledge Integration, [turned out to be a flop](https://www.nytimes.com/2023/03/16/world/asia/china-baidu-chatgpt-ernie.html?action=click&pgtype=Article&state=default&module=styln-artificial-intelligence&variant=show&region=MAIN_CONTENT_1&block=storyline_levelup_swipe_recirc) after a promised “live” demonstration of the bot was revealed to have been recorded.
 
-*
-*
-*
-*
-*
+-
+-
+-
+-
+-
 
 Thanks to the rapid rise of a mathematical system called a [neural network](https://www.nytimes.com/2018/03/06/technology/google-artificial-intelligence.html), machines can now learn certain skills by analyzing vast amounts of data. By analyzing thousands of cat photos, for example, they can learn to recognize a cat.
 
@@ -110,10 +109,6 @@ Mr. Howard and others believe Codex could also help novices learn to code. It is
 The rest of the A.I. landscape looks similar. Robots are [increasingly powerful](https://www.nytimes.com/2020/01/29/technology/warehouse-robot.html). So are chatbots [designed for online conversation](https://www.nytimes.com/2020/11/24/science/artificial-intelligence-ai-gpt3.html). DeepMind, an A.I. lab in London, recently built a system that [instantly identifies the shape of proteins in the human body](https://www.nytimes.com/2021/07/22/technology/deepmind-ai-proteins-folding.html), which is a key part of designing new medicines and vaccines. That task once took scientists days or even years. But those systems replace only a small part of what human experts can do.
 
 In the few areas where new machines can instantly replace workers, they are typically in jobs the market is slow to fill. Robots, for instance, are increasingly useful inside shipping centers, which are expanding and struggling to find the workers needed to keep pace.
-
-Image
-
-![Greg Brockman of OpenAI said artificial intelligence was taking the drudge work out of jobs, not replacing them.](https://static01.nyt.com/images/2021/08/30/business/00codex-brockman/00codex-brockman-articleLarge.jpg?quality=75&auto=webp&disable=upscale)
 
 Greg Brockman of OpenAI said artificial intelligence was taking the drudge work out of jobs, not replacing them.Credit...Steve Jennings/Getty Images
 
