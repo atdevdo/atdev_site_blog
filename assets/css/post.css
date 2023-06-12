@@ -203,3 +203,7 @@
   font-size: 0.8rem;
   color: var(--color-paragraph-secondary);
 }
+
+#btn_like_active {
+  background-color: black;
+}
