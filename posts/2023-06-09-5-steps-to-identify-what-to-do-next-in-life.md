@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: 5 Steps To Identify What To Do Next In Life
+title: Steps To Identify What To Do Next In Life
 description: No one way is better than another.
 publishDate: 2023-06-09
 category: growth
