@@ -2,13 +2,16 @@
 layout: layouts/post.njk
 title: What is Code?
 description: Unless you know the code, it has no meaning
-publishDate: 2023-06-12
+publishDate: 2023-02-12
 category: code
 author: Paul Ford
 minRead: 30
 featuredImage: https://images.unsplash.com/photo-1483817101829-339b08e8d83f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdoYXQlMjBpcyUyMGNvZGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60
 featuredVideo: https://www.youtube.com/watch?v=BEgB7iL9nPI
 ---
+
+<!-- @format -->
+
 <!--StartFragment-->
 
 ## The Man in the Taupe Blazer
@@ -69,8 +72,6 @@ At this stage in the meeting, you like to look supplicants in the eye and say, 
 
 This time you stop yourself. You don’t want your inquiry to be met by a patronizing sigh of impatience or another explanation about ship dates, Agile cycles, and continuous delivery. Better for now to hide your ignorance. *When will it be done?* You are learning to accept that the answer for software projects is *never*.
 
-
-
 ### [1.1](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/?ref=refind#why-are-we-here)Why Are We Here?
 
 We are here because the editor of this magazine asked me, “Can you tell me what code is?”
@@ -119,8 +120,6 @@ Consider what happens when you strike a key on your keyboard. Say a lowercase �
 
 Try mashing the keys on your keyboard and see what “make” and “break” codes emerge. Every key makes a code. The computer interprets these codes. There are many steps between pressing the “a” key and seeing an “a” on the screen.
 
-
-
 Just as the keyboard is waiting for a key to be pressed, the computer is waiting for a signal from the keyboard. When one comes down the pike, the computer interprets it and passes it farther into its own interior. “Here’s what the keyboard just received—do with this what you will.”
 
 It’s simple now, right? The computer just goes to some table, figures out that the signal corresponds to the letter “a,” and puts it on screen. Of course not—too easy. Computers are machines. They don’t know what a screen or an “a” are. To put the “a” on the screen, your computer has to pull the image of the “a” out of its memory as part of a font, an “a” made up of lines and circles. It has to take these lines and circles and render them in a little box of pixels in the part of its memory that manages the screen. So far we have at least three representations of one letter: the signal from the keyboard; the version in memory; and the lines-and-circles version sketched on the screen. We haven’t even considered how to store it, or what happens to the letters to the left and the right when you insert an “a” in the middle of a sentence. Or what “lines and circles” mean when reduced to binary data. There are surprisingly many ways to represent a simple “a.” It’s amazing any of it works at all.
@@ -151,7 +150,7 @@ Thus a craft, and a professional class that lives that craft, emerged. Beginning
 
 [1](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/?ref=refind#fn.1)
 
- If coders don’t run the world, they run the things that run the world.
+If coders don’t run the world, they run the things that run the world.
 
 Most programmers aren’t working on building a widely recognized application like Microsoft Word. Software is everywhere. It’s gone from a craft of fragile, built-from-scratch custom projects to an industry of standardized parts, where coders absorb and improve upon the labors of their forebears (even if those forebears are one cubicle over). Software is there when you switch channels and your cable box shows you what else is on. You get money from an ATM—software. An elevator takes you up five stories—the same. Facebook releases software every day to something like a billion people, and that software runs inside Web browsers and mobile applications. Facebook looks like it’s just pictures of your mom’s crocuses or your son’s school play—but no, it’s software.
 
@@ -169,11 +168,11 @@ We know that someone, somehow, enters a program into the computer and the progra
 
 ```
 
-That’s in a language called, simply, K, famous for its brevity. 
+That’s in a language called, simply, K, famous for its brevity.
 
 [2](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/?ref=refind#fn.2)
 
- That code will test if something is a palindrome. If you next typed in `ispal "able was i ere i saw elba"`, K will confirm that yes, this is a palindrome.
+That code will test if something is a palindrome. If you next typed in `ispal "able was i ere i saw elba"`, K will confirm that yes, this is a palindrome.
 
 So how else might your code look? Maybe like so, in Excel (with all the formulas hidden away under the numbers they produce, and a check box that you can check):
 
@@ -312,7 +311,7 @@ Algorithms don’t require computers any more than geometry does. An algorithm s
 
 Think of a map; streets connect to streets at intersections. It’s a graph! There are graphs all around you. Plumbing, electricity, code compilation, social networks, the Internet, all can be represented as graphs! (Now to monetize …)
 
-Many algorithms have their own pages on Wikipedia. You can spend days poking around them in wonder. [Euclid’s algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm), for example, is the go-to specimen that shows up whenever anyone wants to wax on about algorithms, so why buck the trend? It’s a simple way of determining the greatest common divisor for two numbers. Take two numbers, like 16 and 12. Divide the first by the second. If there’s a remainder (in this case there is, 4), divide the smaller number, 12, by that remainder, 4, which gives you 3 and no remainder, so we’re done—and 4 is the greatest common divisor.[Δ](<>) (Now translate that into machine code, and we can get out of here.)
+Many algorithms have their own pages on Wikipedia. You can spend days poking around them in wonder. [Euclid’s algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm), for example, is the go-to specimen that shows up whenever anyone wants to wax on about algorithms, so why buck the trend? It’s a simple way of determining the greatest common divisor for two numbers. Take two numbers, like 16 and 12. Divide the first by the second. If there’s a remainder (in this case there is, 4), divide the smaller number, 12, by that remainder, 4, which gives you 3 and no remainder, so we’re done—and 4 is the greatest common divisor.[Δ]() (Now translate that into machine code, and we can get out of here.)
 
 There’s a site called Rosetta Code that shows you different algorithms in different languages. The [Euclid’s algorithm page](http://rosettacode.org/wiki/Greatest_common_divisor) is great. Some of the examples are suspiciously long and laborious, and some are tiny nonsense poetry, like this one, in the language Forth:
 
@@ -326,13 +325,13 @@ Read it out loud, preferably to friends. Forth is based on the concept of a stac
 
 [5](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/?ref=refind#fn.5)
 
- the language of laser printers, came after Forth but is much like it. Look at how similar the code is, give or take some squiggles:
+the language of laser printers, came after Forth but is much like it. Look at how similar the code is, give or take some squiggles:
 
 ```
 
 ```
 
-And that’s Euclid’s algorithm in PostScript.[](<>) I admit, this might be fun only for me. Here it is in Python (all credit to Rosetta Code):
+And that’s Euclid’s algorithm in PostScript.[]() I admit, this might be fun only for me. Here it is in Python (all credit to Rosetta Code):
 
 ```
 
@@ -342,21 +341,21 @@ A programming language is a system for encoding, naming, and organizing algorith
 
 ![](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec1_edward.jpg)
 
-Dijkstra distributed a remarkable and challenging set of at least 1318 memos to the global computer science community, starting in the 1960s and continuing up until his death in 2002, known as “EWDs,” many of them [handwritten](http://www.cs.utexas.edu/~EWD/).[Δ](<>)
+Dijkstra distributed a remarkable and challenging set of at least 1318 memos to the global computer science community, starting in the 1960s and continuing up until his death in 2002, known as “EWDs,” many of them [handwritten](http://www.cs.utexas.edu/~EWD/).[Δ]()
 
 One thing that took me forever to understand is that computers aren’t actually “good at math.” They can be programmed to execute certain operations to certain degrees of precision, so much so that it looks like “doing math” to humans.
 
 [6](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/?ref=refind#fn.6)
 
- Dijkstra said: “Computer science is no more about computers than astronomy is about telescopes.”
+Dijkstra said: “Computer science is no more about computers than astronomy is about telescopes.”
 
 [7](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/?ref=refind#fn.7)
 
- A huge part of computer science is about understanding the efficiency of algorithms—how long they will take to run. Computers are fast, but they can get bogged down—for example, when trying to find the shortest path between two points on a large map. Companies such as Google, Facebook, and Twitter are built on top of fundamental computer science
+A huge part of computer science is about understanding the efficiency of algorithms—how long they will take to run. Computers are fast, but they can get bogged down—for example, when trying to find the shortest path between two points on a large map. Companies such as Google, Facebook, and Twitter are built on top of fundamental computer science
 
 [8](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/?ref=refind#fn.8)
 
- and pay great attention to efficiency, because their users do things (searches, status updates, tweets) an extraordinary number of times. Thus it’s absolutely worth their time to find excellent computer scientists, many with doctorates, who know where all the efficiencies are buried.
+and pay great attention to efficiency, because their users do things (searches, status updates, tweets) an extraordinary number of times. Thus it’s absolutely worth their time to find excellent computer scientists, many with doctorates, who know where all the efficiencies are buried.
 
 It takes a good mathematician to be a computer scientist, but a middling one to be an effective programmer. Until you start dealing with millions of people on a network or you need to blur or sharpen a million photos quickly, you can just use the work of other people. When it gets real, break out the comp sci. When you’re doing anything a hundred trillion times, nanosecond delays add up. Systems slow down, users get cranky, money burns by the barrel.
 
@@ -374,9 +373,9 @@ After a few months the budget is freed up, and the Web re-architecture project i
 
 He brings documents. Every document has its own name. The functional specification is a set of at least a thousand statements about users clicking buttons. “Upon accessing the Web page the user if logged in will be identified by name and welcomed and if not logged in will be encouraged to log in or create an account. (See user registration workflow.)”
 
-*God have mercy on our souls*. From there it lists various error messages. It’s a sort of blueprint in that it describes—in words, with occasional diagrams—a program that doesn’t exist.
+_God have mercy on our souls_. From there it lists various error messages. It’s a sort of blueprint in that it describes—in words, with occasional diagrams—a program that doesn’t exist.
 
-Some parts of the functional specification refer to “user stories,” tiny hypothetical narratives about people using the site, e.g., “As a visitor to the website, I want to search for products so I can quickly purchase what I want.” 
+Some parts of the functional specification refer to “user stories,” tiny hypothetical narratives about people using the site, e.g., “As a visitor to the website, I want to search for products so I can quickly purchase what I want.”
 
 [10](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/?ref=refind#fn.10)
 
@@ -434,9 +433,7 @@ Conferences began to develop codes of conduct, rules and algorithms for people (
 
 When people started talking about conference behavior, they also began to talk about the larger problems of programming culture. This was always an issue, but the conference issues gave people a point of common reference. Why were there so many men in this field? Why do they behave so strangely? Why is it so hard for them to be in groups with female programmers and behave in a typical, adult way?
 
-
-
-“I go to work and I stick out like a sore thumb. I have been mistaken for an administrative assistant more than once. I have been asked if I was physical security (despite security wearing very distinctive uniforms),” wrote Erica Joy Baker on [Medium.com](https://medium.com/thelist/the-other-side-of-diversity-1bb3de2f053e) who has worked, among other places, at Google.[Δ](<>)
+“I go to work and I stick out like a sore thumb. I have been mistaken for an administrative assistant more than once. I have been asked if I was physical security (despite security wearing very distinctive uniforms),” wrote Erica Joy Baker on [Medium.com](https://medium.com/thelist/the-other-side-of-diversity-1bb3de2f053e) who has worked, among other places, at Google.[Δ]()
 
 #### Famous women in coding history
 
@@ -445,7 +442,7 @@ Ada Lovelace: The first programmer. She devised algorithms for Charles Babbage�
 ![Ada Lovelace](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec1_lovelace.jpg)Grace Murray Hopper: World War II hero and inventor of the compiler.\
 ![Grace Murray](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec1_hopper.jpg)
 
-“Always the only woman in the meeting, often the first—the first female R&D engineer, first female project lead, first female software team lead—in the companies I worked for,” wrote another woman in *[Fast Company](http://www.fastcompany.com/3008216/tracking/minding-gap-how-your-company-can-woo-female-coders)* magazine.[](<>)
+“Always the only woman in the meeting, often the first—the first female R&D engineer, first female project lead, first female software team lead—in the companies I worked for,” wrote another woman in *[Fast Company](http://www.fastcompany.com/3008216/tracking/minding-gap-how-your-company-can-woo-female-coders)* magazine.[]()
 
 Fewer than a fifth of undergraduate degrees in computer science awarded in 2012 went to women, according to the National Center for Women & Information Technology. Less than 30 percent of the people in computing are women. And the number of women in computing has fallen since the 1980s, even as the market for their skills has expanded. The pipeline is a huge problem. And yet it’s not unsolvable. I’ve met managers who have built perfectly functional large teams that are more than half female coders. Places such as the handicrafts e-commerce site Etsy have made a particular effort to develop educational programs and mentorship programs. Organizations such as the not-for-profit Girl Develop It teach women, and just women, how to create software.
 
@@ -482,8 +479,6 @@ Making a new language is hard. Making a popular language is much harder still an
 **CODE ATLAS** Stack Overflow, a website for coders, asked users around the world to tell them which languages and technologies they’ve worked with over the past year. JavaScript was the most-selected language by far. Here, we show which technologies are used at an unusually high rate in each country.
 
 ![](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/modules/maps/images/ios.png)![](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/modules/maps/images/android.png)![](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/modules/maps/images/c.png)![](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/modules/maps/images/cplusplus.png)![](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/modules/maps/images/csharp.png)![](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/modules/maps/images/python.png)![](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/modules/maps/images/vb.png)![](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/modules/maps/images/wordpress.png)![](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/modules/maps/images/ruby.png)![](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/modules/maps/images/angular.png)![](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/modules/maps/images/node.png)
-
-
 
 LANGUAGES SHOWN FOR EACH COUNTRY ARE THOSE WITH THE HIGHEST PERCENT DIFFERENCE BETWEEN THAT COUNTRY'S SELECTION RATE AND THE AVERAGE SELECTION RATE. SOME ANCILLARY TECHNOLOGIES, LIKE SQL SERVER, WERE LEFT OUT.
 
@@ -543,7 +538,7 @@ C is as big a deal as you can get in computing. Created by Dennis Ritchie starti
 
 [12](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/?ref=refind#fn.12)
 
- that manages memory and runs software, a large collection of very small utility programs, and a “shell” that helps you knit programs into “shell scripts.” If you couldn’t do what you needed with shell scripts, you might write a new utility in C and add it to the utility library. This was a nice and practical way of working, and it coincided with the rise of various kinds of networks that today we refer to collectively as the Internet. So Unix spread from Bell Labs to academia, to large industrial systems, and eventually leached into the water supply of computing until it was everywhere. And everywhere that Unix went, C was sure to go.
+that manages memory and runs software, a large collection of very small utility programs, and a “shell” that helps you knit programs into “shell scripts.” If you couldn’t do what you needed with shell scripts, you might write a new utility in C and add it to the utility library. This was a nice and practical way of working, and it coincided with the rise of various kinds of networks that today we refer to collectively as the Internet. So Unix spread from Bell Labs to academia, to large industrial systems, and eventually leached into the water supply of computing until it was everywhere. And everywhere that Unix went, C was sure to go.
 
 ![](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec2_pullup.jpg)
 
@@ -577,17 +572,17 @@ And it produced:
 
 ```
 
-That runs the GNU C Compiler[](<>) and produces a default file called `a.out`, which I ran on the command line, 
+That runs the GNU C Compiler[]() and produces a default file called `a.out`, which I ran on the command line,
 
 [13](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/?ref=refind#fn.13)
 
- to get my squared numbers, and bully for me. If I wanted to change the code, I would run the commands, and the program would update accordingly.
+to get my squared numbers, and bully for me. If I wanted to change the code, I would run the commands, and the program would update accordingly.
 
-This isn’t great code by any stretch. 
+This isn’t great code by any stretch.
 
 [14](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/?ref=refind#fn.14)
 
- You just need to squint a little to see that there are small, repeatable units that fit together in certain ways. There’s a function called squares. That’s the important part. You feed it a number, an integer. Then it counts from 1 to that integer and with each count it prints the square of that number. Then it prints a new line. Done.
+You just need to squint a little to see that there are small, repeatable units that fit together in certain ways. There’s a function called squares. That’s the important part. You feed it a number, an integer. Then it counts from 1 to that integer and with each count it prints the square of that number. Then it prints a new line. Done.
 
 The Linux kernel is written in C. The software that connects your printer to your computer could be in C. The Web servers that serve up your Web pages are often written in C. It’s also a good language for writing other languages—Python, PHP, and Perl are written in C, as are many others. C is a language you use for building systems; it has the same role in computing that Latin did among Renaissance academics. You won’t often meet a serious practitioner of the digital arts who doesn’t have at least a passing familiarity. The more serious scholars are pretty fluent.
 
@@ -644,7 +639,7 @@ Python is a very interesting language and quite popular, too. It’s object-orie
 
 [15](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/?ref=refind#fn.15)
 
- And it’s widely understood to be easier than C for programmers to use, because it provides more abstractions for programmers to reuse. It hides much of the weirdness of the computer and many details of how computation is performed. Python is usually slower than C; this is the price you pay for all those sweet levels of abstraction. In the vast majority of cases this difference in speed truly doesn’t matter, regardless of how much people protest. It’s only of consequence when you’ve built up a system in Python and a part of it runs millions or billions of times, slowing down the computer—and thus requiring more resources to get its work done.
+And it’s widely understood to be easier than C for programmers to use, because it provides more abstractions for programmers to reuse. It hides much of the weirdness of the computer and many details of how computation is performed. Python is usually slower than C; this is the price you pay for all those sweet levels of abstraction. In the vast majority of cases this difference in speed truly doesn’t matter, regardless of how much people protest. It’s only of consequence when you’ve built up a system in Python and a part of it runs millions or billions of times, slowing down the computer—and thus requiring more resources to get its work done.
 
 What then? Does this mean you need to throw away all your Python and start over in some other language? Probably not. Python has a deserved reputation as a “glue language,” meaning you can take code from other, lower-level languages such as C, C++, and Fortran 77 (yes, as in the year 1977), code that is close to the machine and known to be sound, and write “wrapper functions.” That is, you can embed the older, faster code in the newer, slower, but easier-to-use system.
 
@@ -658,8 +653,6 @@ Python people, generally, are pretty cool.
 
 ## [4](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/?ref=refind#why-are-coders-angry)Why Are Coders Angry?
 
-
-
 There’s a website dedicated to language benchmarks, to measuring how fast certain languages run compared with others, and it includes this preface to stave off riots: “These are not the only compilers and interpreters. These are not the only programs that could be written. These are not the only tasks that could be solved. These are just 10 tiny examples.”
 
 [16](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/?ref=refind#fn.16)
@@ -668,19 +661,13 @@ It sometimes appears that everyone in coding has a beef. You can feel it coming 
 
 Languages have agendas. People glom onto them. Blunt talk is seen as a good quality in a developer, a sign of an “engineering mindset”—spit out every opinion as quickly as possible, the sooner to reach a technical consensus. Expect to be told you’re wrong; expect to tell other people they’re wrong. (Masculine anger, bluntly expressed, is part of the industry.)
 
-
-
 Coding is a culture of blurters. This can yield fast decisions, but it penalizes people who need to quietly compose their thoughts, rewarding fast-twitch thinkers who harrumph efficiently. Programmer job interviews, which often include abstract and meaningless questions that must be answered immediately on a whiteboard, typify this culture. Regular meetings can become sniping matches about things that don’t matter. The shorthand term for that is “bikeshedding.” (Who cares what color the bike shed is painted? Well …)
 
 Code culture is very, very broad, but the geographic and cultural core is the Silicon Valley engine of progress. The Valley mythologizes young geniuses with vast sums. To its credit, this culture works; to its shame, it doesn’t work for everyone.
 
-
-
-At any moment some new thing could catch fire and disrupt the tribal ebb and flow. Instagram was written in Python and sold for $700 million[Δ](<>), so Python had a moment of glory. The next mind-blowing app could show up, written in some new language—and start everyone taking that more seriously. Within 18 months your skills could be, if not quite valueless, suspect.
+At any moment some new thing could catch fire and disrupt the tribal ebb and flow. Instagram was written in Python and sold for $700 million[Δ](), so Python had a moment of glory. The next mind-blowing app could show up, written in some new language—and start everyone taking that more seriously. Within 18 months your skills could be, if not quite valueless, suspect.
 
 I was in a meeting once where someone said, “How long will it take to fix that?” One person, who’d been at the company for years, said, “Three months.” A new person, who’d just come from a world of rapidly provisioned cloud microservices, said, “Three minutes.” They were both correct. That’s how change enters into this world. Slowly at first, then on the front page of Hacker News.
-
-
 
 Programmers carve out a sliver of cognitive territory for themselves and go to conferences, and yet they know their position is vulnerable. They get defensive when they hear someone suggest that Python is better than Ruby, because \[insert 500-comment message thread here]. Is the next great wave swelling somewhere, and will it wash away Java when it comes? Will Go conquer Python? Do I need to learn JavaScript to remain profitable? Programmers are often angry because they’re often scared. We are, most of us, stumbling around with only a few candles to guide the way. We can’t always see the whole system, so we need to puzzle it out, bit by bit, in the dark.
 
@@ -728,7 +715,7 @@ Nerds in countless online forums pine after this discontinued modular Ikea works
 **Standing desk: GeekDesk Max**\
 With four preset heights, a steel frame, and dual motors that lift or lower the tabletop at 1.1 inches per second, this desk can support up to 335 pounds. It comes in small ($949) and large ($985).![](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec2_geekdesk.jpg)
 
-Meanwhile, the executives who run large programming teams have to actually ship software. “Ship” is a cult word. If they don’t ship on time, managers could get a lower rating on their performance reviews and end up making only inordinate, as opposed to obscene, amounts of money. Wine cellars are at risk, not to mention alimony payments. As managers, their job—along with all the trust falls and consensus-building and active listening—is to reduce ship risk, which comes in many forms: bad bugs; features that were promised to bosses or clients that distract from boring, utterly necessary features; or test servers that crash at night. 
+Meanwhile, the executives who run large programming teams have to actually ship software. “Ship” is a cult word. If they don’t ship on time, managers could get a lower rating on their performance reviews and end up making only inordinate, as opposed to obscene, amounts of money. Wine cellars are at risk, not to mention alimony payments. As managers, their job—along with all the trust falls and consensus-building and active listening—is to reduce ship risk, which comes in many forms: bad bugs; features that were promised to bosses or clients that distract from boring, utterly necessary features; or test servers that crash at night.
 
 One of the greatest ship risks is anything shiny. This is where languages are particularly risky. An experienced and talented programmer can learn a language in a week, but a middling one is going to take much longer. Meanwhile, exciting, interesting programming languages always come with a list of benisons, promises of speed or productivity or just happiness. No, really. Happiness is a serious selling point for languages, and people have written blog posts where they analyze how people discuss code. According to an [analysis by GitHub user Tobias Hermann](https://github.com/Dobiasd/programming-language-subreddits-and-their-choice-of-words), PHP coders are far more likely to use the word “hate” in their Reddit comments than Clojure programmers; Clojure programmers are far more likely to use the word “cool” than PHP programmers.
 
@@ -742,7 +729,7 @@ Managers and old coders have fewer options. It’s often better to just keep wor
 
 [18](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/?ref=refind#fn.18)
 
- accrues around you, because in a few years everything will change. Maybe you’ll get promoted and the new manager will have the will and motive to tear up everything you did, cursing, and start again (perhaps using a new language) with the goal of making something much simpler. Or the entire industry will spasm and everything you’ve done will need to be thrown away and rebuilt along new lines anyway. (From desktop to Web, from Web to mobile, from mobile to … quantum? Who knows. But there’s always something.)
+accrues around you, because in a few years everything will change. Maybe you’ll get promoted and the new manager will have the will and motive to tear up everything you did, cursing, and start again (perhaps using a new language) with the goal of making something much simpler. Or the entire industry will spasm and everything you’ve done will need to be thrown away and rebuilt along new lines anyway. (From desktop to Web, from Web to mobile, from mobile to … quantum? Who knows. But there’s always something.)
 
 ![](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/coder_logo.jpg)
 
@@ -753,8 +740,6 @@ Managers and old coders have fewer options. It’s often better to just keep wor
 Some code is beautiful and you want to read it, reuse it, and take it into your program and your heart. Some code is annoying and pretentious, and some code looks good at first and turns out to be kind of mean. Estimating code quality is a big part of programming. Go on—judge.
 
 \[OK]
-
-
 
 Somehow it keeps working out. The industry is always promising to eat itself, to come up with a paradigm so perfect that we can all stop wasting our time and enter a world of pure digital thought. It never happens.
 
@@ -792,7 +777,7 @@ A few of those 1,700 languages are still with us.
 
 [19](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/?ref=refind#fn.19)
 
- Cobol, for example, a legendary and much-hated, extremely verbose language that was intimately linked to the “year 2000” problem. As computer scientist Dijkstra once described it, “The use of Cobol cripples the mind; its teaching should, therefore, be regarded as a criminal offence.”
+Cobol, for example, a legendary and much-hated, extremely verbose language that was intimately linked to the “year 2000” problem. As computer scientist Dijkstra once described it, “The use of Cobol cripples the mind; its teaching should, therefore, be regarded as a criminal offence.”
 
 While no one sings its praises (except for banks—banks love Cobol), it still runs on mainframes. Fortran, for Formula Translating System, by John Backus, and LISP, for List Processor, by John McCarthy (eventually it was lowercased to Lisp, just as UNIX became Unix), were both developed in the 1950s, in the days of *Desk Set*-style computers fed by huge tapes or paper cards, and both are still in use today. The power granted by Fortran was inherent in its name—it looks almost comically computerish:
 
@@ -809,7 +794,7 @@ That’s the same program that we wrote in C, page 50, the one that ever-so-usef
 
 [20](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/?ref=refind#fn.20)
 
- It excels at the numerical computing needed by scientists and still beats C for some tasks. Physicists and astronomers like (well, live with) Fortran.
+It excels at the numerical computing needed by scientists and still beats C for some tasks. Physicists and astronomers like (well, live with) Fortran.
 
 Lisp, though, is another kind of beast. It emerged straight out of mathematical research. There are many things that made Lisp peculiar. Some people say it stands for “Lots of superfluous parentheses.”
 
@@ -823,7 +808,7 @@ Back in the 1980s, while the Fortran programmers were off optimizing nuclear wea
 
 [22](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/?ref=refind#fn.22)
 
- The Lisp machine companies began to shut down and sell off their assets. Students were more likely to learn C or Java. Lisp became a cautionary tale, its unique, unified vision of the computer a fond memory of a better era. And yet …
+The Lisp machine companies began to shut down and sell off their assets. Students were more likely to learn C or Java. Lisp became a cautionary tale, its unique, unified vision of the computer a fond memory of a better era. And yet …
 
 There’s still quite a bit of Lisp in the world, such as in the air-travel data system built by ITA, which was acquired by Google. When you Google “flight from nyc to berlin,” ITA is in there in the background, running Lisp. There was a time when Lisp looked to be deader than ancient Greek: a beautiful philosophical system, but not practical.
 
@@ -837,7 +822,7 @@ In the interest of understanding more about how all this works, and with an open
 
 Two of them are late, and bravely you ask the one already in attendance to explain what’s going on. He quickly gathers the limits of your information through a series of questions, beginning with, “Do you know what a Web page is?”
 
-Here’s what he shows you: To gather an e-mail address and a name, you can make a Web page using HTML. 
+Here’s what he shows you: To gather an e-mail address and a name, you can make a Web page using HTML.
 
 [23](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/?ref=refind#fn.23)
 
@@ -847,7 +832,7 @@ Here’s the HTML—make changes below!
 
 ```
 
- 
+
 
 And that looks like this:
 
@@ -855,15 +840,11 @@ On today’s agenda: How to make sure that registration is a positive experience
 
 Enter the remaining two programmers. Programmer A, who is senior, takes her place at the whiteboard. …
 
-
-
 **Programmer A:** “Let’s just start with e-mail validation.”
 
- 
+
 
 **Programmer B:** “Can you define valid?”
-
-
 
 **Programmer C:** “A well-formed—”
 
@@ -897,7 +878,7 @@ What really, really worries me are “temporary” e-mail services, right? Like 
 
 So don’t let anyone enter a Mailinator address.
 
-*\[Typing.]*
+_\[Typing.]_
 
 Right, but Mailinator.com doesn’t have just one address. It has, like, 300.
 
@@ -1039,7 +1020,7 @@ Clojure was created by Rich Hickey, who decided that he wanted a new, modern ver
 
 [26](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/?ref=refind#fn.26)
 
- Lisp may be old for a language, but it’s still revered as a classic model for thought, like a Braun shaver or an Eames chair for the mind. Hickey worked on Clojure for many years, eventually adapting it to run on the JVM. This was a dramatic choice, because it meant that Clojure had access to the entirety of the Java class library.
+Lisp may be old for a language, but it’s still revered as a classic model for thought, like a Braun shaver or an Eames chair for the mind. Hickey worked on Clojure for many years, eventually adapting it to run on the JVM. This was a dramatic choice, because it meant that Clojure had access to the entirety of the Java class library.
 
 Now you walk into the office and sit at your computer and write a little Lisp-ish code, very elegant and well-considered and trim and comfortable, but you have access to thousands and thousands of incredibly well-thought-out and totally functional free libraries that you can use to get your work done.
 
@@ -1053,13 +1034,13 @@ Java was supposed to supplant C and run on smart jewelry. Now it runs applicatio
 
 [27](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/?ref=refind#fn.27)
 
- It runs on billions of things. It won. C and C++, which it was designed to supplant, also won. A lot of things keep winning because computers keep getting more plentiful. It’s weird.
+It runs on billions of things. It won. C and C++, which it was designed to supplant, also won. A lot of things keep winning because computers keep getting more plentiful. It’s weird.
 
 ### [5.6](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/?ref=refind#off-the-shelf)Off the Shelf
 
 A few weeks later, when he’s in the office and in for his meeting, you ask TMitTB if there’s a way to use more off-the-shelf components, a way to buy your way out of this.
 
-#### *Sending an e-mail*
+#### _Sending an e-mail_
 
 **If you need your JavaScript application to automatically send someone an e-mail, you might do something like:**
 
@@ -1088,15 +1069,15 @@ You come to the conclusion: The world is broken.
 
 ### [5.7](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/?ref=refind#what-about-javascript)What About JavaScript?
 
-Remember Netscape, the first huge commercial Web browser? In 1995, as Java was blooming, Netscape was resolving a problem. It displayed Web pages that were not very lively. You could have a nice cartoon of a monkey on the Web page, but there was no way to make the monkey dance when you moved over it with your mouse. Figuring out how to make that happen was the job of a language developer named Brendan Eich. He sat down and in a few weeks created a language called JavaScript.[](<>)
+Remember Netscape, the first huge commercial Web browser? In 1995, as Java was blooming, Netscape was resolving a problem. It displayed Web pages that were not very lively. You could have a nice cartoon of a monkey on the Web page, but there was no way to make the monkey dance when you moved over it with your mouse. Figuring out how to make that happen was the job of a language developer named Brendan Eich. He sat down and in a few weeks created a language called JavaScript.[]()
 
 JavaScript’s relationship with Java is tenuous; the strongest bond between the languages is the marketing linkage of their names. And the early history of JavaScript was uninspiring. So the monkey could now dance. You could do things to the cursor, make things blink when a mouse touched them.
 
-But as browsers proliferated and the Web grew from a document-delivery platform into a software-delivery platform, JavaScript became, arguably, the most widely deployed language runtime 
+But as browsers proliferated and the Web grew from a document-delivery platform into a software-delivery platform, JavaScript became, arguably, the most widely deployed language runtime
 
 [28](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/?ref=refind#fn.28)
 
- in the world. If you wrote some JavaScript code, you could run it wherever the Web was—everywhere.
+in the world. If you wrote some JavaScript code, you could run it wherever the Web was—everywhere.
 
 JavaScript puttered around for years in the wilderness, as Java did, too. But without the resolute support of a corporate entity like Sun.
 
@@ -1112,7 +1093,7 @@ As with any celebrity, there’s a whole industry dedicated to spackling up its 
 
 Back in the era of the iPod and candy-colored Macintoshes, Apple took the code of an open-source Web browser called Konqueror and modified it to create Safari, its own Web browser to compete with Microsoft’s Internet Explorer. Then in 2008 Google started to make its own modifications to the Web engine underneath Safari, called Webkit, and made its own version called Chrome with a ­spanking-fast JavaScript engine called V8. They made JavaScript fast. “Devs still approach performance of JS code as if they are riding a horse cart,” tweeted one developer, “but the horse had long been replaced with fusion reactor.” Google does better when JavaScript is fast.
 
-In 2009 a developer named Ryan Dahl modified the V8 engine, which was free software, and made it run outside the browser.[Δ](<>) There had been freestanding versions of JavaScript before (including some that ran inside Java, natch), but none so fast. He called this further fork Node.js, and it just took off. One day, JavaScript ran inside Web pages. Then it broke out of its browser prison. Now it could operate anywhere. It could touch your hard drive, send e-mail, erase all your files. It was a real programming language now. And the client … had become the server.
+In 2009 a developer named Ryan Dahl modified the V8 engine, which was free software, and made it run outside the browser.[Δ]() There had been freestanding versions of JavaScript before (including some that ran inside Java, natch), but none so fast. He called this further fork Node.js, and it just took off. One day, JavaScript ran inside Web pages. Then it broke out of its browser prison. Now it could operate anywhere. It could touch your hard drive, send e-mail, erase all your files. It was a real programming language now. And the client … had become the server.
 
 Here’s some JavaScript, squaring some numbers for you:
 
@@ -1124,23 +1105,23 @@ In a great and sudden wave, thousands of developers began to use Node.js and cre
 
 Soon the community developed a huge library of packages—bits of software that do specific things, such as reading files, or chattering with databases, or talking to Amazon’s Web services tools. At this writing, npmjs.com has 150,000 packages, and more than a billion copies of various packages have been downloaded in the past month.
 
-NPM stands for Node Package Manager.[](<>) It’s software that helps you install packages and … well, it’s unwieldy, honestly, because many of those 150,000 packages are just not that great. It’s a lot of searching and testing and sighing. But when you have this much stuff to pick from, for free, you shouldn’t complain. 
+NPM stands for Node Package Manager.[]() It’s software that helps you install packages and … well, it’s unwieldy, honestly, because many of those 150,000 packages are just not that great. It’s a lot of searching and testing and sighing. But when you have this much stuff to pick from, for free, you shouldn’t complain.
 
 [30](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/?ref=refind#fn.30)
 
- JavaScript is a hodgepodge designed in a hurry, and it runs on, well, who knows, but let’s say a billion-plus devices, so you might as well get with the program. Your customers may not have iPhones, but they probably have some way of running JavaScript.
+JavaScript is a hodgepodge designed in a hurry, and it runs on, well, who knows, but let’s say a billion-plus devices, so you might as well get with the program. Your customers may not have iPhones, but they probably have some way of running JavaScript.
 
-So you might use JavaScript to make a more interesting Web page. You might use it to make the client-side of a full-fledged application, like Google Docs, that runs in the browser. You might use it to make a Web server that talks to a Web browser. Or you might use it to make an API 
+So you might use JavaScript to make a more interesting Web page. You might use it to make the client-side of a full-fledged application, like Google Docs, that runs in the browser. You might use it to make a Web server that talks to a Web browser. Or you might use it to make an API
 
 [31](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/?ref=refind#fn.31)
 
- that serves up data to a “client,” and sure, that client could be a laptop Web browser. But it’s 2015, and that client is quite probably an app on a smartphone.
+that serves up data to a “client,” and sure, that client could be a laptop Web browser. But it’s 2015, and that client is quite probably an app on a smartphone.
 
 ### [5.8](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/?ref=refind#whats-the-absolute-minimum-i-must-know-about-php)What’s the Absolute Minimum I Must Know About PHP?
 
 You can get a site up and running in PHP in a few minutes, and that’s the problem. It used to be the terrible choice you made when you needed to get something done on the Web, but increasingly JavaScript has replaced it as the default terrible choice.
 
-PHP stands for Personal Home Page/Forms Interpreter.[](<>) The idea was that when you loaded your Web pages, the PHP code would run before the page went out to the Internet. And PHP could, say, check whether you were logged in. If you were, it could show you your top secret account details; and if you weren’t, it could say, “Please log in.”
+PHP stands for Personal Home Page/Forms Interpreter.[]() The idea was that when you loaded your Web pages, the PHP code would run before the page went out to the Internet. And PHP could, say, check whether you were logged in. If you were, it could show you your top secret account details; and if you weren’t, it could say, “Please log in.”
 
 I know a lot of people who program in PHP, and they are smart, good people. PHP powers Etsy and Facebook. It powers Wikipedia, for God’s sake. WordPress. Out of all the Web’s pages, an enormous percentage is created with PHP.
 
@@ -1227,7 +1208,7 @@ The modern OS is a feast of wonders: fast video, music players, buckets of butto
 
 [35](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/?ref=refind#fn.35)
 
- Freedom. (Sort of. They’re still just bezels.) Things that used to require labor and care—showing a map, rotating a giant 3D landscape—can now be done with a few lines of code.
+Freedom. (Sort of. They’re still just bezels.) Things that used to require labor and care—showing a map, rotating a giant 3D landscape—can now be done with a few lines of code.
 
 When everyone goes to Apple’s annual Worldwide Developers Conference in San Francisco and they stare rapturously as some man in an untucked, expensive shirt talks about “core data,” this is the context. Onstage, presenting its Kits, Apple is rearranging abstractions, saying: Look at the new reality we’ve defined, the way that difficult things are now easy and drab things can be colorful. Your trust in our platform and your dedication of thousands of hours of time have not been misplaced.
 
@@ -1277,7 +1258,7 @@ The opinions of a framework are strong, but not as strong as an SDK. Those are t
 
 [37](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/?ref=refind#fn.37)
 
- shows almost 40 different frameworks for Java alone and almost 30 for PHP.
+shows almost 40 different frameworks for Java alone and almost 30 for PHP.
 
 Most of the good frameworks are free, released to solve problems and bring glory and influence to their creators, rather than great riches and control. They spread organically. People see a video tutorial showing them how to make a blog in a few minutes. Then they copy that work and say, “That was easy,” and show their friends. Websites go live, and programmers talk about how quickly they developed said websites.
 
@@ -1287,7 +1268,7 @@ If you’re building a Web app, you’d be a fool not to use a Web framework at 
 
 In programming, there are as many ways to destroy something as to create something. One stray character is all that’s required. Say you forget a semicolon or use an accented “é” somewhere, but the code is not prepared for such a peculiarity—KABOOM! Or you add two things together, but one is the numeral 4 and the other is “4” as a string, as you might use to say “4 and 20 blackbirds baked in a pie.” To the computer, that “4 and 20” has no numeric significance.
 
-This sort of thing really happens, and part of the job is remembering that 4 + 20 is 24 and 4 + “20” is “420”.[](<>)
+This sort of thing really happens, and part of the job is remembering that 4 + 20 is 24 and 4 + “20” is “420”.[]()
 
 Programming is debugging. It’s the expectation that things won’t work. This is not something people bring up, just like they don’t bring up their medical history on the first date. Most languages have constructs built in for catching failures, trapping them like wild animals, examining them, and, well, exterminating them. In time, as the relationship between you and a programming language blossoms, you come to realize that what truly characterizes a language is not what it does, but how it tells you what broke. Most of your programming life will be spent trying to figure out what broke, and if the computer helps you, maybe you can watch your kids play soccer.
 
@@ -1323,7 +1304,7 @@ So what we know now is that the combination of Angular, ui-router, Yeoman, Gulp,
 
 Someone came in to answer this question, too. “To be able to use the header state in the home state,” wrote Stack Overflow user Matt Tester, “they will need to \[be] nested (chained). So, it’s not obvious, but you can safely make one state the parent of another in separate files/configs because of the way registration works.” So. There you go. That solves it.
 
-JavaScript is fast-moving right now. Too much of what you know today will be useless in six months. Every hard-fought factoid about the absolute best and most principled way to use the language will be fetid zoo garbage by the end of the year. And some sniveling, bearded man-toddler will be looking slightly to your right with his pale, buzzword-infected eyes and awkwardly mumbling, “Yeah, no, wow, it says you have a lot of Gulp and Angular, but I’m guessing you don’t use Fleejob or Grimmex with the Snurt extensions? (*Long sigh*.) I’m just not sure if you’re gonna like working here.”
+JavaScript is fast-moving right now. Too much of what you know today will be useless in six months. Every hard-fought factoid about the absolute best and most principled way to use the language will be fetid zoo garbage by the end of the year. And some sniveling, bearded man-toddler will be looking slightly to your right with his pale, buzzword-infected eyes and awkwardly mumbling, “Yeah, no, wow, it says you have a lot of Gulp and Angular, but I’m guessing you don’t use Fleejob or Grimmex with the Snurt extensions? (_Long sigh_.) I’m just not sure if you’re gonna like working here.”
 
 Anyway, that’s one question on Stack Overflow.
 
@@ -1353,8 +1334,6 @@ Bugs aren’t the original sin of programming. They’re just part of life, like
 
 In my opinion, version control is one of the most beautiful things about programming. It’s one of code culture’s gifts to the world. Version control isn’t like “track changes” in Microsoft Word. That’s a shameful monstrosity that can make even a powerful computer stutter, something only a lawyer could love. No, version control is something different.
 
-
-
 ... that you could have a record of every change made to the many, many documents that go into your codebase ...
 
 Well that’s interesting. I mean, I could use that for all kinds of things. I could use that to find out where bugs entered the system, for example.
@@ -1381,7 +1360,7 @@ Shut up, shut up, and take everything, disembodied code voice, take everything! 
 
 ... and it’s all completely, totally free to download and is the default way of distributing source code throughout the world!
 
-(*Faints.*)
+(_Faints._)
 
 And that’s why everyone gets excited about GitHub. You should go to GitHub, you really should. You should poke around and look through the thousands of repositories there, read some of the README files. And you should look into the code, and then look at the commits. A “commit” is a moment of action captured and stored. You can compare one commit with another and see a “diff,” see what’s been added and what’s been removed. See what you can figure out. Take a look at the screen shot below.
 
@@ -1395,7 +1374,7 @@ This is the experience of using version control. It’s a combination news feed 
 
 [38](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/?ref=refind#fn.38)
 
- which had been developed at first by Linus Torvalds, the chief architect of Linux, and started adding tools and services around it.
+which had been developed at first by Linus Torvalds, the chief architect of Linux, and started adding tools and services around it.
 
 The way git works is that you can copy the code and all the changes ever made to the code with one command:
 
@@ -1433,23 +1412,24 @@ If your software was at Version 2, you could bundle up all the changes and tag t
 
 A change comes in a few seconds later from a coder far away; doesn’t matter to Version 3. You’re done with Version 3. Version 3 is part of the permanent record. You might fix some bugs and call that Version 3.1. You might add another feature and call it Version 4.
 
-Tools such as git give programmers a common language. “Did you check that in?” they ask. “Which commit was that?” “That was going to be in 2.4, but we pushed it to 2.5.” Because each commit gets a unique identifier, you can pinpoint that commit in space and time and feel confident in the record of code changes in a way that you can rarely feel confident about anything.[Δ](<>)
+Tools such as git give programmers a common language. “Did you check that in?” they ask. “Which commit was that?” “That was going to be in 2.4, but we pushed it to 2.5.” Because each commit gets a unique identifier, you can pinpoint that commit in space and time and feel confident in the record of code changes in a way that you can rarely feel confident about anything.[Δ]()
 
 A side effect of this confidence is increased automation. Let’s say you have a Web server program that’s very popular and serves hundreds of millions of people every month. It runs on 50 different computers on the cloud. Aren’t you something.
 
 Your diligent decentralized team frequently writes new code that runs on the servers. So here’s a problem: What’s the best way to get that code onto those 50 computers? Click and drag with your mouse? God, no. What are you, an animal? You set up a continuous integration server and install plug-ins and let the robots serve you.
 
-Programmers hardly talk about code. 
+Programmers hardly talk about code.
 
 [39](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/?ref=refind#fn.39)
 
- They chat about data. They chat about requirements and interesting approaches. And they chat constantly about deployment. Which makes sense, because that’s the goal of their work—getting their code from their brain through testing and out to the world, in Web, app, or other form. Programmers, good ones, want to ship and move on to the next nail-biting problem. So there are lots of policies, tons of them, for deploying fresh code. For example:
+They chat about data. They chat about requirements and interesting approaches. And they chat constantly about deployment. Which makes sense, because that’s the goal of their work—getting their code from their brain through testing and out to the world, in Web, app, or other form. Programmers, good ones, want to ship and move on to the next nail-biting problem. So there are lots of policies, tons of them, for deploying fresh code. For example:
 
 1. All programming work must happen in a branch.
-2. When work is done, we will merge it back into the main branch; and 
+2. When work is done, we will merge it back into the main branch; and
 
    1. Run tests;
    2. Then “push” the code over to GitHub.
+
 3. At which point an automated service will run; and
 4. A service running on each of the 50 computers will “check out” the code; and
 5. Install it, overwriting the old version;
@@ -1578,10 +1558,10 @@ The management of programmers is a discipline unto itself. There are subdiscipli
 
 The [Agile Manifesto](http://www.agilemanifesto.org/) (yep, manifesto) reads as follows:
 
-* Individuals and interactions over processes and tools
-* Working software over comprehensive documentation
-* Customer collaboration over contract negotiation
-* Responding to change over following a plan
+- Individuals and interactions over processes and tools
+- Working software over comprehensive documentation
+- Customer collaboration over contract negotiation
+- Responding to change over following a plan
 
 There are 17 signatories. And there are as many variations of Agile. I’ve had terrible meetings in my life when I sat between two teams and one of them explained, at length, why Agile with Kanban was better than Agile with Scrum. You could smell the money burning.
 
@@ -1659,7 +1639,7 @@ We can’t teach you to code, but we can hold your hand through a live-fire exer
 
 Yes, I want to see and write real live code.
 
-The industry twists and turns so often, though, that who knows what the next 10 or 20 years will bring? The iPhone, and mobile in general, created a brief renaissance for people who could program using lower-level languages such as Objective-C, people who could worry about a computer’s memory. Perhaps the Internet of Things will turn everything into a sensor. (Already you wander Disney World with a wristband, and it watches and tracks you; the whole place is a computer. [Δ](<>)) This will require yet more low-level thinking. And then there will be websites to make, apps to build, and on and on.
+The industry twists and turns so often, though, that who knows what the next 10 or 20 years will bring? The iPhone, and mobile in general, created a brief renaissance for people who could program using lower-level languages such as Objective-C, people who could worry about a computer’s memory. Perhaps the Internet of Things will turn everything into a sensor. (Already you wander Disney World with a wristband, and it watches and tracks you; the whole place is a computer. [Δ]()) This will require yet more low-level thinking. And then there will be websites to make, apps to build, and on and on.
 
 There’s likely to be work. But it’s a global industry, and there are thousands of people in India with great degrees. Some used to work at Microsoft, Google, and IBM. The same things that made programming a massive world-spanning superstructure—that you can ship nothing and charge for it—make it the perfect globalized industry. There’s simply no reason, aside from prejudice, to think that Mumbai or Seoul can’t make big, complex things as well as Palo Alto or Seattle.
 
@@ -1677,7 +1657,7 @@ Code has atomized entire categories of existence that previously appeared whole.
 
 I’m happy to have lived through the greatest capital expansion in history, an era in which the entirety of our species began to speak, awkwardly, in digital abstractions, as venture capitalists waddle around like mama birds, dropping blog posts and seed rounds into the mouths of waiting baby bird developers, all of them certain they will grow up to be billionaires. It’s a comedy of ego, made possible by logic gates. I am not smart enough to be rich, but I’m always entertained. I hope you will be, too. Hello, world!
 
-[](<>)
+[]()
 
 ![](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec3_paul.jpg)
 

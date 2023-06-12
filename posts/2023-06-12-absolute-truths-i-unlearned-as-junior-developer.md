@@ -3,27 +3,30 @@ layout: layouts/post.njk
 title: Absolute Truths I Unlearned as Junior Developer
 description: A few things I strongly believed when I was a junior developer
   which turned out to be wrong.
-publishDate: 2023-06-12
+publishDate: 2023-09-02
 category: code
 author: Monica Lent
 minRead: 15
 featuredImage: https://monicalent.com/images/typing-with-flowers.jpg
 ---
+
+<!-- @format -->
+
 <!--StartFragment-->
 
 Next year, I’ll be entering my 10th year of being formally employed to write code. Ten years! And besides actual employment, for nearly 2/3 of my life, I’ve been building things on the web. I can barely remember a time in my life where I didn’t know HTML, which is kind of weird when you think about it. Some kids learn to play an instrument or dance ballet, but instead I was creating magical worlds with code in my childhood bedroom.
 
 In reflecting on this first decade of getting regularly paid money to type weird symbols into my Terminal, I wanted to take some time to share **some of the ways my thinking shifted over the years as a developer**.
 
-*For today’s junior developers*: Maybe you’ll find something here you currently believe, and get inspired to learn more about it and why the topic is so multi-faceted. Or maybe you’ll find this post encouraging because you’re already so far ahead of where I was at your stage.
+_For today’s junior developers_: Maybe you’ll find something here you currently believe, and get inspired to learn more about it and why the topic is so multi-faceted. Or maybe you’ll find this post encouraging because you’re already so far ahead of where I was at your stage.
 
-*For today’s senior developers*: Maybe you can relate, and also have some funny (and humbling) stories to share about your own life lessons when you were a junior dev.
+_For today’s senior developers_: Maybe you can relate, and also have some funny (and humbling) stories to share about your own life lessons when you were a junior dev.
 
 To be clear, **I think junior developers are awesome** and just showing up to learn already takes a ton of courage. This post is about my own journey and learnings, and isn’t meant to be a generalization about how all junior devs think or behave.
 
 I hope you enjoy the post and can relate a little bit 😄
 
-> *Thanks to [Artem](https://twitter.com/iamsapegin) and [Sara](https://twitter.com/NikkitaFTW) for your feedback on this post!*
+> _Thanks to [Artem](https://twitter.com/iamsapegin) and [Sara](https://twitter.com/NikkitaFTW) for your feedback on this post!_
 
 ## Absolute truths I unlearned as a junior developer
 
@@ -67,7 +70,7 @@ You’re also not responsible to make any money or produce results, but that is 
 
 Expectations about how the industry would work. There would be automated deployment. Pull requests and code review. It was going to be glorious! Finally the [code quality](https://monicalent.com/blog/2019/06/03/absolute-truths-unlearned-as-junior-developer/#4-code-quality-matters-most) I had been longing for! But beyond quality code with *proper standards* and *best practices*, I strongly believed, **everyone in the software industry writes tests**.
 
-*Ahem.*
+_Ahem._
 
 So imagine my surprise when I showed up at my first day on the job at a startup and found no tests at all. No tests in the frontend. No tests in the backend. Just, no tests.
 
@@ -153,7 +156,7 @@ I literally once spent a weekend manually fixing 800 linting errors.
 
 That’s how neurotic I was.
 
-*(Disclaimer: This was before auto-fixing was a thing)*
+_(Disclaimer: This was before auto-fixing was a thing)_
 
 #### What I eventually learned
 

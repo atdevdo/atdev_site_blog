@@ -2,23 +2,26 @@
 layout: layouts/post.njk
 title: Trouble hiring senior engineers?
 description: It's probably you
-publishDate: 2023-06-12
+publishDate: 2023-04-19
 category: code
 author: Alexander
 minRead: 17
 featuredImage: https://plus.unsplash.com/premium_photo-1661759255631-02559c1e0bc8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c29mdHdhcmUlMjBlbmdpbmVlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60
 ---
+
+<!-- @format -->
+
 <!--StartFragment-->
 
 Undeniably, hiring senior software engineers is hard. However, I don’t buy into the narrative that the market is completely dried out. Throughout my career, I’ve worked with many different engineering teams, which could all be sorted into two categories: The ones struggling to hire seniors and the ones that had an easy time. In fact, the teams in the latter category were usually full.
 
 There are many reasons why some teams fail to attract good talent. But all the teams that have an easy time have realized a simple fact about our current market situation:
 
-***When hiring senior engineers, the company doesn’t choose the candidate, the candidate chooses the company.***
+**_When hiring senior engineers, the company doesn’t choose the candidate, the candidate chooses the company._**
 
 Or, put more simply:
 
-***When hiring senior engineers, you’re not buying, you’re selling.***
+**_When hiring senior engineers, you’re not buying, you’re selling._**
 
 If you disagree with the above statement, let me put it into perspective. Some years ago, my resume got into a recruiter network. At the time I had about 3 years of experience as a software engineer in smaller companies. For days my inbox was flooded with recruiter emails. Another time, a few years later, I got unsolicited phone calls from three different recruiters in a single day.
 
@@ -56,15 +59,15 @@ Subscribe
 
 Going beyond the job posting, most companies make it really hard to find some vital information about them. Be honest, is it easy to find answers to all the following questions that might be super important to prospective hires? Easy as in, max. one click away from your job posting?
 
-* How’s the company organized?
-* What management style or development methodology (e.g. Scrum, XP) does the team use? Does management have a technical background?
-* How many people are on the team?
-* How do you handle working hours? Do you use time tracking?
-* Which product/area of the product will I be working on?
-* What does the office environment look like? What hardware will I be using?
-* How do people usually dress at the office?
-* Does the team go out for lunch together?
-* …
+- How’s the company organized?
+- What management style or development methodology (e.g. Scrum, XP) does the team use? Does management have a technical background?
+- How many people are on the team?
+- How do you handle working hours? Do you use time tracking?
+- Which product/area of the product will I be working on?
+- What does the office environment look like? What hardware will I be using?
+- How do people usually dress at the office?
+- Does the team go out for lunch together?
+- …
 
 Of course, different people have different needs. Not everyone will care about all these questions, but to many, your answers will be critically important.
 
@@ -88,10 +91,10 @@ I’ve personally experienced all these things, sometimes all at once.
 
 Let’s break down this scenario into specific points and recommendations. Most of these should be obvious, but a lot of companies still get them wrong.
 
-* Be on time. Don’t let your candidates wait.
-* Be well prepared. You should’ve read your candidate’s resume before and have a structure to your interview. You should know as much as possible about the position and be prepared to answer questions.
-* Be friendly. This seems so obvious but it’s super important and so many companies get it wrong. It’s a question of mindset. Give the candidate the feeling that you genuinely want to hire them. Don’t ever think they have to prove themselves to you - if anything you have to prove yourself to them. Even if they turn out to be a weak candidate, it’s still better to make a good impression on them. Maybe they’ll tell their friends about their great experience or re-apply in a few years with better skills.
-* Be quick with your decisions, without being pushy.
+- Be on time. Don’t let your candidates wait.
+- Be well prepared. You should’ve read your candidate’s resume before and have a structure to your interview. You should know as much as possible about the position and be prepared to answer questions.
+- Be friendly. This seems so obvious but it’s super important and so many companies get it wrong. It’s a question of mindset. Give the candidate the feeling that you genuinely want to hire them. Don’t ever think they have to prove themselves to you - if anything you have to prove yourself to them. Even if they turn out to be a weak candidate, it’s still better to make a good impression on them. Maybe they’ll tell their friends about their great experience or re-apply in a few years with better skills.
+- Be quick with your decisions, without being pushy.
 
 ### A quick side note about programming assignments
 

@@ -2,13 +2,16 @@
 layout: layouts/post.njk
 title: Why Being Alone Is Key To Self-Improvement
 description: Often, we get loneliness and solitude (being alone) confused.
-publishDate: 2023-06-09
+publishDate: 2020-02-09
 category: growth
 author: Anthony Alayon
 minRead: 5
 featuredImage: https://images.unsplash.com/photo-1499084732479-de2c02d45fcc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1031&q=80
 featuredVideo: https://www.youtube.com/watch?v=e4TFYAFzmPA
 ---
+
+<!-- @format -->
+
 <!--StartFragment-->
 
 However, the two are very different aspects of the same physical manifestation.
@@ -31,16 +34,16 @@ This need for social interaction and belonging is still an important part of our
 
 Social interaction can:
 
-* Lead to better mental health
-* Lower your risk of dementia
-* Make us feel safe
-* Give you a network of people to confide in
+- Lead to better mental health
+- Lower your risk of dementia
+- Make us feel safe
+- Give you a network of people to confide in
 
 To inspire individual thought and introspection, one needs to cleave from this paradigm and free up the mental space necessary to focus on the bigger picture and long-term goals.
 
 For this moment, *it’s okay to forget about the needs of others*.
 
-> ## ***Being alone doesn’t mean being lonely.***
+> ## **_Being alone doesn’t mean being lonely._**
 
 The two are not mutually exclusive.
 
@@ -84,7 +87,7 @@ It releases you of your immediate responsibility to others and allows you the ti
 
 *Christopher Long* and *James Averill* advocate that alone time are essential by stating:
 
-> **“*The paradigm experience of solitude is a state characterized by disengagement from the immediate demands of other people—a state of reduced social inhibition and increased freedom to select one’s mental and physical activities.”***
+> **“_The paradigm experience of solitude is a state characterized by disengagement from the immediate demands of other people—a state of reduced social inhibition and increased freedom to select one’s mental and physical activities.”_**
 
 The human brain is not built to multitask well.
 
@@ -110,7 +113,7 @@ Solitude is a crucial and fundamental ingredient for creativity.
 
 It is imperative that you put time aside for being alone.
 
-A worthy suggestion is putting aside time each week for a “*Date with Yourself*.”
+A worthy suggestion is putting aside time each week for a “_Date with Yourself_.”
 
 This could include anything: a walk in the wilderness or a visit to a previously unknown location.
 
@@ -126,7 +129,7 @@ Using your alone time adequately makes it possible to do just this.
 
 This *Seneca* quote rings extremely true concerning goal setting and the achievements thereof.
 
-> **“*Our plans miscarry because they have no aim. When a man does not know what harbor he is making for, no wind is the right wind.”***
+> **“_Our plans miscarry because they have no aim. When a man does not know what harbor he is making for, no wind is the right wind.”_**
 
 This is essentially saying that if you don’t have a destination or aim in mind, then it is *almost* impossible to achieve it.
 
@@ -142,9 +145,9 @@ It helps you continuously improve your life, rather than just tediously plodding
 
 Self-reflection encompasses being self-questioning and honest with yourself about:
 
-* who you are
-* what are you doing
-* what you would like to do
+- who you are
+- what are you doing
+- what you would like to do
 
 It is an essential part of self-learning and self-discovery.
 

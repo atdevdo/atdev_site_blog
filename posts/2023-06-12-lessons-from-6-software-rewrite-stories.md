@@ -2,40 +2,43 @@
 layout: layouts/post.njk
 title: Lessons from 6 software rewrite stories
 description: the single worst strategic mistake that any software company can make
-publishDate: 2023-06-12
+publishDate: 2021-06-12
 category: code
 author: Herb Caudill
 minRead: 18
 featuredImage: https://miro.medium.com/v2/resize:fit:3818/format:webp/1*ywYwvB-aydv0Ovx7K-5P3g.jpeg
 ---
+
+<!-- @format -->
+
 <!--StartFragment-->
 
 > “As if source code **rusted**!” — *Joel Spolsky*
 
-Almost two decades ago, 
+Almost two decades ago,
 
 [Joel Spolsky](https://medium.com/u/869c7e626b83?source=post_page-----635e4c8f7c22--------------------------------)
 
- excoriated Netscape for rewriting their codebase in his landmark essay [Things You Should Never Do](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/).
+excoriated Netscape for rewriting their codebase in his landmark essay [Things You Should Never Do](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/).
 
 He concluded that **a functioning application should never, ever be rewritten from the ground up**. His argument turned on two points:
 
-* The crufty-looking parts of the application’s codebase often embed hard-earned knowledge about corner cases and weird bugs.
-* A rewrite is a lengthy undertaking that keeps you from improving on your existing product, during which time the competition is gaining on you.
+- The crufty-looking parts of the application’s codebase often embed hard-earned knowledge about corner cases and weird bugs.
+- A rewrite is a lengthy undertaking that keeps you from improving on your existing product, during which time the competition is gaining on you.
 
 For many, Joel’s conclusion became an article of faith; I know it had a big effect on my thinking at the time.
 
 In the following years, I read a few contrarian takes arguing that, under certain circumstances, it made a lot of sense to rewrite from scratch. For example:
 
-* Sometimes the legacy codebase really *is* messed up beyond repair, such that even simple changes require a cascade of changes to other parts of the code.
-* The original technology choices might be preventing you from making necessary improvements.
-* Or, the original technology might be obsolete, making it hard (or expensive) to recruit quality developers.
+- Sometimes the legacy codebase really *is* messed up beyond repair, such that even simple changes require a cascade of changes to other parts of the code.
+- The original technology choices might be preventing you from making necessary improvements.
+- Or, the original technology might be obsolete, making it hard (or expensive) to recruit quality developers.
 
 The correct answer, of course, is that **it depends** a lot on the circumstances. Yes, sometimes it makes more sense to gradually refactor your legacy code. And yes, sometimes it makes sense to throw it all out and start over.
 
 **But those aren’t the only choices.** Let’s take a quick look at six stories, and see what lessons we can draw.
 
-*(Bonus: ASCII art summaries of each story!)*
+_(Bonus: ASCII art summaries of each story!)_
 
 ![](https://miro.medium.com/v2/resize:fit:1050/1*VM8ZUQpZjXwT2kv2LiMa2A.png)
 
@@ -69,7 +72,7 @@ The team concluded that one reason outside developers weren’t interested in co
 
 So after a year the group decided to scrap their work on 5.0 without releasing it, and started from scratch on version 6.0.
 
-Another two years went by before Netscape 6.0 was finally released; and even after all that time it was clear that it still wasn’t ready to have been released. [According to New York Times’ reviewer](https://www.nytimes.com/2000/11/30/technology/state-of-the-art-netscape-6-browser-mixed-bag.html) 
+Another two years went by before Netscape 6.0 was finally released; and even after all that time it was clear that it still wasn’t ready to have been released. [According to New York Times’ reviewer](https://www.nytimes.com/2000/11/30/technology/state-of-the-art-netscape-6-browser-mixed-bag.html)
 
 [David Pogue](https://medium.com/u/7e6f541255c?source=post_page-----635e4c8f7c22--------------------------------)
 
@@ -81,7 +84,7 @@ Not that it mattered. In the three years that Netscape stood still, Internet Exp
 
 ![](https://miro.medium.com/v2/resize:fit:1050/1*2AJ0RM43DGspNNuRYSOtVA.png)
 
-When the rewrite began, Netscape was losing ground quickly to Microsoft’s Internet Explorer. When the new browser was finally released three years later, it was buggy and slow; meanwhile Netscape’s market share had dwindled to practically nothing. (Chart adapted from [Wikipedia](https://en.wikipedia.org/wiki/Usage_share_of_web_browsers#/media/File:Usage_Share_of_browsers_(updated_August_2018).png).)
+When the rewrite began, Netscape was losing ground quickly to Microsoft’s Internet Explorer. When the new browser was finally released three years later, it was buggy and slow; meanwhile Netscape’s market share had dwindled to practically nothing. (Chart adapted from [Wikipedia](<https://en.wikipedia.org/wiki/Usage_share_of_web_browsers#/media/File:Usage_Share_of_browsers_(updated_August_2018).png>).)
 
 In 1999, while the rewrite was underway, AOL had acquired Netscape in a deal valued at $10 billion.
 
@@ -109,11 +112,11 @@ But the rewrite was certainly a contributing factor, and the end result was the 
 
 ![](https://miro.medium.com/v2/resize:fit:1050/1*O4-zINabnPY7bWJ3ezX63Q.png)
 
-In the early 2000s, a Chicago web design company called **37signals** had built a following around founders 
+In the early 2000s, a Chicago web design company called **37signals** had built a following around founders
 
 [Jason Fried](https://medium.com/u/c030228809f2?source=post_page-----635e4c8f7c22--------------------------------)
 
- and 
+and
 
 [DHH](https://medium.com/u/54bcbf647830?source=post_page-----635e4c8f7c22--------------------------------)
 
@@ -151,7 +154,7 @@ Their focus on keeping their existing customer base happy was freezing the produ
 
 > You might be plugging all the holes, you might be fixing all the bugs, you might be upgrading all the features the existing customers are complaining about so that no water escapes — but some water always escapes. Customers move on from their job and they leave your software even if they \[love it]. But you can kind of delude yourself that, “Hey, this bucket is more than half full still. That’s just a tiny little hole there seeping out and that’s perfectly natural.” But, if you just keep that on for long enough, the bucket is going to end up empty.
 
-*Part of the problem is that you hear all the time from your present customers, but you don’t hear from your future customers:*
+_Part of the problem is that you hear all the time from your present customers, but you don’t hear from your future customers:_
 
 > People who showed up at the Basecamp homepage in 2011 and chose not to buy because our ideas were no longer good enough, how often do you think we were hearing from them? Never. We were hearing from this broad base of existing customers who very much would love us to just keep plugging those little holes.
 
@@ -415,7 +418,7 @@ Fog Creek went on to develop yet another new product, a collaborative programmin
 
 In the meantime, FogBugz languished in obscurity. In 2017 someone decided that FogBugz was a dumb name, and engineering efforts went into re-branding the product as [Manuscript](https://medium.com/make-better-software/introducing-manuscript-aa4aabdc0f6c). A year later — just a few months ago — Fog Creek sold the product to a small company called [DevFactory](https://devfactory.com/), which [immediately changed the name back to FogBugz](https://mjtsai.com/blog/2018/08/23/manuscript-fogbugz-sold-to-devfactory/).
 
-Under CEO 
+Under CEO
 
 [Anil Dash](https://medium.com/u/a75df5e8a16c?source=post_page-----635e4c8f7c22--------------------------------)
 
@@ -451,11 +454,11 @@ This has already turned into a much longer article than I ever imagined, but I c
 
 ## Stop me if you’ve heard this before
 
-In the early 2000s, 
+In the early 2000s,
 
 [Mike McDerment](https://medium.com/u/ab155ac24cd6?source=post_page-----635e4c8f7c22--------------------------------)
 
- owned a small design agency. He was using Word and Excel to make invoices, having decided that accounting software was too complicated for what he needed.
+owned a small design agency. He was using Word and Excel to make invoices, having decided that accounting software was too complicated for what he needed.
 
 This system was good enough [until it wasn’t](https://lifehacker.com/im-freshbooks-co-founder-mike-mcderment-and-this-is-ho-1825693501):
 
@@ -485,15 +488,15 @@ The idea that McDerment finally hit on was to secretly create a “competitor”
 
 He incorporated a completely new company, named BillSpring, in Delaware. The new company had its own URL and its own branding and logo. Careful to keep the two companies from being linked, he had an outside lawyer draft new terms of service.
 
-The development team adopted the book *[Lean UX: Designing Great Products with Agile Teams](https://www.amazon.com/Lean-UX-Designing-Great-Products/dp/1491953608)* by 
+The development team adopted the book *[Lean UX: Designing Great Products with Agile Teams](https://www.amazon.com/Lean-UX-Designing-Great-Products/dp/1491953608)* by
 
 [Jeff Gothelf](https://medium.com/u/94a2a063be85?source=post_page-----635e4c8f7c22--------------------------------)
 
- and 
+and
 
 [Josh Seiden](https://medium.com/u/7f786c230ca9?source=post_page-----635e4c8f7c22--------------------------------)
 
- as their guidebook, and put in place Agile practices like scrum teams and weekly iterations with review sessions with real customers. McDerment told them to think of themselves as a startup and himself as their venture capitalist:
+as their guidebook, and put in place Agile practices like scrum teams and weekly iterations with review sessions with real customers. McDerment told them to think of themselves as a startup and himself as their venture capitalist:
 
 > “You’ve got four and a half months. If you’re in the market by then, we’ll give you more money. Otherwise, we’re out.”
 

@@ -2,12 +2,15 @@
 layout: layouts/post.njk
 title: Steps To Identify What To Do Next In Life
 description: No one way is better than another.
-publishDate: 2023-06-09
+publishDate: 2019-06-20
 category: growth
 author: Sarah Wall
 minRead: 8
 featuredImage: https://images.unsplash.com/photo-1490730141103-6cac27aaab94?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGlmZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60
 ---
+
+<!-- @format -->
+
 <!--StartFragment-->
 
 ## **5 Steps To Help You Find Out What To Do Next In Life**
@@ -32,13 +35,13 @@ But if you can do this, then more power to you!
 
 With a little extra time to yourself, you may find that feelings that were previously hidden away or covered up because you were too busy will surface.
 
-You cannot avoid your emotions (*although many people try by indulging in addictive behaviors*).
+You cannot avoid your emotions (_although many people try by indulging in addictive behaviors_).
 
 When you feel and examine your emotions, you find that they have something to teach you.
 
 You may experience doubt, apathy, or even panic about your future.
 
-Emotions left unattended by the conscious mind, such as anger or frustration, can manifest in your body in a physical form (*e.g. upset stomach*).
+Emotions left unattended by the conscious mind, such as anger or frustration, can manifest in your body in a physical form (_e.g. upset stomach_).
 
 Don’t ignore them.
 
@@ -66,7 +69,7 @@ With more free time and an increasing understanding of your emotions, you will w
 
 ### **4. Take Inspired Action**
 
-*Can you recall a time in your life when you tried everything in your power to make something happen, but it just wasn’t happening?*
+_Can you recall a time in your life when you tried everything in your power to make something happen, but it just wasn’t happening?_
 
 Chances are that this path wasn’t meant for you, or the timing wasn’t right.
 
@@ -92,7 +95,7 @@ You don’t know the outcome; therefore, fear creeps in.
 
 This keeps you in a state of inaction.
 
-*But what if you let go of the outcome?*
+_But what if you let go of the outcome?_
 
 How boring would life be if you knew exactly how each day would turn out from day one?
 
@@ -118,7 +121,7 @@ You can’t bury your head in the sand forever and ignore what change is trying 
 
 Well, you can bury your head in the sand for a while.
 
-But life has a wonderful way of encouraging (*sometimes forcing*) you to change when you stop going with the flow.
+But life has a wonderful way of encouraging (_sometimes forcing_) you to change when you stop going with the flow.
 
 Embrace the unknown for a while.
 

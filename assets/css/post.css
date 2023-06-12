@@ -48,6 +48,11 @@
   color: var(--color-h2);
 }
 
+.post-card__contentBox-author_minRead {
+  display: flex;
+  align-items: center;
+}
+
 .post-card__contentBox-author_minRead h3 {
   color: var(--color-h2);
 }

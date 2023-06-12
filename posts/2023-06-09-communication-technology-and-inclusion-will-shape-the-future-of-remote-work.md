@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 title: Communication Technology and Inclusion Will Shape the Future of Remote Work
 description: Work hard in silence, let your success be your noise
-publishDate: 2023-06-09
+publishDate: 2020-12-28
 category: remote-work
 author: Natalie Hamingson
 minRead: 6

@@ -3,13 +3,16 @@ layout: layouts/post.njk
 title: When Coding Is Criminal
 description: Programmers whose code is used to commit a crime face new and
   perilous legal threats.
-publishDate: 2023-06-07
+publishDate: 2019-08-12
 category: code
 author: Stephen J. Obie
 minRead: 1
 featuredImage: /uploads/images/coding-becomes-criminal.jpg
 featuredVideo: https://www.youtube.com/watch?v=mCt2hzpyWZc
 ---
+
+<!-- @format -->
+
 <!--StartFragment-->
 
 A FEDERAL DISTRICT court in Illinois recently dismissed the US government’s case against Jitesh Thakkar, a computer programmer who was accused of writing code that someone else used to commit a crime. But programmers at large are hardly off the legal hook. Expect more cases against them in the not-too-distant future.

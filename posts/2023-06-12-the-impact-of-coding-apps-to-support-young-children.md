@@ -3,13 +3,16 @@ layout: layouts/post.njk
 title: The Impact of Coding Apps to Support Young Children
 description: Data that shows that young children can learn and acquire
   Computational Thinking (CT) skills
-publishDate: 2023-06-12
+publishDate: 2022-02-12
 category: code
 author: Stamatis Papadakis
 minRead: 11
 featuredImage: https://plus.unsplash.com/premium_photo-1681999454449-012689714097?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80
 featuredVideo: https://www.youtube.com/watch?v=GGll5skOtU4
 ---
+
+<!-- @format -->
+
 <!--StartFragment-->
 
 ## Introduction
@@ -48,7 +51,7 @@ In many introductory coding activities, students are asked to code step by step 
 
 All coding apps available in the two biggest app stores claim that they have value as educational tools, but their value is undetermined. To date, there has been little empirical research on the effectiveness of these apps in introducing computational thinking and computational fluency in young children ([Sheehan et al., 2019](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B57)). Many of these apps have never been evaluated in young children, so their claims cannot be confirmed ([Giannakoulas and Xinogalos, 2018](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B20); [Terzopoulos et al., 2019](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B62)). More research is needed to determine whether the various coding apps facilitate CT and CF in young children ([Pila et al., 2019](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B44); [Sheehan et al., 2019](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B57); [Hamilton et al., 2020](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B23)). This study fills the knowledge gap in the existing literature by providing vital evidence to inform decisions about the available coding apps’ appropriateness on developing CT and CF for young children.
 
-[](<>)
+[]()
 
 ## Methods
 
@@ -118,7 +121,7 @@ TABLE 2
 
 Data were extracted from the accepted articles during this stage by reading the full text. An Excel file was used to store the data extraction output. Each study was analyzed to derive these data, most of which are presented in the results section. These studies are described in [Supplementary Appendix A–C](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#SM1).
 
-[](<>)
+[]()
 
 ## Results
 
@@ -168,9 +171,9 @@ None of the apps evaluated in this study support variables, names a programmer g
 
 Of course, there are operational differences between the coding approaches employed in various apps. For instance, in ScratchJr, an almost limitless number and variety of blocks can be added to the scene. These blocks are not executed unless linked to a trigger block or individually pressed to execute them. Whereas in Lightbot, the play button sequentially executes all the instructions included in the main program. Lightbot also limits how many instructions can be in the program depending on the current level ([Rose et al., 2017](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B54)). Daisy the Dinosaur, on the other hand, requires reading simple words such as “turn” and “shrink” in each programming block.
 
-Regarding ScratchJr drawbacks, [Falloon (2016)](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B15) suggested that as coding activities are likely to be integrated into the entire curriculum in primary schools, “the minor addition of a sprite pencil would be helpful (*p*. 589).” ScratchJr supports only four different pages per project and faces delays when the user inserts many sprites on the screen. [Thuzar and Nay (2015)](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B64) highlighted that some students negatively mentioned the small number of messages sent between the characters. The students also complained about the limited number of scenes they could insert into their projects. In the same study, students also asked for variables and a faster environment as they experienced delays due to the increased number of sprites inserted in their projects.
+Regarding ScratchJr drawbacks, [Falloon (2016)](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B15) suggested that as coding activities are likely to be integrated into the entire curriculum in primary schools, “the minor addition of a sprite pencil would be helpful (_p_. 589).” ScratchJr supports only four different pages per project and faces delays when the user inserts many sprites on the screen. [Thuzar and Nay (2015)](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B64) highlighted that some students negatively mentioned the small number of messages sent between the characters. The students also complained about the limited number of scenes they could insert into their projects. In the same study, students also asked for variables and a faster environment as they experienced delays due to the increased number of sprites inserted in their projects.
 
-The studies examined mentioned that the children had difficulty managing the loop statement in the Kodable and the Lightbox app ([Karadeniz et al., 2014](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B30); [Gomes, Falcão, and Tedesco, 2018](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B21)). [Gomes et al. (2018)](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B21) also emphasized the app’s complexity in visual and textual descriptors for children aged 5–7 years. They also mentioned “the complex constructs in initial tutorials, help, and feedback” encountered in Lightbot (*p*. 80).
+The studies examined mentioned that the children had difficulty managing the loop statement in the Kodable and the Lightbox app ([Karadeniz et al., 2014](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B30); [Gomes, Falcão, and Tedesco, 2018](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B21)). [Gomes et al. (2018)](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B21) also emphasized the app’s complexity in visual and textual descriptors for children aged 5–7 years. They also mentioned “the complex constructs in initial tutorials, help, and feedback” encountered in Lightbot (_p_. 80).
 
 ### RQ2: How Do Coding Apps Affect the Development of Computational Fluency of Young Age Students?
 
@@ -188,7 +191,7 @@ Considering that the critical challenge is not only how to “teach creativity�
 
 Similarly, [Lowe and Brophy. (2019)](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B36) noted that ScratchJr is a powerful accelerator for understanding computation than abstract storytelling alone. [Falloon. (2016)](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B15) also recognized that the ScratchJr design encourages children’s experimentation and open-ended exploration. Nevertheless, as most of the reported studies have been conducted in research settings and thus do not reflect usual students’ samples in real classroom settings, it remains under question whether the ScratchJr app, despite its open-ended approach, can genuinely support children to express themselves creatively via projects.
 
-[](<>)
+[]()
 
 ## Discussion and Future Directions
 
@@ -196,7 +199,7 @@ Data that shows that young children can learn and acquire Computational Thinking
 
 This review aimed to systematically evaluate the efficacy of coding apps to develop young children’s CT and CF. This study, similar to [Clarke-Midura et al.'s (2019)](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B11) study, makes no claims about whether one coding app is superior to another, as these apps all originate from high-quality methodological research on educational technology. However, the results presented in this study should serve as a benchmark and challenge for teachers, researchers, and software developers to be mindful of what demands and expectations we are placing on young children as they learn to code ([Clarke-Midura et al, 2019](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B11)). Indeed, the findings showed that the essential CT and coding skills mentioned in known CT frameworks could be delivered using the four different apps mentioned in this study. All apps have an interactive and appealing design offering an acceptable challenging level. This is considered especially important as studies exploring young children learning from educational multimedia argue that if children do not enjoy an environment or interface, they will not collaborate with it, eliminating any potential educational benefit ([Pila et al, 2019](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B44)).
 
-Nevertheless, considering that programming environments must also promote imagination, cognitive challenges, social interactions, motor skills development, personal exploration ([Bers, 2018](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B4)), we must recognize that: (a) none of the apps truly supports CF and (b) there is a significant difference between the apps. Considering Resnick and Mitchel’s (2015) four principles of introducing CF, none of the apps genuinely encourage collaboration and sharing, helping children learn to build on the work of others (peers’ principle). In all studies, coding seems to be a solitary activity. All apps support the passion and play principles. The three apps mentioned in this review (Kodable, Daisy the Dinosaur, and the Lightbot) engage children in coding, math, and problem-solving skills via structured puzzle-like challenges. By navigating mazes using instructional commands, the children actively solve the problem to meet the challenge. While this puzzle-like approach is popular due to the ease of classroom implementation, it “reduces the potential of learning how to code to a problem, ignoring the expressiveness and communicative functions of programming” ([Bers, 2019](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B5), *p*.503). This is an apparent distinction between the “bricolage-based approach” ([Rose, 2016](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B55)) or “sandbox approach” ([Kamenetz, 2015](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B29)) of ScratchJr and the more structured programming style used in apps as the Lightbot. [Bers (2019)](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B5) concerns that these puzzle-type coding approaches miss the opportunity to explore a “programming language’s richness as a symbol system with grammar and syntax that can be used to express thoughts and ideas” (*p*. 503).
+Nevertheless, considering that programming environments must also promote imagination, cognitive challenges, social interactions, motor skills development, personal exploration ([Bers, 2018](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B4)), we must recognize that: (a) none of the apps truly supports CF and (b) there is a significant difference between the apps. Considering Resnick and Mitchel’s (2015) four principles of introducing CF, none of the apps genuinely encourage collaboration and sharing, helping children learn to build on the work of others (peers’ principle). In all studies, coding seems to be a solitary activity. All apps support the passion and play principles. The three apps mentioned in this review (Kodable, Daisy the Dinosaur, and the Lightbot) engage children in coding, math, and problem-solving skills via structured puzzle-like challenges. By navigating mazes using instructional commands, the children actively solve the problem to meet the challenge. While this puzzle-like approach is popular due to the ease of classroom implementation, it “reduces the potential of learning how to code to a problem, ignoring the expressiveness and communicative functions of programming” ([Bers, 2019](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B5), *p*.503). This is an apparent distinction between the “bricolage-based approach” ([Rose, 2016](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B55)) or “sandbox approach” ([Kamenetz, 2015](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B29)) of ScratchJr and the more structured programming style used in apps as the Lightbot. [Bers (2019)](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B5) concerns that these puzzle-type coding approaches miss the opportunity to explore a “programming language’s richness as a symbol system with grammar and syntax that can be used to express thoughts and ideas” (_p_. 503).
 
 Working on literacy practices and self-regulated learning skills is not a privilege reserved only for those working with the ScratchJr app. What is unique is that this review showed that children via the ScratchJr app could integrate CT concepts into their projects to make their stories more engaging, exciting, and emotional ([Kazakoff, 2015](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B32)). The “low-floors, high-ceilings, wide walls” approach of ScratchJr enable children to develop and broaden their general academic experiences, skills, and views ([Portelance et al, 2016](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B46)). In the process, children not only learn programming concepts and practices but develop valuable problem-solving skills. ([Kazakoff, 2015](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B32); [Strawhacker et al, 2018](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B59)). Only one study mentioned teachers’ perceptions regarding using a coding app in the classroom ([Strawhacker et al., 2018](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B59)). The researchers found that regardless of their teaching style, most educators were positioned positively regarding the introduction of ScratchJr in their classroom. They advocated the ScratchJr open-ended design and the possible role of this environment in various educational contexts and settings. Of course, we must consider that the “coding as playground” approach may not work for all children. Some children may struggle with what to do or why to edit sprites or build animations. As [Clarke-Midura et al. (2019)](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B11) highlight, some children may not be able to afford to support coding independently, and apps like ScratchJr may require special attention, scaffolding, and systematic instruction in real educational settings. Thus, one could conclude that it could be more beneficial for children some structure or narrative to help them learn some concepts in the initial stages of coding. In the following stages, the more open environments can help children explore concepts more deeply based on their interests. Furthermore, future research is also needed on how, if at all, the role of play scenario affects children’s motivation to code ([Clarke-Midura et al., 2019](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B11)).
 
@@ -208,7 +211,7 @@ In addition, we should not forget that there are also CS unplugged activities to
 
 Finally, the argument that open-ended designs like ScratchJr are better than apps with more structures like Lightbot is unsubstantiated; what matters is how the learning experience is structured and facilitated. We must highlight the importance of designing and incorporating a curriculum that promotes computational fluency ([Bers 2020](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B6); [Hamilton et al, 2020](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B23)). For instance, none of the apps support a feature specifically conceived to promote collaboration between children. All apps are designed for a single user. Thus, there is a need for collaboration and communication strategies that are not focused on the tool but the tool’s teaching strategies and pedagogical choices (device and app). Educators who want to introduce coding into the early childhood classroom need these apps, but they also need a curriculum of powerful computer science ideas that are developmentally appropriate and a guiding framework that understands the whole child ([Bers, 2020](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B6)).
 
-[](<>)
+[]()
 
 ## Limitations of the Study
 
@@ -218,7 +221,7 @@ Two factors may threaten the validity of the review:
 
 • Publication bias. The inclusion of only published articles may have introduced publication bias because studies with positive results are more likely to be published than studies with negative findings. Additionally, as non-English studies were excluded in the current review, it might be a source of potential publication bias ([Kitchenham and Charters, 2007](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B33)).
 
-[](<>)
+[]()
 
 ## Conclusion
 
@@ -230,271 +233,271 @@ This study suggests that there is considerable value in the diverse ways present
 
 We hope that this study can guide researchers who want to reveal more nuanced understandings of the learning processes that can provide opportunities for designing relevant adaptive scaffolds that can help young age students overcome their difficulties while developing computational thinking and computational fluency ([Clarke-Midura et al, 2019](https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#B11)). These topics can be exciting and rewarding for researchers, who get to explore an innovative approach while pursuing their research.
 
-[](<>)
+[]()
 
 ## Author Contributions
 
 The author confirms being the sole contributor of this work and has approved it for publication.
 
-[](<>)
+[]()
 
 ## Conflict of Interest
 
 The author declares that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
 
-[](<>)
+[]()
 
 ## Supplementary Material
 
 The Supplementary Material for this article can be found online at: <https://www.frontiersin.org/articles/10.3389/feduc.2021.657895/full#supplementary-material>
 
-[](<>)
+[]()
 
 ## References
 
-[](<>)Ackermann, L., Lo, C. H., Mani, N., and Mayor, J. (2020). Word Learning from a Tablet App: Toddlers Perform Better in a Passive Context. *PloS one* 15 (12), e0240519. doi:10.1371/journal.pone.0240519
+[]()Ackermann, L., Lo, C. H., Mani, N., and Mayor, J. (2020). Word Learning from a Tablet App: Toddlers Perform Better in a Passive Context. *PloS one* 15 (12), e0240519. doi:10.1371/journal.pone.0240519
 
 [PubMed Abstract](https://pubmed.ncbi.nlm.nih.gov/33259476/) | [CrossRef Full Text](https://doi.org/10.1371/journal.pone.0240519) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Word+Learning+from+a+Tablet+App:+Toddlers+Perform+Better+in+a+Passive+Context&btnG=)
 
-[](<>)Basili, V. R. (1992). *Software Modeling and Measurement: The Goal/Question/Metric Paradigm*. Baltimore, United States: University of Maryland at College Park, 24.
+[]()Basili, V. R. (1992). *Software Modeling and Measurement: The Goal/Question/Metric Paradigm*. Baltimore, United States: University of Maryland at College Park, 24.
 
-[](<>)Bers, M. U. (2020). *Coding as a Playground: Programming and Computational Thinking in the Early Childhood Classroom*. New York, United States: Routledge. doi:10.4324/9781003022602
+[]()Bers, M. U. (2020). *Coding as a Playground: Programming and Computational Thinking in the Early Childhood Classroom*. New York, United States: Routledge. doi:10.4324/9781003022602
 
 [CrossRef Full Text](https://doi.org/10.4324/9781003022602)
 
-[](<>)Bers, M. U. (2019). Coding as Another Language: a Pedagogical Approach for Teaching Computer Science in Early Childhood. *J. Comput. Educ.* 6 (4), 499–528. doi:10.1007/s40692-019-00147-3
+[]()Bers, M. U. (2019). Coding as Another Language: a Pedagogical Approach for Teaching Computer Science in Early Childhood. *J. Comput. Educ.* 6 (4), 499–528. doi:10.1007/s40692-019-00147-3
 
 [CrossRef Full Text](https://doi.org/10.1007/s40692-019-00147-3) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Coding+as+Another+Language:+a+Pedagogical+Approach+for+Teaching+Computer+Science+in+Early+Childhood&btnG=)
 
-[](<>)Bers, M. U. (2018). “Coding, Playgrounds and Literacy in Early Childhood Education: The Development of KIBO Robotics and ScratchJr,” in *2018 IEEE Global Engineering Education Conference (EDUCON)* (IEEE), 2094–2102.
+[]()Bers, M. U. (2018). “Coding, Playgrounds and Literacy in Early Childhood Education: The Development of KIBO Robotics and ScratchJr,” in *2018 IEEE Global Engineering Education Conference (EDUCON)* (IEEE), 2094–2102.
 
 [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Coding,+Playgrounds+and+Literacy+in+Early+Childhood+Education:+The+Development+of+KIBO+Robotics+and+ScratchJr&btnG=)
 
-[](<>)Bers, M. U., González-González, C., and Armas–Torres, M. B. (2019). Coding as a Playground: Promoting Positive Learning Experiences in Childhood Classrooms. *Comput. and Edu.* 138, 130–145. doi:10.1016/j.compedu.2019.04.013
+[]()Bers, M. U., González-González, C., and Armas–Torres, M. B. (2019). Coding as a Playground: Promoting Positive Learning Experiences in Childhood Classrooms. *Comput. and Edu.* 138, 130–145. doi:10.1016/j.compedu.2019.04.013
 
 [CrossRef Full Text](https://doi.org/10.1016/j.compedu.2019.04.013) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Coding+as+a+Playground:+Promoting+Positive+Learning+Experiences+in+Childhood+Classrooms&btnG=)
 
-[](<>)Brennan, K., and Resnick, M. (2012). “Using Artifact-Based Interviews to Study the Development of Computational Thinking in Interactive media Design,” in *Proceedings of Annual American Educational Research Association Meeting* (Vancouver, BC: Canada), 1–25.
+[]()Brennan, K., and Resnick, M. (2012). “Using Artifact-Based Interviews to Study the Development of Computational Thinking in Interactive media Design,” in *Proceedings of Annual American Educational Research Association Meeting* (Vancouver, BC: Canada), 1–25.
 
 [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Using+Artifact-Based+Interviews+to+Study+the+Development+of+Computational+Thinking+in+Interactive+media+Design&btnG=)
 
-[](<>)Ching, Y.-H., Hsu, Y.-C., and Baldwin, S. (2018). Developing Computational Thinking with Educational Technologies for Young Learners. *TechTrends* 62 (6), 563–573. doi:10.1007/s11528-018-0292-7
+[]()Ching, Y.-H., Hsu, Y.-C., and Baldwin, S. (2018). Developing Computational Thinking with Educational Technologies for Young Learners. *TechTrends* 62 (6), 563–573. doi:10.1007/s11528-018-0292-7
 
 [CrossRef Full Text](https://doi.org/10.1007/s11528-018-0292-7) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Developing+Computational+Thinking+with+Educational+Technologies+for+Young+Learners&btnG=)
 
-[](<>)Chou, P.-N. (2020). Using ScratchJr to Foster Young Children's Computational Thinking Competence: A Case Study in a Third-Grade Computer Class. *J. Educ. Comput. Res.* 58 (3), 570–595. doi:10.1177/0735633119872908
+[]()Chou, P.-N. (2020). Using ScratchJr to Foster Young Children's Computational Thinking Competence: A Case Study in a Third-Grade Computer Class. *J. Educ. Comput. Res.* 58 (3), 570–595. doi:10.1177/0735633119872908
 
 [CrossRef Full Text](https://doi.org/10.1177/0735633119872908) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Using+ScratchJr+to+Foster+Young+Children%27s+Computational+Thinking+Competence:+A+Case+Study+in+a+Third-Grade+Computer+Class&btnG=)
 
-[](<>)Clarke-Midura, J., Lee, V. R., Shumway, J. F., and Hamilton, M. M. (2019). The Building Blocks of Coding: A Comparison of Early Childhood Coding Toys. *Inf. Learn. Sci.* 120 (7/8), 505–518. doi:10.1108/ILS-06-2019-0059
+[]()Clarke-Midura, J., Lee, V. R., Shumway, J. F., and Hamilton, M. M. (2019). The Building Blocks of Coding: A Comparison of Early Childhood Coding Toys. *Inf. Learn. Sci.* 120 (7/8), 505–518. doi:10.1108/ILS-06-2019-0059
 
 [CrossRef Full Text](https://doi.org/10.1108/ILS-06-2019-0059) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=The+Building+Blocks+of+Coding:+A+Comparison+of+Early+Childhood+Coding+Toys&btnG=)
 
-[](<>)Dore, R. A., and Dynia, J. M. (2020). “Technology and Media Use in Preschool Classrooms: Prevalence, Purposes, and Contexts,” in *Frontiers in Education* (Frontiers), 5, 244. doi:10.3389/feduc.2020.600305
+[]()Dore, R. A., and Dynia, J. M. (2020). “Technology and Media Use in Preschool Classrooms: Prevalence, Purposes, and Contexts,” in *Frontiers in Education* (Frontiers), 5, 244. doi:10.3389/feduc.2020.600305
 
 [CrossRef Full Text](https://doi.org/10.3389/feduc.2020.600305) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Technology+and+Media+Use+in+Preschool+Classrooms:+Prevalence,+Purposes,+and+Contexts&btnG=)
 
-[](<>)Ehsan, H., Beebe, C., and Cardella, M. (2017). “Promoting Computational Thinking in Children Using Apps,” in *Proceedings of ASEE Annual Conference and Exposition* (Columbus, Ohio). doi:10.18260/1-2--28772
+[]()Ehsan, H., Beebe, C., and Cardella, M. (2017). “Promoting Computational Thinking in Children Using Apps,” in *Proceedings of ASEE Annual Conference and Exposition* (Columbus, Ohio). doi:10.18260/1-2--28772
 
 [CrossRef Full Text](https://doi.org/10.18260/1-2--28772) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Promoting+Computational+Thinking+in+Children+Using+Apps&btnG=)
 
-[](<>)Falloon, G. (2016). An Analysis of Young Students' Thinking when Completing Basic Coding Tasks Using Scratch Jnr. On the iPad. *J. Comp. Assist. Learn.* 32 (6), 576–593. doi:10.1111/jcal.12155
+[]()Falloon, G. (2016). An Analysis of Young Students' Thinking when Completing Basic Coding Tasks Using Scratch Jnr. On the iPad. *J. Comp. Assist. Learn.* 32 (6), 576–593. doi:10.1111/jcal.12155
 
 [CrossRef Full Text](https://doi.org/10.1111/jcal.12155) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=An+Analysis+of+Young+Students%27+Thinking+when+Completing+Basic+Coding+Tasks+Using+Scratch+Jnr.+On+the+iPad&btnG=)
 
-[](<>)Falloon, G., Hale, P., and Fenemor, T. (2016). Planning and Implementing Coding in the Junior Classroom for Competency and Thinking-Skill Development. *set* 2016 (1), 8–16. doi:10.18296/set.0031
+[]()Falloon, G., Hale, P., and Fenemor, T. (2016). Planning and Implementing Coding in the Junior Classroom for Competency and Thinking-Skill Development. *set* 2016 (1), 8–16. doi:10.18296/set.0031
 
 [CrossRef Full Text](https://doi.org/10.18296/set.0031) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Planning+and+Implementing+Coding+in+the+Junior+Classroom+for+Competency+and+Thinking-Skill+Development&btnG=)
 
-[](<>)Fessakis, G., Gouli, E., and Mavroudi, E. (2013). Problem Solving by 5-6 Years Old Kindergarten Children in a Computer Programming Environment: A Case Study. *Comput. and Edu.* 63, 87–97. doi:10.1016/j.compedu.2012.11.016
+[]()Fessakis, G., Gouli, E., and Mavroudi, E. (2013). Problem Solving by 5-6 Years Old Kindergarten Children in a Computer Programming Environment: A Case Study. *Comput. and Edu.* 63, 87–97. doi:10.1016/j.compedu.2012.11.016
 
 [CrossRef Full Text](https://doi.org/10.1016/j.compedu.2012.11.016) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Problem+Solving+by+5-6+Years+Old+Kindergarten+Children+in+a+Computer+Programming+Environment:+A+Case+Study&btnG=)
 
-[](<>)Fessakis, G., Komis, V., Dimitracopoulou, A., and Prantsoudi, S. (2019). Overview of the Computer Programming Learning Environments for Primary Education. *Rev. Sci. Math. ICT Edu.* 13 (1), 7–33.
+[]()Fessakis, G., Komis, V., Dimitracopoulou, A., and Prantsoudi, S. (2019). Overview of the Computer Programming Learning Environments for Primary Education. *Rev. Sci. Math. ICT Edu.* 13 (1), 7–33.
 
 [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Overview+of+the+Computer+Programming+Learning+Environments+for+Primary+Education&btnG=)
 
-[](<>)Flannery, L. P., Silverman, B., Kazakoff, E. R., Bers, M. U., Bontá, P., and Resnick, M. (2013). “Designing ScratchJr: Support for Early Childhood Learning through Computer Programming,” in *Proceedings of the 12th International Conference on Interaction Design and Children* (New York, NY, USA: IDC ’13. ACM.), 1–10.
+[]()Flannery, L. P., Silverman, B., Kazakoff, E. R., Bers, M. U., Bontá, P., and Resnick, M. (2013). “Designing ScratchJr: Support for Early Childhood Learning through Computer Programming,” in *Proceedings of the 12th International Conference on Interaction Design and Children* (New York, NY, USA: IDC ’13. ACM.), 1–10.
 
 [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Designing+ScratchJr:+Support+for+Early+Childhood+Learning+through+Computer+Programming&btnG=)
 
-[](<>)Galway, G. J., Maddigan, B., and Stordy, M. (2020). Teacher Educator Experiences of iPad Integration in Pre-service Teacher Education: Successes and Challenges. *Technol. Pedagogy Edu.* 29, 1–19. doi:10.1080/1475939X.2020.1819397
+[]()Galway, G. J., Maddigan, B., and Stordy, M. (2020). Teacher Educator Experiences of iPad Integration in Pre-service Teacher Education: Successes and Challenges. *Technol. Pedagogy Edu.* 29, 1–19. doi:10.1080/1475939X.2020.1819397
 
 [CrossRef Full Text](https://doi.org/10.1080/1475939X.2020.1819397) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Teacher+Educator+Experiences+of+iPad+Integration+in+Pre-service+Teacher+Education:+Successes+and+Challenges&btnG=)
 
-[](<>)Giannakoulas, A., and Xinogalos, S. (2018). A Pilot Study on the Effectiveness and Acceptance of an Educational Game for Teaching Programming Concepts to Primary School Students. *Educ. Inf. Technol.* 23 (5), 2029–2052. doi:10.1007/s10639-018-9702-x
+[]()Giannakoulas, A., and Xinogalos, S. (2018). A Pilot Study on the Effectiveness and Acceptance of an Educational Game for Teaching Programming Concepts to Primary School Students. *Educ. Inf. Technol.* 23 (5), 2029–2052. doi:10.1007/s10639-018-9702-x
 
 [CrossRef Full Text](https://doi.org/10.1007/s10639-018-9702-x) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=A+Pilot+Study+on+the+Effectiveness+and+Acceptance+of+an+Educational+Game+for+Teaching+Programming+Concepts+to+Primary+School+Students&btnG=)
 
-[](<>)Gomes, T. C. S., Falcão, T. P., and Tedesco, P. C. D. A. R. (2018). Exploring an Approach Based on Digital Games for Teaching Programming Concepts to Young Children. *Int. J. Child-Computer Interaction* 16, 77–84. doi:10.1016/j.ijcci.2017.12.005
+[]()Gomes, T. C. S., Falcão, T. P., and Tedesco, P. C. D. A. R. (2018). Exploring an Approach Based on Digital Games for Teaching Programming Concepts to Young Children. *Int. J. Child-Computer Interaction* 16, 77–84. doi:10.1016/j.ijcci.2017.12.005
 
 [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Exploring+an+Approach+Based+on+Digital+Games+for+Teaching+Programming+Concepts+to+Young+Children&btnG=)
 
-[](<>)Govind, M., Relkin, E., and Bers, M. U. (2020). Engaging Children and Parents to Code Together Using the ScratchJr App. *Visitor Stud.* 23 (1), 46–65. doi:10.1080/10645578.2020.1732184
+[]()Govind, M., Relkin, E., and Bers, M. U. (2020). Engaging Children and Parents to Code Together Using the ScratchJr App. *Visitor Stud.* 23 (1), 46–65. doi:10.1080/10645578.2020.1732184
 
 [CrossRef Full Text](https://doi.org/10.1080/10645578.2020.1732184) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Engaging+Children+and+Parents+to+Code+Together+Using+the+ScratchJr+App&btnG=)
 
-[](<>)Hamilton, M., Clarke-Midura, J., Shumway, J. F., and Lee, V. R. (2020). An Emerging Technology Report on Computational Toys in Early Childhood. *Tech. Know Learn.* 25 (1), 213–224. doi:10.1007/s10758-019-09423-8
+[]()Hamilton, M., Clarke-Midura, J., Shumway, J. F., and Lee, V. R. (2020). An Emerging Technology Report on Computational Toys in Early Childhood. *Tech. Know Learn.* 25 (1), 213–224. doi:10.1007/s10758-019-09423-8
 
 [CrossRef Full Text](https://doi.org/10.1007/s10758-019-09423-8) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=An+Emerging+Technology+Report+on+Computational+Toys+in+Early+Childhood&btnG=)
 
-[](<>)Herheim, R., and Severina, E. (2020). “Scratch Programming and Student’s Explanations,” in *Proceedings of the Tenth ERME Topic Conference (ETC 10) on Mathematics Education in the Digital Age (MEDA), 16-18 September 2020* (Linz, Austria: Johannes Kepler University).
+[]()Herheim, R., and Severina, E. (2020). “Scratch Programming and Student’s Explanations,” in *Proceedings of the Tenth ERME Topic Conference (ETC 10) on Mathematics Education in the Digital Age (MEDA), 16-18 September 2020* (Linz, Austria: Johannes Kepler University).
 
 [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Scratch+Programming+and+Student%C3%A2%C2%80%C2%99s+Explanations&btnG=)
 
-[](<>)Hutchison, A., Nadolny, L., and Estapa, A. (2015). Using Coding Apps to Support Literacy Instruction and Develop Coding Literacy. *Read. Teach.* 69 (5), 493–503. doi:10.1002/trtr.1440
+[]()Hutchison, A., Nadolny, L., and Estapa, A. (2015). Using Coding Apps to Support Literacy Instruction and Develop Coding Literacy. *Read. Teach.* 69 (5), 493–503. doi:10.1002/trtr.1440
 
 [CrossRef Full Text](https://doi.org/10.1002/trtr.1440) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Using+Coding+Apps+to+Support+Literacy+Instruction+and+Develop+Coding+Literacy&btnG=)
 
-[](<>)João, P., Nuno, D., Fábio, S. F., and Ana, P. (2019). A Cross-Analysis of Block-Based and Visual Programming Apps with Computer Science Student-Teachers. *Edu. Sci.* 9 (3), 181. doi:10.3390/educsci9030181
+[]()João, P., Nuno, D., Fábio, S. F., and Ana, P. (2019). A Cross-Analysis of Block-Based and Visual Programming Apps with Computer Science Student-Teachers. *Edu. Sci.* 9 (3), 181. doi:10.3390/educsci9030181
 
 [CrossRef Full Text](https://doi.org/10.3390/educsci9030181) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=A+Cross-Analysis+of+Block-Based+and+Visual+Programming+Apps+with+Computer+Science+Student-Teachers&btnG=)
 
-[](<>)Kalogiannakis, M., Ampartzaki, M., Papadakis, S., and Skaraki, E. (2018). Teaching Natural Science Concepts to Young Children with mobile Devices and Hands-On Activities. A Case Study. *Ijtcs* 9 (2), 171–183. doi:10.1504/ijtcs.2018.090965
+[]()Kalogiannakis, M., Ampartzaki, M., Papadakis, S., and Skaraki, E. (2018). Teaching Natural Science Concepts to Young Children with mobile Devices and Hands-On Activities. A Case Study. *Ijtcs* 9 (2), 171–183. doi:10.1504/ijtcs.2018.090965
 
 [CrossRef Full Text](https://doi.org/10.1504/ijtcs.2018.090965) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Teaching+Natural+Science+Concepts+to+Young+Children+with+mobile+Devices+and+Hands-On+Activities.+A+Case+Study&btnG=)
 
-[](<>)Karadeniz, S., Samur, Y., and Ozden, M. Y. (2014). *Playing with Algorithms to Learn Programming: A Case Study on 5 Years Old Children*. Sydney, Australia: Paper presented at the international conference on information technology and applications.
+[]()Karadeniz, S., Samur, Y., and Ozden, M. Y. (2014). *Playing with Algorithms to Learn Programming: A Case Study on 5 Years Old Children*. Sydney, Australia: Paper presented at the international conference on information technology and applications.
 
-[](<>)Kazakoff, E. R. (2014). *Cats in Space, Pigs that Race: Does Self-Regulation Play a Role when Kindergartners Learn to Code?* The USA: Doctoral dissertation, Tufts University).
+[]()Kazakoff, E. R. (2014). *Cats in Space, Pigs that Race: Does Self-Regulation Play a Role when Kindergartners Learn to Code?* The USA: Doctoral dissertation, Tufts University).
 
-[](<>)Kazakoff, E. R. (2015). “Technology-based Literacies for Young Children: Digital Literacy through Learning to Code,” in *Young Children and Families in the Information Age, Educating the Young Child 10*. Editors K. L. Heider, and M. Renck Jalongo (Dordrecht: Springer), 43–60. doi:10.1007/978-94-017-9184-7_3
+[]()Kazakoff, E. R. (2015). “Technology-based Literacies for Young Children: Digital Literacy through Learning to Code,” in *Young Children and Families in the Information Age, Educating the Young Child 10*. Editors K. L. Heider, and M. Renck Jalongo (Dordrecht: Springer), 43–60. doi:10.1007/978-94-017-9184-7_3
 
 [CrossRef Full Text](https://doi.org/10.1007/978-94-017-9184-7_3) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Technology-based+Literacies+for+Young+Children:+Digital+Literacy+through+Learning+to+Code&btnG=)
 
-[](<>)Kitchenham, B., and Charters, S. (2007). “Guidelines for Performing Systematic Literature Reviews in Software Engineering,”. Technical Report EBSE-2007-01, School of Computer Science and Mathematics (Keele, Newcastle, United Kingdom: Keele University).
+[]()Kitchenham, B., and Charters, S. (2007). “Guidelines for Performing Systematic Literature Reviews in Software Engineering,”. Technical Report EBSE-2007-01, School of Computer Science and Mathematics (Keele, Newcastle, United Kingdom: Keele University).
 
 [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Guidelines+for+Performing+Systematic+Literature+Reviews+in+Software+Engineering&btnG=)
 
-[](<>)Kitchenham, B. (2004). “Procedures for Undertaking Systematic Reviews,”. Joint Technical Report. Computer Science Department, Keele University (TR/SE0401) (National ICT Australia Ltd).
+[]()Kitchenham, B. (2004). “Procedures for Undertaking Systematic Reviews,”. Joint Technical Report. Computer Science Department, Keele University (TR/SE0401) (National ICT Australia Ltd).
 
 [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Procedures+for+Undertaking+Systematic+Reviews&btnG=)
 
-[](<>)Laporte, L., and Zaman, B. (2018). A Comparative Analysis of Programming Games, Looking through the Lens of an Instructional Design Model and a Game Attributes Taxonomy. *Entertainment Comput.* 25, 48–61. doi:10.1016/j.entcom.2017.12.005
+[]()Laporte, L., and Zaman, B. (2018). A Comparative Analysis of Programming Games, Looking through the Lens of an Instructional Design Model and a Game Attributes Taxonomy. *Entertainment Comput.* 25, 48–61. doi:10.1016/j.entcom.2017.12.005
 
 [CrossRef Full Text](https://doi.org/10.1016/j.entcom.2017.12.005) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=A+Comparative+Analysis+of+Programming+Games,+Looking+through+the+Lens+of+an+Instructional+Design+Model+and+a+Game+Attributes+Taxonomy&btnG=)
 
-[](<>)Lowe, T., and Brophy, S. (2019). “Identifying Computational Thinking in Storytelling Literacy Activities with Scratch Jr,” in *ASEE Annual Conference Proceedings* (Tampa, Florida, USA: American Society for Engineering Education), 10.
+[]()Lowe, T., and Brophy, S. (2019). “Identifying Computational Thinking in Storytelling Literacy Activities with Scratch Jr,” in *ASEE Annual Conference Proceedings* (Tampa, Florida, USA: American Society for Engineering Education), 10.
 
 [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Identifying+Computational+Thinking+in+Storytelling+Literacy+Activities+with+Scratch+Jr&btnG=)
 
-[](<>)Meyer, M., Zosh, J. M., McLaren, C., Robb, M., McCaffery, H., Golinkoff, R. M., and Hirsh-Pasek, K. (2021). How Educational Are “Educational” Apps for Young Children? App Store Content Analysis Using the Four Pillars of Learning Framework. *J. Child. Media*, 1–23. doi:10.1080/17482798.2021.1882516
+[]()Meyer, M., Zosh, J. M., McLaren, C., Robb, M., McCaffery, H., Golinkoff, R. M., and Hirsh-Pasek, K. (2021). How Educational Are “Educational” Apps for Young Children? App Store Content Analysis Using the Four Pillars of Learning Framework. *J. Child. Media*, 1–23. doi:10.1080/17482798.2021.1882516
 
 [CrossRef Full Text](https://doi.org/10.1080/17482798.2021.1882516) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=How+Educational+Are+Educational+Apps+for+Young+Children?+App+Store+Content+Analysis+Using+the+Four+Pillars+of+Learning+Framework&btnG=)
 
-[](<>)Moher, D., Liberati, A., Tetzlaff, J., and Altman, D. G.Prisma Group. (2009). Preferred Reporting Items for Systematic Reviews and Meta-Analyses: The PRISMA Statement. *Plos Med.* 6 (7), e1000097. doi:10.1371/journal.pmed.1000097
+[]()Moher, D., Liberati, A., Tetzlaff, J., and Altman, D. G.Prisma Group. (2009). Preferred Reporting Items for Systematic Reviews and Meta-Analyses: The PRISMA Statement. *Plos Med.* 6 (7), e1000097. doi:10.1371/journal.pmed.1000097
 
 [PubMed Abstract](https://pubmed.ncbi.nlm.nih.gov/29258593/) | [CrossRef Full Text](https://doi.org/10.1371/journal.pmed.1000097) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Preferred+Reporting+Items+for+Systematic+Reviews+and+Meta-Analyses:+The+PRISMA+Statement&btnG=)
 
-[](<>)Murcia, K., Pepper, C., Joubert, M., Cross, E., and Wilson, S. (2020). A Framework for Identifying and Developing Children’s Creative Thinking while Coding with Digital Technologies. *Issues Educ. Res.* 30 (4), 1395–1417.
+[]()Murcia, K., Pepper, C., Joubert, M., Cross, E., and Wilson, S. (2020). A Framework for Identifying and Developing Children’s Creative Thinking while Coding with Digital Technologies. *Issues Educ. Res.* 30 (4), 1395–1417.
 
 [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=A+Framework+for+Identifying+and+Developing+Children%C3%A2%C2%80%C2%99s+Creative+Thinking+while+Coding+with+Digital+Technologies&btnG=)
 
-[](<>)Nouri, J., Zhang, L., Mannila, L., and Norén, E. (2020). Development of Computational Thinking, Digital Competence and 21stcentury Skills when Learning Programming in K-9. *Edu. Inq.* 11 (1), 1–17. doi:10.1080/20004508.2019.1627844
+[]()Nouri, J., Zhang, L., Mannila, L., and Norén, E. (2020). Development of Computational Thinking, Digital Competence and 21stcentury Skills when Learning Programming in K-9. *Edu. Inq.* 11 (1), 1–17. doi:10.1080/20004508.2019.1627844
 
 [CrossRef Full Text](https://doi.org/10.1080/20004508.2019.1627844) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Development+of+Computational+Thinking,+Digital+Competence+and+21stcentury+Skills+when+Learning+Programming+in+K-9&btnG=)
 
-[](<>)Papadakis, S., Kalogiannakis, M., and Zaranis, N. (2016). Developing Fundamental Programming Concepts and Computational Thinking with ScratchJr in Preschool Education: a Case Study. *Ijmlo* 10 (3), 187–202. doi:10.1504/ijmlo.2016.077867
+[]()Papadakis, S., Kalogiannakis, M., and Zaranis, N. (2016). Developing Fundamental Programming Concepts and Computational Thinking with ScratchJr in Preschool Education: a Case Study. *Ijmlo* 10 (3), 187–202. doi:10.1504/ijmlo.2016.077867
 
 [CrossRef Full Text](https://doi.org/10.1504/ijmlo.2016.077867) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Developing+Fundamental+Programming+Concepts+and+Computational+Thinking+with+ScratchJr+in+Preschool+Education:+a+Case+Study&btnG=)
 
-[](<>)Papert, S. (1980). *Mindstorms: Children, Computers, and Powerful Ideas*. New York: Basic Books.
+[]()Papert, S. (1980). *Mindstorms: Children, Computers, and Powerful Ideas*. New York: Basic Books.
 
-[](<>)Pelánek, R., and Effenberger, T. (2020). Design and Analysis of Microworlds and Puzzles for Block-Based Programming. *Comp. Sci. Edu.*, 1–39. doi:10.1080/08993408.2020.1832813
+[]()Pelánek, R., and Effenberger, T. (2020). Design and Analysis of Microworlds and Puzzles for Block-Based Programming. *Comp. Sci. Edu.*, 1–39. doi:10.1080/08993408.2020.1832813
 
 [CrossRef Full Text](https://doi.org/10.1080/08993408.2020.1832813) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Design+and+Analysis+of+Microworlds+and+Puzzles+for+Block-Based+Programming&btnG=)
 
-[](<>)Pila, S., Aladé, F., Sheehan, K. J., Lauricella, A. R., and Wartella, E. A. (2019). Learning to Code via Tablet Applications: An Evaluation of Daisy the Dinosaur and Kodable as Learning Tools for Young Children. *Comput. and Edu.* 128, 52–62. doi:10.1016/j.compedu.2018.09.006
+[]()Pila, S., Aladé, F., Sheehan, K. J., Lauricella, A. R., and Wartella, E. A. (2019). Learning to Code via Tablet Applications: An Evaluation of Daisy the Dinosaur and Kodable as Learning Tools for Young Children. *Comput. and Edu.* 128, 52–62. doi:10.1016/j.compedu.2018.09.006
 
 [CrossRef Full Text](https://doi.org/10.1016/j.compedu.2018.09.006) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Learning+to+Code+via+Tablet+Applications:+An+Evaluation+of+Daisy+the+Dinosaur+and+Kodable+as+Learning+Tools+for+Young+Children&btnG=)
 
-[](<>)Portelance, D. J., and Bers, M. U. (2015). “Code and Tell: Assessing Young Children's Learning of Computational Thinking Using Peer Video Interviews with ScratchJr,” in *Proceedings of the 14th International Conference on Interaction Design and Children* (Boston, MA: ACM), 271–274.
+[]()Portelance, D. J., and Bers, M. U. (2015). “Code and Tell: Assessing Young Children's Learning of Computational Thinking Using Peer Video Interviews with ScratchJr,” in *Proceedings of the 14th International Conference on Interaction Design and Children* (Boston, MA: ACM), 271–274.
 
 [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Code+and+Tell:+Assessing+Young+Children%27s+Learning+of+Computational+Thinking+Using+Peer+Video+Interviews+with+ScratchJr&btnG=)
 
-[](<>)Portelance, D. J., Strawhacker, A. L., and Bers, M. U. (2016). Constructing the ScratchJr Programming Language in the Early Childhood Classroom. *Int. J. Technol. Des. Educ.* 26 (4), 489–504. doi:10.1007/s10798-015-9325-0
+[]()Portelance, D. J., Strawhacker, A. L., and Bers, M. U. (2016). Constructing the ScratchJr Programming Language in the Early Childhood Classroom. *Int. J. Technol. Des. Educ.* 26 (4), 489–504. doi:10.1007/s10798-015-9325-0
 
 [CrossRef Full Text](https://doi.org/10.1007/s10798-015-9325-0) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Constructing+the+ScratchJr+Programming+Language+in+the+Early+Childhood+Classroom&btnG=)
 
-[](<>)Rehmat, A. P., Ehsan, H., and Cardella, M. E. (2020). Instructional Strategies to Promote Computational Thinking for Young Learners. *J. Digital Learn. Teach. Edu.* 36 (1), 46–62. doi:10.1080/21532974.2019.1693942
+[]()Rehmat, A. P., Ehsan, H., and Cardella, M. E. (2020). Instructional Strategies to Promote Computational Thinking for Young Learners. *J. Digital Learn. Teach. Edu.* 36 (1), 46–62. doi:10.1080/21532974.2019.1693942
 
 [CrossRef Full Text](https://doi.org/10.1080/21532974.2019.1693942) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Instructional+Strategies+to+Promote+Computational+Thinking+for+Young+Learners&btnG=)
 
-[](<>)Relkin, E., de Ruiter, L. E., and Bers, M. U. (2021). Learning to Code and the Acquisition of Computational Thinking by Young Children. *Comput. and Edu.* 169, 104222. doi:10.1016/j.compedu.2021.104222
+[]()Relkin, E., de Ruiter, L. E., and Bers, M. U. (2021). Learning to Code and the Acquisition of Computational Thinking by Young Children. *Comput. and Edu.* 169, 104222. doi:10.1016/j.compedu.2021.104222
 
 [CrossRef Full Text](https://doi.org/10.1016/j.compedu.2021.104222) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Learning+to+Code+and+the+Acquisition+of+Computational+Thinking+by+Young+Children&btnG=)
 
-[](<>)Resnick, M. (2017). *Lifelong Kindergarten: Cultivating Creativity through Projects, Passion, Peers, and Play*. Cambridge, MA: MIT Press. doi:10.7551/mitpress/11017.001.0001
+[]()Resnick, M. (2017). *Lifelong Kindergarten: Cultivating Creativity through Projects, Passion, Peers, and Play*. Cambridge, MA: MIT Press. doi:10.7551/mitpress/11017.001.0001
 
 [CrossRef Full Text](https://doi.org/10.7551/mitpress/11017.001.0001)
 
-[](<>)Resnick, M., Maloney, J., Monroy-Hernández, A., Rusk, N., Eastmond, E., Brennan, K., et al. (2009). Scratch. *Commun. ACM* 52 (11), 60–67. doi:10.1145/1592761.1592779
+[]()Resnick, M., Maloney, J., Monroy-Hernández, A., Rusk, N., Eastmond, E., Brennan, K., et al. (2009). Scratch. *Commun. ACM* 52 (11), 60–67. doi:10.1145/1592761.1592779
 
 [CrossRef Full Text](https://doi.org/10.1145/1592761.1592779) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Scratch&btnG=)
 
-[](<>)Resnick, M., and Siegel, D. (2015). A Different Approach to Coding. *Int. J. People-Oriented Programming* 4 (1), 1–4. doi:10.4018/IJPOP.2015010101
+[]()Resnick, M., and Siegel, D. (2015). A Different Approach to Coding. *Int. J. People-Oriented Programming* 4 (1), 1–4. doi:10.4018/IJPOP.2015010101
 
 [CrossRef Full Text](https://doi.org/10.4018/IJPOP.2015010101) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=A+Different+Approach+to+Coding&btnG=)
 
-[](<>)Rose, S. (2016). “Bricolage Programming and Problem Solving Ability in Young Children: An Exploratory Study,” in *Proceedings of 10th European Conference for Game Based Learning* (United Kingdom: Paisley), 914–921.
+[]()Rose, S. (2016). “Bricolage Programming and Problem Solving Ability in Young Children: An Exploratory Study,” in *Proceedings of 10th European Conference for Game Based Learning* (United Kingdom: Paisley), 914–921.
 
 [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Bricolage+Programming+and+Problem+Solving+Ability+in+Young+Children:+An+Exploratory+Study&btnG=)
 
-[](<>)Rose, S. (2019). *Developing Children’s Computational Thinking Using Programming Games*. United Kingdom: Doctoral dissertation, Sheffield Hallam University.
+[]()Rose, S. (2019). *Developing Children’s Computational Thinking Using Programming Games*. United Kingdom: Doctoral dissertation, Sheffield Hallam University.
 
-[](<>)Rose, S., Habgood, J., and Jay, T. (2017). An Exploration of the Role of Visual Programming Tools in the Development of Young Children’s Computational Thinking. *Electron. J. e-learning* 15 (4), 297–309.
+[]()Rose, S., Habgood, J., and Jay, T. (2017). An Exploration of the Role of Visual Programming Tools in the Development of Young Children’s Computational Thinking. *Electron. J. e-learning* 15 (4), 297–309.
 
 [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=An+Exploration+of+the+Role+of+Visual+Programming+Tools+in+the+Development+of+Young+Children%C3%A2%C2%80%C2%99s+Computational+Thinking&btnG=)
 
-[](<>)Sheehan, K. J., Pila, S., Lauricella, A. R., and Wartella, E. A. (2019). Parent-child Interaction and Children's Learning from a Coding Application. *Comput. and Edu.* 140, 103601. doi:10.1016/j.compedu.2019.103601
+[]()Sheehan, K. J., Pila, S., Lauricella, A. R., and Wartella, E. A. (2019). Parent-child Interaction and Children's Learning from a Coding Application. *Comput. and Edu.* 140, 103601. doi:10.1016/j.compedu.2019.103601
 
 [CrossRef Full Text](https://doi.org/10.1016/j.compedu.2019.103601) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Parent-child+Interaction+and+Children%27s+Learning+from+a+Coding+Application&btnG=)
 
-[](<>)Strawhacker, A., and Bers, M. U. (2019). What They Learn when They Learn Coding: Investigating Cognitive Domains and Computer Programming Knowledge in Young Children. *Education Tech. Res. Dev.* 67 (3), 541–575. doi:10.1007/s11423-018-9622-x
+[]()Strawhacker, A., and Bers, M. U. (2019). What They Learn when They Learn Coding: Investigating Cognitive Domains and Computer Programming Knowledge in Young Children. *Education Tech. Res. Dev.* 67 (3), 541–575. doi:10.1007/s11423-018-9622-x
 
 [CrossRef Full Text](https://doi.org/10.1007/s11423-018-9622-x) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=What+They+Learn+when+They+Learn+Coding:+Investigating+Cognitive+Domains+and+Computer+Programming+Knowledge+in+Young+Children&btnG=)
 
-[](<>)Strawhacker, A., Lee, M., and Bers, M. U. (2018). Teaching Tools, Teachers' Rules: Exploring the Impact of Teaching Styles on Young Children's Programming Knowledge in ScratchJr. *Int. J. Technol. Des. Educ.* 28 (2), 347–376. doi:10.1007/s10798-017-9400-9
+[]()Strawhacker, A., Lee, M., and Bers, M. U. (2018). Teaching Tools, Teachers' Rules: Exploring the Impact of Teaching Styles on Young Children's Programming Knowledge in ScratchJr. *Int. J. Technol. Des. Educ.* 28 (2), 347–376. doi:10.1007/s10798-017-9400-9
 
 [CrossRef Full Text](https://doi.org/10.1007/s10798-017-9400-9) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Teaching+Tools,+Teachers%27+Rules:+Exploring+the+Impact+of+Teaching+Styles+on+Young+Children%27s+Programming+Knowledge+in+ScratchJr&btnG=)
 
-[](<>)Sullivan, A., Bers, M., and Pugnali, A. (2017). The Impact of User Interface on Young Children’s Computational Thinking. *J. Inf. Tech. Educ. Innov. Pract.* 16 (1), 171–193. doi:10.28945/3768
+[]()Sullivan, A., Bers, M., and Pugnali, A. (2017). The Impact of User Interface on Young Children’s Computational Thinking. *J. Inf. Tech. Educ. Innov. Pract.* 16 (1), 171–193. doi:10.28945/3768
 
 [CrossRef Full Text](https://doi.org/10.28945/3768) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=The+Impact+of+User+Interface+on+Young+Children%C3%A2%C2%80%C2%99s+Computational+Thinking&btnG=)
 
-[](<>)Sullivan, A., and Umashi Bers, M. (2019). Computer Science Education in Early Childhood: the Case of ScratchJr. *JITE:IIP* 18 (1), 113–138. doi:10.28945/4437
+[]()Sullivan, A., and Umashi Bers, M. (2019). Computer Science Education in Early Childhood: the Case of ScratchJr. *JITE:IIP* 18 (1), 113–138. doi:10.28945/4437
 
 [CrossRef Full Text](https://doi.org/10.28945/4437) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Computer+Science+Education+in+Early+Childhood:+the+Case+of+ScratchJr&btnG=)
 
-[](<>)Terzopoulos, G., Satratzemi, M., and Tsompanoudi, D. (2019). “Educational Mobile Applications on Computational Thinking and Programming for Children under 8 Years Old,” in *Interactive Mobile Communication, Technologies and Learning* (Cham: Springer), 527–538.
+[]()Terzopoulos, G., Satratzemi, M., and Tsompanoudi, D. (2019). “Educational Mobile Applications on Computational Thinking and Programming for Children under 8 Years Old,” in *Interactive Mobile Communication, Technologies and Learning* (Cham: Springer), 527–538.
 
 [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Educational+Mobile+Applications+on+Computational+Thinking+and+Programming+for+Children+under+8+Years+Old&btnG=)
 
-[](<>)Thomé, A. M. T., Scavarda, L. F., and Scavarda, A. J. (2016). Conducting Systematic Literature Review in Operations Management. *Prod. Plann. and Control.* 27 (5), 408–420. doi:10.1080/09537287.2015.1129464
+[]()Thomé, A. M. T., Scavarda, L. F., and Scavarda, A. J. (2016). Conducting Systematic Literature Review in Operations Management. *Prod. Plann. and Control.* 27 (5), 408–420. doi:10.1080/09537287.2015.1129464
 
 [CrossRef Full Text](https://doi.org/10.1080/09537287.2015.1129464) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Conducting+Systematic+Literature+Review+in+Operations+Management&btnG=)
 
-[](<>)Thuzar, A., and Nay, A. (2015). “Teaching and Learning through Creating Games in ScratchJr: Who Needs Variables Anyway!,” in *2015 IEEE Blocks and beyond Workshop (Blocks and beyond)* (Washington, DC; USA: IEEE), 139–141.
+[]()Thuzar, A., and Nay, A. (2015). “Teaching and Learning through Creating Games in ScratchJr: Who Needs Variables Anyway!,” in *2015 IEEE Blocks and beyond Workshop (Blocks and beyond)* (Washington, DC; USA: IEEE), 139–141.
 
 [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Teaching+and+Learning+through+Creating+Games+in+ScratchJr:+Who+Needs+Variables+Anyway!&btnG=)
 
-[](<>)Tikva, C., and Tambouris, E. (2020). Mapping Computational Thinking through Programming in K-12 Education: A Conceptual Model Based on a Systematic Literature Review. *Comput. and Edu.* 162, 104083. doi:10.1016/j.compedu.2020.104083
+[]()Tikva, C., and Tambouris, E. (2020). Mapping Computational Thinking through Programming in K-12 Education: A Conceptual Model Based on a Systematic Literature Review. *Comput. and Edu.* 162, 104083. doi:10.1016/j.compedu.2020.104083
 
 [CrossRef Full Text](https://doi.org/10.1016/j.compedu.2020.104083) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Mapping+Computational+Thinking+through+Programming+in+K-12+Education:+A+Conceptual+Model+Based+on+a+Systematic+Literature+Review&btnG=)
 
-[](<>)Walsh, C., and Campbell, C. (2018). “Introducing Coding as a Literacy on mobile Devices in the Early Years,” in *Mobile Technologies in Children’s Language and Literacy: Innovative Pedagogy in Preschool and Primary Education* (Emerald Publishing Limited), 51–66. doi:10.1108/978-1-78714-879-620181004
+[]()Walsh, C., and Campbell, C. (2018). “Introducing Coding as a Literacy on mobile Devices in the Early Years,” in *Mobile Technologies in Children’s Language and Literacy: Innovative Pedagogy in Preschool and Primary Education* (Emerald Publishing Limited), 51–66. doi:10.1108/978-1-78714-879-620181004
 
 [CrossRef Full Text](https://doi.org/10.1108/978-1-78714-879-620181004) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Introducing+Coding+as+a+Literacy+on+mobile+Devices+in+the+Early+Years&btnG=)
 
-[](<>)Wang, A. I., and Tahir, R. (2020). The Effect of Using Kahoot! for Learning - A Literature Review. *Comput. and Edu.* 149, 103818. doi:10.1016/j.compedu.2020.103818
+[]()Wang, A. I., and Tahir, R. (2020). The Effect of Using Kahoot! for Learning - A Literature Review. *Comput. and Edu.* 149, 103818. doi:10.1016/j.compedu.2020.103818
 
 [CrossRef Full Text](https://doi.org/10.1016/j.compedu.2020.103818) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=The+Effect+of+Using+Kahoot!+for+Learning+-+A+Literature+Review&btnG=)
 
-[](<>)Yu, J., and Roque, R. (2019). A Review of Computational Toys and Kits for Young Children. *Int. J. Child-Computer Interaction* 21, 17–36. doi:10.1016/j.ijcci.2019.04.001
+[]()Yu, J., and Roque, R. (2019). A Review of Computational Toys and Kits for Young Children. *Int. J. Child-Computer Interaction* 21, 17–36. doi:10.1016/j.ijcci.2019.04.001
 
 [CrossRef Full Text](https://doi.org/10.1016/j.ijcci.2019.04.001) | [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=A+Review+of+Computational+Toys+and+Kits+for+Young+Children&btnG=)
 
-[](<>)Yu, J., and Roque, R. (2018). “A Survey of Computational Kits for Young Children,” in *Proceedings of the 17th ACM Conference on Interaction Design and Children* (Trondheim, Norway: IDC 2018), 289–299. June 19–22, 2018.
+[]()Yu, J., and Roque, R. (2018). “A Survey of Computational Kits for Young Children,” in *Proceedings of the 17th ACM Conference on Interaction Design and Children* (Trondheim, Norway: IDC 2018), 289–299. June 19–22, 2018.
 
 [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=A+Survey+of+Computational+Kits+for+Young+Children&btnG=)
 

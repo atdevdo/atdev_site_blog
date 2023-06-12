@@ -1,15 +1,18 @@
 ---
 layout: layouts/post.njk
-title: "When a rewrite isn’t: rebuilding Slack on the desktop"
+title: 'When a rewrite isn’t: rebuilding Slack on the desktop'
 description: A new version of Slack is rolling out for our desktop customers,
   built from the ground up to be faster, more efficient, and easier to work on.
-publishDate: 2023-06-12
+publishDate: 2023-03-12
 category: code
-author: Mark Christian & Johnny Rodgers
+author: Mark Christian
 minRead: 7
 featuredImage: https://slack.engineering/wp-content/uploads/sites/7/2020/04/0_cgkWRCMtQXti3jbA-scaled-1.jpeg?resize=1536,1152
 featuredVideo: https://www.youtube.com/watch?v=C9XGKY5gvxI
 ---
+
+<!-- @format -->
+
 <!--StartFragment-->
 
 [Conventional wisdom](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/) holds that you should never rewrite your code from scratch, and that’s good advice. Time spent rewriting something that already works is time that won’t be spent making our customers working lives simpler, more pleasant, and more productive. And running code knows things: hard-won knowledge gained through billions of hours of cumulative usage and tens of thousands of bug fixes.
@@ -32,11 +35,11 @@ The [Ship of Theseus](https://en.wikipedia.org/wiki/Ship_of_Theseus) is a thou
 
 Our plan was to:
 
-* keep the existing codebase;
-* create a “modern” section of the codebase that would be future-proof and work the way we wanted it to;
-* modernize the implementation of Slack bit by bit, replacing existing code with modern code incrementally;
-* define rules that would enforce a strict interface between existing and modern code so it would be easy to understand their relationship;
-* and continually ship all of the above with the existing app, replacing older modules with modern implementations that suited our new architecture.
+- keep the existing codebase;
+- create a “modern” section of the codebase that would be future-proof and work the way we wanted it to;
+- modernize the implementation of Slack bit by bit, replacing existing code with modern code incrementally;
+- define rules that would enforce a strict interface between existing and modern code so it would be easy to understand their relationship;
+- and continually ship all of the above with the existing app, replacing older modules with modern implementations that suited our new architecture.
 
 The final step — and the most important one for our purposes — was to create a modern-only version of Slack that would start out incomplete but gradually work its way toward feature completeness as modules and interfaces were modernized.
 
@@ -68,8 +71,8 @@ At this point we had a plan and an architecture we thought would work, and we we
 
 We couldn’t just start replacing old code with new code willy-nilly; without some type of structure to keep the old and new code separate, they’d end up getting hopelessly tangled together and we’d never have our modern codebase. To solve this problem, we introduced a few rules and functions in a concept called legacy-interop:
 
-* **old code cannot directly import new code:** only new code that has been “exported” for use by the old code is available
-* **new code cannot directly import old code:** only old code that has been “adapted” for use by modern code is available.
+- **old code cannot directly import new code:** only new code that has been “exported” for use by the old code is available
+- **new code cannot directly import old code:** only old code that has been “adapted” for use by modern code is available.
 
 Exporting new code to the old code was simple. Our original codebase did not use JavaScript modules or imports. Instead, it kept everything on a top-level global variable called TS. The process of exporting new code just meant calling a helper function that made the new code available in a special TS.interop part of that global namespace. For example, TS.interop.i18n.t() would call into our modern, multi-workspace aware string localization function. Since the TS.interop namespace was only used from our legacy codebase, which only loaded a single workspace at a time, we could do a simple look-up to determine the workspace ID behind the scenes without requiring the legacy code to worry about it.
 

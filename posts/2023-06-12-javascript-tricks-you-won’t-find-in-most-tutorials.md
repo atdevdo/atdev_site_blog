@@ -2,13 +2,16 @@
 layout: layouts/post.njk
 title: JavaScript Tricks You Won’t Find in Most Tutorials
 description: Useful tips for writing more concise and performant JavaScript
-publishDate: 2023-06-12
+publishDate: 2021-07-12
 category: code
 author: Bret Cameron
 minRead: 9
 featuredImage: https://miro.medium.com/v2/resize:fit:2860/format:webp/1*7cRAqUE493wd988uxuTIUg.png
 featuredVideo: https://www.youtube.com/watch?v=oRekCcwSeXs
 ---
+
+<!-- @format -->
+
 <!--StartFragment-->
 
 When I began learning JavaScript, I made a list of every time-saving trick that I found in other people’s code, on code challenge websites, and anywhere *other than* the tutorials I was using.
@@ -21,7 +24,7 @@ So, in no particular order, here are 11 neat ways to write more concise and more
 
 # 1. Filter Unique Values
 
-*ARRAYS*
+_ARRAYS_
 
 The `Set` object type was introduced in ES6, and along with `...`, the ‘spread’ operator, we can use it to create a new array with *only* the unique values.
 
@@ -35,7 +38,7 @@ This trick works for arrays containing primitive types: `undefined`, `null`, 
 
 # 2. Short-Circuit Evaluation
 
-*CONDITIONALS*
+_CONDITIONALS_
 
 The ternary operator is a quick way to write simple (and sometimes not-so-simple) conditional statements, like these:
 
@@ -105,7 +108,7 @@ The proposal is currently at Stage 1, as an experimental feature. You can read a
 
 # 3. Convert to Boolean
 
-*TYPE CONVERSION*
+_TYPE CONVERSION_
 
 Besides the regular boolean values `true` and `false` , JavaScript also treats all other values as either ‘truthy’ or ‘falsy’.
 
@@ -121,7 +124,7 @@ This kind of type conversion can be handy in conditional statements, although th
 
 # 4. Convert to String
 
-*TYPE CONVERSION*
+_TYPE CONVERSION_
 
 To quickly convert a number to a string, we can use the concatenation operator `+` followed by an empty set of quotation marks `""` .
 
@@ -131,7 +134,7 @@ To quickly convert a number to a string, we can use the concatenation operator 
 
 # 5. Convert to Number
 
-*TYPE CONVERSION*
+_TYPE CONVERSION_
 
 The opposite can be quickly achieved using the addition operator `+` .
 
@@ -159,7 +162,7 @@ Though I can’t think of many use-cases, the bitwise NOT operator can also be u
 
 # 6. Quick Powers
 
-*OPERATIONS*
+_OPERATIONS_
 
 Since ES7, it has been possible to use the exponentiation operator `**` as a shorthand for powers, which is faster than writing `Math.pow(2, 3)` . This is straightforward stuff, but it makes the list because not many tutorials have been updated to include this operator!
 
@@ -179,7 +182,7 @@ For example, `2 << 3 = 16` is equivalent to `2 ** 4 = 16` .
 
 # 7. Quick Float to Integer
 
-*OPERATIONS / TYPE CONVERSION*
+_OPERATIONS / TYPE CONVERSION_
 
 If you want to convert a float to an integer, you can use `Math.floor()` , `Math.ceil()` or `Math.round()` . But there is also a faster way to truncate a float to an integer using `|`, the bitwise OR operator.
 
@@ -209,7 +212,7 @@ Instead, the bitwise OR operator allows us to write:
 
 # 8. Automatic Binding in Classes
 
-*CLASSES*
+_CLASSES_
 
 We can use ES6 arrow notation in class methods, and by doing so binding is implied. This will often save several lines of code in our class constructor, and we can happily say goodbye to repetitive expressions such as `this.myMethod = this.myMethod.bind(this)` !
 
@@ -219,7 +222,7 @@ We can use ES6 arrow notation in class methods, and by doing so binding is impli
 
 # 9. Truncate an Array
 
-*ARRAYS*
+_ARRAYS_
 
 If you want to remove values from the end of an array destructively, there’s are faster alternatives than using `splice()` .
 
@@ -237,7 +240,7 @@ This is a particularly concise solution. However, I have found the run-time of t
 
 # 10. Get the Last Item(s) in an Array
 
-*ARRAYS*
+_ARRAYS_
 
 The array method `slice()` can take negative integers, and if provided it will take values from the end of the array rather than the beginning.
 
@@ -247,7 +250,7 @@ The array method `slice()` can take negative integers, and if provided it will
 
 # 11. Format JSON Code
 
-*JSON*
+_JSON_
 
 Lastly, you may have used `JSON.stringify` before, but did you realise it can also help indent your JSON for you?
 
@@ -265,7 +268,7 @@ Got any JavaScript tricks of your own? I’d love to read them in the comments b
 
 # 12. \[Deprecated] Cache Array Length in Loops
 
-*LOOPS*
+_LOOPS_
 
 In the original version of this article, I shared a tip to cache array length in `for` loops. However, if it is a read-only loop, modern JavaScript engines deal with this at the point of compilation. It is no longer necessary unless the length of the array changes (and, if that is the case, you’ll probably want it to be recalculated with every iteration anyway).
 

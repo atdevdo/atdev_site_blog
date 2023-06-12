@@ -3,13 +3,16 @@ layout: layouts/post.njk
 title: Signs That Someone is Good for Your Mental Health
 description: Being able to be your true self is one of the strongest components
   of good mental health.
-publishDate: 2023-06-09
+publishDate: 2019-06-09
 category: growth
 author: Karen Koenig
 minRead: 8
 featuredImage: https://images.unsplash.com/photo-1620147461831-a97b99ade1d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bWVudGFsJTIwaGVhbHRofGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60
 featuredVideo: https://www.youtube.com/watch?v=K1lmJaBDIZs
 ---
+
+<!-- @format -->
+
 <!--StartFragment-->
 
 If someone in your circle is mentally healthy, there’s an excellent chance that being around him or her will benefit your [mental health](https://everydaypower.com/mental-health-importance-2/) as well.
@@ -46,9 +49,9 @@ However, they must be able to express recognition of what you’re feeling.
 
 They may move toward understanding by asking appropriate questions and/or by trying to imagine what you’re experiencing.
 
-Empathy is not the same as you describing a frightening experience in Mexico, and a friend relating that she had one in France (*unless you feel that what she’s describing mirrors what you were saying or feeling*).
+Empathy is not the same as you describing a frightening experience in Mexico, and a friend relating that she had one in France (_unless you feel that what she’s describing mirrors what you were saying or feeling_).
 
-If someone listens actively, (*i.e. taking in what you’re saying, asking relevant questions to understand your experience*), they probably are exhibiting empathy.
+If someone listens actively, (_i.e. taking in what you’re saying, asking relevant questions to understand your experience_), they probably are exhibiting empathy.
 
 You know this because it makes you feel understood – one of the most wondrous feelings in the world.
 
@@ -120,7 +123,7 @@ Everyone loses it once in a while.
 
 <!--StartFragment-->
 
-*I know I do*.
+_I know I do_.
 
 That’s what makes us human.
 
@@ -220,7 +223,7 @@ We need people who will allow us to try something on our own – and not foist t
 
 Generally, people in good mental health are comfortable with themselves.
 
-They don’t need to be the fixer or the ‘*fixee*’.
+They don’t need to be the fixer or the ‘_fixee_’.
 
 This gives us the flexibility to not fall into choosing one role or the other.
 

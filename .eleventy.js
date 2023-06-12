@@ -30,6 +30,7 @@ module.exports = function (eleventyConfig) {
     return collection
       .getFilteredByGlob('./posts/**/*.md')
       .filter((item) => item.data.category === 'code')
+      .sort((a, b) => b.data.publishDate - a.data.publishDate)
   })
   // ? END CODE COLLECTION
 
@@ -38,6 +39,7 @@ module.exports = function (eleventyConfig) {
     return collection
       .getFilteredByGlob('./posts/**/*.md')
       .filter((item) => item.data.category === 'community')
+      .sort((a, b) => b.data.publishDate - a.data.publishDate)
   })
   // ? END COMMUNITY COLLECTION
 
@@ -46,6 +48,7 @@ module.exports = function (eleventyConfig) {
     return collection
       .getFilteredByGlob('./posts/**/*.md')
       .filter((item) => item.data.category === 'growth')
+      .sort((a, b) => b.data.publishDate - a.data.publishDate)
   })
   // ? END GROWTH COLLECTION
 
@@ -54,6 +57,7 @@ module.exports = function (eleventyConfig) {
     return collection
       .getFilteredByGlob('./posts/**/*.md')
       .filter((item) => item.data.category === 'remote-work')
+      .sort((a, b) => b.data.publishDate - a.data.publishDate)
   })
   // ? END GROWTH COLLECTION
 
@@ -95,8 +99,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection('sortedByDate', function (collection) {
     return collection
       .getFilteredByGlob('./posts/**/*.md')
-      .reverse()
       .sort((a, b) => b.data.publishDate - a.data.publishDate)
+      .reverse()
   })
   // ? END COLLECTION SORTED BY DATE
 
