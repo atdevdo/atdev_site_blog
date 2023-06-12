@@ -18,6 +18,20 @@ const {
   sortedByCategory,
   sortedByDate,
 } = require('./_11ty/collections/sort-posts-collections')
+const {
+  sortedTechnologyByTitle,
+  sortedTechnologyByTime,
+  sortedTechnologyByDate,
+  sortedGrowthByTitle,
+  sortedGrowthByTime,
+  sortedGrowthByDate,
+  sortedCommunityByTitle,
+  sortedCommunityByTime,
+  sortedCommunityByDate,
+  sortedRemoteWorkByTitle,
+  sortedRemoteWorkByTime,
+  sortedRemoteWorkByDate,
+} = require('./_11ty/collections/sort-posts-category')
 // * END IMPORTING COLLECTIONS
 
 // * BEGIN IMPORTING FILTERS
@@ -54,6 +68,27 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection('sortedByCategory', sortedByCategory)
   eleventyConfig.addCollection('sortedByDate', sortedByDate)
   // ? END SORTED POSTS COLLECTIONS
+
+  // ? BEGIN SORTED CATEGORY COLLECTIONS
+  eleventyConfig.addCollection(
+    'sortedTechnologyByTitle',
+    sortedTechnologyByTitle
+  )
+  eleventyConfig.addCollection('sortedTechnologyByTime', sortedTechnologyByTime)
+  eleventyConfig.addCollection('sortedTechnologyByDate', sortedTechnologyByDate)
+  eleventyConfig.addCollection('sortedGrowthByTitle', sortedGrowthByTitle)
+  eleventyConfig.addCollection('sortedGrowthByTime', sortedGrowthByTime)
+  eleventyConfig.addCollection('sortedGrowthByDate', sortedGrowthByDate)
+  eleventyConfig.addCollection('sortedCommunityByTitle', sortedCommunityByTitle)
+  eleventyConfig.addCollection('sortedCommunityByTime', sortedCommunityByTime)
+  eleventyConfig.addCollection('sortedCommunityByDate', sortedCommunityByDate)
+  eleventyConfig.addCollection(
+    'sortedRemoteWorkByTitle',
+    sortedRemoteWorkByTitle
+  )
+  eleventyConfig.addCollection('sortedRemoteWorkByTime', sortedRemoteWorkByTime)
+  eleventyConfig.addCollection('sortedRemoteWorkByDate', sortedRemoteWorkByDate)
+  // ? END SORTED CATEGORY COLLECTIONS
   // * END CUSTOM COLLECTIONS
 
   // * BEGIN CUSTOM FILTERS

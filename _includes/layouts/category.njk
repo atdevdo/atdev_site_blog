@@ -11,11 +11,19 @@
 
         {# BEGIN JS IMPORTS #}
         <script defer type="text/javascript" src="/assets/js/header.js"></script>
+        <script defer type="text/javascript" src="/assets/js/sort-category.js"></script>
+        <script defer type="text/javascript" src="/assets/js/mixpanel.js"></script>
         {# END JS IMPORTS #}
 
         <title>{{ category | upper }} | CATEGORY </title>
     </head>
     <body>
+        {% from "../components/macros/sort-posts.macro.njk" import macro_sorted_list_title %}
+        {% from "../components/macros/sort-posts.macro.njk" import macro_sorted_list_time %}
+        {% from "../components/macros/sort-posts.macro.njk" import macro_sorted_list_date %}
+        {% from "../components/macros/sort-posts.macro.njk" import macro_no_sort %}
+
+        <span index="top"></span>
         {# BEGIN HEADER #}
         {% include "../components/blocks/header.block.njk" %}
         {# END HEADER #}
@@ -23,7 +31,50 @@
         <main class="category-posts">
             <h1>{{ category | fixCategory }}</h1>
 
-            {{content | safe}}
+            {# BEGIN FILTER - SORTING #}
+            <div id="filter-sort-container">
+
+                <div id="sort-by-title-box">
+                    <h2>SORT BY</h2>
+                </div>
+
+                <div id="sort-controls">
+                    <button id="sort-btn-title">
+                        <p>Title</p>
+                        <img src="/assets/icons/sort-az.png" alt="sort az"/>
+                    </button>
+                    <button id="sort-btn-time-read">
+                        <p>Time</p>
+                        <img src="/assets/icons/sort-time-read.png" alt="sort time to read"/>
+                    </button>
+
+                    <button id="sort-btn-date">
+                        <p>Date</p>
+                        <img src="/assets/icons/release-date-icon.png" alt="sort date"/>
+                    </button>
+                </div>
+            </div>
+            {# END FILTER - SORTING #}
+
+            {# BEGIN POST LIST #}
+            <div id="sorting">
+                <div id="sorted-title">
+                    {{ macro_sorted_list_title(collections[collectionByTitle], 40) }}
+                </div>
+
+                <div id="sorted-time">
+                    {{ macro_sorted_list_time(collections[collectionByTime], 40) }}
+                </div>
+
+                <div id="sorted-date">
+                    {{ macro_sorted_list_date(collections[collectionByDate], 40) }}
+                </div>
+
+                <div id="not-sorted">
+                    {{content | safe}}
+                </div>
+            </div>
+            {# END POST LIST #}
 
             {# BEGIN INNER NAVIGATION #}
             <div>
@@ -33,6 +84,11 @@
             </div>
             {# END INNER NAVIGATION #}
         </main>
+
+        <a onclick="mixpanel.track('Go Top Page Button - Blog')" id="scroll-button" href="#top">
+            <img src="/assets/icons/up-arrow-icon.png" alt="Up arrow icon"/>
+        </a>
+
         {# BEGIN FOOTER #}
         {% include "../components/blocks/footer.block.njk" %}
         {# END FOOTER #}
