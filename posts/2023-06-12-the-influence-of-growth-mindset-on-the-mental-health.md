@@ -6,13 +6,16 @@ publishDate: 2023-06-12
 category: growth
 author: Weidong Tao
 minRead: 15
-featuredImage: https://images.unsplash.com/photo-1495908333425-29a1e0918c5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGdyb3d0aHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60
+featuredImage: https://images.unsplash.com/photo-1564121211835-e88c852648ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80
 ---
+
+<!-- @format -->
+
 <!--StartFragment-->
 
 Growth mindset refers to our core belief that our talents can be developed through practice, which may influence our thoughts and behaviors. Growth mindset has been studied in a variety of fields, including education, sports, and management. However, few studies have explored whether differences in individuals’ growth mindsets influence college students’ self-reported mental health. Using the Growth Mindset Scale, Adolescent Self-rating Life Events Checklist, and SCL-90 Scale, data was collected from 2,505 freshmen in a University in China. Findings revealed that the students within the growth mindset group scored significantly lower on “mental health issues” and “stress due to life events” than the students in the fixed mindset group. Our findings suggest that individuals with a growth mindset are less prone to mental health problems than individuals with a fixed mindset.
 
-[](<>)
+[]()
 
 ## Introduction
 
@@ -42,7 +45,7 @@ The Symptom Checklist-90-Revised (SCL-90) and Adolescent Self-rating Life Events
 
 Up to now, few studies have explored the relationship between growth mindsets, mental health and life events. The purpose of the current study is to explore whether individuals with a growth mindset might have better mental health and life event outcomes than those with a fixed mindset. We hypothesized that: (1) individuals with a growth mindset have better mental health than those with a fixed mindset; (2) individuals with a growth mindset have better self-report life events than those with a fixed mindset; and (3) individual family socioeconomic status will have an effect on growth mindset.
 
-[](<>)
+[]()
 
 ## Materials and Methods
 
@@ -70,7 +73,7 @@ The Adolescents’ Self-Rating Life Events Checklist (ASLEC; [Liu et al., 1997]
 
 Statistical analyses were performed using the SPSS 22.0. Descriptive analyses were used to examine the descriptive characteristics of the study population. We used the independent samples T-test to test gender differences in the results on the growth mindset. A one-way ANOVA was used to test the degree of socioeconomic status (SES) factor and the place of birth factor. The significance level was set at *p* < 0.05.
 
-[](<>)
+[]()
 
 ## Results
 
@@ -112,7 +115,7 @@ Table 3
 
 A significant negative correlation was found between growth mindset and SCL-90 [*r* = −0.145, *p* < 0.001]. A significant negative correlation was found between growth mindset and ALSF (*r* = −0.13, *p* < 0.001), and a significant positive correlation between life event and mental health (*r* = 0.563, *p* < 0.001).
 
-[](<>)
+[]()
 
 ## Discussion
 
