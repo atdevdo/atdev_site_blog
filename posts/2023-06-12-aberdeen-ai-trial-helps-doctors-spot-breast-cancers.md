@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 title: Aberdeen AI trial helps doctors spot breast cancers
 description: A.I in medicine
-publishDate: 2023-06-12
+publishDate: 2023-05-28
 category: technology
 author: Marc Cieslak
 minRead: 3
