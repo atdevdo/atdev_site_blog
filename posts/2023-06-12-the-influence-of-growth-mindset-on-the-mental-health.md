@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 title: The Influence of Growth Mindset on the Mental Health
 description: Life Events of College Students
-publishDate: 2023-06-12
+publishDate: 2023-06-11
 category: growth
 author: Weidong Tao
 minRead: 15
