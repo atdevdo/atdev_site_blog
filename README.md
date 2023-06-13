@@ -10,7 +10,7 @@ ATDEV Blog
   - [The Content](#the-content)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
+- [Our process](#our-process)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
 - [Social Media](#social-media)
@@ -35,10 +35,10 @@ In this blog you will see articles of different types, such as:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/AdryAtDev/adrydev_atdev_site_blog)
+- Solution URL: [GitHub](https://github.com/atdevdo/atdev_site_blog)
 - Live Site URL: [Netlify](https://melodic-pasca-5d1c5d.netlify.app/)
 
-## My process
+## Our process
 
 ### Built with
 
