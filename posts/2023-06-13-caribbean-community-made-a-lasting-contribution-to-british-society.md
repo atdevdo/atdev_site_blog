@@ -5,7 +5,7 @@ description: The Windrush generation
 publishDate: 2023-06-12
 category: community
 author: Les Johnson
-minRead: 3
+minRead: 16
 featuredImage: https://images.theconversation.com/files/529335/original/file-20230531-17-r30h9j.jpg?ixlib=rb-1.1.0&rect=101%2C110%2C5439%2C3555&q=45&auto=format&w=926&fit=clip
 featuredVideo: https://www.youtube.com/watch?v=qKJ-iqFmHOQ
 ---
