@@ -66,6 +66,9 @@ In this blog you will see articles of different types, such as:
 ### Folder Structure
 
 ```.
+├── _11ty
+    ├── collections
+    └── filters
 ├── _data
 ├── _includes
     ├── components
@@ -79,11 +82,10 @@ In this blog you will see articles of different types, such as:
     ├── images
     └── js
 ├── categories
-    ├── technology
     ├── community
+    ├── growth
     ├── remote work
-    └── growth
-├── filters
+    └── technology
 ├── posts
 └── uploads
     └── images
