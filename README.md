@@ -1,6 +1,6 @@
 <!-- @format -->
 
-# ATDEV - Web Page Clone
+# ATDEV - Blog
 
 ATDEV Blog
 
