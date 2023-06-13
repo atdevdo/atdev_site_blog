@@ -35,7 +35,7 @@ In this blog you will see articles of different types, such as:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/AdryAtDev/adrydev_atdev_site_blog)
+- Solution URL: [GitHub](https://github.com/atdevdo/atdev_site_blog)
 - Live Site URL: [Netlify](https://melodic-pasca-5d1c5d.netlify.app/)
 
 ## My process
