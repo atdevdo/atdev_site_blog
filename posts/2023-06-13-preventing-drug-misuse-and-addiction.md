@@ -5,7 +5,7 @@ description: The Best Strategy
 publishDate: 2023-05-31
 category: community
 author: No Author
-minRead: 3
+minRead: 6
 featuredImage: https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2UwODI2OGJmMjg2NmY5NjExMDY2ZTBiODQyZWYzNzUxMWY5ZGI2MCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/EngdEchOWk29ZFdpzt/giphy.gif
 ---
 <!--StartFragment-->
