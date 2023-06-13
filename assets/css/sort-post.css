@@ -149,3 +149,38 @@ input {
 #searchResults h3 a {
   color: var(--color-h3);
 }
+
+#category-filter {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  box-shadow: var(--box-shadow);
+  padding-left: 1rem;
+}
+
+#category-filter h2 {
+  font-size: 1rem;
+  font-weight: bolder;
+  color: var(--color-paragraph);
+}
+
+#category-filter__list {
+  padding: 0.1rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  box-shadow: -0.2px 0px 0px 0px #6a8dc8;
+}
+
+#category-filter__list a {
+  padding: 1rem 0;
+  color: var(--color-h3);
+  transition: transform 0.2s;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+#category-filter__list a:hover {
+  transform: scale(1.08);
+}
