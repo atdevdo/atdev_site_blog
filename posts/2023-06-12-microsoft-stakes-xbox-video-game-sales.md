@@ -2,12 +2,15 @@
 layout: layouts/post.njk
 title: Microsoft Stakes Xbox Video Game Sales
 description: Awaited Space Adventure Starfield
-publishDate: 2023-06-12
+publishDate: 2023-06-11
 category: technology
 author: CASEY RODGERS
 minRead: 4
 featuredImage: https://www.usnews.com/object/image/00000188-afbc-ddf1-ad99-fffda6490000/e90b29e8da9a4a0ab3de64d55ea99b13Microsoft_Xbox_Starfield_69852.jpg?update-time=1686574955000&size=responsive970
 ---
+
+<!-- @format -->
+
 <!--StartFragment-->
 
 One small step for an intrepid crew of 24th century space explorers could be a giant leap — or flop — for Microsoft when the Xbox-maker launches its long-awaited video game Starfield.
