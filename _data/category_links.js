@@ -3,6 +3,10 @@
 module.exports = {
   links: [
     {
+      label: 'Home',
+      link: '/',
+    },
+    {
       label: 'Community',
       link: '/categories/community/1',
     },
