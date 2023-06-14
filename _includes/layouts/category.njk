@@ -10,7 +10,6 @@
         {# END CSS IMPORTS #}
 
         {# BEGIN JS IMPORTS #}
-        <script defer type="text/javascript" src="/assets/js/header.js"></script>
         <script defer type="text/javascript" src="/assets/js/sort-category.js"></script>
         <script defer type="text/javascript" src="/assets/js/mixpanel.js"></script>
         {# END JS IMPORTS #}
@@ -24,9 +23,6 @@
         {% from "../components/macros/sort-posts.macro.njk" import macro_no_sort %}
 
         <span index="top"></span>
-        {# BEGIN HEADER #}
-        {% include "../components/blocks/header.block.njk" %}
-        {# END HEADER #}
 
         <main class="category-posts">
             <h1>{{ category | fixCategory }}</h1>
@@ -89,8 +85,5 @@
             <img src="/assets/icons/up-arrow-icon.png" alt="Up arrow icon"/>
         </a>
 
-        {# BEGIN FOOTER #}
-        {% include "../components/blocks/footer.block.njk" %}
-        {# END FOOTER #}
     </body>
 </html>
