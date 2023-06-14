@@ -156,10 +156,11 @@ input {
   gap: 0.8rem;
   box-shadow: var(--box-shadow);
   padding-left: 1rem;
+  border-radius: 0.2rem;
 }
 
 #category-filter h2 {
-  font-size: 1rem;
+  font-size: 1.089rem;
   font-weight: bolder;
   color: var(--color-paragraph);
 }
@@ -178,7 +179,7 @@ input {
   color: var(--color-h3);
   transition: transform 0.2s;
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 #category-filter__list a:hover {
