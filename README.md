@@ -32,6 +32,7 @@ In this blog you will see articles of different types, such as:
 ### Screenshot
 
 ![Home](/assets/images/blog-home.png)
+![Category](/assets/images/blog-growth-category.png)
 
 ### Links
 
