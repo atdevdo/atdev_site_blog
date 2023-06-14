@@ -90,6 +90,7 @@ input {
 
 #sort-controls button {
   width: 8rem;
+  height: 2.8rem;
   padding: 0 1rem;
   color: var(--color-paragraph-secondary);
   font-size: 0.8rem;
