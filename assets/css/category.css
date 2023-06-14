@@ -23,6 +23,11 @@
   color: var(--color-paragraph);
   font-weight: 700;
   font-size: 1.2rem;
+  transition: transform 0.2s;
+}
+
+.category-container__head a:hover {
+  transform: scale(1.22);
 }
 
 /* BEGIN CATEGORY POSTS */
