@@ -9,10 +9,22 @@ module.exports = {
     'second-block': {
       title: 'Menu',
       links: [
-        { label: 'Services', link: 'https://atdev.do/pages/service/' },
-        { label: 'Careers', link: 'https://atdev.do/pages/careersus/' },
-        { label: 'About', link: 'https://atdev.do/pages/about/' },
-        { label: 'Contact', link: 'https://atdev.do/pages/contact/' },
+        {
+          label: 'Services',
+          link: 'https://tubular-pastelito-306d7f.netlify.app/pages/en/service/',
+        },
+        {
+          label: 'Careers',
+          link: 'https://tubular-pastelito-306d7f.netlify.app/pages/en/careersus/',
+        },
+        {
+          label: 'About',
+          link: 'https://tubular-pastelito-306d7f.netlify.app/pages/en/about/',
+        },
+        {
+          label: 'Contact',
+          link: 'https://tubular-pastelito-306d7f.netlify.app/pages/en/contact/',
+        },
         { label: 'Blog', link: '/' },
       ],
     },
