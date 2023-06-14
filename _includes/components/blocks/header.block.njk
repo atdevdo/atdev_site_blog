@@ -1,0 +1,9 @@
+{% block block_header %}
+    <header id="category-filter">
+        <nav id="category-filter__list">
+            {% for item in category_links.links %}
+                <a href="{{item.link}}">{{item.label}}</a>
+            {% endfor %}
+        </nav>
+    </header>
+{% endblock block_header %}
