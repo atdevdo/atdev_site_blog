@@ -81,15 +81,15 @@ input {
 }
 
 #sort-controls {
-  width: 50%;
+  /* width: 50%; */
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 1rem;
+  gap: 1.2rem;
 }
 
 #sort-controls button {
-  width: 8rem;
+  width: 6rem;
   padding: 0.8rem 2rem;
   color: var(--color-paragraph-secondary);
   font-size: 0.8rem;
