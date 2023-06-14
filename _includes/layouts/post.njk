@@ -21,14 +21,10 @@
         {# BEGIN JAVASCRIPT IMPORTS #}
         <script defer src="/assets/js/video-url-shortener.js"></script>
         <script defer type="text/javascript" src="/assets/js/mixpanel.js"></script>
-        <script defer type="text/javascript" src="/assets/js/header.js"></script>
         {# END JAVASCRIPT IMPORTS #}
     </head>
     <body>
         <span index="top"></span>
-        {# BEGIN HEADER #}
-        {% include "../components/blocks/header.block.njk" %}
-        {# END HEADER #}
         <main>
             <div class="post">
                 {# BEGIN FEATURED IMAGE #}
@@ -90,8 +86,5 @@
             <img src="/assets/icons/up-arrow-icon.png" alt="Up arrow icon"/>
         </a>
 
-        {# BEGIN FOOTER #}
-        {% include "../components/blocks/footer.block.njk" %}
-        {# END FOOTER #}
     </body>
 </html>

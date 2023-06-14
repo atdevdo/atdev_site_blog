@@ -1,0 +1,33 @@
+/** @format */
+
+#intro {
+  /* background-color: #3d8ecd; */
+  background-color: #4394ce;
+  margin-top: 0.4rem;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0 12rem;
+}
+
+#intro_text1,
+#intro_text2,
+#intro_text3 {
+  text-transform: capitalize;
+}
+
+#intro_text1 {
+  color: #d0f3f7;
+}
+
+#intro_text2 {
+  color: #c5e7eb;
+  font-size: 3rem;
+}
+
+#intro_text3 {
+  color: #c8f2f7;
+}

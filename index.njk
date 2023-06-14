@@ -12,9 +12,6 @@ title: 'ATDEV Blog'
 {% from "./_includes/components/macros/atdev.macro.njk" import macro_atdev %}
 {# END MACROS - IMPORTS #}
 
-{# TODO: REDUCE CARD SIZE #}
-{# TODO: ADD A BIGGER GAP BETWEEN THEM #}
-
 {# BEGIN FILTER - SORTING #}
 <div id="filter-sort-container">
     <div id="filterbox">
@@ -25,18 +22,6 @@ title: 'ATDEV Blog'
         <div id="noResultsFound" style="display: none">
             <p>No results found.</p>
         </div>
-    </div>
-
-    <div id="category-filter">
-        <div>
-            <h2>Categories: </h2>
-        </div>
-        <nav id="category-filter__list">
-            <a href="/categories/community/1">Community</a>
-            <a href="/categories/growth/1">Growth</a>
-            <a href="/categories/remote-work/1">Remote Work</a>
-            <a href="/categories/technology/1">Technology</a>
-        </nav>
     </div>
 
     <div id="sort-by-title-box">
@@ -107,7 +92,7 @@ title: 'ATDEV Blog'
   macro_atdev(
     'atdev-content-customsd',
     'Custom Software Development',
-    'https://atdev.do/services/app-development/',
+    'https://tubular-pastelito-306d7f.netlify.app/pages/en/services/app-development/',
     '/assets/images/customsd.png',
     'Custom Software Development Image'
   )
@@ -131,7 +116,7 @@ title: 'ATDEV Blog'
   macro_atdev(
     'atdev-content-about',
     'About Us',
-    'https://atdev.do/pages/about/',
+    'https://tubular-pastelito-306d7f.netlify.app/pages/en/about/',
     '/assets/images/about.png',
     'About Image'
   )
@@ -155,7 +140,7 @@ title: 'ATDEV Blog'
   macro_atdev(
     'atdev-content-nearshore',
     'Nearshore Augmentation',
-    'https://atdev.do/services/nearshore/',
+    'https://tubular-pastelito-306d7f.netlify.app/pages/en/services/nearshore/',
     '/assets/images/nearshore.png',
     'Nearshore Image'
   )

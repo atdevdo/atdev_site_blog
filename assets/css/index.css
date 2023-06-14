@@ -2,10 +2,9 @@
 
 @import './global.css';
 @import './custom-properties.css';
-@import './header.css';
-@import './footer.css';
 @import './external.css';
 @import './sort-post.css';
 @import './post.css';
 @import './category.css';
 @import './atdev.css';
+@import './introduction.css';
