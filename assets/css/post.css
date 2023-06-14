@@ -19,7 +19,6 @@
   height: 30rem;
   transition: 0.3s;
   transition: transform 0.2s;
-  /* transition: padding 0.1s; */
 }
 
 .post-card:hover {
