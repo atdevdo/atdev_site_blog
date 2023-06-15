@@ -1,7 +1,15 @@
-{% macro macro_intro(text_1, text_2, text_3) %}
-    <div id="intro">
-        <h3 id="intro_text1">{{ text_1 }}</h3>
-        <h1 id="intro_text2">{{ text_2 }}</h1>
-        <h3 id="intro_text3">{{ text_3 }}</h3>
-    </div>
+{% macro macro_intro(text_1, text_2, text_3, link) %}
+    {% if link != null %}
+        <a href="{{ link }}" id="intro">
+            <h3 id="intro_text1">{{ text_1 }}</h3>
+            <h1 id="intro_text2">{{ text_2 }}</h1>
+            <h3 id="intro_text3">{{ text_3 }}</h3>
+        </a>
+    {% else %}
+        <div id="intro">
+            <h3 id="intro_text1">{{ text_1 }}</h3>
+            <h1 id="intro_text2">{{ text_2 }}</h1>
+            <h3 id="intro_text3">{{ text_3 }}</h3>
+        </div>
+    {% endif %}
 {% endmacro %}
