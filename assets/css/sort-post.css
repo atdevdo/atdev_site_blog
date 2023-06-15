@@ -154,6 +154,7 @@ input {
   display: flex;
   align-items: center;
   gap: 0.8rem;
+  margin-top: 2rem;
 }
 
 #category-filter__list {

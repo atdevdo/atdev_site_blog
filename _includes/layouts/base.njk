@@ -34,11 +34,11 @@
   </head>
   <body>
     <span index="top"></span>
-
     {% from "../components/macros/introduction.macro.njk" import macro_intro %}
-    {% include "../components/blocks/header.block.njk" %}
 
     {{ macro_intro('Blog', 'ATDEV', 'We build your ideas, we build your team') }}
+
+    {% include "../components/blocks/header.block.njk" %}
 
     {# BEGIN MAIN CONTENT #}
     <main>
