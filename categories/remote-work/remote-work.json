@@ -1,9 +1,10 @@
 {
-  "layout": "layouts/category.njk",
-  "category": "remote-work",
-  "tags": "remote-work",
-  "collection": "remoteWorkCollection",
-  "collectionByTitle": "sortedRemoteWorkByTitle",
-  "collectionByTime": "sortedRemoteWorkByTime",
-  "collectionByDate": "sortedRemoteWorkByDate"
+	"layout": "layouts/category.njk",
+	"category": "remote-work",
+	"tags": "remote-work",
+	"permalink": "/categories/remote-work/{{current_page}}",
+	"collection": "remoteWorkCollection",
+	"collectionByTitle": "sortedRemoteWorkByTitle",
+	"collectionByTime": "sortedRemoteWorkByTime",
+	"collectionByDate": "sortedRemoteWorkByDate"
 }

@@ -247,7 +247,7 @@ iframe {
 @media only screen and (max-width: 600px) {
 	.post {
 		padding: 1.4rem;
-		text-align: center;
+		text-align: start;
 	}
 
 	.posts-container {
@@ -264,7 +264,6 @@ iframe {
 	}
 
 	#share-links div {
-		margin-left: -0.6rem;
 	}
 
 	.post__imgBox-textBox {
@@ -289,6 +288,6 @@ iframe {
 	}
 
 	#share-links div {
-		margin-left: -0.6rem;
+		/* margin-left: -0.6rem; */
 	}
 }

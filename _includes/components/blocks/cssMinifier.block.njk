@@ -1,0 +1,17 @@
+{% block cssMinifier %}
+    <!-- capture the CSS content as a Nunjucks variable -->
+    {% set css %}
+    {% include "../../../assets/css/atdev.css" %}
+    {% include "../../../assets/css/category.css" %}
+    {% include "../../../assets/css/custom-properties.css" %}
+    {% include "../../../assets/css/external.css" %}
+    {% include "../../../assets/css/global.css" %}
+    {% include "../../../assets/css/introduction.css" %}
+    {% include "../../../assets/css/post.css" %}
+    {% include "../../../assets/css/sort-post.css" %}
+    {% endset %}
+    <!-- feed it through our cssmin filter to minify -->
+    <style>
+        {{css | cssmin | safe}}
+    </style>
+{% endblock cssMinifier %}

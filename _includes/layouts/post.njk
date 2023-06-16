@@ -9,7 +9,7 @@
         <title>{{ title }}</title>
 
         {# BEGIN CSS IMPORTS #}
-        <link rel="stylesheet" href="/assets/css/index.css">
+        {% include "../components/blocks/cssMinifier.block.njk" %}
         {# END CSS IMPORTS #}
 
         {# BEGIN SOCIAL SHARE IMPORTS #}
@@ -20,6 +20,7 @@
         {# END SOCIAL SHARE IMPORTS #}
 
         {# BEGIN JAVASCRIPT IMPORTS #}
+        <script defer src="/assets/js/header.js"></script>
         <script defer src="/assets/js/video-url-shortener.js"></script>
         <script defer type="text/javascript" src="/assets/js/mixpanel.js"></script>
         {# END JAVASCRIPT IMPORTS #}
@@ -80,13 +81,12 @@
 
         {# BEGIN POST SHARE LINKS #}
         <aside id="share-links">
-            <div style="z-index: 1 !important; width: 2vw;" class="ss-box ss-shadow ss-fixed ss-left" data-ss-content="false" data-ss-social="facebook, whatsapp, twitter, email, linkedin, reddit"></div>
+            <div style="width: 100%; display: flex; justify-content: center; margin-bottom: 2rem;" class="ss-box" data-ss-content="false" data-ss-social="facebook, whatsapp, twitter, email, linkedin, reddit"></div>
         </aside>
         {# END POST SHARE LINKS #}
 
         <a onclick="mixpanel.track('Go Top Page Button - Blog')" id="scroll-button" href="#top">
             <img src="/assets/icons/up-arrow-icon.png" alt="Up arrow icon"/>
         </a>
-
     </body>
 </html>

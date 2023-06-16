@@ -1,9 +1,10 @@
 {
-  "layout": "layouts/category.njk",
-  "category": "community",
-  "tags": "community",
-  "collection": "communityCollection",
-  "collectionByTitle": "sortedCommunityByTitle",
-  "collectionByTime": "sortedCommunityByTime",
-  "collectionByDate": "sortedCommunityByDate"
+	"layout": "layouts/category.njk",
+	"category": "community",
+	"tags": "community",
+	"permalink": "/categories/community/{{current_page}}",
+	"collection": "communityCollection",
+	"collectionByTitle": "sortedCommunityByTitle",
+	"collectionByTime": "sortedCommunityByTime",
+	"collectionByDate": "sortedCommunityByDate"
 }
