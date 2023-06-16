@@ -118,3 +118,9 @@ img {
 		transition: transform 0.2s;
 	}
 }
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: white;
+	}
+}
