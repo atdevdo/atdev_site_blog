@@ -27,7 +27,13 @@
         <span index="top"></span>
         {% from "../components/macros/introduction.macro.njk" import macro_intro %}
 
-        {{ macro_intro('Category', category | fixCategory , quote_list.quotes[[1,2,3,4,5,6,7,8,9] | random].quote) }}
+        {% set list_length = [] %}
+
+        {% for item in quote_list.quotes %}
+            {% set list_length = (list_length.push(loop.index), list_length) %}
+        {% endfor %}
+
+        {{ macro_intro('Category', category | fixCategory , quote_list.quotes[list_length | random].quote) }}
         {% include "../components/blocks/header.block.njk" %}
 
         <main class="category-posts">
