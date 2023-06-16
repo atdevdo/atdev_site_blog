@@ -2,7 +2,6 @@
 	"layout": "layouts/category.njk",
 	"category": "growth",
 	"tags": "growth",
-	"permalink": "/categories/growth/{{current_page}}",
 	"collection": "growthCollection",
 	"collectionByTitle": "sortedGrowthByTitle",
 	"collectionByTime": "sortedGrowthByTime",
