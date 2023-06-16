@@ -1,9 +1,10 @@
 {
-  "layout": "layouts/category.njk",
-  "category": "growth",
-  "tags": "growth",
-  "collection": "growthCollection",
-  "collectionByTitle": "sortedGrowthByTitle",
-  "collectionByTime": "sortedGrowthByTime",
-  "collectionByDate": "sortedGrowthByDate"
+	"layout": "layouts/category.njk",
+	"category": "growth",
+	"tags": "growth",
+	"permalink": "/categories/growth/{{current_page}}",
+	"collection": "growthCollection",
+	"collectionByTitle": "sortedGrowthByTitle",
+	"collectionByTime": "sortedGrowthByTime",
+	"collectionByDate": "sortedGrowthByDate"
 }
