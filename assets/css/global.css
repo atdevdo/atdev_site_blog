@@ -65,10 +65,10 @@ img {
 }
 
 #scroll-button {
-	/* display: none; */
+	display: none;
 	position: fixed;
-	bottom: 18px;
-	right: 30px;
+	bottom: 2px;
+	right: 4px;
 	z-index: 999;
 	font-size: 18px;
 	border: none;
