@@ -2,7 +2,6 @@
 	"layout": "layouts/category.njk",
 	"category": "technology",
 	"tags": "technology",
-	"permalink": "/categories/technology/{{current_page}}",
 	"collection": "technologyCollection",
 	"collectionByTitle": "sortedTechnologyByTitle",
 	"collectionByTime": "sortedTechnologyByTime",
