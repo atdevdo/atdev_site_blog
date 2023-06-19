@@ -10,6 +10,7 @@
 	display: flex;
 	align-items: end;
 	justify-content: space-between;
+	margin-bottom: 1rem;
 }
 
 .category-container__head h2 {
@@ -23,7 +24,7 @@
 	color: var(--color-paragraph);
 	font-weight: 700;
 	font-size: 1.2rem;
-	transition: transform 0.2s;
+	transition: transform var(--transition-speed);
 }
 
 .category-container__head a:hover {

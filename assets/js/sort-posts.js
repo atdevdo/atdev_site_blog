@@ -10,55 +10,43 @@ const btn_sort_time_img = btn_sort_time_box.querySelector('img')
 const btn_sort_category_box = document.getElementById('sort-btn-category')
 const btn_sort_category_img = btn_sort_category_box.querySelector('img')
 
-localStorage.setItem('imgFlippedTitle', 'no')
-localStorage.setItem('imgFlippedTime', 'no')
-localStorage.setItem('imgFlippedCategory', 'no')
+let title_counter_first = 1
+let time_counter_first = 1
+let category_counter_first = 1
+let date_counter_first = 1
 
 btn_sort_title_box.addEventListener('click', () => {
-  if (localStorage.getItem('imgFlippedTitle') == 'no') {
-    btn_sort_title_img.src = '/assets/icons/sort-az-flipped.png'
-    localStorage.setItem('imgFlippedTitle', 'yes')
-  } else {
-    btn_sort_title_img.src = '/assets/icons/sort-az.png'
-    localStorage.setItem('imgFlippedTitle', 'no')
-  }
+	title_counter_first++
+	if (title_counter_first % 2 == 0) {
+		btn_sort_title_img.src = '/assets/icons/sort-az-flipped.png'
+	}
+
+	if (title_counter_first % 2 != 0) {
+		btn_sort_title_img.src = '/assets/icons/sort-az.png'
+	}
 })
 
 btn_sort_time_box.addEventListener('click', () => {
-  if (localStorage.getItem('imgFlippedTime') == 'no') {
-    btn_sort_time_img.src = '/assets/icons/sort-time-read-flipped.png'
-    localStorage.setItem('imgFlippedTime', 'yes')
-  } else {
-    btn_sort_time_img.src = '/assets/icons/sort-time-read.png'
-    localStorage.setItem('imgFlippedTime', 'no')
-  }
+	time_counter_first++
+	if (time_counter_first % 2 == 0) {
+		btn_sort_time_img.src = '/assets/icons/sort-time-read-flipped.png'
+	}
+
+	if (time_counter_first % 2 != 0) {
+		btn_sort_time_img.src = '/assets/icons/sort-time-read.png'
+	}
 })
 
 btn_sort_category_box.addEventListener('click', () => {
-  if (localStorage.getItem('imgFlippedCategory') == 'no') {
-    btn_sort_category_img.src = '/assets/icons/sort-category-flipped.png'
-    localStorage.setItem('imgFlippedCategory', 'yes')
-  } else {
-    btn_sort_category_img.src = '/assets/icons/sort-category.png'
-    localStorage.setItem('imgFlippedCategory', 'no')
-  }
+	category_counter_first++
+	if (category_counter_first % 2 == 0) {
+		btn_sort_category_img.src = '/assets/icons/sort-category-flipped.png'
+	}
+
+	if (category_counter_first % 2 != 0) {
+		btn_sort_category_img.src = '/assets/icons/sort-category.png'
+	}
 })
-
-if (localStorage.getItem('byTitle') == null) {
-  localStorage.setItem('byTitle', 'yes')
-}
-
-if (localStorage.getItem('byTime') == null) {
-  localStorage.setItem('byTime', 'yes')
-}
-
-if (localStorage.getItem('byCategory') == null) {
-  localStorage.setItem('byCategory', 'yes')
-}
-
-if (localStorage.getItem('byDate') == null) {
-  localStorage.setItem('byDate', 'yes')
-}
 
 const sorted_title_box = document.getElementById('sorted-title')
 const sorted_time_box = document.getElementById('sorted-time')
@@ -70,7 +58,11 @@ const sort_by_title_btn = document.getElementById('sort-btn-title')
 const sort_by_time_to_read_btn = document.getElementById('sort-btn-time-read')
 const sort_by_category_btn = document.getElementById('sort-btn-category')
 const sort_by_date_btn = document.getElementById('sort-btn-date')
-// const not_sorted_btn = document.getElementById("sort_btn_not")
+
+let title_counter_second = 1
+let time_counter_second = 1
+let category_counter_second = 1
+let date_counter_second = 1
 
 sorted_title_box.style.display = 'none'
 sorted_time_box.style.display = 'none'
@@ -79,88 +71,83 @@ sorted_date_box.style.display = 'none'
 not_sorted_box.style.display = 'block'
 
 sort_by_title_btn.addEventListener('click', () => {
-  if (localStorage.getItem('byTitle') == 'yes') {
-    sorted_title_box.style.display = 'block'
-    sort_by_title_btn.setAttribute('class', 'active')
-    sort_by_time_to_read_btn.removeAttribute('class', 'active')
-    localStorage.setItem('byTime', 'yes')
-    sort_by_category_btn.removeAttribute('class', 'active')
-    localStorage.setItem('byCategory', 'yes')
-    not_sorted_box.style.display = 'none'
-    localStorage.setItem('byTitle', 'no')
-  } else {
-    sorted_title_box.style.display = 'none'
-    not_sorted_box.style.display = 'block'
-    sort_by_title_btn.removeAttribute('class', 'active')
-    localStorage.setItem('byTitle', 'yes')
-  }
+	title_counter_second++
+	if (title_counter_second % 2 == 0) {
+		sorted_title_box.style.display = 'block'
+		sort_by_title_btn.setAttribute('class', 'active')
+		sort_by_time_to_read_btn.removeAttribute('class', 'active')
+		sort_by_category_btn.removeAttribute('class', 'active')
+		not_sorted_box.style.display = 'none'
+	}
+
+	if (title_counter_second % 2 != 0) {
+		sorted_title_box.style.display = 'none'
+		not_sorted_box.style.display = 'block'
+		sort_by_title_btn.removeAttribute('class', 'active')
+	}
 })
 
 sort_by_time_to_read_btn.addEventListener('click', () => {
-  if (localStorage.getItem('byTime') == 'yes') {
-    sorted_time_box.style.display = 'block'
-    sorted_title_box.style.display = 'none'
-    sort_by_time_to_read_btn.setAttribute('class', 'active')
-    sort_by_title_btn.removeAttribute('class', 'active')
-    localStorage.setItem('byTitle', 'yes')
-    sort_by_category_btn.removeAttribute('class', 'active')
-    localStorage.setItem('byCategory', 'yes')
-    not_sorted_box.style.display = 'none'
-    localStorage.setItem('byTime', 'no')
-  } else {
-    sorted_time_box.style.display = 'none'
-    sorted_title_box.style.display = 'none'
-    not_sorted_box.style.display = 'block'
-    sort_by_time_to_read_btn.removeAttribute('class', 'active')
-    localStorage.setItem('byTime', 'yes')
-  }
+	time_counter_second++
+	if (time_counter_second % 2 == 0) {
+		sorted_time_box.style.display = 'block'
+		sorted_title_box.style.display = 'none'
+		sort_by_time_to_read_btn.setAttribute('class', 'active')
+		sort_by_title_btn.removeAttribute('class', 'active')
+		sort_by_category_btn.removeAttribute('class', 'active')
+		not_sorted_box.style.display = 'none'
+	}
+
+	if (time_counter_second % 2 != 0) {
+		sorted_time_box.style.display = 'none'
+		sorted_title_box.style.display = 'none'
+		not_sorted_box.style.display = 'block'
+		sort_by_time_to_read_btn.removeAttribute('class', 'active')
+	}
 })
 
 sort_by_category_btn.addEventListener('click', () => {
-  if (localStorage.getItem('byCategory') == 'yes') {
-    sorted_category_box.style.display = 'block'
-    sorted_time_box.style.display = 'none'
-    sorted_title_box.style.display = 'none'
-    not_sorted_box.style.display = 'none'
-    sort_by_category_btn.setAttribute('class', 'active')
-    sort_by_title_btn.removeAttribute('class', 'active')
-    localStorage.setItem('byTitle', 'yes')
-    sort_by_time_to_read_btn.removeAttribute('class', 'active')
-    localStorage.setItem('byTime', 'yes')
-    localStorage.setItem('byCategory', 'no')
-  } else {
-    sorted_category_box.style.display = 'none'
-    sorted_time_box.style.display = 'none'
-    sorted_title_box.style.display = 'none'
-    not_sorted_box.style.display = 'block'
-    sort_by_category_btn.removeAttribute('class', 'active')
-    localStorage.setItem('byCategory', 'yes')
-  }
+	category_counter_second++
+	if (category_counter_second % 2 == 0) {
+		sorted_category_box.style.display = 'block'
+		sorted_time_box.style.display = 'none'
+		sorted_title_box.style.display = 'none'
+		not_sorted_box.style.display = 'none'
+		sort_by_category_btn.setAttribute('class', 'active')
+		sort_by_title_btn.removeAttribute('class', 'active')
+		sort_by_time_to_read_btn.removeAttribute('class', 'active')
+	}
+
+	if (category_counter_second % 2 != 0) {
+		sorted_category_box.style.display = 'none'
+		sorted_time_box.style.display = 'none'
+		sorted_title_box.style.display = 'none'
+		not_sorted_box.style.display = 'block'
+		sort_by_category_btn.removeAttribute('class', 'active')
+	}
 })
 
 sort_by_date_btn.addEventListener('click', () => {
-  if (localStorage.getItem('byDate') == 'yes') {
-    sorted_date_box.style.display = 'block'
-    sorted_category_box.style.display = 'none'
-    sorted_time_box.style.display = 'none'
-    sorted_title_box.style.display = 'none'
-    not_sorted_box.style.display = 'none'
-    sort_by_date_btn.setAttribute('class', 'active')
-    sort_by_category_btn.removeAttribute('class', 'active')
-    sort_by_title_btn.removeAttribute('class', 'active')
-    sort_by_time_to_read_btn.removeAttribute('class', 'active')
-    localStorage.setItem('byTitle', 'yes')
-    localStorage.setItem('byTime', 'yes')
-    localStorage.setItem('byCategory', 'yes')
-    localStorage.setItem('byDate', 'no')
-  } else {
-    sorted_date_box.style.display = 'none'
-    sorted_category_box.style.display = 'none'
-    sorted_time_box.style.display = 'none'
-    sorted_title_box.style.display = 'none'
-    not_sorted_box.style.display = 'block'
-    sort_by_date_btn.removeAttribute('class', 'active')
-    localStorage.setItem('byDate', 'yes')
-  }
+	date_counter_second++
+	if (date_counter_second % 2 == 0) {
+		sorted_date_box.style.display = 'block'
+		sorted_category_box.style.display = 'none'
+		sorted_time_box.style.display = 'none'
+		sorted_title_box.style.display = 'none'
+		not_sorted_box.style.display = 'none'
+		sort_by_date_btn.setAttribute('class', 'active')
+		sort_by_category_btn.removeAttribute('class', 'active')
+		sort_by_title_btn.removeAttribute('class', 'active')
+		sort_by_time_to_read_btn.removeAttribute('class', 'active')
+	}
+
+	if (date_counter_second % 2 != 0) {
+		sorted_date_box.style.display = 'none'
+		sorted_category_box.style.display = 'none'
+		sorted_time_box.style.display = 'none'
+		sorted_title_box.style.display = 'none'
+		not_sorted_box.style.display = 'block'
+		sort_by_date_btn.removeAttribute('class', 'active')
+	}
 })
 // END DISPLAY SORTED POSTS
