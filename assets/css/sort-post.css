@@ -173,7 +173,7 @@ input {
 	padding: 1rem 0;
 	color: var(--color-h3);
 	transition: transform var(--transition-speed);
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 1rem;
 }
 
