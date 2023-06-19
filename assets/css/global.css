@@ -76,7 +76,7 @@ img {
 	cursor: pointer;
 	padding: 1rem;
 	border-radius: 0.2rem;
-	transition: transform 0.2s;
+	transition: transform var(--transition-speed);
 }
 
 #scroll-button:hover {
@@ -95,7 +95,7 @@ img {
 		cursor: pointer;
 		padding: 1rem;
 		border-radius: 0.2rem;
-		transition: transform 0.2s;
+		transition: transform var(--transition-speed);
 	}
 }
 
@@ -115,7 +115,7 @@ img {
 		cursor: pointer;
 		padding: 1rem;
 		border-radius: 0.2rem;
-		transition: transform 0.2s;
+		transition: transform var(--transition-speed);
 	}
 }
 

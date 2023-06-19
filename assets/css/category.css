@@ -23,7 +23,7 @@
 	color: var(--color-paragraph);
 	font-weight: 700;
 	font-size: 1.2rem;
-	transition: transform 0.2s;
+	transition: transform var(--transition-speed);
 }
 
 .category-container__head a:hover {

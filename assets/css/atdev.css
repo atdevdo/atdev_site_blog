@@ -59,7 +59,7 @@
 #atdev-content-nearshore a,
 #atdev-content-customsd a,
 #atdev-content-nearshore a {
-	transition: transform 0.2s;
+	transition: transform var(--transition-speed);
 }
 
 #atdev-content-about a:hover,

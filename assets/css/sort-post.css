@@ -31,7 +31,7 @@
 	border: none;
 	outline: none;
 	box-shadow: var(--box-shadow);
-	transition: transform 0.2s;
+	transition: transform var(--transition-speed);
 }
 
 input {
@@ -111,7 +111,7 @@ input {
 	color: var(--color-h2);
 	background-color: white;
 	box-shadow: var(--box-shadow);
-	transition: transform 0.2s;
+	transition: transform var(--transition-speed);
 }
 
 #sort-btn-title:hover,
@@ -172,7 +172,7 @@ input {
 #category-filter__list a {
 	padding: 1rem 0;
 	color: var(--color-h3);
-	transition: transform 0.2s;
+	transition: transform var(--transition-speed);
 	font-weight: 500;
 	font-size: 1rem;
 }
