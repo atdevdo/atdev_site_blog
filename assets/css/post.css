@@ -102,22 +102,32 @@
 .post__imgBox {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	gap: 0.8rem;
-	width: 95%;
+	width: 85%;
 }
 
 .post__imgBox-title {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	gap: 2rem;
+	width: 100%;
 }
 
 .post__imgBox-title h1 {
 	text-align: center;
+	text-transform: uppercase;
 	color: var(--color-h1);
 }
 
+.post__imgBox img {
+	width: 100%;
+	height: 60vh;
+}
+
 .post__imgBox-textBox {
+	width: 100%;
 	display: grid;
 	grid-template-columns: 0.5fr 3fr 0.5fr;
 }
