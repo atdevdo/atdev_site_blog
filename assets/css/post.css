@@ -5,7 +5,9 @@
 	grid-template-columns: 1fr 1fr 1fr;
 	align-items: start;
 	min-height: 100vh;
-	gap: 1.8rem;
+	/* gap: 1.8rem; */
+	row-gap: 4rem;
+	column-gap: 2rem;
 	padding: 2rem;
 	margin-top: -2.2rem;
 }

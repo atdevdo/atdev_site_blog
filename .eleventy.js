@@ -126,6 +126,13 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy('assets/js')
 	// * END COPY
 
+	// * BEGIN WATCHERS
+	eleventyConfig.addWatchTarget('assets/css')
+	eleventyConfig.addWatchTarget('assets/js')
+	eleventyConfig.addWatchTarget('assets/icons')
+	eleventyConfig.addWatchTarget('assets/images')
+	// * END WATCHERS
+
 	return {
 		passthroughFileCopy: true,
 		templateFormats: ['md', 'njk', 'html'],
