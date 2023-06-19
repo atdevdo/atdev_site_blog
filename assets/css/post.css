@@ -267,8 +267,12 @@ iframe {
 }
 
 @media only screen and (max-width: 600px) {
+	main {
+		padding: 0;
+	}
+
 	.post {
-		padding: 1.4rem;
+		padding: 1.4rem 0;
 		text-align: start;
 	}
 
@@ -285,16 +289,21 @@ iframe {
 		width: 10vw;
 	}
 
-	#share-links div {
-	}
-
 	.post__imgBox-textBox {
 		display: grid;
 		grid-template-columns: 1fr;
 	}
+
+	.post__mainContent p {
+		font-size: 1rem;
+	}
 }
 
 @media only screen and (min-width: 600px) and (max-width: 900px) {
+	main {
+		padding: 0;
+	}
+
 	.posts-container {
 		grid-template-columns: 1fr 1fr;
 		padding: 0;
