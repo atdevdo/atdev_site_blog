@@ -133,6 +133,13 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addWatchTarget('assets/images')
 	// * END WATCHERS
 
+	eleventyConfig.setBrowserSyncConfig({
+		middleware: function (req, res, next) {
+			res.setHeader('Access-Control-Allow-Origin', '*')
+			next()
+		},
+	})
+
 	return {
 		passthroughFileCopy: true,
 		templateFormats: ['md', 'njk', 'html'],
