@@ -8,7 +8,8 @@
 
 /* width */
 ::-webkit-scrollbar {
-	width: 0.125rem;
+	/* width: 0.125rem; */
+	width: 0;
 }
 
 /* Track */
@@ -33,6 +34,8 @@ html {
 
 body {
 	background-color: white;
+	height: 100%;
+	overflow: hidden;
 }
 
 main {
