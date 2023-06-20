@@ -5,7 +5,7 @@ var sticky = header.offsetTop
 
 window.onscroll = function () {
 	myFunction()
-	scrollFunction()
+	// scrollFunction()
 }
 
 function myFunction() {
