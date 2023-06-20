@@ -34,7 +34,7 @@
     <title>{{ title }}</title>
   </head>
   <body>
-    <span index="top"></span>
+    {# <span index="top"></span> #}
     {% from "../components/macros/introduction.macro.njk" import macro_intro %}
 
     {{ macro_intro('Blog', 'ATDEV', 'We build your ideas, we build your team', 'https://deploy-preview-17--atdev-testing.netlify.app/pages/en/') }}
@@ -47,8 +47,8 @@
     </main>
     {# END MAIN CONTENT #}
 
-    <a onclick="mixpanel.track('Go Top Page Button - Blog')" id="scroll-button" href="#top">
+    {# <a onclick="mixpanel.track('Go Top Page Button - Blog')" id="scroll-button" href="#top">
       <img src="/assets/icons/up-arrow-icon.png" alt="Up arrow icon"/>
-    </a>
+    </a> #}
   </body>
 </html>

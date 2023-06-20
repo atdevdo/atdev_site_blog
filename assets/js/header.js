@@ -1,7 +1,7 @@
 /** @format */
 var header = document.querySelector('header')
 var sticky = header.offsetTop
-let myButton = document.getElementById('scroll-button')
+// let myButton = document.getElementById('scroll-button')
 
 window.onscroll = function () {
 	myFunction()
@@ -16,13 +16,13 @@ function myFunction() {
 	}
 }
 
-function scrollFunction() {
-	if (
-		document.body.scrollTop > 100 ||
-		document.documentElement.scrollTop > 100
-	) {
-		myButton.style.display = 'block'
-	} else {
-		myButton.style.display = 'none'
-	}
-}
+// function scrollFunction() {
+// 	if (
+// 		document.body.scrollTop > 100 ||
+// 		document.documentElement.scrollTop > 100
+// 	) {
+// 		myButton.style.display = 'block'
+// 	} else {
+// 		myButton.style.display = 'none'
+// 	}
+// }
