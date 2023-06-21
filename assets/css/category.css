@@ -67,6 +67,7 @@
 		align-items: start;
 		gap: 1rem;
 		flex-direction: column;
+		padding: 0 1rem;
 	}
 }
 
@@ -80,5 +81,6 @@
 		align-items: start;
 		gap: 1rem;
 		flex-direction: row;
+		padding: 0 2rem;
 	}
 }
