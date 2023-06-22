@@ -1,5 +1,5 @@
 {% macro macro_post(title, description, category, author, minRead, image, url) %}
-    <a onclick="mixpanel.track('Go to ' + title + ' Page Button - Blog')" href={{url}} class="post-card">
+    <a onclick="mixpanel.track('Go to ' + title + ' Page Button - Blog')" href={{url}} class="post-card" target="_blank">
         <div class="post-card__imgBox">
             <img src={{ image }} alt="post image">
         </div>
