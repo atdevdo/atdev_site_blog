@@ -8,6 +8,7 @@ author: Tom Gerken
 minRead: 4
 featuredImage: https://ichef.bbci.co.uk/news/976/cpsprodpb/DD46/production/_130064665_gettyimages-1258039400.jpg.webp
 ---
+
 <!--StartFragment-->
 
 **Thousands of Reddit communities have "gone dark" as part of a protest by users over how the site is being run.**
@@ -55,43 +56,3 @@ They said they wanted Reddit admins to realise that they rely on moderators to o
 "It feels good to be able to have the power to say: 'We will not continue to moderate our communities if you push these changes through'.
 
 "If it's almost the entire website, would they destroy what they've built up in all these communities, just to push through this highly unpopular change that both the mods and users of Reddit are overwhelmingly against?"
-
-## Charges
-
-Reddit, which describes itself as "the front page of the internet", has an official app but it was developed in 2016, many years after the website was founded.
-
-Because of this, third-party apps such as Apollo, Reddit is Fun, Sync and ReddPlanet were set up as a way for people to access the platform on their mobile devices.
-
-Reddit has introduced a series of charges to the developers who wish to continue using its Application Programming Interface (API) - the behind-the-scenes code which allows third-party apps to find and show the content on Reddit.
-
-All four of these apps have said they will be shutting down as a result of Reddit's new API pricing.
-
-![A still of the Apollo Reddit app](https://ichef.bbci.co.uk/news/976/cpsprodpb/C4A8/production/_130044305_gettyimages-1258545135.jpg)
-
-IMAGE SOURCE,GETTY IMAGES
-
-Image caption,
-
-Apollo is a popular Reddit browser at the heart of the protest
-
-These charges have been heavily criticised as extortionate - with Apollo developer Christian Selig claiming it would end up costing him $20m (£15.9m) to continue operating the app.
-
-But a Reddit spokesperson told the BBC that Apollo was "notably less efficient" than other third-party apps.
-
-They said the social media platform spends "multi-millions of dollars on hosting fees" and "needs to be fairly paid" to continue supporting third-party apps.
-
-"Our pricing is based on usage levels that we measure to be comparable to our own costs," they said.
-
-The spokesperson also said that not all third-party apps would require paid access. Previously, Reddit announced it would not charge apps which make the platform more accessible.
-
-But the moderator the BBC spoke to said they believed the blackout could continue until Reddit row back on the changes.
-
-"The current plan for many communities is... they might keep the blackout going for longer, beyond the original forty-eight hours, or keep their subreddits restricted so that nobody can post," they said.
-
-"Every community operates differently, and different moderators have different views on what's happening right now, so it does vary.
-
-"But given recent communications between moderators and Reddit admins, I don't believe that they are intending to reverse these changes."
-
-And some communities, such as r/Music - which has 32 million members - say their subreddit will be indefinitely inaccessible until Reddit reverses its policy.
-
-<!--EndFragment-->

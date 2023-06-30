@@ -58,15 +58,3 @@ One potential downside to Tesla’s newly invigorated charging strategy is that 
 For years, the electric automaker offered free, unlimited Supercharging to people who bought Model S sedans and Model X SUVs, before officially ending the promotion in 2018. Now, the automaker appears to be trying to claw the benefit back.
 
 In offers emailed to customers, the company proposed trading the free juice benefit for $3,000 off a new car and three years of Supercharging, then upped the discount to $5,000. Until the end of this month, Tesla is offering six years of unlimited Supercharging to anyone willing to trade in their old S or X with indefinite years of unlimited charging attached.
-
-No deal, says Kagai Kinyua, a Model S owner who lives between Maryland and Georgia. He doesn’t charge at home because he wasn’t allowed to install a personal charging station in his high-rise apartment building’s parking garage. So Kinyua does most of his charging at local Tesla fast-charging stations. He estimates the perk saves him almost $3,000 a year.
-
-Tesla’s attempts to lure customers into giving up free charging for life has drivers puzzled over the company’s motives or strategy. “I guess they realize that legacy owners are sticking to their old cars,” Kinyua says.
-
-Or maybe Tesla has stumbled into a trap that has caught other tech companies that have offered a perk to entice early adopters, like unlimited phone minutes or cloud storage, only to realize that it was too good to give away for free. Musk said as much in a 2018, declaring that unlimited, free Supercharging was “not really sustainable at volume production & doesn’t incent optimal behavior.” He concluded, “We probably should have ended this earlier.”
-
-Tesla’s latest moves to flex the power of its charging network suggest another motive to end unlimited free charging: The automaker is trying to clear charging stations to make room for hordes of paying customers. Tesla, which reportedly disbanded its press team in 2021, didn’t respond to a request for comment.
-
-Vicente Perez, owner of a 2014 Model S, says he only uses the Supercharger network on road trips, or if he runs low on battery when far from his Los Angeles home. But he won’t give up his unlimited, free Supercharging easily, or the car the perk is bound to. “We’re still planning on keeping it until the wheels fall off,” he says.
-
-<!--EndFragment-->

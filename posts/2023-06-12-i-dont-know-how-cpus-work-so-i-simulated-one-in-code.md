@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 title: I don't know how CPUs work so I simulated one in code
 description: A few months ago it dawned on me that I didn’t really understand
-  how computers work under the hood ...
+    how computers work under the hood ...
 publishDate: 2011-07-13
 category: technology
 author: No Author
@@ -59,72 +59,3 @@ The only thing that’s different about my computer is I upgraded it to 16-bit t
 ## My development journey
 
 During development it really was just a case of reading the text, scouring the diagrams and then attempting to translate that using a general purpose programming language code and definitely *not* using something that’s designed for integrated circuit development. The reason why I wrote it in Go, is well, I know a bit of Go. Naysayers might chime in and say, you blithering idiot! I can’t believe you didn’t spend all your time learning [VHDL](https://en.wikipedia.org/wiki/VHDL) or [Verilog](https://en.wikipedia.org/wiki/Verilog) or [LogSim](http://www.cburch.com/logisim/) or whatever but I’d already written my bits and bytes and NANDs by that point, I was in too deep. Maybe I’ll learn them next and weep about my time wasted, but that’s my cross to bear.
-
-In the grand scheme of things most of the computer is just passing around a bunch of booleans, so any boolean friendly language will do the job.
-
-Applying a schema to those booleans is what helps you (the programmer) derive its meaning, and the biggest decision anyone needs to make is decide what [endianness](https://en.wikipedia.org/wiki/Endianness) your system is going to use and make sure all the components transfer things to and from the bus in the right order.
-
-This was an absolute pain in the backside to implement. From the offset I opted for little endian but when testing the ALU my hair took a beating trying to work out why the numbers were coming out wrong. Many, *many* print statements took place on this one.
-
-Development did take a while, maybe about a month or two during some of my free time, but once the CPU was done and successfully able to execute 2 + 2 = 5, I was happy.
-
-Well, until the book discussed the I/O features, with designs for a simple keyboard and display interface so you can get things in and out of the machine. *Well I’ve already gotten this far*, no point in leaving it in a half finished state. I set myself a goal of being able to type something on a keyboard and render the letters on a display.
-
-## Peripherals
-
-The peripherals use the [adapter pattern](https://en.wikipedia.org/wiki/Adapter_pattern) to act as a hardware interface between the CPU and the outside world. It’s probably not a huge leap to guess this was what the software design pattern took inspiration from.
-
-![](https://djhworld.github.io/img/simple-computer/io.png "i couldn't be bothered to do the corners around the CPU for the system bus")
-
-\
-How the I/O adapters connect to a GLFW window
-
-With this separation of concerns it was actually pretty simple to hook the other end of the keyboard and display to a window managed by GLFW. In fact I just pulled most of the code from my [emulator](https://github.com/djhworld/gomeboycolor-glfw) and reshaped it a bit, using go channels to act as the signals in and out of the machine.
-
-## Bringing it to life
-
-This was probably the most tricky part, or at least the most cumbersome. Writing assembly with such a limited instruction set sucks. Writing assembly using a crude assembler I wrote sucks even more because you can’t shake your fist at someone other than yourself.
-
-The biggest problem was juggling the 4 registers and keeping track of them, pulling and putting stuff in memory as a temporary store. Whilst doing this I remembered the Gameboy CPU having a stack pointer register so you could push and pop state. Unfortunately this computer doesn’t have such a luxury, so I was mostly moving stuff in and out of memory on a bespoke basis.
-
-The only pseudo instruction I took the time to implement was `CALL` to help calling functions, this allows you to run a function and then return to the point after the function was called. Without that stack though you can only call one level deep.
-
-Also as the machine does not support interrupts, you have to implement awful polling code for functions like getting keyboard state. The book does discuss the steps needed to implement interrupts, but it would involve a lot more wiring.
-
-But anyway enough of the moaning, I ended up writing [four programs](https://github.com/djhworld/simple-computer/blob/master/_programs/README.md) and most of them make use of some shared code for drawing fonts, getting keyboard input etc. Not exactly operating system material but it did make me appreciate some of the services a simple operating system might provide.
-
-It wasn’t easy though, the trickiest part of the text-writer program was getting the maths right to work out when to go to a newline, or what happens when you hit the enter key.
-
-```asm
-
-```
-
-The main loop for the text-writer program
-
-I didn’t get round to implementing the backspace key either, or any of the modifier keys. Made me appreciate how much work must go in to making text editors and how tedious that probably is.
-
-## On reflection
-
-This was a fun and very rewarding project for me. In the midst of programming in the assembly language I’d largely forgotten about the NAND, AND and OR gates firing underneath. I’d ascended into the layers of abstraction above.
-
-While the CPU in the is very simple and a long way from what’s sitting in my laptop, I think this project has taught me a lot, namely:
-
-- How bits move around between all components using a bus
-- How a *simple* ALU works
-- What a *simple* Fetch-Decode-Execute cycle looks like
-- That a machine without a stack pointer register + concept of a stack sucks
-- That a machine without interrupts sucks
-- What an assembler is and does
-- How a peripherals communicate with a simple CPU
-- How *simple* fonts work and an approach to rendering them on a display
-- What a *simple* operating system might start to look like
-
-So what’s next? The book said that no-one has built a computer like this since 1952, meaning I’ve got 67 years of material to brush up on, so that should keep me occupied for a while. I see the [x86 manual is 4800 pages long](https://software.intel.com/sites/default/files/managed/39/c5/325462-sdm-vol-1-2abcd-3abcd.pdf), enough for some fun, light reading at bedtime.
-
-Maybe I’ll have a brief dalliance with operating system stuff, a flirtation with the C language, a regrettable evening attempting to [solder up a PiDP-11 kit](https://obsolescence.wixsite.com/obsolescence/pidp-11) then probably call it quits. I dunno, we’ll see.
-
-With all seriousness though I think I’m going to start looking into RISC based stuff next, maybe RISC-V, but probably start with early RISC processors to get an understanding of the lineage. Modern CPUs have a lot more features like caches and stuff so I want to understand them as well. A lot of stuff out there to learn.
-
-Do I need to know any of this stuff in my day job? Probably helps, but not really, but I’m enjoying it, so whatever, thanks for reading.
-
-<!--EndFragment-->
