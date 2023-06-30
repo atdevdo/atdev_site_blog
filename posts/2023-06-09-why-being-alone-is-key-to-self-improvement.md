@@ -34,10 +34,10 @@ This need for social interaction and belonging is still an important part of our
 
 Social interaction can:
 
-- Lead to better mental health
-- Lower your risk of dementia
-- Make us feel safe
-- Give you a network of people to confide in
+-   Lead to better mental health
+-   Lower your risk of dementia
+-   Make us feel safe
+-   Give you a network of people to confide in
 
 To inspire individual thought and introspection, one needs to cleave from this paradigm and free up the mental space necessary to focus on the bigger picture and long-term goals.
 
@@ -62,103 +62,3 @@ According to *Reed Larson*, a Professor of Human Development and Family Studies
 <!--EndFragment-->
 
 <!--StartFragment-->
-
-## **Being Alone: The Role of Social Media and Loneliness**
-
-People immersed in contemporary life expect to feel lonely if left alone.
-
-This expectation is now a cultural assumption.
-
-People feel anxious and immediately fidget or reach for a device the minute they are alone in the quest for connection, be it a virtual one.
-
-We are so connected with the world these days.
-
-[With social media](https://everydaypower.com/stop-negative-effects-of-social-media/), access to emails, and news feeds directly to our smartphones, most find it difficult to disengage with society and truly be alone.
-
-Yet, this is where the magic happens.
-
-Disengaging with the information overload provided by modern life allows you to open up the thinking processes and spur creative thinking.
-
-It can be precious and rewarding to be alone with no interruptions.
-
-Alone time gives you time to think.
-
-It releases you of your immediate responsibility to others and allows you the time to focus on your needs.
-
-*Christopher Long* and *James Averill* advocate that alone time are essential by stating:
-
-> **“_The paradigm experience of solitude is a state characterized by disengagement from the immediate demands of other people—a state of reduced social inhibition and increased freedom to select one’s mental and physical activities.”_**
-
-The human brain is not built to multitask well.
-
-However, we do it every day.
-
-We essentially dilute the quality and efficiency of our actions.
-
-When given time alone, we can focus on one thing at a time and give it our full attention without distractions.
-
-<!--EndFragment-->
-
-<!--StartFragment-->
-
-## **How to Work on Yourself and Spark Creativity**
-
-In reality, it is *almost* impossible to be alone with the demands of daily life.
-
-There are always commitments to fulfill and people to make happy.
-
-Sometimes disengaging with this paradigm allows us the time to reflect and consciously work on ourselves.
-
-Solitude is a crucial and fundamental ingredient for creativity.
-
-It is imperative that you put time aside for being alone.
-
-A worthy suggestion is putting aside time each week for a “_Date with Yourself_.”
-
-This could include anything: a walk in the wilderness or a visit to a previously unknown location.
-
-It is aimed at setting aside time for something inspiring and creative for yourself.
-
-It focuses on experiencing something new and unfamiliar, opening up the psyche for original and innovative thinking.
-
-Time for self-reflection can allow you to change the course of your life.
-
-In our busy schedules, it is often not possible to really sit down and think about what you are doing and where it is taking you.
-
-Using your alone time adequately makes it possible to do just this.
-
-This *Seneca* quote rings extremely true concerning goal setting and the achievements thereof.
-
-> **“_Our plans miscarry because they have no aim. When a man does not know what harbor he is making for, no wind is the right wind.”_**
-
-This is essentially saying that if you don’t have a destination or aim in mind, then it is *almost* impossible to achieve it.
-
-<!--EndFragment-->
-
-<!--StartFragment-->
-
-### **Conclusion**
-
-Self-reflection supports the development of your skills and reviews their effectiveness.
-
-It helps you continuously improve your life, rather than just tediously plodding on with the current status quo.
-
-Self-reflection encompasses being self-questioning and honest with yourself about:
-
-- who you are
-- what are you doing
-- what you would like to do
-
-It is an essential part of self-learning and self-discovery.
-
-The most [important questions to ask yourself](https://everydaypower.com/living-with-integrity/) when self-reflecting regard assessing your strengths, weaknesses, skills, problems, achievements, happiness, and solutions to improve all these areas.
-
-Self-reflection is not wallowing in self-pity or self-absorption.
-
-It is taking an active role in yourself for the aim of self-improvement.
-
-It may seem embarrassing or selfish, and it is not what societal convention perpetuates.
-
-Still, if practiced effectively, self-reflection and being alone can create a happier, more efficient you.
-
-<!--EndFragment-->

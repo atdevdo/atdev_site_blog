@@ -8,6 +8,7 @@ author: Marc Cieslak
 minRead: 3
 featuredImage: https://ichef.bbci.co.uk/news/976/cpsprodpb/1263B/production/_130032357_gettyimages-838190946.jpg.webp
 ---
+
 <!--StartFragment-->
 
 **A trial under way at Aberdeen Royal Infirmary is exploring whether artificial intelligence (AI) can assist radiologists in reviewing thousands of mammograms a year.**
@@ -28,8 +29,8 @@ AI - technology which sees computers perform specific tasks that would typically
 
 Its potential to speed up the process of drug and disease discovery means many scientists and doctors see AI as a powerful tool to work with, rather than replace, practitioners.
 
-* [New superbug-killing antibiotic discovered using AI](https://www.bbc.co.uk/news/health-65709834)
-* [Woman's bowel cancer spotted by AI](https://www.bbc.co.uk/news/uk-england-tyne-65336477)
+-   [New superbug-killing antibiotic discovered using AI](https://www.bbc.co.uk/news/health-65709834)
+-   [Woman's bowel cancer spotted by AI](https://www.bbc.co.uk/news/uk-england-tyne-65336477)
 
 ## Aberdeen's AI trial
 
@@ -62,49 +63,3 @@ Image caption,
 Dr Lip talks June through the changes the AI software detected in her mammogram
 
 He showed BBC Click how the software works using anonymised mammogram results.
-
-"What we're seeing now is a lady who's got mammograms on the left side and right side, you're looking for differences," he said.
-
-By clicking a button, radiologists can view and check differences identified by the AI between the two scans.
-
-Dr Lip pointed to one area circled by the AI software, identifying it as the main area of concern.
-
-![Two areas of concern circled on a mammogram by AI software](https://ichef.bbci.co.uk/news/976/cpsprodpb/169F7/production/_130036629_screenshot2023-06-08154657.png)
-
-Image caption,
-
-Areas of concern circled on a mammogram by AI software
-
-"In screening you want to pick up things when they are small before they become big," he added.
-
-A few weeks after her biopsy, June told Click that using AI - rather than another human pair of eyes - made the process feel less intrusive.
-
-"You know your images are on screen, and people are looking at them," she said. "Whereas when it's an artificial intelligence, that bit of feeling that somebody is looking has gone."
-
-The results of June's biopsy means she will once again be having surgery.
-
-"The biopsy showed that I do have an early-stage cancer, they've certainly caught it at an earlier stage this time," June said. "But because I've had previous history with it, I'm going to go in and have a mastectomy.
-
-"It's not treatment I want to have. But at the same time, it's reassuring that it's being caught."
-
-## 'Chronic staff shortages'
-
-A [major review](https://www.gov.scot/publications/major-review-scottish-breast-screening-programme/pages/9/) of Scotland's breast screening programme published last year suggested a large number of radiology and advance practitioner staff are either nearing or at retirement age.
-
-It said the decline of "super reader" radiologists, relied on by the service to review a particularly high number of results, risks leaving the service "vulnerable".
-
-The Royal College of Radiologists has also warned the UK is facing "chronic staff shortages", [with patients waiting too long for vital tests and cancer treatments.](https://www.bbc.co.uk/news/health-65764755)
-
-![A radiologist reviews mammograms at Aberdeen Royal Infirmary](https://ichef.bbci.co.uk/news/976/cpsprodpb/F58F/production/_130036826_screenshot2023-06-08155040.png)
-
-With two radiologists needed to read and report results, the Scottish government's review said replacing one human reader with AI could "cover half of the screening image reading burden of approximately 1.72 million images read each year".
-
-But could the technology being tested in Aberdeen some day replace human staff?
-
-"I think the goal of this evaluation is to see what's the best way we can work with AI, whether it's replacing one of the radiologists, whether it's part reading some of the normal mammograms, or whether it's to improve our cancer detection as a safety net," Dr Lip said.
-
-Peter Kecskemethy, co-founder of Kheiron, said the tech will used by more than 30 NHS trusts across the UK for millions to access.
-
-And with [trusts in England already exploring](https://www.bbc.co.uk/news/uk-england-leicestershire-65536318) how AI can support better, faster outcomes for breast cancer patients, the tech looks to continue playing a large role in helping doctors save lives.
-
-<!--EndFragment-->
