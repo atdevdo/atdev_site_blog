@@ -55,12 +55,3 @@
 		})
 	)
 })(window, document)
-
-let post_card = document.getElementsByClassName('post-card')
-
-for ( let index = 0; index < post_card.length; index++ ) {
-  post_card[ index ].addEventListener( 'click', () => {
-    window.scrollTo(0,0); 
-  })
-}
-
