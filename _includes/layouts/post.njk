@@ -23,6 +23,13 @@
         <script defer src="/assets/js/header.js"></script>
         <script defer src="/assets/js/video-url-shortener.js"></script>
         <script defer type="text/javascript" src="/assets/js/mixpanel.js"></script>
+
+        {# + BEGIN TABLE OF CONTENT PLUGIN CDN #}
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.1.1/tocbot.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.1.1/tocbot.min.js"></script>
+        <script defer type="text/javascript" src="/assets/js/tableOfContent.js"></script>
+        {# + END TABLE OF CONTENT PLUGIN CDN #}
+
         {# END JAVASCRIPT IMPORTS #}
     </head>
     <body>
@@ -45,10 +52,14 @@
                 {# END FEATURED IMAGE #}
 
                 {# BEGIN POST CONTENT #}
-                <div class="post__mainContent">
+                <div class="post__mainContent js-toc-content">
                     {{ content | safe }}
                 </div>
                 {# END POST CONTENT #}
+
+                {# BEGIN TABLE OF CONTENTS #}
+                <div class="js-toc"></div>
+                {# END TABLE OF CONTENTS #}
 
                 {# BEGIN FEATURED VIDEO #}
                 {% if featuredVideo != undefined %}

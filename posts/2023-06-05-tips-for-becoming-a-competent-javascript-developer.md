@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: Tips for Becoming a Competent JavaScript Develope
+title: Tips for Becoming a Competent JavaScript Developer
 description: To move towards the next level, let’s focus on certain areas
 publishDate: 2023-05-30
 category: technology
