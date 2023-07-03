@@ -34,70 +34,72 @@
     </head>
     <body>
         <span index="top"></span>
-        {% include "../components/blocks/header.block.njk" %}
-        <main>
-            <div class="post">
-                {# BEGIN FEATURED IMAGE #}
-                <div class="post__imgBox">
-                    <div class="post__imgBox-title">
-                        <h1>{{ title }}</h1>
-                        <img src={{featuredImage}} alt="Post Image">
+        <div id="body-tag-post-wrapper">
+            {% include "../components/blocks/header.block.njk" %}
+            <main>
+                <div class="post">
+                    {# BEGIN FEATURED IMAGE #}
+                    <div class="post__imgBox">
+                        <div class="post__imgBox-title">
+                            <h1>{{ title }}</h1>
+                            <img src={{featuredImage}} alt="Post Image">
+                        </div>
+                        <div class="post__imgBox-textBox">
+                            <p class="post__imgBox-textBox__category">{{ category | fixCategory }}</p>
+                            <p class="post__imgBox-textBox__description">{{ description }}</p>
+                            <p class="post__imgBox-textBox__publishDate">{{ publishDate | postDate }}</p>
+                        </div>
                     </div>
-                    <div class="post__imgBox-textBox">
-                        <p class="post__imgBox-textBox__category">{{ category | fixCategory }}</p>
-                        <p class="post__imgBox-textBox__description">{{ description }}</p>
-                        <p class="post__imgBox-textBox__publishDate">{{ publishDate | postDate }}</p>
+                    {# END FEATURED IMAGE #}
+
+                    {# BEGIN POST CONTENT #}
+                    <div class="post__mainContent js-toc-content js-toc-content">
+                        {{ content | safe }}
                     </div>
-                </div>
-                {# END FEATURED IMAGE #}
+                    {# END POST CONTENT #}
 
-                {# BEGIN POST CONTENT #}
-                <div class="post__mainContent js-toc-content js-toc-content">
-                    {{ content | safe }}
-                </div>
-                {# END POST CONTENT #}
+                    {# BEGIN FEATURED VIDEO #}
+                    {% if featuredVideo != undefined %}
+                        <div class="iframe-container">
+                            <iframe src={{ featuredVideo }} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    {% endif %}
+                    {# END FEATURED VIDEO #}
 
-                {# BEGIN TABLE OF CONTENTS #}
-                <div class="js-toc"></div>
-                {# END TABLE OF CONTENTS #}
-
-                {# BEGIN FEATURED VIDEO #}
-                {% if featuredVideo != undefined %}
-                    <div class="iframe-container">
-                        <iframe src={{ featuredVideo }} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    {# BEGIN POST REACTION #}
+                    <div class="reactions">
+                        <ul class="reaction_list">
+                            <li class="reaction_box__like">
+                                <img src="/assets/icons/like-icon.png" alt="Like Icon">
+                            </li>
+                        </ul>
                     </div>
-                {% endif %}
-                {# END FEATURED VIDEO #}
+                    {# END POST REACTION #}
 
-                {# BEGIN POST REACTION #}
-                <div class="reactions">
-                    <ul class="reaction_list">
-                        <li class="reaction_box__like">
-                            <img src="/assets/icons/like-icon.png" alt="Like Icon">
-                        </li>
-                    </ul>
+                    {# BEGIN AUTHOR #}
+                    <div class="post__author">
+                        <h3>
+                            <span>Author:</span>
+                            {{ author }}
+                        </h3>
+                    </div>
+                    {# END AUTHOR #}
                 </div>
-                {# END POST REACTION #}
+            </main>
 
-                {# BEGIN AUTHOR #}
-                <div class="post__author">
-                    <h3>
-                        <span>Author:</span>
-                        {{ author }}
-                    </h3>
-                </div>
-                {# END AUTHOR #}
-            </div>
-        </main>
+            {# BEGIN POST SHARE LINKS #}
+            <aside id="share-links">
+                <div style="width: 100%; display: flex; justify-content: center; margin-bottom: 2rem;" class="ss-box" data-ss-content="false" data-ss-social="facebook, whatsapp, twitter, email, linkedin, reddit"></div>
+            </aside>
+            {# END POST SHARE LINKS #}
 
-        {# BEGIN POST SHARE LINKS #}
-        <aside id="share-links">
-            <div style="width: 100%; display: flex; justify-content: center; margin-bottom: 2rem;" class="ss-box" data-ss-content="false" data-ss-social="facebook, whatsapp, twitter, email, linkedin, reddit"></div>
-        </aside>
-        {# END POST SHARE LINKS #}
+            <a onclick="mixpanel.track('Go Top Page Button - Blog')" id="scroll-button" href="#top">
+                <img src="/assets/icons/up-arrow-icon.png" alt="Up arrow icon"/>
+            </a>
+        </div>
 
-        <a onclick="mixpanel.track('Go Top Page Button - Blog')" id="scroll-button" href="#top">
-            <img src="/assets/icons/up-arrow-icon.png" alt="Up arrow icon"/>
-        </a>
+        {# BEGIN TABLE OF CONTENTS #}
+        <div class="js-toc is-position-fixed"></div>
+        {# END TABLE OF CONTENTS #}
     </body>
 </html>
