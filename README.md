@@ -62,6 +62,7 @@ In this blog you will see articles of different types, such as:
 -   [Nunjucks](https://www.11ty.dev/docs/languages/nunjucks/) - This amazing templating language helped me create some navigation functionality and some layouts.
 -   [Decap Widgets](https://decapcms.org/docs/widgets/) - Decap works with widgets to provide some ui in your cms.
 -   [Google Fonts](https://fonts.google.com/) - This helped me find a good looking font for this web page.
+-   [Tocbot](https://www.cssscript.com/highly-customizable-table-contents-generator-tocbot/) - JavaScript plugin to make a table of content.
 
 ## Social Media
 
