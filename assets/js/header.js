@@ -1,4 +1,8 @@
 /** @format */
+window.onbeforeunload = function () {
+	return window.scrollTo(0, 0)
+}
+
 var header = document.querySelector('header')
 var sticky = header.offsetTop
 let myButton = document.getElementById('scroll-button')
