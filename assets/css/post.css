@@ -335,7 +335,7 @@ iframe {
 }
 
 .is-position-fixed {
-	top: 30vh !important;
+	top: 10rem !important;
 	right: 1.8rem;
 	width: 20rem;
 }
