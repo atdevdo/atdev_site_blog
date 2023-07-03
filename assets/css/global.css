@@ -1,9 +1,9 @@
 /** @format */
-
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Lato', 'Gotham', 'Plus Jakarta Sans', sans-serif;
 }
 
 /* width */
@@ -24,12 +24,6 @@
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
 	background: #555;
-}
-
-*,
-*::before,
-*::after {
-	font-family: 'Lato', 'Gotham', 'Plus Jakarta Sans', sans-serif;
 }
 
 html {

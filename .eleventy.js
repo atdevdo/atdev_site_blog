@@ -131,6 +131,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addWatchTarget('assets/js')
 	eleventyConfig.addWatchTarget('assets/icons')
 	eleventyConfig.addWatchTarget('assets/images')
+	eleventyConfig.addWatchTarget('assets/fonts')
 	// * END WATCHERS
 
 	eleventyConfig.setBrowserSyncConfig({
