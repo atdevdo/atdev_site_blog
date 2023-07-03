@@ -26,8 +26,13 @@
 	background: #555;
 }
 
+*,
+*::before,
+*::after {
+	font-family: 'Lato', 'Gotham', 'Plus Jakarta Sans', sans-serif;
+}
+
 html {
-	font-family: 'Gotham', 'Plus Jakarta Sans', sans-serif;
 	scroll-behavior: smooth;
 }
 
