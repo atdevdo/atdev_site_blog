@@ -26,3 +26,31 @@ function scrollFunction() {
 		myButton.style.display = 'none'
 	}
 }
+
+function resizeIFrame() {
+	if (parent.postMessage) {
+		var body = document.body,
+			html = document.documentElement,
+			loc = document.location,
+			height = Math.max(
+				body.scrollHeight,
+				body.offsetHeight,
+				html.clientHeight,
+				html.scrollHeight,
+				html.offsetHeight
+			),
+			width =
+				Math.max(
+					body.scrollWidth,
+					body.offsetWidth, //add a bit of margin
+					html.clientWidth,
+					html.scrollWidth,
+					html.offsetWidth
+				) + 5
+
+		parent.postMessage(
+			{ h: height, w: width },
+			loc.protocol + '//' + loc.host
+		)
+	}
+}
