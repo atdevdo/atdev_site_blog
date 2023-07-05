@@ -26,3 +26,9 @@ function scrollFunction() {
 		myButton.style.display = 'none'
 	}
 }
+
+window.addEventListener('message', function (event) {
+	if (event.data.scrollY !== undefined) {
+		window.scrollTo(0, event.data.scrollY)
+	}
+})
