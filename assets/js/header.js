@@ -32,7 +32,3 @@ window.addEventListener('message', function (event) {
 		window.scrollTo(0, event.data.scrollY)
 	}
 })
-
-$(document).ready(function () {
-	$('#blog-iframe', window.parent.document).height(document.body.scrollHeight)
-})
