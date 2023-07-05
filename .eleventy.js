@@ -43,6 +43,13 @@ const { fixCategory, dateNow } = require('./_11ty/filters/nunjucks-filters')
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 module.exports = function (eleventyConfig) {
+	eleventyConfig.setBrowserSyncConfig({
+		middleware: function (req, res, next) {
+			res.setHeader('Access-Control-Allow-Origin', '*')
+			next()
+		},
+	})
+
 	// ? BEGIN PLUGINS
 	eleventyConfig.addPlugin(pluginRss)
 	eleventyConfig.addPlugin(EleventyI18nPlugin, {
