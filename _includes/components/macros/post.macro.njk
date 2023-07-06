@@ -8,9 +8,11 @@
             <h2>{{ title }}</h2>
             <p>{{ description | capitalize  }}</p>
             <div class="post-card__contentBox-author_minRead">
-                <h3>
-                    <span>Author: </span>{{ author | capitalize }}
-                </h3>
+                {% if author | capitalize != "No author" %}
+                    <h3>
+                        <span>Author: </span>{{ author | capitalize }}
+                    </h3>
+                {% endif %}
                 <h4>{{ minRead }} min read</h4>
             </div>
         </div>
