@@ -103,7 +103,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap: 4rem;
+
 	line-height: 2rem;
 }
 
@@ -168,6 +168,7 @@
 	display: flex;
 	flex-direction: column;
 	gap: 1rem;
+	margin-bottom: 1rem;
 }
 
 .post__mainContent p {
@@ -249,6 +250,7 @@
 .iframe-container {
 	width: 80%;
 	height: 30rem;
+	margin-bottom: 1rem;
 }
 
 .post__imgBox-textBox__category {
@@ -402,8 +404,4 @@ iframe {
 		flex-direction: column;
 		gap: 1rem;
 	}
-}
-
-#share-links {
-	margin-bottom: 10rem;
 }
