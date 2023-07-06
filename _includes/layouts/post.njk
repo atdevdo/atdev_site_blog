@@ -83,12 +83,14 @@
                     {# END POST REACTION #}
 
                     {# BEGIN AUTHOR #}
-                    <div class="post__author">
-                        <h3>
-                            <span>Author:</span>
-                            {{ author }}
-                        </h3>
-                    </div>
+                    {% if author | capitalize != "No author" %}
+                        <div class="post__author">
+                            <h3>
+                                <span>Author:</span>
+                                {{ author }}
+                            </h3>
+                        </div>
+                    {% endif %}
                     {# END AUTHOR #}
                 </div>
             </main>
