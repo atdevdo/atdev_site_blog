@@ -1,5 +1,6 @@
 /** @format */
 // * BEGIN IMPORTING LIBRARIES
+const lazyImagesPlugin = require('eleventy-plugin-lazyimages')
 const { EleventyI18nPlugin } = require('@11ty/eleventy')
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 const CleanCSS = require('clean-css')
@@ -44,6 +45,7 @@ const { fixCategory, dateNow } = require('./_11ty/filters/nunjucks-filters')
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 module.exports = function (eleventyConfig) {
 	// ? BEGIN PLUGINS
+	eleventyConfig.addPlugin(lazyImagesPlugin)
 	eleventyConfig.addPlugin(pluginRss)
 	eleventyConfig.addPlugin(EleventyI18nPlugin, {
 		defaultLanguage: 'en', // Required
