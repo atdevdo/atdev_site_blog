@@ -218,7 +218,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 3vw;
+	width: 2.2rem;
 	padding: 0.5rem;
 	box-shadow: var(--box-shadow);
 	cursor: pointer;
@@ -312,10 +312,6 @@ iframe {
 		height: 20rem;
 	}
 
-	.reaction_list li {
-		width: 10vw;
-	}
-
 	.post__imgBox-textBox {
 		align-items: center;
 		flex-direction: column;
@@ -364,14 +360,6 @@ iframe {
 	.iframe-container {
 		width: 85%;
 		height: 25rem;
-	}
-
-	.reaction_list li {
-		width: 5.4vw;
-	}
-
-	#share-links div {
-		/* margin-left: -0.6rem; */
 	}
 
 	.post__mainContent p {
