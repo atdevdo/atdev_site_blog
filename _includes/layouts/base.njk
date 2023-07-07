@@ -2,61 +2,61 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8"/>
-    <meta
+	<head>
+		<meta charset="UTF-8"/>
+		<meta
       name="description"
       content="ATDEV Blog"/>
-    <meta
+		<meta
       http-equiv="X-UA-Compatible"
       content="IE=edge"/>
-    <meta
+		<meta
       name="viewport"
       content="width=device-width, initial-scale=1.0"/>
-    <link
+		<link
       rel="shortcut icon"
       href=""
       type="image/x-icon"/>
-    <link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
 
-    {# BEGIN CSS IMPORTS #}
-    {% include "../components/blocks/cssMinifier.block.njk" %}
-    {# END CSS IMPORTS #}
+		{# BEGIN CSS IMPORTS #}
+		{% include "../components/blocks/cssMinifier.block.njk" %}
+		{# END CSS IMPORTS #}
 
-    {# BEGIN JS IMPORTS #}
-    <script defer src="/assets/js/sort-posts.js"></script>
-    <script defer src="/assets/js/header.js"></script>
-    <script defer type="text/javascript" src="/assets/js/search.js"></script>
-    <script defer type="text/javascript" src="/assets/js/mixpanel.js"></script>
-    <script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"></script>
-    {# END JS IMPORTS #}
+		{# BEGIN JS IMPORTS #}
+		<script defer src="/assets/js/sort-posts.js"></script>
+		<script defer src="/assets/js/header.js"></script>
+		<script defer type="text/javascript" src="/assets/js/search.js"></script>
+		<script defer type="text/javascript" src="/assets/js/mixpanel.js"></script>
+		<script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"></script>
+		{# END JS IMPORTS #}
 
-    {# BEGIN FONT FAMILY - LATO #}
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    {# END FONT FAMILY - LATO #}
+		{# BEGIN FONT FAMILY - LATO #}
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+		{# END FONT FAMILY - LATO #}
 
-    <title>{{ title }}</title>
-  </head>
-  <body>
-    <span index="top"></span>
-    {% from "../components/macros/introduction.macro.njk" import macro_intro %}
+		<title>{{ title }}</title>
+	</head>
+	<body>
+		<span index="top"></span>
+		{% from "../components/macros/introduction.macro.njk" import macro_intro %}
 
-    {{ macro_intro('Blog', 'ATDEV', 'We build your ideas, we build your team', 'https://deploy-preview-17--atdev-testing.netlify.app/pages/en/') }}
+		{{ macro_intro('Blog', 'ATDEV', 'We build your ideas, we build your team', 'https://deploy-preview-17--atdev-testing.netlify.app/pages/en/') }}
 
-    {% include "../components/blocks/header.block.njk" %}
+		{% include "../components/blocks/header.block.njk" %}
 
-    {# BEGIN MAIN CONTENT #}
-    <main>
-      {{ content | safe }}
-    </main>
-    {# END MAIN CONTENT #}
+		{# BEGIN MAIN CONTENT #}
+		<main>
+			{{ content | safe }}
+		</main>
+		{# END MAIN CONTENT #}
 
-    <a onclick="mixpanel.track('Go Top Page Button - Blog')" id="scroll-button" href="#top">
-      <img src="/assets/icons/up-arrow-icon.png" alt="Up arrow icon" loading="lazy"/>
-    </a>
+		<a onclick="mixpanel.track('Go Top Page Button - Blog')" id="scroll-button" href="#top">
+			<img src="/assets/icons/up-arrow-icon.png" alt="Up arrow icon"/>
+		</a>
 
-    <script defer type="text/javascript" src="/assets/js/iframeResizer.contentWindow.min.js"></script>
-  </body>
+		<script defer type="text/javascript" src="/assets/js/iframeResizer.contentWindow.min.js"></script>
+	</body>
 </html>

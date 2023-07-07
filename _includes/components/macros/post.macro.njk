@@ -1,20 +1,20 @@
 {% macro macro_post(title, description, category, author, minRead, image, url) %}
-    <a onclick="mixpanel.track('Go to ' + title + ' Page Button - Blog')" href={{url}} class="post-card" >
-        <div class="post-card__imgBox">
-            <img src={{ image }} alt="post image" loading="lazy">
-        </div>
-        <div class="post-card__contentBox">
-            <p class="post-card__contentBox-category">{{ category | fixCategory }}</p>
-            <h2>{{ title }}</h2>
-            <p>{{ description | capitalize  }}</p>
-            <div class="post-card__contentBox-author_minRead">
-                {% if author | capitalize != "No author" %}
-                    <h3>
-                        <span>Author: </span>{{ author | capitalize }}
-                    </h3>
-                {% endif %}
-                <h4>{{ minRead }} min read</h4>
-            </div>
-        </div>
-    </a>
+	<a onclick="mixpanel.track('Go to ' + title + ' Page Button - Blog')" href={{url}} class="post-card" >
+		<div class="post-card__imgBox">
+			<img src={{ image }} alt="post image">
+		</div>
+		<div class="post-card__contentBox">
+			<p class="post-card__contentBox-category">{{ category | fixCategory }}</p>
+			<h2>{{ title }}</h2>
+			<p>{{ description | capitalize  }}</p>
+			<div class="post-card__contentBox-author_minRead">
+				{% if author | capitalize != "No author" %}
+					<h3>
+						<span>Author: </span>{{ author | capitalize }}
+					</h3>
+				{% endif %}
+				<h4>{{ minRead }} min read</h4>
+			</div>
+		</div>
+	</a>
 {% endmacro %}
