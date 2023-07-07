@@ -1,4 +1,7 @@
 /** @format */
+const observer = lozad() // lazy loads elements with default selector as '.lozad'
+observer.observe()
+
 var header = document.querySelector('header')
 var sticky = header.offsetTop
 let myButton = document.getElementById('scroll-button')
