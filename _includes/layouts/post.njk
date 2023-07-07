@@ -48,7 +48,7 @@
                     <div class="post__imgBox">
                         <div class="post__imgBox-title">
                             <h1>{{ title }}</h1>
-                            <img src={{featuredImage}} alt="Post Image">
+                            <img src={{featuredImage}} alt="Post Image" loading="lazy">
                         </div>
                         <div class="post__imgBox-textBox">
                             <p class="post__imgBox-textBox__category">{{ category | fixCategory }}</p>
@@ -76,7 +76,7 @@
                     <div class="reactions">
                         <ul class="reaction_list">
                             <li class="reaction_box__like">
-                                <img src="/assets/icons/like-icon.png" alt="Like Icon">
+                                <img src="/assets/icons/like-icon.png" alt="Like Icon" loading="lazy">
                             </li>
                         </ul>
                     </div>
@@ -102,7 +102,7 @@
             {# END POST SHARE LINKS #}
 
             <a onclick="mixpanel.track('Go Top Page Button - Blog')" id="scroll-button" href="#top">
-                <img src="/assets/icons/up-arrow-icon.png" alt="Up arrow icon"/>
+                <img src="/assets/icons/up-arrow-icon.png" alt="Up arrow icon" loading="lazy"/>
             </a>
 
             <div style="visibility: hidden;">
