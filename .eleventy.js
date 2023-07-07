@@ -43,7 +43,32 @@ const { fixCategory, dateNow } = require('./_11ty/filters/nunjucks-filters')
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 module.exports = function (eleventyConfig) {
+	function lazyImages(eleventyConfig, userOptions = {}) {
+		const { parse } = require('node-html-parser')
+
+		const options = {
+			name: 'lazy-images',
+			...userOptions,
+		}
+
+		eleventyConfig.addTransform(
+			options.extensions,
+			(content, outputPath) => {
+				if (outputPath.endsWith('.html')) {
+					const root = parse(content)
+					const images = root.querySelectorAll('img')
+					images.forEach((img) => {
+						img.setAttribute('loading', 'lazy')
+					})
+					return root.toString()
+				}
+				return content
+			}
+		)
+	}
+
 	// ? BEGIN PLUGINS
+	eleventyConfig.addPlugin(lazyImages, {})
 	eleventyConfig.addPlugin(pluginRss)
 	eleventyConfig.addPlugin(EleventyI18nPlugin, {
 		defaultLanguage: 'en', // Required
