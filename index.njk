@@ -14,62 +14,62 @@ title: 'ATDEV Blog'
 
 {# BEGIN FILTER - SORTING #}
 <div id="filter-sort-container">
-    <div id="filterbox">
-        <div class="field">
-            <input type="search" placeholder="Search..." id="searchField"/>
-        </div>
-        <ol id="searchResults"></ol>
-        <div id="noResultsFound" style="display: none">
-            <p>No results found.</p>
-        </div>
-    </div>
+	<div id="filterbox">
+		<div class="field">
+			<input type="search" placeholder="Search..." id="searchField"/>
+		</div>
+		<ol id="searchResults"></ol>
+		<div id="noResultsFound" style="display: none">
+			<p>No results found.</p>
+		</div>
+	</div>
 
-    <div id="sort-by-title-box">
-        <h2>SORT BY</h2>
-    </div>
+	<div id="sort-by-title-box">
+		<h2>SORT BY</h2>
+	</div>
 
-    <div id="sort-controls">
-        <button id="sort-btn-title">
-            <p>Title</p>
-            <img src="/assets/icons/sort-az.png" alt="sort az" loading="lazy"/>
-        </button>
-        <button id="sort-btn-time-read">
-            <p>Time</p>
-            <img src="/assets/icons/sort-time-read.png" alt="sort time to read" loading="lazy"/>
-        </button>
-        <button id="sort-btn-category">
-            <P>Category</P>
-            <img src="/assets/icons/sort-category.png" alt="sort category" loading="lazy"/>
-        </button>
-        <button id="sort-btn-date">
-            <p>Date</p>
-            <img src="/assets/icons/release-date-icon.png" alt="sort date" loading="lazy"/>
-        </button>
-    </div>
+	<div id="sort-controls">
+		<button id="sort-btn-title">
+			<p>Title</p>
+			<img src="/assets/icons/sort-az.png" alt="sort az"/>
+		</button>
+		<button id="sort-btn-time-read">
+			<p>Time</p>
+			<img src="/assets/icons/sort-time-read.png" alt="sort time to read"/>
+		</button>
+		<button id="sort-btn-category">
+			<P>Category</P>
+			<img src="/assets/icons/sort-category.png" alt="sort category"/>
+		</button>
+		<button id="sort-btn-date">
+			<p>Date</p>
+			<img src="/assets/icons/release-date-icon.png" alt="sort date"/>
+		</button>
+	</div>
 </div>
 {# END FILTER - SORTING #}
 
 {# BEGIN POST LIST #}
 <div id="sorting">
-    <div id="sorted-title">
-        {{ macro_sorted_list_title(collections.sortedByTitle, 7) }}
-    </div>
+	<div id="sorted-title" style="display: none;">
+		{{ macro_sorted_list_title(collections.sortedByTitle, 7) }}
+	</div>
 
-    <div id="sorted-time">
-        {{ macro_sorted_list_time(collections.sortedByTime, 7) }}
-    </div>
+	<div id="sorted-time" style="display: none;">
+		{{ macro_sorted_list_time(collections.sortedByTime, 7) }}
+	</div>
 
-    <div id="sorted-category">
-        {{ macro_sorted_list_category(collections.sortedByCategory, 7) }}
-    </div>
+	<div id="sorted-category" style="display: none;">
+		{{ macro_sorted_list_category(collections.sortedByCategory, 7) }}
+	</div>
 
-    <div id="sorted-date">
-        {{ macro_sorted_list_date(collections.sortedByDate, 7) }}
-    </div>
+	<div id="sorted-date" style="display: none;">
+		{{ macro_sorted_list_date(collections.sortedByDate, 7) }}
+	</div>
 
-    <div id="not-sorted">
-        {{ macro_no_sort(collections.decapPosts) }}
-    </div>
+	<div id="not-sorted">
+		{{ macro_no_sort(collections.decapPosts) }}
+	</div>
 </div>
 {# END POST LIST #}
 
@@ -77,13 +77,13 @@ title: 'ATDEV Blog'
 
 {# BEGIN TECHNOLOGY - CATEGORY #}
 <div class="category-container">
-    <div class="category-container__head">
-        <h2>Technology</h2>
-        <a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/technology/1">View More</a>
-    </div>
-    <div class="posts-container">
-        {{ macro_category_post(collections.technologyCollection, 'technology', 0, 7) }}
-    </div>
+	<div class="category-container__head">
+		<h2>Technology</h2>
+		<a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/technology/1">View More</a>
+	</div>
+	<div class="posts-container">
+		{{ macro_category_post(collections.technologyCollection, 'technology', 0, 7) }}
+	</div>
 </div>
 {# END TECHNOLOGY - CATEGORY #}
 
@@ -101,13 +101,13 @@ title: 'ATDEV Blog'
 
 {# BEGIN COMMUNITY - CATEGORY #}
 <div class="category-container">
-    <div class="category-container__head">
-        <h2>Community</h2>
-        <a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/community/1">View More</a>
-    </div>
-    <div class="posts-container">
-        {{ macro_category_post(collections.communityCollection, 'community', 0, 7) }}
-    </div>
+	<div class="category-container__head">
+		<h2>Community</h2>
+		<a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/community/1">View More</a>
+	</div>
+	<div class="posts-container">
+		{{ macro_category_post(collections.communityCollection, 'community', 0, 7) }}
+	</div>
 </div>
 {# END COMMUNITY - CATEGORY #}
 
@@ -125,13 +125,13 @@ title: 'ATDEV Blog'
 
 {# BEGIN GROWTH - CATEGORY #}
 <div class="category-container">
-    <div class="category-container__head">
-        <h2>Growth</h2>
-        <a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/growth/1">View More</a>
-    </div>
-    <div class="posts-container">
-        {{ macro_category_post(collections.growthCollection, 'growth', 0, 7) }}
-    </div>
+	<div class="category-container__head">
+		<h2>Growth</h2>
+		<a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/growth/1">View More</a>
+	</div>
+	<div class="posts-container">
+		{{ macro_category_post(collections.growthCollection, 'growth', 0, 7) }}
+	</div>
 </div>
 {# END GROWTH - CATEGORY #}
 
@@ -149,13 +149,13 @@ title: 'ATDEV Blog'
 
 {# BEGIN REMOTE WORK - CATEGORY #}
 <div class="category-container">
-    <div class="category-container__head">
-        <h2>Remote Work</h2>
-        <a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/remote-work/1">View More</a>
-    </div>
-    <div class="posts-container">
-        {{ macro_category_post(collections.remoteWorkCollection, 'remote-work', 0, 7) }}
-    </div>
+	<div class="category-container__head">
+		<h2>Remote Work</h2>
+		<a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/remote-work/1">View More</a>
+	</div>
+	<div class="posts-container">
+		{{ macro_category_post(collections.remoteWorkCollection, 'remote-work', 0, 7) }}
+	</div>
 </div>
 {# END REMOTE WORK - CATEGORY #}
 

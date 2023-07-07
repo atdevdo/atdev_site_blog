@@ -1,108 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
 
-        {# BEGIN CSS IMPORTS #}
-        {% include "../components/blocks/cssMinifier.block.njk" %}
-        {# END CSS IMPORTS #}
+		{# BEGIN CSS IMPORTS #}
+		{% include "../components/blocks/cssMinifier.block.njk" %}
+		{# END CSS IMPORTS #}
 
-        {# BEGIN JS IMPORTS #}
-        <script defer src="/assets/js/header.js"></script>
-        <script defer type="text/javascript" src="/assets/js/sort-category.js"></script>
-        <script defer type="text/javascript" src="/assets/js/mixpanel.js"></script>
-        {# END JS IMPORTS #}
+		{# BEGIN JS IMPORTS #}
+		<script defer src="/assets/js/header.js"></script>
+		<script defer type="text/javascript" src="/assets/js/sort-category.js"></script>
+		<script defer type="text/javascript" src="/assets/js/mixpanel.js"></script>
+		{# END JS IMPORTS #}
 
-        {# BEGIN FONT FAMILY - LATO #}
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-        {# END FONT FAMILY - LATO #}
+		{# BEGIN FONT FAMILY - LATO #}
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+		{# END FONT FAMILY - LATO #}
 
-        <title>{{ category | upper }} | CATEGORY </title>
-    </head>
-    <body>
-        {% from "../components/macros/sort-posts.macro.njk" import macro_sorted_list_title %}
-        {% from "../components/macros/sort-posts.macro.njk" import macro_sorted_list_time %}
-        {% from "../components/macros/sort-posts.macro.njk" import macro_sorted_list_date %}
-        {% from "../components/macros/sort-posts.macro.njk" import macro_no_sort %}
+		<title>{{ category | upper }} | CATEGORY </title>
+	</head>
+	<body>
+		{% from "../components/macros/sort-posts.macro.njk" import macro_sorted_list_title %}
+		{% from "../components/macros/sort-posts.macro.njk" import macro_sorted_list_time %}
+		{% from "../components/macros/sort-posts.macro.njk" import macro_sorted_list_date %}
+		{% from "../components/macros/sort-posts.macro.njk" import macro_no_sort %}
 
-        <span index="top"></span>
-        {% from "../components/macros/introduction.macro.njk" import macro_intro %}
+		<span index="top"></span>
+		{% from "../components/macros/introduction.macro.njk" import macro_intro %}
 
-        {% set list_length = [] %}
+		{% set list_length = [] %}
 
-        {% for item in quote_list.quotes %}
-            {% set list_length = (list_length.push(loop.index), list_length) %}
-        {% endfor %}
+		{% for item in quote_list.quotes %}
+			{% set list_length = (list_length.push(loop.index), list_length) %}
+		{% endfor %}
 
-        {{ macro_intro('Category', category | fixCategory , quote_list.quotes[list_length | random].quote) }}
-        {% include "../components/blocks/header.block.njk" %}
+		{{ macro_intro('Category', category | fixCategory , quote_list.quotes[list_length | random].quote) }}
+		{% include "../components/blocks/header.block.njk" %}
 
-        <main class="category-posts">
+		<main class="category-posts">
 
-            {# BEGIN FILTER - SORTING #}
-            <div id="filter-sort-container">
+			{# BEGIN FILTER - SORTING #}
+			<div id="filter-sort-container">
 
-                <div id="sort-by-title-box">
-                    <h2>SORT BY</h2>
-                </div>
+				<div id="sort-by-title-box">
+					<h2>SORT BY</h2>
+				</div>
 
-                <div id="sort-controls">
-                    <button id="sort-btn-title">
-                        <p>Title</p>
-                        <img src="/assets/icons/sort-az.png" alt="sort az" loading="lazy"/>
-                    </button>
-                    <button id="sort-btn-time-read">
-                        <p>Time</p>
-                        <img src="/assets/icons/sort-time-read.png" alt="sort time to read" loading="lazy"/>
-                    </button>
+				<div id="sort-controls">
+					<button id="sort-btn-title">
+						<p>Title</p>
+						<img src="/assets/icons/sort-az.png" alt="sort az"/>
+					</button>
+					<button id="sort-btn-time-read">
+						<p>Time</p>
+						<img src="/assets/icons/sort-time-read.png" alt="sort time to read"/>
+					</button>
 
-                    <button id="sort-btn-date">
-                        <p>Date</p>
-                        <img src="/assets/icons/release-date-icon.png" alt="sort date" loading="lazy"/>
-                    </button>
-                </div>
-            </div>
-            {# END FILTER - SORTING #}
+					<button id="sort-btn-date">
+						<p>Date</p>
+						<img src="/assets/icons/release-date-icon.png" alt="sort date"/>
+					</button>
+				</div>
+			</div>
+			{# END FILTER - SORTING #}
 
-            {# BEGIN POST LIST #}
-            <div id="sorting">
-                <div id="sorted-title">
-                    {{ macro_sorted_list_title(collections[collectionByTitle], to) }}
-                </div>
+			{# BEGIN POST LIST #}
+			<div id="sorting">
+				<div id="sorted-title">
+					{{ macro_sorted_list_title(collections[collectionByTitle], to) }}
+				</div>
 
-                <div id="sorted-time">
-                    {{ macro_sorted_list_time(collections[collectionByTime], to) }}
-                </div>
+				<div id="sorted-time">
+					{{ macro_sorted_list_time(collections[collectionByTime], to) }}
+				</div>
 
-                <div id="sorted-date">
-                    {{ macro_sorted_list_date(collections[collectionByDate], to) }}
-                </div>
+				<div id="sorted-date">
+					{{ macro_sorted_list_date(collections[collectionByDate], to) }}
+				</div>
 
-                <div id="not-sorted">
-                    {{content | safe}}
-                </div>
-            </div>
-            {# END POST LIST #}
+				<div id="not-sorted">
+					{{content | safe}}
+				</div>
+			</div>
+			{# END POST LIST #}
 
-            {# BEGIN INNER NAVIGATION #}
-            <div>
-                {% from "../components/macros/category-post.macro.njk" import macro_category_inner_navigation %}
+			{# BEGIN INNER NAVIGATION #}
+			<div>
+				{% from "../components/macros/category-post.macro.njk" import macro_category_inner_navigation %}
 
-                {{ macro_category_inner_navigation(collections[category] | length, current_page, tags) }}
-            </div>
-            {# END INNER NAVIGATION #}
-        </main>
+				{{ macro_category_inner_navigation(collections[category] | length, current_page, tags) }}
+			</div>
+			{# END INNER NAVIGATION #}
+		</main>
 
-        <a onclick="mixpanel.track('Go Top Page Button - Blog')" id="scroll-button" href="#top">
-            <img src="/assets/icons/up-arrow-icon.png" alt="Up arrow icon" loading="lazy"/>
-        </a>
+		<a onclick="mixpanel.track('Go Top Page Button - Blog')" id="scroll-button" href="#top">
+			<img src="/assets/icons/up-arrow-icon.png" alt="Up arrow icon"/>
+		</a>
 
-        <script defer type="text/javascript" src="/assets/js/iframeResizer.contentWindow.min.js"></script>
+		<script defer type="text/javascript" src="/assets/js/iframeResizer.contentWindow.min.js"></script>
 
-    </body>
+	</body>
 </html>
