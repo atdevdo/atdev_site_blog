@@ -19,6 +19,7 @@
 		"@11ty/eleventy-plugin-rss": "^1.2.0",
 		"elasticlunr": "^0.9.5",
 		"luxon": "^3.3.0",
+		"netlify-plugin-cache": "^1.0.3",
 		"nunjucks-date-filter": "^0.1.1"
 	}
 }
