@@ -33,5 +33,3 @@ window.addEventListener('message', function (event) {
 		window.scrollTo(0, event.data.scrollY)
 	}
 })
-
-window.scrollBy(0, -window.innerHeight)
