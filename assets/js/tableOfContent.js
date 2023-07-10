@@ -22,7 +22,6 @@ if (
 
 	for (let index = 0; index < list.length; index++) {
 		list[index].setAttribute('id', index + 1)
-		console.log(list[index])
 	}
 
 	tocbot.init({
