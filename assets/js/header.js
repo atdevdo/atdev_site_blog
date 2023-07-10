@@ -38,6 +38,6 @@ const postHtmlCollection = document.getElementsByClassName('post-card')
 
 for (let index = 0; index < postHtmlCollection.length; index++) {
 	postHtmlCollection[index].addEventListener('click', () => {
-		window.scrollTo(0, 0)
+		window.scrollBy(0, -window.innerHeight)
 	})
 }
