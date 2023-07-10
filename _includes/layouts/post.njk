@@ -36,7 +36,8 @@
 		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 		{# END FONT FAMILY - LATO #}
 
-		{# END JAVASCRIPT IMPORTS #}
+		<script type="text/javascript" src="/assets/js/iframeResizer.contentWindow.min.js"></script>
+
 	</head>
 	<body>
 		<span index="top"></span>
@@ -114,6 +115,13 @@
 		<div class="js-toc is-position-fixed"></div>
 		{# END TABLE OF CONTENTS #}
 
-		<script defer type="text/javascript" src="/assets/js/iframeResizer.contentWindow.min.js"></script>
+		<script>
+			window.onload = (event) => {
+				document
+					.body
+					.scrollTo(0, 0);
+			};
+		</script>
+
 	</body>
 </html>
