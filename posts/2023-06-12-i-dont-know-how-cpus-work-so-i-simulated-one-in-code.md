@@ -7,7 +7,7 @@ publishDate: 2011-07-13
 category: technology
 author: No Author
 minRead: 10
-featuredImage: /uploads/images/logo.png
+featuredImage: /uploads/images/logo.webp
 featuredVideo: https://www.youtube.com/watch?v=jx-w2o-Lj8g
 ---
 
