@@ -33,13 +33,13 @@ In this blog you will see articles of different types, such as:
 
 ### Desktop
 
-![Home](/assets/images/blog-home-capture.png)
-![Category](/assets/images/blog-growth-category.png)
+![Home](/assets/images/blog-home-capture.webp)
+![Category](/assets/images/blog-growth-category.webp)
 
 ### Mobile
 
-![Home](/assets/images/home-mobile.png)
-![Category](/assets/images/category-mobile.png)
+![Home](/assets/images/home-mobile.webp)
+![Category](/assets/images/category-mobile.webp)
 
 ### Links
 

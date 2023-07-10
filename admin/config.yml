@@ -1,80 +1,80 @@
 # @format
 
 backend:
-  name: git-gateway
-  branch: main
+    name: git-gateway
+    branch: main
 
 publish_mode: editorial_workflow
 media_folder: '_site/uploads/images/'
 public_folder: '/uploads/images/'
 
 collections:
-  - name: 'posts'
-    label: 'Posts'
-    folder: 'posts'
-    create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    fields:
-      - {
-          label: 'Layout',
-          name: 'layout',
-          widget: 'hidden',
-          default: 'layouts/post.njk',
-        }
-      - { label: 'Title', name: 'title', widget: 'string', required: true }
-      - {
-          label: 'Description',
-          name: 'description',
-          widget: 'string',
-          required: true,
-        }
-      - {
-          label: 'Date',
-          name: 'publishDate',
-          widget: 'date',
-          format: 'YYYY-MM-DD',
-        }
-      - {
-          label: 'Post Body',
-          name: 'body',
-          widget: 'markdown',
-          required: false,
-        }
-      - {
-          label: 'Category',
-          name: 'category',
-          widget: 'select',
-          options: ['community', 'remote-work', 'technology', 'growth'],
-          required: true,
-        }
-      - {
-          label: 'Author',
-          name: 'author',
-          widget: 'string',
-          default: 'No Author',
-          required: true,
-        }
-      - {
-          label: 'Minutes to read',
-          name: 'minRead',
-          widget: 'number',
-          value_type: int,
-          min: 0,
-          step: 1,
-          max: 80,
-          default: 3,
-          required: true,
-        }
-      - {
-          label: 'Featured Image',
-          default: '/uploads/images/logo.png',
-          name: 'featuredImage',
-          widget: 'image',
-          required: false,
-        }
-      - {
-          label: 'Featured Video',
-          name: 'featuredVideo',
-          widget: 'string',
-          required: false,
-        }
+    - name: 'posts'
+      label: 'Posts'
+      folder: 'posts'
+      create: true
+      slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+      fields:
+          - {
+                label: 'Layout',
+                name: 'layout',
+                widget: 'hidden',
+                default: 'layouts/post.njk',
+            }
+          - { label: 'Title', name: 'title', widget: 'string', required: true }
+          - {
+                label: 'Description',
+                name: 'description',
+                widget: 'string',
+                required: true,
+            }
+          - {
+                label: 'Date',
+                name: 'publishDate',
+                widget: 'date',
+                format: 'YYYY-MM-DD',
+            }
+          - {
+                label: 'Post Body',
+                name: 'body',
+                widget: 'markdown',
+                required: false,
+            }
+          - {
+                label: 'Category',
+                name: 'category',
+                widget: 'select',
+                options: ['community', 'remote-work', 'technology', 'growth'],
+                required: true,
+            }
+          - {
+                label: 'Author',
+                name: 'author',
+                widget: 'string',
+                default: 'No Author',
+                required: true,
+            }
+          - {
+                label: 'Minutes to read',
+                name: 'minRead',
+                widget: 'number',
+                value_type: int,
+                min: 0,
+                step: 1,
+                max: 80,
+                default: 3,
+                required: true,
+            }
+          - {
+                label: 'Featured Image',
+                default: '/uploads/images/logo.webp',
+                name: 'featuredImage',
+                widget: 'image',
+                required: false,
+            }
+          - {
+                label: 'Featured Video',
+                name: 'featuredVideo',
+                widget: 'string',
+                required: false,
+            }
