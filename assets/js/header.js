@@ -34,4 +34,4 @@ window.addEventListener('message', function (event) {
 	}
 })
 
-window.onload = window.scrollTo(0, 0)
+window.scrollBy(0, -window.innerHeight)
