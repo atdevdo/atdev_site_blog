@@ -6,7 +6,7 @@ publishDate: 2023-06-11
 category: technology
 author: No Author
 minRead: 3
-featuredImage: https://geeksontour.com/wp-content/uploads/2021/11/fireworks-gif-1.gif
+featuredImage: https://images.pexels.com/photos/1539581/pexels-photo-1539581.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 featuredVideo: https://www.youtube.com/watch?v=lXGC5qgOA0o
 ---
 
@@ -24,11 +24,11 @@ Most Samsung phones have a camera mode called “Motion Photo.” When it’s on
 
 Open a motion photo using the Samsung Gallery app, then
 
-- Tap the button to “View Motion Photo”.
-- Tap the 3-dot “More” menu and select Export
-- Now you’ll see an option for GIF. All you have to do is tap that, then tap Save or Share at the top.
-- But, before you save or share, notice that you can slide either the beginning marker or the end marker to trim the beginning or end of the .gif.
-- The .gif will be saved in a gif folder. Look in “Albums” in the Gallery. In Google Photos, you should see it in the photos grid next to the original
+-   Tap the button to “View Motion Photo”.
+-   Tap the 3-dot “More” menu and select Export
+-   Now you’ll see an option for GIF. All you have to do is tap that, then tap Save or Share at the top.
+-   But, before you save or share, notice that you can slide either the beginning marker or the end marker to trim the beginning or end of the .gif.
+-   The .gif will be saved in a gif folder. Look in “Albums” in the Gallery. In Google Photos, you should see it in the photos grid next to the original
 
 ## Looking for the motion photo setting?
 

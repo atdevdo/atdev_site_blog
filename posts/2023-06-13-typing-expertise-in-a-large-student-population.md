@@ -6,7 +6,7 @@ publishDate: 2023-06-12
 category: technology
 author: Svetlana Pinet
 minRead: 29
-featuredImage: https://media2.giphy.com/media/XIqCQx02E1U9W/giphy.gif?cid=ecf05e47blrmp76i5kz3n9773q9fkszxsu2esr5h30a9eceu&ep=v1_gifs_search&rid=giphy.gif&ct=g
+featuredImage: https://images.pexels.com/photos/3552472/pexels-photo-3552472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 ---
 
 <!--StartFragment-->
