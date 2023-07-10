@@ -6,9 +6,10 @@ publishDate: 2023-06-12
 category: community
 author: James MacDonald
 minRead: 5
-featuredImage: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjAzNWFjNWNkZjI1MjJjY2NiMzU3N2ZjZTNmOWMwNjM5Mzk0MWJkMyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/aZq4g8TqWJzHhGRHJ5/giphy.gif
+featuredImage: https://images.pexels.com/photos/3552472/pexels-photo-3552472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 featuredVideo: https://www.youtube.com/watch?v=xMk1Mgz3G8k
 ---
+
 <!--StartFragment-->
 
 Smoke from wildfires raging in eastern Canada has been filling lungs and turning skies orange across the northeastern United States, most dramatically in New York City and the surrounding area, for the past week. Although [people in western North America have become used to such conditions](https://www.nature.com/articles/d41586-022-04333-9) in the past few years, the events are unusual in the eastern part of the continent — so what is causing this extraordinary fire season?

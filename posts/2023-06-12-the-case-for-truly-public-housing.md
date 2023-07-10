@@ -7,7 +7,7 @@ publishDate: 2022-02-21
 category: community
 author: SUSANNE SCHINDLER
 minRead: 18
-featuredImage: https://placesjournal.org/wp-content/uploads/2022/12/Schindler-Moyer-lead-alt2.gif
+featuredImage: https://images.pexels.com/photos/144632/pexels-photo-144632.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 ---
 
 <!-- @format -->
