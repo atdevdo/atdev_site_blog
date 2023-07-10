@@ -33,3 +33,11 @@ window.addEventListener('message', function (event) {
 		window.scrollTo(0, event.data.scrollY)
 	}
 })
+
+const postHtmlCollection = document.getElementsByClassName('post-card')
+
+for (let index = 0; index < postHtmlCollection.length; index++) {
+	postHtmlCollection[index].addEventListener('click', () => {
+		alert('Hi')
+	})
+}
