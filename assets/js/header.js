@@ -27,18 +27,3 @@ function scrollFunction() {
 		myButton.style.display = 'none'
 	}
 }
-
-// window.addEventListener('message', function (event) {
-// 	if (event.data.scrollY !== undefined) {
-// 		window.scrollTo(0, event.data.scrollY)
-// 	}
-// })
-
-// Listen for messages from the parent window
-window.addEventListener('message', function (event) {
-	// Check if the message is related to scrolling
-	if (event.data === 'scroll') {
-		var contentElement = document.getElementById('content')
-		contentElement.scrollTop = event.data
-	}
-})

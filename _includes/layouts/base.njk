@@ -58,5 +58,17 @@
 		<script type="text/javascript" src="/assets/js/mixpanel.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"></script>
 		{# END JS IMPORTS #}
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.1/iframeResizer.contentWindow.min.js"></script>
+		<script>
+			// Listen for messages from the parent window
+			window.addEventListener('message', function (event) {
+				// Check if the message is related to scrolling
+				if (event.data === 'scroll') {
+					var contentElement = document.getElementById('content');
+					contentElement.scrollTop = event.data;
+				}
+			});
+		</script>
 	</body>
 </html>
