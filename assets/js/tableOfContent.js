@@ -45,8 +45,11 @@ element.scrollIntoView({
 const tableOfContent = document.getElementById('tableOfContent')
 
 tableOfContent.style.position = 'sticky !important;'
-tableOfContent.style.top = '30% !important;'
+// tableOfContent.style.top = '30% !important;'
 tableOfContent.style.left = '85px !important;'
 tableOfContent.style.transform = 'translate(-50%, -50%) !important;'
 
-console.log(tableOfContent.parentNode.parentNode.parentNode.parentNode)
+window.addEventListener('scroll', function () {
+	let scrollTop = window.pageYOffset || document.documentElement.scrollTop
+	tableOfContent.style.top = scrollTop + 'px'
+})
