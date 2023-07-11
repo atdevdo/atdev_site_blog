@@ -49,7 +49,8 @@ tableOfContent.style.position = 'sticky !important;'
 tableOfContent.style.left = '85px !important;'
 tableOfContent.style.transform = 'translate(-50%, -50%) !important;'
 
-var windowHeight = window.innerHeight
-var elementHeight = tableOfContent.offsetHeight
-var topOffset = (windowHeight - elementHeight) / 2
-tableOfContent.style.top = topOffset + 'px'
+// tableOfContent.style.top = -window.screenY + 'px'
+
+window.addEventListener('scroll', () => {
+	tableOfContent.style.top = -window.screenY + 'px'
+})
