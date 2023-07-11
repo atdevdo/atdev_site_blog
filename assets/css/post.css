@@ -57,6 +57,19 @@
 	white-space: wrap;
 }
 
+.post-card__contentBox-category_publishDate {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.post-card__contentBox-category_publishDate
+	> .post__imgBox-textBox__publishDate {
+	font-size: 0.75em;
+	font-weight: 900;
+	color: var(--santa-grey);
+}
+
 .post-card__contentBox-category {
 	text-transform: uppercase;
 	font-size: 0.84rem;
@@ -276,9 +289,14 @@ iframe {
 }
 
 .is-position-fixed {
-	top: 5rem !important;
+	/* top: 5rem !important;
 	right: 0.8rem;
-	width: 14rem;
+	width: 14rem; */
+	position: fixed !important;
+	top: 40% !important;
+	left: 90% !important;
+	-webkit-transform: translate(-50%, -50%) !important;
+	transform: translate(-50%, -50%) !important;
 }
 
 .toc-list-item {

@@ -7,7 +7,7 @@
     <div class="posts-container">
         {% for post in collection %}
             {% if loop.index < amount %}
-                {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.author, post.data.minRead, post.data.featuredImage, post.url) }}
+                {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.publishDate, post.data.author, post.data.minRead, post.data.featuredImage, post.url) }}
             {% endif %}
         {% endfor %}
     </div>
@@ -19,7 +19,7 @@
     <div class="posts-container">
         {% for post in collection %}
             {% if loop.index < amount %}
-                {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.author, post.data.minRead, post.data.featuredImage, post.url) }}
+                {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.publishDate, post.data.author, post.data.minRead, post.data.featuredImage, post.url) }}
             {% endif %}
         {% endfor %}
     </div>
@@ -31,7 +31,7 @@
     <div class="posts-container">
         {% for post in collection %}
             {% if loop.index < amount %}
-                {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.author, post.data.minRead, post.data.featuredImage, post.url) }}
+                {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.publishDate, post.data.author, post.data.minRead, post.data.featuredImage, post.url) }}
             {% endif %}
         {% endfor %}
     </div>
@@ -43,7 +43,7 @@
     <div class="posts-container">
         {% for post in collection %}
             {% if loop.index < amount %}
-                {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.author, post.data.minRead, post.data.featuredImage, post.url) }}
+                {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.publishDate, post.data.author, post.data.minRead, post.data.featuredImage, post.url) }}
             {% endif %}
         {% endfor %}
     </div>
@@ -55,7 +55,7 @@
     <div class="posts-container">
         {% for post in collection %}
             {% if loop.index < 7 %}
-                {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.author, post.data.minRead, post.data.featuredImage, post.url) }}
+                {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.publishDate, post.data.author, post.data.minRead, post.data.featuredImage, post.url) }}
             {% endif %}
         {% endfor %}
     </div>
