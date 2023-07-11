@@ -31,7 +31,9 @@ if (
 	tocbot.refresh()
 }
 
-const element = document.getElementById('tableOfContent')
+const element = document.getElementById('top')
+
 element.scrollIntoView()
 element.scrollIntoView(true)
-element.scrollIntoView({ behavior: 'instant', block: 'center', inline: 'end' })
+element.scrollIntoView({ block: 'end' })
+element.scrollIntoView({ behavior: 'smooth', block: 'top', inline: 'center' })
