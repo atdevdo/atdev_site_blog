@@ -36,4 +36,14 @@ const element = document.getElementById('top')
 element.scrollIntoView()
 element.scrollIntoView(true)
 element.scrollIntoView({ block: 'end' })
-element.scrollIntoView({ behavior: 'smooth', block: 'top', inline: 'center' })
+element.scrollIntoView({
+	behavior: 'smooth',
+	block: 'center',
+	inline: 'center',
+})
+
+console.log(window.innerHeight)
+
+console.log(parent.innerHeight)
+
+console.log(top.innerHeight)
