@@ -117,5 +117,14 @@
 		<script type="text/javascript" src="/assets/js/iframeResizer.contentWindow.min.js"></script>
 		{# END JAVASCRIPT IMPORTS #}
 
+		<script>
+			window.addEventListener('scroll', function () {
+				var scrollY = window.scrollY || window.pageYOffset;
+				parent.postMessage({
+					scrollY: scrollY
+				}, '*');
+			});
+		</script>
+
 	</body>
 </html>
