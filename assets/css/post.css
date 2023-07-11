@@ -291,7 +291,7 @@ iframe {
 .is-position-fixed {
 	position: -webkit-sticky;
 	position: sticky !important;
-	padding-top: 4rem;
+	/* padding-top: 4rem; */
 	/* top: 30% !important; */
 	left: 85% !important;
 	-webkit-transform: translate(-50%, -50%) !important;
