@@ -48,3 +48,5 @@ tableOfContent.style.position = 'sticky !important;'
 tableOfContent.style.top = '30% !important;'
 tableOfContent.style.left = '85px !important;'
 tableOfContent.style.transform = 'translate(-50%, -50%) !important;'
+
+console.log(tableOfContent.parentNode.parentNode.parentNode.parentNode)
