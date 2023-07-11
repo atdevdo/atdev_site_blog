@@ -34,4 +34,4 @@ if (
 const element = document.getElementById('tableOfContent')
 element.scrollIntoView()
 element.scrollIntoView(true)
-element.scrollIntoView({ behavior: 'auto', block: 'center', inline: 'end' })
+element.scrollIntoView({ behavior: 'instant', block: 'center', inline: 'end' })
