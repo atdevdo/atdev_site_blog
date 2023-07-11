@@ -289,11 +289,11 @@ iframe {
 }
 
 .is-position-fixed {
-	/* position: fixed !important;
+	position: fixed !important;
 	top: 30% !important;
 	left: 85% !important;
 	-webkit-transform: translate(-50%, -50%) !important;
-	transform: translate(-50%, -50%) !important; */
+	transform: translate(-50%, -50%) !important;
 }
 
 .toc-list-item {
