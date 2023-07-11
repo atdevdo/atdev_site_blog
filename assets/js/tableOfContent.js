@@ -42,8 +42,26 @@ element.scrollIntoView({
 	inline: 'center',
 })
 
-console.log(window.innerHeight)
+const tableOfContent = document.getElementById('tableOfContent')
 
-console.log(parent.innerHeight)
+tableOfContent.style.position = 'sticky !important;'
+tableOfContent.style.top = '30% !important;'
+tableOfContent.style.left = '85px !important;'
+tableOfContent.style.transform = 'translate(-50%, -50%) !important;'
 
-console.log(top.innerHeight)
+// console.log(window.innerHeight)
+
+// console.log(parent.innerHeight)
+
+// console.log(top.innerHeight)
+
+tableOfContent.style.top = window.innerHeight / 2 + 'px'
+tableOfContent.style.left = 80 + '%'
+
+// window.addEventListener('scroll', () => {
+// 	tableOfContent.style.top = window.innerHeight / 2 + 'px'
+// })
+
+// document.addEventListener('click', function handleClick(event) {
+// 	tableOfContent.style.left = event.clientX - 50 + 'px'
+// })
