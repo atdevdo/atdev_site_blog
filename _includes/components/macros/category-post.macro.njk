@@ -3,7 +3,7 @@
 
     {% for post in collection %}
         {% if post.data.category == category and loop.index >= from and loop.index < to %}
-            {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.author, post.data.minRead, post.data.featuredImage, post.url) }}
+            {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.publishDate, post.data.author, post.data.minRead, post.data.featuredImage, post.url) }}
         {% endif %}
     {% endfor %}
 {% endmacro %}
