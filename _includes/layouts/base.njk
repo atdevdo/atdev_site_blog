@@ -59,14 +59,5 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"></script>
 		{# END JS IMPORTS #}
 
-		<script>
-			window.addEventListener('scroll', function () {
-				var scrollY = window.scrollY || window.pageYOffset;
-				parent.postMessage({
-					scrollY: scrollY
-				}, '*');
-			});
-		</script>
-
 	</body>
 </html>
