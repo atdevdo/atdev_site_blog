@@ -55,7 +55,7 @@ tableOfContent.style.transform = 'translate(-50%, -50%) !important;'
 
 // console.log(top.innerHeight)
 
-tableOfContent.style.top = window.innerHeight / 2 + 'px'
+tableOfContent.style.top = parent.innerHeight / 2 + 'px'
 tableOfContent.style.left = 80 + '%'
 
 // window.addEventListener('scroll', () => {
