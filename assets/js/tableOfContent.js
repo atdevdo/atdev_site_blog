@@ -41,16 +41,3 @@ element.scrollIntoView({
 	block: 'center',
 	inline: 'center',
 })
-
-const tableOfContent = document.getElementById('tableOfContent')
-
-tableOfContent.style.position = 'sticky !important;'
-// tableOfContent.style.top = '30% !important;'
-tableOfContent.style.left = '85px !important;'
-tableOfContent.style.transform = 'translate(-50%, -50%) !important;'
-
-// tableOfContent.style.top = -window.screenY + 'px'
-
-window.addEventListener('scroll', (event) => {
-	tableOfContent.style.top = event.clientY + 'px'
-})
