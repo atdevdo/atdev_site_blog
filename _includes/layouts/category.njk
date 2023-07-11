@@ -104,5 +104,13 @@
 		<script type="text/javascript" src="/assets/js/mixpanel.js"></script>
 		{# END JS IMPORTS #}
 
+		<script>
+			window.addEventListener('scroll', function () {
+				var scrollY = window.scrollY || window.pageYOffset;
+				parent.postMessage({
+					scrollY: scrollY
+				}, '*');
+			});
+		</script>
 	</body>
 </html>
