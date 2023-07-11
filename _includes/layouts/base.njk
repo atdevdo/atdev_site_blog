@@ -23,14 +23,6 @@
 		{% include "../components/blocks/cssMinifier.block.njk" %}
 		{# END CSS IMPORTS #}
 
-		{# BEGIN JS IMPORTS #}
-		<script defer src="/assets/js/sort-posts.js"></script>
-		<script defer src="/assets/js/header.js"></script>
-		<script defer type="text/javascript" src="/assets/js/search.js"></script>
-		<script defer type="text/javascript" src="/assets/js/mixpanel.js"></script>
-		<script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"></script>
-		{# END JS IMPORTS #}
-
 		{# BEGIN FONT FAMILY - LATO #}
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -58,5 +50,13 @@
 		</a>
 
 		<script defer type="text/javascript" src="/assets/js/iframeResizer.contentWindow.min.js"></script>
+
+		{# BEGIN JS IMPORTS #}
+		<script src="/assets/js/sort-posts.js"></script>
+		<script src="/assets/js/header.js"></script>
+		<script type="text/javascript" src="/assets/js/search.js"></script>
+		<script type="text/javascript" src="/assets/js/mixpanel.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"></script>
+		{# END JS IMPORTS #}
 	</body>
 </html>
