@@ -51,6 +51,6 @@ tableOfContent.style.transform = 'translate(-50%, -50%) !important;'
 
 // tableOfContent.style.top = -window.screenY + 'px'
 
-window.addEventListener('scroll', () => {
-	tableOfContent.style.top = -window.screenY + 'px'
+window.addEventListener('scroll', (event) => {
+	tableOfContent.style.top = event.clientY + 'px'
 })
