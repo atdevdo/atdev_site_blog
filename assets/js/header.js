@@ -27,3 +27,5 @@ function scrollFunction() {
 		myButton.style.display = 'none'
 	}
 }
+
+window.top.postMessage(JSON.stringify({ message: 'Hello World!' }), '*')
