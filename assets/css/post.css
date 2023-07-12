@@ -292,8 +292,8 @@ iframe {
 	position: -webkit-sticky;
 	position: sticky !important;
 	padding-top: 4rem;
-	top: 30% !important;
-	left: 85% !important;
+	/* top: 30% !important;
+	left: 85% !important; */
 	-webkit-transform: translate(-50%, -50%) !important;
 	transform: translate(-50%, -50%) !important;
 }
