@@ -35,7 +35,7 @@ window.addEventListener('message', function (event) {
 	}
 
 	console.log(window.top.parent.parent.document)
-	// console.log(event.data)
+	console.log(event.data)
 
 	// can message back using event.source.postMessage(...)
 })
