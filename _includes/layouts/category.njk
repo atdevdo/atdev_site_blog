@@ -99,9 +99,7 @@
 		</a>
 
 		{# BEGIN JS IMPORTS #}
-		<script src="/assets/js/header.js"></script>
-		<script type="text/javascript" src="/assets/js/sort-category.js"></script>
-		<script type="text/javascript" src="/assets/js/mixpanel.js"></script>
+		{% include "../components/blocks/jsMinifierCategory.block.njk" %}
 		{# END JS IMPORTS #}
 
 	</body>

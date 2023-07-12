@@ -3,6 +3,7 @@
 const { EleventyI18nPlugin } = require('@11ty/eleventy')
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 const CleanCSS = require('clean-css')
+const { minify } = require('terser')
 // * END IMPORTING LIBRARIES
 
 // * BEGIN IMPORTING COLLECTIONS
@@ -139,6 +140,20 @@ module.exports = function (eleventyConfig) {
 			next()
 		},
 	})
+
+	eleventyConfig.addNunjucksAsyncFilter(
+		'jsmin',
+		async function (code, callback) {
+			try {
+				const minified = await minify(code)
+				callback(null, minified.code)
+			} catch (err) {
+				console.error('Terser error: ', err)
+				// Fail gracefully.
+				callback(null, code)
+			}
+		}
+	)
 
 	return {
 		passthroughFileCopy: true,

@@ -1,0 +1,13 @@
+{% block jsMinifierPost %}
+    <!-- capture the CSS content as a Nunjucks variable -->
+    {% set js %}
+    {% include "../../../assets/js/header.js" %}
+    {% include "../../../assets/js/video-url-shortener.js" %}
+    {% include "../../../assets/js/mixpanel.js" %}
+    {% include "../../../assets/js/tableOfContent.js" %}
+    {% endset %}
+    <!-- feed it through our jsmin filter to minify -->
+    <script>
+        {{js | jsmin | safe}}
+    </script>
+{% endblock jsMinifierPost %}
