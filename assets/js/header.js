@@ -34,8 +34,8 @@ window.addEventListener('message', function (event) {
 		return
 	}
 
-	alert('received: ' + event.data)
-	console.log(event.data)
+	console.log(window.top.document.children)
+	// console.log(event.data)
 
 	// can message back using event.source.postMessage(...)
 })
