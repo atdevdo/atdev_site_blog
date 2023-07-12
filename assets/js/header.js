@@ -27,22 +27,3 @@ function scrollFunction() {
 		myButton.style.display = 'none'
 	}
 }
-
-window.addEventListener('message', function (event) {
-	if (event.origin == 'http://javascript.info') {
-		// something from an unknown domain, let's ignore it
-		return
-	}
-
-	console.log(event.data)
-
-	// can message back using event.source.postMessage(...)`
-	window.scrollTo(0, event.data)
-
-	const tableOfContent = document.getElementsByClassName('.is-position-fixed')
-
-	for (let index = 0; index < tableOfContent.length; index++) {
-		tableOfContent.style.top = `${event.data}` + 'px'
-		tableOfContent.style.left = 85 + 'px'
-	}
-})
