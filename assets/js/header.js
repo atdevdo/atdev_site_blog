@@ -35,7 +35,8 @@ window.addEventListener('message', function (event) {
 	}
 
 	console.log(window.top.parent.parent.document)
-	console.log(JSON.parse(event.data))
+	console.log(event.data)
 
 	// can message back using event.source.postMessage(...)
+	window.scrollTo(0, event.data)
 })
