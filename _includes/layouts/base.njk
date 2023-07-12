@@ -52,10 +52,7 @@
 		</a>
 
 		{# BEGIN JS IMPORTS #}
-		<script src="/assets/js/sort-posts.js"></script>
-		<script src="/assets/js/header.js"></script>
-		<script type="text/javascript" src="/assets/js/search.js"></script>
-		<script type="text/javascript" src="/assets/js/mixpanel.js"></script>
+		{% include "../components/blocks/jsMinifierBase.block.njk" %}
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"></script>
 		{# END JS IMPORTS #}
 

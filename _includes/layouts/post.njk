@@ -108,11 +108,9 @@
 		{# END TABLE OF CONTENTS #}
 
 		{# BEGIN JAVASCRIPT IMPORTS #}
-		<script src="/assets/js/header.js"></script>
-		<script src="/assets/js/video-url-shortener.js"></script>
-		<script type="text/javascript" src="/assets/js/mixpanel.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.1.1/tocbot.min.js"></script>
-		<script type="text/javascript" src="/assets/js/tableOfContent.js"></script>
+		{% include "../components/blocks/jsMinifierPost.block.njk" %}
+
 		{# END JAVASCRIPT IMPORTS #}
 
 	</body>
