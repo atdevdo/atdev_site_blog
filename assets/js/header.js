@@ -39,8 +39,10 @@ window.addEventListener('message', function (event) {
 	// can message back using event.source.postMessage(...)`
 	window.scrollTo(0, event.data)
 
-	const tableOfContent = document.getElementById('is-position-fixed')
+	const tableOfContent = document.getElementsByClassName('.is-position-fixed')
 
-	tableOfContent.style.top = `${event.data}` + 'px'
-	tableOfContent.style.left = 85 + 'px'
+	for (let index = 0; index < tableOfContent.length; index++) {
+		tableOfContent.style.top = `${event.data}` + 'px'
+		tableOfContent.style.left = 85 + 'px'
+	}
 })
