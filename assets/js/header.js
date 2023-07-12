@@ -41,8 +41,6 @@ window.addEventListener('message', function (event) {
 
 	const tableOfContent = document.getElementById('is-position-fixed')
 
-	for (let index = 0; index < tableOfContent.length; index++) {
-		tableOfContent.style.top = '30' + 'px'
-		tableOfContent.style.left = '85' + 'px'
-	}
+	tableOfContent.style.top = '30' + 'px'
+	tableOfContent.style.left = '85' + 'px'
 })
