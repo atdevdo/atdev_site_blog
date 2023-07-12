@@ -27,3 +27,7 @@ function scrollFunction() {
 		myButton.style.display = 'none'
 	}
 }
+
+window.addEventListener('message', function (event) {
+	console.log('Message received from the parent: ' + event.data)
+})
