@@ -1,1 +1,45 @@
-const post__mainContent=document.querySelector(".post__mainContent"),elements=post__mainContent.children;if(post__mainContent.querySelector("h1")||post__mainContent.querySelector("h2")||post__mainContent.querySelector("h3")){document.getElementById("body-tag-post-wrapper").setAttribute("class","body-tag-post-table");let e=[];for(let t=0;t<elements.length;t++)"h1"==elements[t].tagName.toLowerCase()?e.push(elements[t]):"h2"==elements[t].tagName.toLowerCase()?e.push(elements[t]):"h3"==elements[t].tagName.toLowerCase()&&e.push(elements[t]);for(let n=0;n<e.length;n++)e[n].setAttribute("id",n+1);tocbot.init({fixedSidebarOffset:"auto",scrollSmoothDuration:100}),tocbot.refresh()}const element=document.getElementById("top");element.scrollIntoView(),element.scrollIntoView(!0),element.scrollIntoView({block:"end"}),element.scrollIntoView({behavior:"smooth",block:"center",inline:"center"});
+
+const post__mainContent = document.querySelector('.post__mainContent')
+const elements = post__mainContent.children
+
+if (
+	post__mainContent.querySelector('h1') ||
+	post__mainContent.querySelector('h2') ||
+	post__mainContent.querySelector('h3')
+) {
+	let bodyTagPostWrapper = document.getElementById('body-tag-post-wrapper')
+	bodyTagPostWrapper.setAttribute('class', 'body-tag-post-table')
+	const list = []
+
+	for (let index = 0; index < elements.length; index++) {
+		if (elements[index].tagName.toLowerCase() == 'h1') {
+			list.push(elements[index])
+		} else if (elements[index].tagName.toLowerCase() == 'h2') {
+			list.push(elements[index])
+		} else if (elements[index].tagName.toLowerCase() == 'h3') {
+			list.push(elements[index])
+		}
+	}
+
+	for (let index = 0; index < list.length; index++) {
+		list[index].setAttribute('id', index + 1)
+	}
+
+	tocbot.init({
+		fixedSidebarOffset: 'auto',
+		scrollSmoothDuration: 100,
+		disableTocScrollSync: false,
+	})
+	tocbot.refresh()
+}
+
+const element = document.getElementById('top')
+
+element.scrollIntoView()
+element.scrollIntoView(true)
+element.scrollIntoView({ block: 'end' })
+element.scrollIntoView({
+	behavior: 'smooth',
+	block: 'center',
+	inline: 'center',
+})
