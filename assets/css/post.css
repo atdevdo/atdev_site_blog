@@ -288,6 +288,25 @@ iframe {
 	padding-right: 2rem;
 }
 
+.js-toc::before {
+	content: 'Table Of Content';
+	font-size: 1.1rem;
+	font-weight: bolder;
+}
+
+.js-toc > ol {
+	margin-top: 1rem !important;
+}
+
+.toc-link {
+	margin-left: 0.6rem !important;
+}
+
+.js-toc .toc-link::before {
+	width: 0.6rem !important;
+	height: 1.6rem !important;
+}
+
 .is-position-fixed {
 	position: -webkit-sticky;
 	position: sticky !important;

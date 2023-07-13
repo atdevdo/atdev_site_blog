@@ -27,6 +27,7 @@ if (
 	tocbot.init({
 		fixedSidebarOffset: 'auto',
 		scrollSmoothDuration: 100,
+		disableTocScrollSync: false,
 	})
 	tocbot.refresh()
 }
