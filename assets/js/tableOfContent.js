@@ -1,3 +1,4 @@
+
 const post__mainContent = document.querySelector('.post__mainContent')
 const elements = post__mainContent.children
 
