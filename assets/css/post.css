@@ -309,7 +309,7 @@ iframe {
 }
 
 .is-position-fixed {
-	position: -webkit-sticky;
+	/* position: -webkit-sticky; */
 	position: fixed !important;
 	padding-top: 4rem;
 	top: 40% !important;
@@ -365,10 +365,17 @@ iframe {
 	}
 
 	.is-position-fixed {
-		display: none !important;
+		/* display: block !important;
 		top: 10rem !important;
 		right: 0.1rem;
-		width: 20rem;
+		width: 20rem; */
+
+		position: unset !important;
+		padding-top: 0;
+		top: 0 !important;
+		left: 0 !important;
+		-webkit-transform: translate(0, 0) !important;
+		transform: translate(0, 0) !important;
 	}
 
 	.toc-list-item {
@@ -410,10 +417,17 @@ iframe {
 	}
 
 	.is-position-fixed {
-		display: none !important;
+		/* display: none !important;
 		top: 10rem !important;
 		right: 0.1rem;
-		width: 20rem;
+		width: 20rem; */
+
+		position: unset !important;
+		padding-top: 0;
+		top: 0 !important;
+		left: 0 !important;
+		-webkit-transform: translate(0, 0) !important;
+		transform: translate(0, 0) !important;
 	}
 
 	.toc-list-item {
