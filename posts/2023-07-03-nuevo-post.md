@@ -6,7 +6,7 @@ publishDate: 2023-07-03
 category: community
 author: No Author
 minRead: 2
-featuredImage: /uploads/images/northern-lights-village-lake-scenery-digital-art-4k-wallpaper-uhdpaper.com-709@1@k.webp
+featuredImage: https://images.pexels.com/photos/1229042/pexels-photo-1229042.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 featuredVideo: https://www.youtube.com/watch?v=MnpuK0MK4yo
 ---
 

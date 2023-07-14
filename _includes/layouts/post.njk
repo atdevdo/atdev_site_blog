@@ -1,117 +1,449 @@
+---
+tags: 'en'
+locale: 'en'
+dir: 'ltr'
+---
+
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="description" content={{ description }}>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
-		<title>{{ title }}</title>
+<html id="html" lang="{{ locale }}"
+  dir="{{ dir }}">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta
+      name="description"
+      content="ATDEV Blog"/>
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"/>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"/>
+    <link
+      rel="shortcut icon"
+      href=""
+      type="image/x-icon"/>
+    <link rel="shortcut icon" href="../../../assets/icons/favicon.ico" type="image/x-icon">
 
-		{# BEGIN CSS IMPORTS #}
-		{% include "../components/blocks/cssMinifier.block.njk" %}
-		{# END CSS IMPORTS #}
+    {# <link rel="icon" href="/img/favicon/favicon.ico" type="image/x-icon"> #}
+    <link rel="icon" type="image/png" href="../../../assets/images/favicon/favicon-32x32.jpg" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="../../../assets/images/favicon/favicon-16x16.jpg" sizes="16x16"/>
 
-		{# BEGIN SOCIAL SHARE IMPORTS #}
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/assisfery/SocialShareJS@1.4/social-share.min.css"/>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
-		<script src="https://cdn.jsdelivr.net/gh/assisfery/SocialShareJS@1.4/social-share.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
-		{# END SOCIAL SHARE IMPORTS #}
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp" rel="stylesheet">
 
-		{# + BEGIN TABLE OF CONTENT PLUGIN CDN #}
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.1.1/tocbot.css">
-		{# + END TABLE OF CONTENT PLUGIN CDN #}
+    {# BEGIN SOCIAL SHARE IMPORTS #}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/assisfery/SocialShareJS@1.4/social-share.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <script src="https://cdn.jsdelivr.net/gh/assisfery/SocialShareJS@1.4/social-share.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+    {# END SOCIAL SHARE IMPORTS #}
 
-		{# BEGIN FONT FAMILY - LATO #}
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-		{# END FONT FAMILY - LATO #}
+    {# + BEGIN TABLE OF CONTENT PLUGIN CDN #}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.1.1/tocbot.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.1.1/tocbot.min.js"></script>
+    {# + END TABLE OF CONTENT PLUGIN CDN #}
 
-		<script type="text/javascript" src="/assets/js/iframeResizer.contentWindow.min.js"></script>
-	</head>
-	<body>
-		<span id="top"></span>
-		<div id="body-tag-post-wrapper">
-			{% include "../components/blocks/header.block.njk" %}
-			<main>
-				<div class="post">
-					{# BEGIN FEATURED IMAGE #}
-					<div class="post__imgBox">
-						<div class="post__imgBox-title">
-							<h1>{{ title }}</h1>
-							<img  src={{featuredImage}} alt="Post Image">
-						</div>
-						<div class="post__imgBox-textBox">
-							<p class="post__imgBox-textBox__category">{{ category | fixCategory }}</p>
-							<p class="post__imgBox-textBox__description">{{ description }}</p>
-							<p class="post__imgBox-textBox__publishDate">{{ publishDate | postDate }}</p>
-						</div>
-					</div>
-					{# END FEATURED IMAGE #}
+    {# BEGIN FONT FAMILY - LATO #}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    {# END FONT FAMILY - LATO #}
 
-					{# BEGIN POST CONTENT #}
-					<div class="post__mainContent js-toc-content js-toc-content">
-						{{ content | safe }}
-					</div>
-					{# END POST CONTENT #}
+    {# BEGIN CSS IMPORTS #}
+    {% include "../components/blocks/cssMinifier.block.njk" %}
+    {# END CSS IMPORTS #}
 
-					{# BEGIN FEATURED VIDEO #}
-					{% if featuredVideo != undefined %}
-						<div class="iframe-container">
-							<iframe src={{ featuredVideo }} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-						</div>
-					{% endif %}
-					{# END FEATURED VIDEO #}
+    {# BEGIN FONT FAMILY - LATO #}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    {# END FONT FAMILY - LATO #}
 
-					{# BEGIN POST REACTION #}
-					<div class="reactions">
-						<ul class="reaction_list">
-							<li class="reaction_box__like">
-								<img  src="/assets/icons/like-icon.webp" alt="Like Icon">
-							</li>
-						</ul>
-					</div>
-					{# END POST REACTION #}
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    <main class="main">
 
-					{# BEGIN AUTHOR #}
-					{% if author | capitalize != "No author" %}
-						<div class="post__author">
-							<h3>
-								<span>Author:</span>
-								{{ author }}
-							</h3>
-						</div>
-					{% endif %}
-					{# END AUTHOR #}
-				</div>
-			</main>
+      <div id="parent-container" class="main-inner">
+        <!-- Begin mobile main menu -->
+        <nav class="mob-main-mnu">
+          <div class="mob-main-mnu-content">
+            <ul class="mob-main-mnu-list">
 
-			{# BEGIN POST SHARE LINKS #}
-			<aside id="share-links">
-				<div style="width: 100%; display: flex; justify-content: center; margin-bottom: 2rem;" class="ss-box" data-ss-content="false" data-ss-social="facebook, whatsapp, twitter, email, linkedin, reddit"></div>
-			</aside>
-			{# END POST SHARE LINKS #}
+              <li>
+                <a onclick="mixpanel.track('Go Home button')" href="{{navigation.header_links[locale][0].link}}" data-title="{{ navigation.header_links[locale][0].label }}">
+                  <span>{{ navigation.header_links[locale][0].label }}</span>
+                </a>
+              </li>
+              {% for page in navigation.header_links[locale] %}
+                <li>
+                  {% if page.label == "Home" or page.label == "Inicio" %}
+                  {% else %}
+                    <a onclick="mixpanel.track('Go ' + page.label + ' button')" href="{{ page.link }}" data-title="{{ page.label }}">
+                      <span>{{ page.label }}</span>
+                    </a>
+                  {% endif %}
+                </li>
+              {% endfor %}
 
-			<a onclick="mixpanel.track('Go Top Page Button - Blog')" id="scroll-button" href="#top">
-				<img  src="/assets/icons/up-arrow-icon.webp" alt="Up arrow icon"/>
-			</a>
+              <!-- <li>
+            <a href="#">Home</a>
+          </li>
+          <li><a href="#">About us</a></li>
+          <li>
+            <a href="#">Services</a>
+          </li>
+          <li>
+            <a href="contact-us.html">Contact Us</a>
+          </li>
+                      <li>
+                          <a href="#" data-title="Blog">
+                              <span>Blog</span>
+                          </a> -->
+            </li>
+          </ul>
+        </div>
 
-			<div style="visibility: hidden;">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi temporibus minima voluptate similique saepe, enim rerum vero veritatis tenetur itaque quis cumque earum totam ex velit dolor. Aperiam, sit temporibus.
+      </nav>
+      <!-- End mobile main menu -->
+
+      <!-- Begin header -->
+      <header class="header">
+
+        <!-- Begin header fixed -->
+        <nav class="header-fixed">
+          <div class="container">
+            <div class="row flex-nowrap align-items-center justify-content-between">
+              <div class="col-auto d-block d-lg-none header-fixed-col">
+                <div class="main-mnu-btn">
+                  <span class="bar bar-1"></span>
+                  <span class="bar bar-2"></span>
+                  <span class="bar bar-3"></span>
+                  <span class="bar bar-4"></span>
+                </div>
+              </div>
+              <div class="col-auto header-fixed-col">
+                <!-- Begin logo -->
+                <a onclick="mixpanel.track('Go Home Button')" href="{{navigation.header_links[locale][0].link}}" class="logo logo-ico-widht-text" title="ATDEV">
+                  <!-- <g-image src="~/img/logo.png" width="36" height="35"/> -->
+                  <!-- <g-image alt="Example image" src="~/favicon.png" width="135" /> -->
+                  <!-- <g-image alt="Example image" src="/img/logo.png" width="36" height="35" /> -->
+                  <img class="lazy logo-ico" data-src="../../../assets/images/logo.png" zwidth="36" height="35" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="image">
+
+                  <!-- <img class="lazy logoT-ico" data-src="img/logo-ico.png" width="36" height="35" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="image"> -->
+                  <span class="logo-text"></span>
+                </a>
+              </div>
+              <div class="col-lg col-auto col-static header-fixed-col">
+                <div class="row flex-nowrap align-items-center justify-content-end">
+                  <div class="col-auto header-fixed-col d-none d-lg-block col-static">
+                    <!-- Begin main menu -->
+                    <nav class="main-mnu">
+                      <ul class="main-mnu-list">
+                        <li>
+                          <a onclick="mixpanel.track('Go Home Button')" href="{{navigation.header_links[locale][0].link}}" data-title="{{ navigation.header_links[locale][0].label }}">
+                            <span>{{ navigation.header_links[locale][0].label }}</span>
+                          </a>
+                        </li>
+                        {% for page in navigation.header_links[locale] %}
+                          {% if page.label == "Home" or page.label == "Inicio" %}
+                          {% else %}
+                            {% if page.label == "Services" or page.label == "Servicios" %}
+                              <li class="main-mnu-item-has-child">
+                                <a onclick="mixpanel.track('Go ' + navigation.header_links[locale][1].label + ' button')" href="{{ page.link }}" data-title="{{ header_links[locale][1].label }}">
+                                  <span>{{ navigation.header_links[locale][1].label }}</span>
+                                  <i class="material-icons">expand_more</i>
+                                </a>
+                                <ul>
+                                  {% for service in services.service[locale] %}
+                                    <li>
+                                      <a onclick="mixpanel.track('Go' + service.label + ' Button')" href="{{ service.link }}" data-title="{{ service.label }}">
+                                        <span>{{ service.label }}</span>
+                                      </a>
+                                    </li>
+                                  {% endfor %}
+                                </ul>
+                              </li>
+                              <li>
+
+                              {% else %}
+                                <li>
+                                  <a href="{{ page.link }}" data-title="{{ page.label }}">
+                                    <span>{{ page.label }}</span>
+                                  </a>
+                                </li>
+                              {% endif %}
+                            {% endif %}
+                          {% endfor %}
+                          <li style="cursor: pointer;">
+                            <span>
+                              <img src="../../../assets/icons/language.jpg" alt="image">
+                            </span>
+                            <ul>
+                              <li>
+                                <a onclick="mixpanel.track('Go to English Page Button')" class="btn-language" data-title="English" lang="en">
+                                  <span>English</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a onclick="mixpanel.track('Go to Spanish Page Button')" class="btn-language" data-title="Español" lang="es">
+                                  <span>Español</span>
+                                </a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li id="dummy">
+													lorem
+													</li>
+                        </ul>
+                      </nav>
+                      <!-- End main menu -->
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-		</div>
+          </nav>
+          <!-- End header fixed -->
+        </header>
+        <!-- End header -->
 
-		{# BEGIN TABLE OF CONTENTS #}
-		<div class="js-toc is-position-fixed"></div>
-		{# END TABLE OF CONTENTS #}
+        <div id="body-tag-post-wrapper">
+          {% include "../components/blocks/header.block.njk" %}
+          <main id="inner-main">
+            <div class="post">
+              {# BEGIN FEATURED IMAGE #}
+              <div class="post__imgBox">
+                <div class="post__imgBox-title">
+                  <h1>{{ title }}</h1>
+                  <img  src={{featuredImage}} alt="Post Image">
+                </div>
+                <div class="post__imgBox-textBox">
+                  <p class="post__imgBox-textBox__category">{{ category | fixCategory }}</p>
+                  <p class="post__imgBox-textBox__description">{{ description }}</p>
+                  <p class="post__imgBox-textBox__publishDate">{{ publishDate | postDate }}</p>
+                </div>
+              </div>
+              {# END FEATURED IMAGE #}
 
-		{# BEGIN JAVASCRIPT IMPORTS #}
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.1.1/tocbot.min.js"></script>
-		{% include "../components/blocks/jsMinifierPost.block.njk" %}
+              {# BEGIN POST CONTENT #}
+              <div class="post__mainContent js-toc-content js-toc-content">
+                {{ content | safe }}
+              </div>
+              {# END POST CONTENT #}
 
-		{# END JAVASCRIPT IMPORTS #}
+              {# BEGIN FEATURED VIDEO #}
+              {% if featuredVideo != undefined %}
+                <div class="iframe-container">
+                  <iframe src={{ featuredVideo }} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+              {% endif %}
+              {# END FEATURED VIDEO #}
 
-	</body>
+              {# BEGIN POST REACTION #}
+              <div class="reactions">
+                <ul class="reaction_list">
+                  <li class="reaction_box__like">
+                    <img  src="../../../assets/icons/like-icon.jpg" alt="Like Icon">
+                  </li>
+                </ul>
+              </div>
+              {# END POST REACTION #}
+
+              {# BEGIN AUTHOR #}
+              {% if author | capitalize != "No author" %}
+                <div class="post__author">
+                  <h3>
+                    <span>Author:</span>
+                    {{ author }}
+                  </h3>
+                </div>
+              {% endif %}
+              {# END AUTHOR #}
+            </div>
+          </main>
+
+          {# BEGIN POST SHARE LINKS #}
+          <aside id="share-links">
+            <div style="width: 100%; display: flex; justify-content: center; margin-bottom: 2rem;" class="ss-box" data-ss-content="false" data-ss-social="facebook, whatsapp, twitter, email, linkedin, reddit"></div>
+          </aside>
+          {# END POST SHARE LINKS #}
+
+          {# BEGIN TABLE OF CONTENTS #}
+          <div data-toc="js-toc-id-data" class="js-toc is-position-fixed"></div>
+          {# END TABLE OF CONTENTS #}
+        </div>
+
+      </div>
+
+      <!-- Begin footer -->
+      <footer class="footer">
+        <div class="footer-main">
+          <div class="container">
+            <div class="row items">
+              <div class="col-xl-3 col-lg-3 col-md-5 col-12 item">
+                <!-- Begin company info -->
+                <div class="footer-company-info">
+                  <div class="footer-company-top">
+                    <a onclick="mixpanel.track('Go Home Button')" href="{{navigation.header_links[locale][0].link}}" class="logo logo-ico-widht-text" title="ATDEV">
+                      <img class="lazy logo-ico" data-src="/assets/images/logo.png" height="35" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="image">
+                      <span class="logo-text"></span>
+                    </a>
+                    <div class="footer-company-desc">
+                      <p>
+                        {{ footer_text.begin_company_info[locale].footer_company_desc }}
+                      </p>
+                    </div>
+                  </div>
+                  <ul class="footer-social-links">
+                    <li>
+                      <a onclick="mixpanel.track('Go to LinkedIn Page Button')" href="https://www.linkedin.com/company/atdev/about/" title="LinkedIn">
+                        <svg viewBox="0 0 448 512">
+                          <use xlink:href="../../../assets/images/sprite.svg#linkedin-in-ico"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a onclick="mixpanel.track('Go to Twitter Page Button')" href="https://twitter.com/AtdevConsulting" title="Twitter">
+                        <svg viewBox="0 0 512 512">
+                          <use xlink:href="../../../assets/images/sprite.svg#twitter-ico"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a onclick="mixpanel.track('Go to Instagram Page Button')" href="https://instagram.com/atdev.do?igshid=NmZiMzY2Mjc=" title="Twitter">
+                        <svg viewBox="0 0 512 512">
+                          <use xlink:href="../../../assets/images/sprite.svg#instagram-ico"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- End company info -->
+              </div>
+              <div class="col-xl-2 offset-xl-1 col-md-3 col-5 col-lg-2 item">
+                <div class="footer-item">
+                  <h4 class="footer-item-title">{{ footer_text.footer_item_menu[locale].title }}</h4>
+                  <nav class="footer-nav">
+                    <ul class="footer-mnu">
+                      {% for page in navigation.header_links[locale] %}
+                        {% if page.label == "Home" or page.label == "Inicio" %}
+                        {% else %}
+                          <li>
+                            <a onclick="mixpanel.track('Go ' + page.label + ' Button')" href="{{ page.link }}" class="hover-link"
+											 data-title="{{ page.label }}">
+                              <span>{{ page.label }}</span>
+                            </a>
+                          </li>
+                        {% endif %}
+                      {% endfor %}
+
+                      <!-- <li><a href="about-us.html" class="hover-link" data-title="About Us"><span>About Us</span></a></li>
+										<li><a href="services.html" class="hover-link" data-title="Services"><span>Services</span></a></li>
+										<li><a href="pricing.html" class="hover-link" data-title="Pricing"><span>Pricing</span></a></li>
+										<li><a href="blog.html" class="hover-link" data-title="Blog"><span>Blog</span></a></li>
+										<li><a href="contact-us.html" class="hover-link" data-title="Contact Us"><span>Contact Us</span></a></li> -->
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-3 col-md-3 col-7 item">
+                <div class="footer-item">
+                  <h4 class="footer-item-title">{{ footer_text.footer_item_what_we_offer[locale].title }}</h4>
+                  <nav class="footer-nav">
+                    <ul class="footer-mnu">
+                      {% for page in services.service[locale] %}
+                        <li>
+                          <li>
+                            <a onclick="mixpanel.track('Go ' + page.label + ' Button')" href="{{ page.link }}" class="hover-link" data-title="{{ page.label }}">
+                              <span>{{ page.label }}</span></a>
+                          </li>
+                        </li>
+                      {% endfor %}
+                      <!-- <li><a href="#!" class="hover-link" data-title="DB Management"><span>DB Management</span></a></li>
+										<li><a href="#!" class="hover-link" data-title="IOS/MacOS"><span>IOS/MacOS</span></a></li>
+										<li><a href="#!" class="hover-link" data-title="Android Apps"><span>Android Apps</span></a></li>
+										<li><a href="#!" class="hover-link" data-title="Windows Apps"><span>Windows Apps</span></a></li>
+										<li><a href="#!" class="hover-link" data-title="UX & UI"><span>UX & UI</span></a></li> -->
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+              <div class="col-xs-4 col-lg-4 col-12 item">
+                <div class="footer-item">
+                  <h4 class="footer-item-title">{{ footer_text.footer_item_our_contacts[locale].title }}</h4>
+                  <ul class="footer-contacts">
+                    <li>
+                      <i class="material-icons md-22">location_on</i>
+                      <div class="footer-contact-info">
+												Aut: San Isidro, Santo Domingo este. Plaza Coral Mall, Pyhex Work 3
+											</div>
+                    </li>
+                    {# <li>
+										<i class="material-icons md-22 footer-contact-tel">smartphone</i>
+										<div class="footer-contact-info">
+											<a href="#!" class="formingHrefTel">+1 323-913-4688</a>, <a href="#!" class="formingHrefTel">+1 323-888-4554</a>
+										</div>
+									</li> #}
+                    <li>
+                      <i class="material-icons md-22 footer-contact-email">email</i>
+                      <div class="footer-contact-info">
+                        <a onclick="mixpanel.track('Go to Email Button')" href="mailto:mail@example.com">info@atdev.do</a>
+                      </div>
+                    </li>
+                    <li>
+                      <i class="material-icons md-22 ">phone</i>
+                      <div class="footer-contact-info">
+                        <a onclick="mixpanel.track('Go to Phone Button')" href="PhoneExample">809-568-3277</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row justify-content-between items">
+              <div class="col-md-auto col-12 item">
+                <nav class="footer-links">
+                  <ul>
+                    <li>
+                      <a onclick="mixpanel.track('Go to Terms and Conditions Page Button')" href="terms-and-conditions.html">{{ footer_text.footer_bottom[locale].terms }}</a>
+                    </li>
+                    <li>
+                      <a onclick="mixpanel.track('Go to Privacy Policy Page Button')" href="privacy-policy.html">{{ footer_text.footer_bottom[locale].privacy }}</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="col-md-auto col-12 item">
+                <div class="copyright">{{ footer_text.footer_bottom[locale].copyright }}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- End footer -->
+
+    </main>
+    <!-- End main -->
+
+    {# BEGIN TABLE OF CONTENTS #}
+    <div class="js-toc is-position-fixed"></div>
+    {# END TABLE OF CONTENTS #}
+
+    {# BEGIN JS IMPORTS #}
+    {# END JS IMPORTS #}
+
+    {# BEGIN JAVASCRIPT IMPORTS #}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.11/jquery.lazy.min.js" integrity="sha512-eviLb3jW7+OaVLz5N3B5F0hpluwkLb8wTXHOTy0CyNaZM5IlShxX1nEbODak/C0k9UdsrWjqIBKOFY0ELCCArw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"></script>
+    <script src="../../../assets/js/script.min.js" defer></script>
+    {% include "../components/blocks/jsMinifierPost.block.njk" %}
+
+    {# END JAVASCRIPT IMPORTS #}
+
+  </body>
 </html>

@@ -67,7 +67,7 @@ collections:
             }
           - {
                 label: 'Featured Image',
-                default: '/uploads/images/logo.webp',
+                default: '/uploads/images/logo.png',
                 name: 'featuredImage',
                 widget: 'image',
                 required: false,

@@ -45,7 +45,7 @@
 .post-card__contentBox {
 	display: flex;
 	flex-direction: column;
-	gap: 1rem;
+	/* gap: 1rem; */
 	padding: 1rem 0;
 	font-weight: bold;
 	width: 100%;
@@ -91,6 +91,7 @@
 
 .post-card__contentBox-author_minRead h3 {
 	color: var(--color-h2);
+	font-size: 1rem;
 }
 
 .post-card__contentBox-author_minRead h3 span {
@@ -288,7 +289,7 @@ iframe {
 	padding-right: 2rem;
 }
 
-.js-toc::before {
+#js-toc-id::before {
 	content: 'Table Of Content';
 	font-size: 1.1rem;
 	font-weight: bolder;
@@ -309,9 +310,9 @@ iframe {
 
 .is-position-fixed {
 	position: -webkit-sticky;
-	position: sticky !important;
+	position: fixed !important;
 	padding-top: 4rem;
-	top: 20% !important;
+	top: 40% !important;
 	left: 85% !important;
 	-webkit-transform: translate(-50%, -50%) !important;
 	transform: translate(-50%, -50%) !important;

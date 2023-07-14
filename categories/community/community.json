@@ -1,9 +1,12 @@
 {
 	"layout": "layouts/category.njk",
 	"category": "community",
-	"tags": "community",
+	"category_tags": "community",
 	"collection": "communityCollection",
 	"collectionByTitle": "sortedCommunityByTitle",
 	"collectionByTime": "sortedCommunityByTime",
-	"collectionByDate": "sortedCommunityByDate"
+	"collectionByDate": "sortedCommunityByDate",
+	"tags": ["en", "community"],
+	"locale": "en",
+	"dir": "ltr"
 }

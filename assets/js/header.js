@@ -1,1 +1,14 @@
-var header=document.querySelector("header"),sticky=header.offsetTop;let myButton=document.getElementById("scroll-button");function myFunction(){window.pageYOffset>sticky?header.classList.add("sticky"):header.classList.remove("sticky")}function scrollFunction(){document.body.scrollTop>100||document.documentElement.scrollTop>100?myButton.style.display="block":myButton.style.display="none"}window.onscroll=function(){myFunction(),scrollFunction()},window.addEventListener("message",function(e){console.log("Message received from the parent: "+e.data)});
+var header = document.querySelector('header')
+var sticky = header.offsetTop
+
+window.onscroll = function () {
+	myFunction()
+}
+
+function myFunction() {
+	if (window.pageYOffset > sticky) {
+		header.classList.add('sticky')
+	} else {
+		header.classList.remove('sticky')
+	}
+}
