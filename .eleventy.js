@@ -120,7 +120,6 @@ module.exports = function (eleventyConfig) {
 
 	// * BEGIN COPY
 	eleventyConfig.addPassthroughCopy('uploads')
-	eleventyConfig.addPassthroughCopy('uploads/images')
 	eleventyConfig.addPassthroughCopy('admin')
 	eleventyConfig.addPassthroughCopy('filters')
 	eleventyConfig.addPassthroughCopy('assets')

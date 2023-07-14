@@ -1,11 +1,13 @@
 const post__mainContent = document.querySelector('.post__mainContent')
 const elements = post__mainContent.children
+const js_toc_id_data = document.querySelector('[data-toc]')
 
 if (
 	post__mainContent.querySelector('h1') ||
 	post__mainContent.querySelector('h2') ||
 	post__mainContent.querySelector('h3')
 ) {
+	js_toc_id_data.setAttribute('id', 'js-toc-id')
 	let bodyTagPostWrapper = document.getElementById('body-tag-post-wrapper')
 	bodyTagPostWrapper.setAttribute('class', 'body-tag-post-table')
 	const list = []

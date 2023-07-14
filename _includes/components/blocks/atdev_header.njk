@@ -17,13 +17,24 @@
       rel="shortcut icon"
       href=""
       type="image/x-icon"/>
-            <link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+            <link rel="shortcut icon" href="../../../assets/icons/favicon.ico" type="image/x-icon">
 
             {# <link rel="icon" href="/img/favicon/favicon.ico" type="image/x-icon"> #}
-            <link rel="icon" type="image/png" href="assets/images/favicon/favicon-32x32.webp" sizes="32x32"/>
-            <link rel="icon" type="image/png" href="assets/images/favicon/favicon-16x16.webp" sizes="16x16"/>
+            <link rel="icon" type="image/png" href="../../../assets/images/favicon/favicon-32x32.webp" sizes="32x32"/>
+            <link rel="icon" type="image/png" href="../../../assets/images/favicon/favicon-16x16.webp" sizes="16x16"/>
 
             <link href="https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp" rel="stylesheet">
+
+            {# BEGIN SOCIAL SHARE IMPORTS #}
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/assisfery/SocialShareJS@1.4/social-share.min.css"/>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+            <script src="https://cdn.jsdelivr.net/gh/assisfery/SocialShareJS@1.4/social-share.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+            {# END SOCIAL SHARE IMPORTS #}
+
+            {# + BEGIN TABLE OF CONTENT PLUGIN CDN #}
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.1.1/tocbot.css">
+            {# + END TABLE OF CONTENT PLUGIN CDN #}
 
             {# BEGIN FONT FAMILY - LATO #}
             <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,9 +52,9 @@
             <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
             {# END FONT FAMILY - LATO #}
 
-            <script type="text/javascript" src="/assets/js/iframeResizer.contentWindow.min.js"></script>
+            <script type="text/javascript" src="../../../assets/js/iframeResizer.contentWindow.min.js"></script>
 
-            <title>{{ category | upper }} | CATEGORY </title>
+            <title>{{ title }}</title>
         </head>
         <body>
             <span index="top"></span>
@@ -113,7 +124,7 @@
                                         <!-- <g-image src="~/img/logo.png" width="36" height="35"/> -->
                                         <!-- <g-image alt="Example image" src="~/favicon.png" width="135" /> -->
                                         <!-- <g-image alt="Example image" src="/img/logo.png" width="36" height="35" /> -->
-                                        <img class="lazy logo-ico" data-src="assets/images/logo.webp" zwidth="36" height="35" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                        <img class="lazy logo-ico" data-src="../../../assets/images/logo.webp" zwidth="36" height="35" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
 
                                         <!-- <img class="lazy logoT-ico" data-src="img/logo-ico.png" width="36" height="35" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=""> -->
                                         <span class="logo-text"></span>
@@ -162,7 +173,7 @@
                                                         {% endfor %}
                                                         <li style="cursor: pointer;">
                                                             <span>
-                                                                <img src="assets/icons/language.webp" alt="">
+                                                                <img src="../../../assets/icons/language.webp" alt="">
                                                             </span>
                                                             <ul>
                                                                 <li>
@@ -192,82 +203,80 @@
                         <!-- End header fixed -->
                     </header>
                     <!-- End header -->
-                    {% from "../components/macros/sort-posts.macro.njk" import macro_sorted_list_title %}
-                    {% from "../components/macros/sort-posts.macro.njk" import macro_sorted_list_time %}
-                    {% from "../components/macros/sort-posts.macro.njk" import macro_sorted_list_date %}
-                    {% from "../components/macros/sort-posts.macro.njk" import macro_no_sort %}
 
-                    <span index="top"></span>
-                    {% from "../components/macros/introduction.macro.njk" import macro_intro %}
+                    <div id="body-tag-post-wrapper">
+                        {% include "../components/blocks/header.block.njk" %}
+                        <main>
+                            <div class="post">
+                                {# BEGIN FEATURED IMAGE #}
+                                <div class="post__imgBox">
+                                    <div class="post__imgBox-title">
+                                        <h1>{{ title }}</h1>
+                                        <img  src={{featuredImage}} alt="Post Image">
+                                    </div>
+                                    <div class="post__imgBox-textBox">
+                                        <p class="post__imgBox-textBox__category">{{ category | fixCategory }}</p>
+                                        <p class="post__imgBox-textBox__description">{{ description }}</p>
+                                        <p class="post__imgBox-textBox__publishDate">{{ publishDate | postDate }}</p>
+                                    </div>
+                                </div>
+                                {# END FEATURED IMAGE #}
 
-                    {% set list_length = [] %}
+                                {# BEGIN POST CONTENT #}
+                                <div class="post__mainContent js-toc-content js-toc-content">
+                                    {{ content | safe }}
+                                </div>
+                                {# END POST CONTENT #}
 
-                    {% for item in quote_list.quotes %}
-                        {% set list_length = (list_length.push(loop.index), list_length) %}
-                    {% endfor %}
+                                {# BEGIN FEATURED VIDEO #}
+                                {% if featuredVideo != undefined %}
+                                    <div class="iframe-container">
+                                        <iframe src={{ featuredVideo }} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    </div>
+                                {% endif %}
+                                {# END FEATURED VIDEO #}
 
-                    {{ macro_intro('Category', category | fixCategory , quote_list.quotes[list_length | random].quote) }}
-                    {% include "../components/blocks/header.block.njk" %}
+                                {# BEGIN POST REACTION #}
+                                <div class="reactions">
+                                    <ul class="reaction_list">
+                                        <li class="reaction_box__like">
+                                            <img  src="../../../assets/icons/like-icon.webp" alt="Like Icon">
+                                        </li>
+                                    </ul>
+                                </div>
+                                {# END POST REACTION #}
 
-                    <main class="category-posts">
-
-                        {# BEGIN FILTER - SORTING #}
-                        <div id="filter-sort-container">
-
-                            <div id="sort-by-title-box">
-                                <h2>SORT BY</h2>
+                                {# BEGIN AUTHOR #}
+                                {% if author | capitalize != "No author" %}
+                                    <div class="post__author">
+                                        <h3>
+                                            <span>Author:</span>
+                                            {{ author }}
+                                        </h3>
+                                    </div>
+                                {% endif %}
+                                {# END AUTHOR #}
                             </div>
+                        </main>
 
-                            <div id="sort-controls">
-                                <button id="sort-btn-title">
-                                    <p>Title</p>
-                                    <img  src="/assets/icons/sort-az.webp" alt="sort az"/>
-                                </button>
-                                <button id="sort-btn-time-read">
-                                    <p>Time</p>
-                                    <img  src="/assets/icons/sort-time-read.webp" alt="sort time to read"/>
-                                </button>
+                        {# BEGIN POST SHARE LINKS #}
+                        <aside id="share-links">
+                            <div style="width: 100%; display: flex; justify-content: center; margin-bottom: 2rem;" class="ss-box" data-ss-content="false" data-ss-social="facebook, whatsapp, twitter, email, linkedin, reddit"></div>
+                        </aside>
+                        {# END POST SHARE LINKS #}
 
-                                <button id="sort-btn-date">
-                                    <p>Date</p>
-                                    <img  src="/assets/icons/release-date-icon.webp" alt="sort date"/>
-                                </button>
-                            </div>
-                        </div>
-                        {# END FILTER - SORTING #}
+                        <a onclick="mixpanel.track('Go Top Page Button - Blog')" id="scroll-button" href="#top">
+                            <img  src="../../../assets/icons/up-arrow-icon.webp" alt="Up arrow icon"/>
+                        </a>
 
-                        {# BEGIN POST LIST #}
-                        <div id="sorting">
-                            <div id="sorted-title">
-                                {{ macro_sorted_list_title(collections[collectionByTitle], to) }}
-                            </div>
+                        <div style="visibility: hidden;">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi temporibus minima voluptate similique saepe, enim rerum vero veritatis tenetur itaque quis cumque earum totam ex velit dolor. Aperiam, sit temporibus.
+            </div>
+                    </div>
 
-                            <div id="sorted-time">
-                                {{ macro_sorted_list_time(collections[collectionByTime], to) }}
-                            </div>
-
-                            <div id="sorted-date">
-                                {{ macro_sorted_list_date(collections[collectionByDate], to) }}
-                            </div>
-
-                            <div id="not-sorted">
-                                {{content | safe}}
-                            </div>
-                        </div>
-                        {# END POST LIST #}
-
-                        {# BEGIN INNER NAVIGATION #}
-                        <div>
-                            {% from "../components/macros/category-post.macro.njk" import macro_category_inner_navigation %}
-
-                            {{ macro_category_inner_navigation(collections[category] | length, current_page, tags) }}
-                        </div>
-                        {# END INNER NAVIGATION #}
-                    </main>
-
-                    <a onclick="mixpanel.track('Go Top Page Button - Blog')" id="scroll-button" href="#top">
-                        <img  src="/assets/icons/up-arrow-icon.webp" alt="Up arrow icon"/>
-                    </a>
+                    {# BEGIN TABLE OF CONTENTS #}
+                    <div class="js-toc is-position-fixed"></div>
+                    {# END TABLE OF CONTENTS #}
 
                 </div>
 
@@ -281,7 +290,7 @@
                                     <div class="footer-company-info">
                                         <div class="footer-company-top">
                                             <a onclick="mixpanel.track('Go Home Button')" href="/pages/{{locale}}/" class="logo logo-ico-widht-text" title="ATDEV">
-                                                <img class="lazy logo-ico" data-src="assets/images/logo.webp" height="35" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                                <img class="lazy logo-ico" data-src="../../../assets/images/logo.webp" height="35" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
                                                 <span class="logo-text"></span>
                                             </a>
                                             <div class="footer-company-desc">
@@ -294,21 +303,21 @@
                                             <li>
                                                 <a onclick="mixpanel.track('Go to LinkedIn Page Button')" href="https://www.linkedin.com/company/atdev/about/" title="LinkedIn">
                                                     <svg viewBox="0 0 448 512">
-                                                        <use xlink:href="assets/images/sprite.svg#linkedin-in-ico"></use>
+                                                        <use xlink:href="../../../assets/images/sprite.svg#linkedin-in-ico"></use>
                                                     </svg>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a onclick="mixpanel.track('Go to Twitter Page Button')" href="https://twitter.com/AtdevConsulting" title="Twitter">
                                                     <svg viewBox="0 0 512 512">
-                                                        <use xlink:href="assets/images/sprite.svg#twitter-ico"></use>
+                                                        <use xlink:href="../../../assets/images/sprite.svg#twitter-ico"></use>
                                                     </svg>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a onclick="mixpanel.track('Go to Instagram Page Button')" href="https://instagram.com/atdev.do?igshid=NmZiMzY2Mjc=" title="Twitter">
                                                     <svg viewBox="0 0 512 512">
-                                                        <use xlink:href="assets/images/sprite.svg#instagram-ico"></use>
+                                                        <use xlink:href="../../../assets/images/sprite.svg#instagram-ico"></use>
                                                     </svg>
                                                 </a>
                                             </li>
@@ -426,18 +435,24 @@
             <!-- End main -->
 
             <a onclick="mixpanel.track('Go Top Page Button - Blog')" id="scroll-button" href="#top">
-                <img  src="/assets/icons/up-arrow-icon.webp" alt="Up arrow icon"/>
+                <img  src="../../../assets/icons/up-arrow-icon.webp" alt="Up arrow icon"/>
             </a>
 
             {# BEGIN JS IMPORTS #}
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-            <script src="assets/js/script.min.js"></script>
-            {% include "../components/blocks/jsMinifierBase.block.njk" %}
+            <script src="../../../assets/js/script.min.js"></script>
             <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"></script>
             {# END JS IMPORTS #}
-            {# BEGIN JS IMPORTS #}
-            {% include "../components/blocks/jsMinifierCategory.block.njk" %}
-            {# END JS IMPORTS #}
+
+            {# BEGIN TABLE OF CONTENTS #}
+            <div class="js-toc is-position-fixed"></div>
+            {# END TABLE OF CONTENTS #}
+
+            {# BEGIN JAVASCRIPT IMPORTS #}
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.1.1/tocbot.min.js"></script>
+            {% include "../components/blocks/jsMinifierPost.block.njk" %}
+
+            {# END JAVASCRIPT IMPORTS #}
 
         </body>
     </html>

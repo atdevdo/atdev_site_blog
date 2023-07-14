@@ -288,7 +288,7 @@ iframe {
 	padding-right: 2rem;
 }
 
-.js-toc::before {
+#js-toc-id::before {
 	content: 'Table Of Content';
 	font-size: 1.1rem;
 	font-weight: bolder;
@@ -309,9 +309,9 @@ iframe {
 
 .is-position-fixed {
 	position: -webkit-sticky;
-	position: sticky !important;
+	position: fixed !important;
 	padding-top: 4rem;
-	top: 20% !important;
+	top: 40% !important;
 	left: 85% !important;
 	-webkit-transform: translate(-50%, -50%) !important;
 	transform: translate(-50%, -50%) !important;
