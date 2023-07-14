@@ -21,7 +21,7 @@ B. CSS Table Of Content
 	box-sizing: border-box;
 }
 html {
-	font-family: 'Lato', sans-serif;
+	font-family: 'cerebri', 'Lato', sans-serif;
 	line-height: 1.15;
 	-webkit-text-size-adjust: 100%;
 	-webkit-tap-highlight-color: transparent;
@@ -41,9 +41,10 @@ section {
 }
 body {
 	margin: 0;
-	font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-		'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
-		'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+	font-family: 'cerebri', 'Lato', -apple-system, BlinkMacSystemFont,
+		'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+		'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+		'Noto Color Emoji';
 	font-size: 1rem;
 	font-weight: 400;
 	line-height: 1.5;
@@ -155,7 +156,7 @@ code,
 kbd,
 pre,
 samp {
-	font-family: 'Lato', SFMono-Regular, Menlo, Monaco, Consolas,
+	font-family: 'cerebri', 'Lato', SFMono-Regular, Menlo, Monaco, Consolas,
 		'Liberation Mono', 'Courier New', monospace;
 	font-size: 1em;
 }
@@ -5367,8 +5368,8 @@ body:not(.lg-from-hash)
 	display: block;
 	white-space: pre;
 	padding: 4px 12px;
-	font-family: 'Lato', 'Open Sans', 'Helvetica Neue', Helvetica, Arial,
-		sans-serif;
+	font-family: 'cerebri', 'Lato', 'Open Sans', 'Helvetica Neue', Helvetica,
+		Arial, sans-serif;
 	font-size: 12px;
 }
 .lg-outer .lg-dropdown a:hover {
@@ -5687,7 +5688,7 @@ body {
 	min-width: 320px;
 	position: relative;
 	line-height: 1.6;
-	font-family: 'Lato', sans-serif;
+	font-family: 'cerebri', 'Lato', sans-serif;
 	font-weight: 400;
 	overflow-x: hidden;
 	color: #303036;
@@ -5790,7 +5791,7 @@ code {
 	width: 100%;
 	height: 100%;
 	font-size: 20px;
-	font-family: 'Lato', Arial, sans-serif;
+	font-family: 'cerebri', 'Lato', Arial, sans-serif;
 	text-align: center;
 }
 .ie-browser-tr {
@@ -5901,7 +5902,7 @@ h6 {
 	line-height: 1.3;
 	margin-bottom: 2rem;
 	font-weight: 700;
-	font-family: 'Lato', Montserrat, sans-serif;
+	font-family: 'cerebri', 'Lato', Montserrat, sans-serif;
 }
 h1 {
 	font-size: 2.5rem;
@@ -7954,7 +7955,7 @@ textarea {
 }
 .advantages-item-count-min {
 	font-size: 1.375rem;
-	font-family: 'Lato', Montserrat, sans-serif;
+	font-family: 'cerebri', 'Lato', Montserrat, sans-serif;
 	font-weight: 700;
 	color: #2c7ae7;
 	margin-right: 5px;
@@ -7962,7 +7963,7 @@ textarea {
 }
 .advantages-item-count {
 	font-size: 1.0625rem;
-	font-family: 'Lato', Montserrat, sans-serif;
+	font-family: 'cerebri', 'Lato', Montserrat, sans-serif;
 	font-weight: 700;
 	color: #3c8ccb;
 	margin-top: 0.125rem;
@@ -7999,7 +8000,7 @@ textarea {
 }
 .advantages-item-count-large {
 	font-size: 9.5rem;
-	font-family: 'Lato', Montserrat, sans-serif;
+	font-family: 'cerebri', 'Lato', Montserrat, sans-serif;
 	font-weight: 700;
 	color: rgba(44, 122, 231, 0.14);
 	position: absolute;
@@ -8122,13 +8123,13 @@ textarea {
 }
 .main-counter-title {
 	font-size: 1.5rem;
-	font-family: 'Lato', Montserrat, sans-serif;
+	font-family: 'cerebri', 'Lato', Montserrat, sans-serif;
 	font-weight: 700;
 	line-height: 1.2;
 }
 .main-counter-numb {
 	font-size: 9rem;
-	font-family: 'Lato', Montserrat, sans-serif;
+	font-family: 'cerebri', 'Lato', Montserrat, sans-serif;
 	font-weight: 700;
 	color: #2c7ae7;
 	margin-bottom: 0;
@@ -8140,7 +8141,7 @@ textarea {
 }
 .counter-item-numb {
 	font-size: 2.5rem;
-	font-family: 'Lato', Montserrat, sans-serif;
+	font-family: 'cerebri', 'Lato', Montserrat, sans-serif;
 	font-weight: 700;
 	line-height: 1.2;
 	color: #2c7ae7;
@@ -8152,7 +8153,7 @@ textarea {
 }
 .counter-col-numb {
 	font-size: 2.5rem;
-	font-family: 'Lato', Montserrat, sans-serif;
+	font-family: 'cerebri', 'Lato', Montserrat, sans-serif;
 	font-weight: 700;
 	line-height: 1.2;
 	color: #2c7ae7;
@@ -8250,7 +8251,7 @@ textarea {
 }
 .counter-min-numb {
 	font-size: 2.1875rem;
-	font-family: 'Lato', Montserrat, sans-serif;
+	font-family: 'cerebri', 'Lato', Montserrat, sans-serif;
 	font-weight: 700;
 	margin-left: 0.625rem;
 }
@@ -8357,7 +8358,7 @@ textarea {
 }
 .project-info-label {
 	font-weight: 700;
-	font-family: 'Lato', Montserrat, sans-serif;
+	font-family: 'cerebri', 'Lato', Montserrat, sans-serif;
 	margin-right: 1rem;
 	min-width: 150px;
 }
@@ -9219,7 +9220,7 @@ textarea {
 }
 .pricing-item-price {
 	font-size: 2rem;
-	font-family: 'Lato', Montserrat, sans-serif;
+	font-family: 'cerebri', 'Lato', Montserrat, sans-serif;
 	font-weight: 700;
 	color: #2c7ae7;
 }
@@ -9360,7 +9361,7 @@ textarea {
 	-ms-flex-pack: center;
 	justify-content: center;
 	font-size: 3.75rem;
-	font-family: 'Lato', Montserrat, sans-serif;
+	font-family: 'cerebri', 'Lato', Montserrat, sans-serif;
 	font-weight: 700;
 	width: 100%;
 	line-height: 1;
@@ -9786,7 +9787,7 @@ textarea {
 	color: #303036;
 	opacity: 1;
 	font-size: 1.125rem;
-	font-family: 'Lato', Montserrat, sans-serif;
+	font-family: 'cerebri', 'Lato', Montserrat, sans-serif;
 	height: 55px;
 	font-weight: 700;
 }
@@ -10709,7 +10710,7 @@ body.mob-main-mnu-open .mob-main-mnu {
 }
 .sidebar-item-title {
 	line-height: 1.2;
-	font-family: 'Lato', Montserrat, sans-serif;
+	font-family: 'cerebri', 'Lato', Montserrat, sans-serif;
 	margin-bottom: 1.5rem;
 }
 .sidebar-item-desc {
@@ -11038,7 +11039,7 @@ body.mob-main-mnu-open .mob-main-mnu {
 }
 .search-page-list li a {
 	font-weight: 700;
-	font-family: 'Lato', Montserrat, sans-serif;
+	font-family: 'cerebri', 'Lato', Montserrat, sans-serif;
 	text-decoration: none;
 }
 .search-page-list li a:hover {
@@ -11064,7 +11065,7 @@ body.mob-main-mnu-open .mob-main-mnu {
 .search-page-results-text b,
 .search-page-results-text strong {
 	font-weight: 600;
-	font-family: 'Lato', Montserrat, sans-serif;
+	font-family: 'cerebri', 'Lato', Montserrat, sans-serif;
 }
 .footer {
 	position: relative;

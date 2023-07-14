@@ -67,6 +67,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy('filters')
 	eleventyConfig.addPassthroughCopy('assets')
 	eleventyConfig.addPassthroughCopy('_data')
+	eleventyConfig.addPassthroughCopy('./assets/fonts/Cerebri-Sans-Bold-1.woff')
 	// * END COPY
 
 	// * BEGIN WATCHERS
