@@ -120,11 +120,11 @@ module.exports = function (eleventyConfig) {
 
 	// * BEGIN COPY
 	eleventyConfig.addPassthroughCopy('uploads')
+	eleventyConfig.addPassthroughCopy('uploads/images')
 	eleventyConfig.addPassthroughCopy('admin')
 	eleventyConfig.addPassthroughCopy('filters')
-	eleventyConfig.addPassthroughCopy('assets/icons')
-	eleventyConfig.addPassthroughCopy('assets/images')
-	eleventyConfig.addPassthroughCopy('assets/js')
+	eleventyConfig.addPassthroughCopy('assets')
+	eleventyConfig.addPassthroughCopy('_data')
 	// * END COPY
 
 	// * BEGIN WATCHERS

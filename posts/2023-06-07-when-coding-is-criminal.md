@@ -7,7 +7,7 @@ publishDate: 2019-08-12
 category: technology
 author: Stephen J. Obie
 minRead: 1
-featuredImage: /uploads/images/coding-becomes-criminal.webp
+featuredImage: https://images.pexels.com/photos/1485894/pexels-photo-1485894.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 featuredVideo: https://www.youtube.com/watch?v=mCt2hzpyWZc
 ---
 
