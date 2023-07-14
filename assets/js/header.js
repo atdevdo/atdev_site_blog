@@ -1,5 +1,3 @@
-/** @format */
-
 var header = document.querySelector('header')
 var sticky = header.offsetTop
 
