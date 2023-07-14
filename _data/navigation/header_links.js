@@ -26,7 +26,7 @@ module.exports = {
 		},
 		{
 			label: 'Blog',
-			link: '/pages/en/blog/',
+			link: 'https://atdev-blog.netlify.app/',
 		},
 	],
 	es: [
@@ -52,7 +52,7 @@ module.exports = {
 		},
 		{
 			label: 'Blog',
-			link: '/pages/es/blog/',
+			link: 'https://atdev-blog.netlify.app/',
 		},
 	],
 }
