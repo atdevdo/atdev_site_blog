@@ -1,7 +1,7 @@
 {
 	"layout": "layouts/category.njk",
 	"category": "technology",
-	"tags": "technology",
+	"category_tags": "technology",
 	"collection": "technologyCollection",
 	"collectionByTitle": "sortedTechnologyByTitle",
 	"collectionByTime": "sortedTechnologyByTime",

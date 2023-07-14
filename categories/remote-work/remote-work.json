@@ -1,7 +1,7 @@
 {
 	"layout": "layouts/category.njk",
 	"category": "remote-work",
-	"tags": "remote-work",
+	"category_tags": "remote-work",
 	"collection": "remoteWorkCollection",
 	"collectionByTitle": "sortedRemoteWorkByTitle",
 	"collectionByTime": "sortedRemoteWorkByTime",

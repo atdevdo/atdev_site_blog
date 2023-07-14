@@ -1,7 +1,7 @@
 {
 	"layout": "layouts/category.njk",
 	"category": "growth",
-	"tags": "growth",
+	"category_tags": "growth",
 	"collection": "growthCollection",
 	"collectionByTitle": "sortedGrowthByTitle",
 	"collectionByTime": "sortedGrowthByTime",

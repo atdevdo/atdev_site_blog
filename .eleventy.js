@@ -51,6 +51,31 @@ module.exports = function (eleventyConfig) {
 	})
 	// ? END PLUGINS
 
+	// * BEGIN CUSTOM FILTERS
+	eleventyConfig.addFilter('search', searchFilter)
+	eleventyConfig.addNunjucksFilter('fixCategory', fixCategory)
+	eleventyConfig.addFilter('postDate', postDate)
+	eleventyConfig.addNunjucksFilter('dateNow', dateNow)
+	eleventyConfig.addFilter('cssmin', function (code) {
+		return new CleanCSS({}).minify(code).styles
+	})
+	// * END CUSTOM FILTERS
+
+	// * BEGIN COPY
+	eleventyConfig.addPassthroughCopy('uploads')
+	eleventyConfig.addPassthroughCopy('admin')
+	eleventyConfig.addPassthroughCopy('filters')
+	eleventyConfig.addPassthroughCopy('assets')
+	eleventyConfig.addPassthroughCopy('_data')
+	// * END COPY
+
+	// * BEGIN WATCHERS
+	eleventyConfig.addWatchTarget('./**/*.css')
+	eleventyConfig.addWatchTarget('assets/js')
+	eleventyConfig.addWatchTarget('assets/icons')
+	eleventyConfig.addWatchTarget('assets/images')
+	// * END WATCHERS
+
 	// * BEGIN CUSTOM COLLECTIONS
 	// ? BEGIN CATEGORY COLLECTIONS
 	eleventyConfig.addCollection('technologyCollection', technologyCollection)
@@ -107,31 +132,6 @@ module.exports = function (eleventyConfig) {
 	)
 	// ? END SORTED CATEGORY COLLECTIONS
 	// * END CUSTOM COLLECTIONS
-
-	// * BEGIN CUSTOM FILTERS
-	eleventyConfig.addFilter('search', searchFilter)
-	eleventyConfig.addNunjucksFilter('fixCategory', fixCategory)
-	eleventyConfig.addFilter('postDate', postDate)
-	eleventyConfig.addNunjucksFilter('dateNow', dateNow)
-	eleventyConfig.addFilter('cssmin', function (code) {
-		return new CleanCSS({}).minify(code).styles
-	})
-	// * END CUSTOM FILTERS
-
-	// * BEGIN COPY
-	eleventyConfig.addPassthroughCopy('uploads')
-	eleventyConfig.addPassthroughCopy('admin')
-	eleventyConfig.addPassthroughCopy('filters')
-	eleventyConfig.addPassthroughCopy('assets')
-	eleventyConfig.addPassthroughCopy('_data')
-	// * END COPY
-
-	// * BEGIN WATCHERS
-	eleventyConfig.addWatchTarget('./**/*.css')
-	eleventyConfig.addWatchTarget('assets/js')
-	eleventyConfig.addWatchTarget('assets/icons')
-	eleventyConfig.addWatchTarget('assets/images')
-	// * END WATCHERS
 
 	eleventyConfig.setBrowserSyncConfig({
 		middleware: function (req, res, next) {
