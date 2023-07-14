@@ -58,8 +58,6 @@ dir: 'ltr'
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     {# END FONT FAMILY - LATO #}
 
-    <script type="text/javascript" src="../../../assets/js/iframeResizer.contentWindow.min.js"></script>
-
     <title>{{ title }}</title>
   </head>
   <body>
@@ -129,9 +127,9 @@ dir: 'ltr'
                   <!-- <g-image src="~/img/logo.png" width="36" height="35"/> -->
                   <!-- <g-image alt="Example image" src="~/favicon.png" width="135" /> -->
                   <!-- <g-image alt="Example image" src="/img/logo.png" width="36" height="35" /> -->
-                  <img class="lazy logo-ico" data-src="../../../assets/images/logo.png" zwidth="36" height="35" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                  <img class="lazy logo-ico" data-src="../../../assets/images/logo.png" zwidth="36" height="35" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="image">
 
-                  <!-- <img class="lazy logoT-ico" data-src="img/logo-ico.png" width="36" height="35" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=""> -->
+                  <!-- <img class="lazy logoT-ico" data-src="img/logo-ico.png" width="36" height="35" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="image"> -->
                   <span class="logo-text"></span>
                 </a>
               </div>
@@ -178,7 +176,7 @@ dir: 'ltr'
                           {% endfor %}
                           <li style="cursor: pointer;">
                             <span>
-                              <img src="../../../assets/icons/language.jpg" alt="">
+                              <img src="../../../assets/icons/language.jpg" alt="image">
                             </span>
                             <ul>
                               <li>
@@ -211,7 +209,7 @@ dir: 'ltr'
 
         <div id="body-tag-post-wrapper">
           {% include "../components/blocks/header.block.njk" %}
-          <main>
+          <main id="inner-main">
             <div class="post">
               {# BEGIN FEATURED IMAGE #}
               <div class="post__imgBox">
@@ -287,7 +285,7 @@ dir: 'ltr'
                 <div class="footer-company-info">
                   <div class="footer-company-top">
                     <a onclick="mixpanel.track('Go Home Button')" href="{{navigation.header_links[locale][0].link}}" class="logo logo-ico-widht-text" title="ATDEV">
-                      <img class="lazy logo-ico" data-src="assets/images/logo.png" height="35" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                      <img class="lazy logo-ico" data-src="/assets/images/logo.png" height="35" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="image">
                       <span class="logo-text"></span>
                     </a>
                     <div class="footer-company-desc">
@@ -442,7 +440,7 @@ dir: 'ltr'
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.11/jquery.lazy.min.js" integrity="sha512-eviLb3jW7+OaVLz5N3B5F0hpluwkLb8wTXHOTy0CyNaZM5IlShxX1nEbODak/C0k9UdsrWjqIBKOFY0ELCCArw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"></script>
-    <script src="../../../assets/js/script.min.js"></script>
+    <script src="../../../assets/js/script.min.js" defer></script>
     {% include "../components/blocks/jsMinifierPost.block.njk" %}
 
     {# END JAVASCRIPT IMPORTS #}

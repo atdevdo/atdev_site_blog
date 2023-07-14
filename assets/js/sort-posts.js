@@ -31,15 +31,15 @@ sort_by_title_btn.addEventListener('click', () => {
 	if (title_counter % 2 == 0) {
 		sorted_title_box.style.display = 'block'
 		sort_by_title_btn.setAttribute('class', 'active')
-		btn_sort_title_img.src = '/assets/icons/sort-az-flipped.jpg'
+		btn_sort_title_img.src = '/assets/icons/sort-az-flipped.webp'
 
 		sorted_time_box.style.display = 'none'
 		sorted_category_box.style.display = 'none'
 		sorted_date_box.style.display = 'none'
 		not_sorted_box.style.display = 'none'
 
-		btn_sort_time_img.src = '/assets/icons/sort-time-read.jpg'
-		btn_sort_category_img.src = '/assets/icons/sort-category.jpg'
+		btn_sort_time_img.src = '/assets/icons/sort-time-read.webp'
+		btn_sort_category_img.src = '/assets/icons/sort-category.webp'
 
 		date_counter = 1
 		time_counter = 1
@@ -55,7 +55,7 @@ sort_by_title_btn.addEventListener('click', () => {
 		sorted_date_box.style.display = 'none'
 
 		not_sorted_box.style.display = 'block'
-		btn_sort_title_img.src = '/assets/icons/sort-az.jpg'
+		btn_sort_title_img.src = '/assets/icons/sort-az.webp'
 
 		sort_by_title_btn.removeAttribute('class', 'active')
 		sort_by_time_to_read_btn.removeAttribute('class', 'active')
@@ -69,15 +69,15 @@ sort_by_time_to_read_btn.addEventListener('click', () => {
 	if (time_counter % 2 == 0) {
 		sorted_time_box.style.display = 'block'
 		sort_by_time_to_read_btn.setAttribute('class', 'active')
-		btn_sort_time_img.src = '/assets/icons/sort-time-read-flipped.jpg'
+		btn_sort_time_img.src = '/assets/icons/sort-time-read-flipped.webp'
 
 		sorted_title_box.style.display = 'none'
 		sorted_category_box.style.display = 'none'
 		sorted_date_box.style.display = 'none'
 		not_sorted_box.style.display = 'none'
 
-		btn_sort_title_img.src = '/assets/icons/sort-az.jpg'
-		btn_sort_category_img.src = '/assets/icons/sort-category.jpg'
+		btn_sort_title_img.src = '/assets/icons/sort-az.webp'
+		btn_sort_category_img.src = '/assets/icons/sort-category.webp'
 
 		title_counter = 1
 		date_counter = 1
@@ -93,7 +93,7 @@ sort_by_time_to_read_btn.addEventListener('click', () => {
 		sorted_date_box.style.display = 'none'
 
 		not_sorted_box.style.display = 'block'
-		btn_sort_time_img.src = '/assets/icons/sort-time-read.jpg'
+		btn_sort_time_img.src = '/assets/icons/sort-time-read.webp'
 
 		sort_by_time_to_read_btn.removeAttribute('class', 'active')
 		sort_by_title_btn.removeAttribute('class', 'active')
@@ -107,15 +107,15 @@ sort_by_category_btn.addEventListener('click', () => {
 	if (category_counter % 2 == 0) {
 		sorted_category_box.style.display = 'block'
 		sort_by_category_btn.setAttribute('class', 'active')
-		btn_sort_category_img.src = '/assets/icons/sort-category-flipped.jpg'
+		btn_sort_category_img.src = '/assets/icons/sort-category-flipped.webp'
 
 		sorted_title_box.style.display = 'none'
 		sorted_time_box.style.display = 'none'
 		sorted_date_box.style.display = 'none'
 		not_sorted_box.style.display = 'none'
 
-		btn_sort_time_img.src = '/assets/icons/sort-time-read.jpg'
-		btn_sort_title_img.src = '/assets/icons/sort-az.jpg'
+		btn_sort_time_img.src = '/assets/icons/sort-time-read.webp'
+		btn_sort_title_img.src = '/assets/icons/sort-az.webp'
 
 		title_counter = 1
 		time_counter = 1
@@ -131,7 +131,7 @@ sort_by_category_btn.addEventListener('click', () => {
 		sorted_date_box.style.display = 'none'
 
 		not_sorted_box.style.display = 'block'
-		btn_sort_category_img.src = '/assets/icons/sort-category.jpg'
+		btn_sort_category_img.src = '/assets/icons/sort-category.webp'
 
 		sort_by_category_btn.removeAttribute('class', 'active')
 		sort_by_title_btn.removeAttribute('class', 'active')
@@ -151,9 +151,9 @@ sort_by_date_btn.addEventListener('click', () => {
 		sorted_category_box.style.display = 'none'
 		not_sorted_box.style.display = 'none'
 
-		btn_sort_time_img.src = '/assets/icons/sort-time-read.jpg'
-		btn_sort_title_img.src = '/assets/icons/sort-az.jpg'
-		btn_sort_category_img.src = '/assets/icons/sort-category.jpg'
+		btn_sort_time_img.src = '/assets/icons/sort-time-read.webp'
+		btn_sort_title_img.src = '/assets/icons/sort-az.webp'
+		btn_sort_category_img.src = '/assets/icons/sort-category.webp'
 
 		title_counter = 1
 		time_counter = 1

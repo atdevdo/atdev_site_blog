@@ -5,5 +5,8 @@
 	"collection": "technologyCollection",
 	"collectionByTitle": "sortedTechnologyByTitle",
 	"collectionByTime": "sortedTechnologyByTime",
-	"collectionByDate": "sortedTechnologyByDate"
+	"collectionByDate": "sortedTechnologyByDate",
+	"tags": ["en", "technology"],
+	"locale": "en",
+	"dir": "ltr"
 }

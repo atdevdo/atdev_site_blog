@@ -5,5 +5,8 @@
 	"collection": "growthCollection",
 	"collectionByTitle": "sortedGrowthByTitle",
 	"collectionByTime": "sortedGrowthByTime",
-	"collectionByDate": "sortedGrowthByDate"
+	"collectionByDate": "sortedGrowthByDate",
+	"tags": ["en", "growth"],
+	"locale": "en",
+	"dir": "ltr"
 }

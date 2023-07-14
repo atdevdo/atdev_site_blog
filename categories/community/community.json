@@ -5,5 +5,8 @@
 	"collection": "communityCollection",
 	"collectionByTitle": "sortedCommunityByTitle",
 	"collectionByTime": "sortedCommunityByTime",
-	"collectionByDate": "sortedCommunityByDate"
+	"collectionByDate": "sortedCommunityByDate",
+	"tags": ["en", "community"],
+	"locale": "en",
+	"dir": "ltr"
 }

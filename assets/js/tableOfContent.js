@@ -1,7 +1,7 @@
 const post__mainContent = document.querySelector('.post__mainContent')
 const elements = post__mainContent.children
 const js_toc_id_data = document.querySelector('[data-toc]')
-alert('asd')
+
 if (
 	post__mainContent.querySelector('h1') ||
 	post__mainContent.querySelector('h2') ||
@@ -33,14 +33,3 @@ if (
 	})
 	tocbot.refresh()
 }
-
-const element = document.getElementById('top')
-
-element.scrollIntoView()
-element.scrollIntoView(true)
-element.scrollIntoView({ block: 'end' })
-element.scrollIntoView({
-	behavior: 'smooth',
-	block: 'center',
-	inline: 'center',
-})

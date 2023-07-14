@@ -5,5 +5,8 @@
 	"collection": "remoteWorkCollection",
 	"collectionByTitle": "sortedRemoteWorkByTitle",
 	"collectionByTime": "sortedRemoteWorkByTime",
-	"collectionByDate": "sortedRemoteWorkByDate"
+	"collectionByDate": "sortedRemoteWorkByDate",
+	"tags": ["en", "remote-work"],
+	"locale": "en",
+	"dir": "ltr"
 }
