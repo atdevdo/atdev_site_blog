@@ -9811,6 +9811,9 @@ textarea {
 	max-height: 55px;
 	max-width: 160px;
 }
+.logo .logo-ico{
+	max-width: none;
+}
 .logo svg {
 	display: block;
 }
