@@ -6,7 +6,6 @@ let myButton = document.getElementById('scroll-button')
 
 window.onscroll = function () {
 	myFunction()
-	scrollFunction()
 }
 
 function myFunction() {
@@ -16,18 +15,3 @@ function myFunction() {
 		header.classList.remove('sticky')
 	}
 }
-
-function scrollFunction() {
-	if (
-		document.body.scrollTop > 100 ||
-		document.documentElement.scrollTop > 100
-	) {
-		myButton.style.display = 'block'
-	} else {
-		myButton.style.display = 'none'
-	}
-}
-
-window.addEventListener('message', function (event) {
-	console.log('Message received from the parent: ' + event.data)
-})

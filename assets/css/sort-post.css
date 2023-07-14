@@ -90,23 +90,34 @@ input {
 #sort-controls button {
 	width: 8rem;
 	height: 2.8rem;
-	padding: 0 1rem;
+	display: flex;
+	align-items: center;
 	color: var(--color-paragraph-secondary);
 	font-size: 0.8rem;
-	font-weight: bold;
+	/* font-weight: bold; */
 	border-radius: 0.2rem;
 	cursor: pointer;
 	border: none;
+}
+
+#sort-controls button p {
+	margin: 0;
+	padding: 0;
+	width: 60%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 #sort-btn-title,
 #sort-btn-time-read,
 #sort-btn-category,
 #sort-btn-date {
-	display: flex;
+	/* display: flex;
 	align-items: center;
-	justify-content: center;
-	gap: 0.6rem;
+	justify-content: center; */
+	/* gap: 0.6rem; */
 	/* height: 1.8rem; */
 	color: var(--color-h2);
 	background-color: white;
@@ -121,12 +132,22 @@ input {
 	transform: scale(1.08);
 }
 
+/* #sort-btn-title p,
+#sort-btn-time-read p,
+#sort-btn-category p,
+#sort-btn-date p {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
 #sort-btn-title img,
 #sort-btn-time-read img,
 #sort-btn-category img,
 #sort-btn-date img {
-	width: 25%;
-}
+	width: 50%;
+} */
 
 #sort-btn-title.active,
 #sort-btn-time-read.active,

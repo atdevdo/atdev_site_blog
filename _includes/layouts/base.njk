@@ -47,7 +47,6 @@
     <title>{{ title }}</title>
   </head>
   <body>
-    <span index="top"></span>
     <main class="main">
 
       <div id="parent-container" class="main-inner">
@@ -206,10 +205,6 @@
         </main>
         {# END MAIN CONTENT #}
 
-        <a onclick="mixpanel.track('Go Top Page Button - Blog')" id="scroll-button" href="#top">
-          <img  src="/assets/icons/up-arrow-icon.webp" alt="Up arrow icon"/>
-        </a>
-
       </div>
 
       <!-- Begin footer -->
@@ -366,15 +361,12 @@
     </main>
     <!-- End main -->
 
-    <a onclick="mixpanel.track('Go Top Page Button - Blog')" id="scroll-button" href="#top">
-      <img  src="/assets/icons/up-arrow-icon.webp" alt="Up arrow icon"/>
-    </a>
-
     {# BEGIN JS IMPORTS #}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.11/jquery.lazy.min.js" integrity="sha512-eviLb3jW7+OaVLz5N3B5F0hpluwkLb8wTXHOTy0CyNaZM5IlShxX1nEbODak/C0k9UdsrWjqIBKOFY0ELCCArw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"></script>
     <script src="assets/js/script.min.js"></script>
     {% include "../components/blocks/jsMinifierBase.block.njk" %}
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"></script>
     {# END JS IMPORTS #}
 
   </body>

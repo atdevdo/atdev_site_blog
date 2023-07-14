@@ -1,11 +1,11 @@
 {% block jsMinifierBase %}
     <!-- capture the CSS content as a Nunjucks variable -->
     {% set js %}
+    {% include "../../../assets/js/custom.js" %}
     {% include "../../../assets/js/sort-posts.js" %}
     {% include "../../../assets/js/header.js" %}
     {% include "../../../assets/js/search.js" %}
     {% include "../../../assets/js/mixpanel.js" %}
-    {% include "../../../assets/js/custom.js" %}
     {% include "../../../assets/js/language_switch.js" %}
     {% endset %}
     <!-- feed it through our jsmin filter to minify -->
