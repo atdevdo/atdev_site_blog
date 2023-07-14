@@ -1,7 +1,7 @@
 const post__mainContent = document.querySelector('.post__mainContent')
 const elements = post__mainContent.children
 const js_toc_id_data = document.querySelector('[data-toc]')
-
+alert('asd')
 if (
 	post__mainContent.querySelector('h1') ||
 	post__mainContent.querySelector('h2') ||

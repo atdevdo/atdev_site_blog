@@ -2,7 +2,6 @@
 
 var header = document.querySelector('header')
 var sticky = header.offsetTop
-let myButton = document.getElementById('scroll-button')
 
 window.onscroll = function () {
 	myFunction()

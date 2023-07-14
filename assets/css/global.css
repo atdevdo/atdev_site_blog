@@ -65,62 +65,16 @@ img {
 	object-fit: cover;
 }
 
-#scroll-button {
-	display: none;
-	position: fixed;
-	bottom: 22px;
-	right: 4px;
-	z-index: 999;
-	font-size: 18px;
-	border: none;
-	outline: none;
-	cursor: pointer;
-	padding: 1rem;
-	border-radius: 0.2rem;
-	transition: transform var(--transition-speed);
-}
-
-#scroll-button:hover {
-	transform: scale(1.22);
-}
-
 .is-active-link::before {
 	background-color: var(--color-h1) !important;
 }
 
 @media only screen and (max-width: 600px) {
-	#scroll-button {
-		position: fixed;
-		bottom: 22px;
-		right: 1px;
-		z-index: 999;
-		font-size: 18px;
-		border: none;
-		outline: none;
-		cursor: pointer;
-		padding: 1rem;
-		border-radius: 0.2rem;
-		transition: transform var(--transition-speed);
-	}
 }
 
 @media only screen and (min-width: 600px) and (max-width: 900px) {
 	main {
 		gap: 8rem;
-	}
-
-	#scroll-button {
-		position: fixed;
-		bottom: 22px;
-		right: 0.1px;
-		z-index: 999;
-		font-size: 18px;
-		border: none;
-		outline: none;
-		cursor: pointer;
-		padding: 1rem;
-		border-radius: 0.2rem;
-		transition: transform var(--transition-speed);
 	}
 }
 
