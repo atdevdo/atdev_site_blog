@@ -121,7 +121,7 @@ input {
 	/* height: 1.8rem; */
 	color: var(--color-h2);
 	background-color: white;
-	box-shadow: var(--box-shadow-btn);
+	box-shadow: var(--box-shadow);
 	transition: transform var(--transition-speed);
 }
 
