@@ -4,6 +4,7 @@ const { EleventyI18nPlugin } = require('@11ty/eleventy')
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 const CleanCSS = require('clean-css')
 const { minify } = require('terser')
+const readerBar = require('eleventy-plugin-reader-bar')
 // * END IMPORTING LIBRARIES
 
 // * BEGIN IMPORTING COLLECTIONS
@@ -49,6 +50,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(EleventyI18nPlugin, {
 		defaultLanguage: 'en', // Required
 	})
+	eleventyConfig.addPlugin(readerBar)
 	// ? END PLUGINS
 
 	// * BEGIN CUSTOM FILTERS
