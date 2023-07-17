@@ -107,10 +107,16 @@ npm install
 
 ### Working locally
 
-Starts watch tasks to compile when changes detected
+Starts the application
 
 ```.
 npm start
+```
+
+Starts watch tasks to compile when changes detected
+
+```.
+npm run dev
 ```
 
 ### Creating a production build
