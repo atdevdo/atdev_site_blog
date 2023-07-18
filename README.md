@@ -33,13 +33,8 @@ In this blog you will see articles of different types, such as:
 
 ### Desktop
 
-![Home](/assets/images/blog-home-capture.webp)
-![Category](/assets/images/blog-growth-category.webp)
-
-### Mobile
-
-![Home](/assets/images/home-mobile.webp)
-![Category](/assets/images/category-mobile.webp)
+![Home](/assets/images/design/Home.webp)
+![Category](/assets/images/design/Inicio.webp)
 
 ### Links
 
