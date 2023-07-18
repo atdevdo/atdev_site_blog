@@ -16,7 +16,7 @@
 	width: 80%;
 	height: 1px;
 	background-color: #f70037;
-	background-color: #3d8ecd;
+	background-color: #1074bc;
 }
 .title:after {
 	content: '';
@@ -28,7 +28,7 @@
 	width: 25%;
 	height: 3px;
 	background-color: #f70037;
-	background-color: #3d8ecd;
+	background-color: #1074bc;
 }
 .how-section1 {
 	margin-top: -15%;

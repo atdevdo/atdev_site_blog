@@ -1,6 +1,10 @@
 /** @format */
 
 #intro {
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(assets/images/hombre-usando-tecnologia-inteligente-maqueta-psd-tableta-digital.jpg);
 	background-color: #4394ce;
 	height: 30rem;
 	display: flex;
@@ -14,20 +18,12 @@
 #intro_text1,
 #intro_text2,
 #intro_text3 {
+	color: white !important;
 	text-transform: capitalize;
 }
 
-#intro_text1 {
-	color: #d0f3f7;
-}
-
 #intro_text2 {
-	color: #c5e7eb;
 	font-size: 3rem;
-}
-
-#intro_text3 {
-	color: #c8f2f7;
 }
 
 @media only screen and (max-width: 600px) {
