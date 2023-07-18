@@ -8,5 +8,6 @@
 	"collectionByDate": "sortedRemoteWorkByDate",
 	"tags": ["en", "remote-work"],
 	"locale": "en",
-	"dir": "ltr"
+	"dir": "ltr",
+	"banner": "/assets/images/hombre-usando-tecnologia-inteligente-maqueta-psd-tableta-digital.jpg"
 }
