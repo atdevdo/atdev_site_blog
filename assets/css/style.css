@@ -11239,6 +11239,7 @@ body.mob-main-mnu-open .mob-main-mnu {
 }
 .footer-company-desc p {
 	margin-bottom: 0;
+	color: #fff !important;
 }
 .footer-social-links {
 	display: -webkit-box;
