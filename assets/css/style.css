@@ -9757,7 +9757,7 @@ textarea {
 	padding: 0.625rem 0;
 }
 .header-fixed {
-	position: relative;
+	position: fixed;
 	left: 0;
 	top: 0;
 	width: 100%;
