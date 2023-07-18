@@ -1,5 +1,5 @@
 /* @font-face {
-	font-family: 'cerebri';
+	font-family: 'Gotham';
 	src: url('/assets/fonts/Cerebri-Sans-Bold-1.woff') format('woff');
 	font-display: swap;
 } */
@@ -8,7 +8,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'cerebri', 'Lato', 'Gotham', 'Plus Jakarta Sans', sans-serif;
+	font-family: 'Gotham', 'Lato', 'Gotham', 'Plus Jakarta Sans', sans-serif;
 }
 
 /* width */
