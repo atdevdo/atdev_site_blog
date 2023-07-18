@@ -2,13 +2,13 @@
 
 :root {
 	/* BEGIN COLORS */
-	--color-h1: #6a8dc8;
-	--color-h2: #3d8ecd;
-	--color-h3: #3d8ecd;
-	--color-h4: #6a8dc8;
+	--color-h1: #1074bc;
+	--color-h2: #1074bc;
+	--color-h3: #1074bc;
+	--color-h4: #1074bc;
 	--color-paragraph: #54647a;
-	--color-paragraph-secondary: #3cbee2;
-	--color-span: #6a8dc8;
+	--color-paragraph-secondary: #3c92cf;
+	--color-span: #1074bc;
 	--santa-grey: #9aa3b6;
 	/* END COLORS */
 
@@ -18,9 +18,9 @@
 	/* END BACKGROUND */
 
 	/* BEGIN BOX SHADOW */
-	--box-shadow: 0 1px 1px 0 #6a8dc8;
+	--box-shadow: 0 1px 1px 0 #1074bc;
 	--box-shadow-hover: 0 1px 10px 0 #6689c4;
-	--box-shadow-post: 0 0.2rem 1rem 0.4rem #6a8dc8;
+	--box-shadow-post: 0 0.2rem 1rem 0.4rem #1074bc;
 	/* END BOX SHADOW */
 
 	/* BEGIN OTHERS */

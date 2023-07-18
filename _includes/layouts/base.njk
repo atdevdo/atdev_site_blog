@@ -55,7 +55,7 @@
 
               <li>
                 <a onclick="mixpanel.track('Go Home button')" href="{{navigation.header_links[locale][0].link}}" data-title="{{ navigation.header_links[locale][0].label }}">
-                  <span style="font-weight: 500;">{{ navigation.header_links[locale][0].label }}</span>
+                  <span style="font-weight: bold;">{{ navigation.header_links[locale][0].label }}</span>
                 </a>
               </li>
               {% for page in navigation.header_links[locale] %}
@@ -63,7 +63,7 @@
                   {% if page.label == "Home" or page.label == "Inicio" %}
                   {% else %}
                     <a onclick="mixpanel.track('Go ' + page.label + ' button')" href="{{ page.link }}" data-title="{{ page.label }}">
-                      <span style="font-weight: 500;">{{ page.label }}</span>
+                      <span style="font-weight: bold;">{{ page.label }}</span>
                     </a>
                   {% endif %}
                 </li>
@@ -125,7 +125,7 @@
                       <ul class="main-mnu-list">
                         <li>
                           <a onclick="mixpanel.track('Go Home Button')" href="{{navigation.header_links[locale][0].link}}" data-title="{{ navigation.header_links[locale][0].label }}">
-                            <span style="font-weight: 500;">{{ navigation.header_links[locale][0].label }}</span>
+                            <span style="font-weight: bold;">{{ navigation.header_links[locale][0].label }}</span>
                           </a>
                         </li>
                         {% for page in navigation.header_links[locale] %}
@@ -134,14 +134,14 @@
                             {% if page.label == "Services" or page.label == "Servicios" %}
                               <li class="main-mnu-item-has-child">
                                 <a onclick="mixpanel.track('Go ' + navigation.header_links[locale][1].label + ' button')" href="{{ page.link }}" data-title="{{ header_links[locale][1].label }}">
-                                  <span style="font-weight: 500;">{{ navigation.header_links[locale][1].label }}</span>
+                                  <span style="font-weight: bold;">{{ navigation.header_links[locale][1].label }}</span>
                                   <i class="material-icons">expand_more</i>
                                 </a>
                                 <ul>
                                   {% for service in services.service[locale] %}
                                     <li>
                                       <a onclick="mixpanel.track('Go' + service.label + ' Button')" href="{{ service.link }}" data-title="{{ service.label }}">
-                                        <span style="font-weight: 500;">{{ service.label }}</span>
+                                        <span style="font-weight: bold;">{{ service.label }}</span>
                                       </a>
                                     </li>
                                   {% endfor %}
@@ -152,7 +152,7 @@
                               {% else %}
                                 <li>
                                   <a href="{{ page.link }}" data-title="{{ page.label }}">
-                                    <span style="font-weight: 500;">{{ page.label }}</span>
+                                    <span style="font-weight: bold;">{{ page.label }}</span>
                                   </a>
                                 </li>
                               {% endif %}
@@ -160,17 +160,17 @@
                           {% endfor %}
                           <li style="cursor: pointer;">
                             <span>
-                              <img src="assets/icons/language.jpg" alt="image">
+                              <img src="assets/icons/language.webp" alt="image">
                             </span>
                             <ul>
                               <li>
                                 <a onclick="mixpanel.track('Go to English Page Button')" class="btn-language" data-title="English" lang="en">
-                                  <span style="font-weight: 500;">English</span>
+                                  <span style="font-weight: bold;">English</span>
                                 </a>
                               </li>
                               <li>
                                 <a onclick="mixpanel.track('Go to Spanish Page Button')" class="btn-language" data-title="Español" lang="es">
-                                  <span style="font-weight: 500;">Español</span>
+                                  <span style="font-weight: bold;">Español</span>
                                 </a>
                               </li>
                             </ul>
