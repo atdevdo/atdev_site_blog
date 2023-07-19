@@ -3,4 +3,8 @@
 	font-family: 'Gotham';
 	src: url(/assets/fonts/GOTHAM2ND/Gotham-Book.otf);
 }
+@font-face {
+	font-family: 'GothamBold';
+	src: url(/assets/fonts/GOTHAM2ND/Gotham-Bold.otf);
+}
 /* END GOTHAM */

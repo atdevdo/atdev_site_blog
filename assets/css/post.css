@@ -184,6 +184,13 @@
 	gap: 1rem;
 }
 
+.post__mainContent h1,
+.post__mainContent h2,
+.post__mainContent h3 {
+	font-family: 'GothamBold', sans-serif !important;
+	font-weight: bolder !important;
+}
+
 .post__mainContent p {
 	font-size: 1rem;
 }
@@ -293,6 +300,7 @@ iframe {
 	content: 'Table Of Content';
 	font-size: 1.1rem;
 	font-weight: bolder;
+	font-family: 'Gotham', sans-serif !important;
 }
 
 .js-toc > ol {
@@ -301,6 +309,7 @@ iframe {
 
 .toc-link {
 	margin-left: 0.6rem !important;
+	font-family: 'Gotham', sans-serif !important;
 }
 
 .js-toc .toc-link::before {
@@ -316,6 +325,8 @@ iframe {
 	left: 85% !important;
 	-webkit-transform: translate(-50%, -50%) !important;
 	transform: translate(-50%, -50%) !important;
+	font-family: 'Gotham', sans-serif;
+	font-weight: 600 !important;
 }
 
 .toc-list-item {

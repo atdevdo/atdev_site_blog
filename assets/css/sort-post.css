@@ -6,6 +6,10 @@
 	flex-direction: column;
 	width: 55.4vw;
 }
+#filterbox h2 {
+	font-family: 'GothamBold' !important;
+	font-weight: bold !important;
+}
 
 .field {
 	display: flex;
@@ -194,8 +198,9 @@ input {
 	padding: 1rem 0;
 	color: var(--color-h3);
 	transition: transform var(--transition-speed);
-	font-weight: 600;
+	font-weight: bolder !important;
 	font-size: 1rem;
+	font-family: 'GothamBold';
 }
 
 #category-filter__list a:hover {
