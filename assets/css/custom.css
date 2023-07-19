@@ -154,3 +154,16 @@
 	font-size: 1.9rem;
 	line-height: 3rem;
 }
+
+h1,
+h2,
+h3 {
+	/* font-size: 3rem !important; */
+	font-weight: 700 !important;
+	color: #1074bc !important;
+	font-family: 'GothamBold', sans-serif !important;
+}
+
+#upBtn {
+	display: none;
+}

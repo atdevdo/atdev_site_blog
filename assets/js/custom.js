@@ -1308,8 +1308,3 @@ function validateRecaptcha() {
 		return true
 	}
 }
-
-window.addEventListener('message', function (event) {
-	if (event.origin !== 'https://atdev-blog.netlify.app/') return
-	console.log(event.data)
-})

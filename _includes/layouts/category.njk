@@ -201,6 +201,13 @@
           {% set list_length = (list_length.push(loop.index), list_length) %}
         {% endfor %}
 
+        <style>
+          .intro {
+            height: 38rem;
+            background-image: url("{{banner}}") !important;
+          }
+        </style>
+
         {{ macro_intro('Category', category | fixCategory , quote_list.quotes[list_length | random].quote) }}
         {% include "../components/blocks/header.block.njk" %}
 

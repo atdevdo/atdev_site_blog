@@ -8,5 +8,6 @@
 	"collectionByDate": "sortedCommunityByDate",
 	"tags": ["en", "community"],
 	"locale": "en",
-	"dir": "ltr"
+	"dir": "ltr",
+	"banner": "/assets/images/banners/beach.webp"
 }
