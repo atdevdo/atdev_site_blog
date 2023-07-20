@@ -104,16 +104,6 @@ dir: 'ltr'
                 {% endif %}
                 {# END FEATURED VIDEO #}
 
-                {# BEGIN POST REACTION #}
-                <div class="reactions">
-                  <ul class="reaction_list">
-                    <li class="reaction_box__like">
-                      <img  src="../../../assets/icons/like-icon.jpg" alt="Like Icon">
-                    </li>
-                  </ul>
-                </div>
-                {# END POST REACTION #}
-
                 {# BEGIN AUTHOR #}
                 {% if author | capitalize != "No author" %}
                   <div class="post__author">
@@ -127,8 +117,19 @@ dir: 'ltr'
               </div>
             </main>
 
+            {# BEGIN POST REACTION #}
+            <div class="reactions">
+              <ul class="reaction_list">
+                <li class="reaction_box__like">
+                  <img  src="../../../assets/icons/like-icon.jpg" alt="Like Icon">
+                </li>
+              </ul>
+            </div>
+            {# END POST REACTION #}
+
             {# BEGIN POST SHARE LINKS #}
             <aside id="share-links">
+              <h2>SHARE</h2>
               <div style="width: 100%; display: flex; justify-content: center; margin-bottom: 2rem;" class="ss-box ss-dark ss-grow" data-ss-content="false" data-ss-social="facebook, whatsapp, twitter, email, linkedin, reddit"></div>
             </aside>
             {# END POST SHARE LINKS #}
