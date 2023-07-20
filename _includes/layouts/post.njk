@@ -150,7 +150,7 @@ dir: 'ltr'
                             {% else %}
                               {% if page.label == "Services" or page.label == "Servicios" %}
                                 <li class="main-mnu-item-has-child">
-                                  <a onclick="mixpanel.track('Go ' + navigation.header_links[locale][1].label + ' button')" href="{{ page.link }}" data-title="{{ header_links[locale][1].label }}">
+                                  <a onclick="mixpanel.track('Go ' + navigation.header_links[locale][1].label + ' button')" href="{{ page.link }}" data-title={{navigation.header_links[locale][1].label}}>
                                     <span style="font-weight: bold;">{{ navigation.header_links[locale][1].label }}</span>
                                     <i class="material-icons">expand_more</i>
                                   </a>
@@ -269,7 +269,7 @@ dir: 'ltr'
 
             {# BEGIN POST SHARE LINKS #}
             <aside id="share-links">
-              <div style="width: 100%; display: flex; justify-content: center; margin-bottom: 2rem;" class="ss-box ss-dark" data-ss-content="false" data-ss-social="facebook, whatsapp, twitter, email, linkedin, reddit"></div>
+              <div style="width: 100%; display: flex; justify-content: center; margin-bottom: 2rem;" class="ss-box ss-dark ss-grow" data-ss-content="false" data-ss-social="facebook, whatsapp, twitter, email, linkedin, reddit"></div>
             </aside>
             {# END POST SHARE LINKS #}
 
@@ -407,7 +407,7 @@ dir: 'ltr'
           <div class="footer-bottom">
             <div class="container">
               <div class="row justify-content-between items">
-                <div class="col-md-auto col-12 item">
+                {# <div class="col-md-auto col-12 item">
                   <nav class="footer-links">
                     <ul>
                       <li>
@@ -418,7 +418,7 @@ dir: 'ltr'
                       </li>
                     </ul>
                   </nav>
-                </div>
+                </div> #}
                 <div class="col-md-auto col-12 item">
                   <div class="copyright">{{ footer_text.footer_bottom[locale].copyright }}</div>
                 </div>
