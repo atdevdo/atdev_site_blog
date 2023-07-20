@@ -1,0 +1,152 @@
+{% block atdev_footer %}
+    <!-- Begin footer -->
+    <footer class="footer">
+        <div class="footer-main">
+            <div class="container">
+                <div class="row items">
+                    <div class="col-xl-3 col-lg-3 col-md-5 col-12 item">
+                        <!-- Begin company info -->
+                        <div class="footer-company-info">
+                            <div class="footer-company-top">
+                                <a onclick="mixpanel.track('Go Home Button')" href="{{navigation.header_links[locale][0].link}}" class="logo logo-ico-widht-text" title="ATDEV">
+                                    <img class="lazy logo-ico" data-src="/assets/images/logo.png" height="35" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="Image">
+                                    <span class="logo-text"></span>
+                                </a>
+                                <div class="footer-company-desc">
+                                    <p>
+                                        {{ footer_text.begin_company_info[locale].footer_company_desc }}
+                                    </p>
+                                </div>
+                            </div>
+                            <ul class="footer-social-links">
+                                <li>
+                                    <a onclick="mixpanel.track('Go to LinkedIn Page Button')" href="https://www.linkedin.com/company/atdev/about/" title="LinkedIn">
+                                        <svg viewBox="0 0 448 512">
+                                            <use xlink:href="../../../../assets/images/sprite.svg#linkedin-in-ico"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a onclick="mixpanel.track('Go to Twitter Page Button')" href="https://twitter.com/AtdevConsulting" title="Twitter">
+                                        <svg viewBox="0 0 512 512">
+                                            <use xlink:href="../../../../assets/images/sprite.svg#twitter-ico"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a onclick="mixpanel.track('Go to Instagram Page Button')" href="https://instagram.com/atdev.do?igshid=NmZiMzY2Mjc=" title="Twitter">
+                                        <svg viewBox="0 0 512 512">
+                                            <use xlink:href="../../../../assets/images/sprite.svg#instagram-ico"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End company info -->
+                    </div>
+                    <div class="col-xl-2 offset-xl-1 col-md-3 col-5 col-lg-2 item">
+                        <div class="footer-item">
+                            <h4 class="footer-item-title">{{ footer_text.footer_item_menu[locale].title }}</h4>
+                            <nav class="footer-nav">
+                                <ul class="footer-mnu">
+                                    {% for page in navigation.header_links[locale] %}
+                                        {% if page.label == "Home" or page.label == "Inicio" %}
+                                        {% else %}
+                                            <li>
+                                                <a onclick="mixpanel.track('Go ' + page.label + ' Button')" href="{{ page.link }}" class="hover-link"
+											 data-title="{{ page.label }}">
+                                                    <span>{{ page.label }}</span>
+                                                </a>
+                                            </li>
+                                        {% endif %}
+                                    {% endfor %}
+
+                                    <!-- <li><a href="about-us.html" class="hover-link" data-title="About Us"><span>About Us</span></a></li>
+										<li><a href="services.html" class="hover-link" data-title="Services"><span>Services</span></a></li>
+										<li><a href="pricing.html" class="hover-link" data-title="Pricing"><span>Pricing</span></a></li>
+										<li><a href="blog.html" class="hover-link" data-title="Blog"><span>Blog</span></a></li>
+										<li><a href="contact-us.html" class="hover-link" data-title="Contact Us"><span>Contact Us</span></a></li> -->
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-3 col-7 item">
+                        <div class="footer-item">
+                            <h4 class="footer-item-title">{{ footer_text.footer_item_what_we_offer[locale].title }}</h4>
+                            <nav class="footer-nav">
+                                <ul class="footer-mnu">
+                                    {% for page in services.service[locale] %}
+                                        <li>
+                                            <li>
+                                                <a onclick="mixpanel.track('Go ' + page.label + ' Button')" href="{{ page.link }}" class="hover-link" data-title="{{ page.label }}">
+                                                    <span>{{ page.label }}</span></a>
+                                            </li>
+                                        </li>
+                                    {% endfor %}
+                                    <!-- <li><a href="#!" class="hover-link" data-title="DB Management"><span>DB Management</span></a></li>
+										<li><a href="#!" class="hover-link" data-title="IOS/MacOS"><span>IOS/MacOS</span></a></li>
+										<li><a href="#!" class="hover-link" data-title="Android Apps"><span>Android Apps</span></a></li>
+										<li><a href="#!" class="hover-link" data-title="Windows Apps"><span>Windows Apps</span></a></li>
+										<li><a href="#!" class="hover-link" data-title="UX & UI"><span>UX & UI</span></a></li> -->
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 col-lg-4 col-12 item">
+                        <div class="footer-item">
+                            <h4 class="footer-item-title">{{ footer_text.footer_item_our_contacts[locale].title }}</h4>
+                            <ul class="footer-contacts">
+                                <li>
+                                    <i class="material-icons md-22">location_on</i>
+                                    <div class="footer-contact-info">
+												Aut: San Isidro, Santo Domingo este. Plaza Coral Mall, Pyhex Work 3
+											</div>
+                                </li>
+                                {# <li>
+										<i class="material-icons md-22 footer-contact-tel">smartphone</i>
+										<div class="footer-contact-info">
+											<a href="#!" class="formingHrefTel">+1 323-913-4688</a>, <a href="#!" class="formingHrefTel">+1 323-888-4554</a>
+										</div>
+									</li> #}
+                                <li>
+                                    <i class="material-icons md-22 footer-contact-email">email</i>
+                                    <div class="footer-contact-info">
+                                        <a onclick="mixpanel.track('Go to Email Button')" href="mailto:mail@example.com">info@atdev.do</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class="material-icons md-22 ">phone</i>
+                                    <div class="footer-contact-info">
+                                        <a onclick="mixpanel.track('Go to Phone Button')" href="PhoneExample">809-568-3277</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row justify-content-between items">
+                    {# <div class="col-md-auto col-12 item">
+                <nav class="footer-links">
+                  <ul>
+                    <li>
+                      <a onclick="mixpanel.track('Go to Terms and Conditions Page Button')" href="terms-and-conditions.html">{{ footer_text.footer_bottom[locale].terms }}</a>
+                    </li>
+                    <li>
+                      <a onclick="mixpanel.track('Go to Privacy Policy Page Button')" href="privacy-policy.html">{{ footer_text.footer_bottom[locale].privacy }}</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div> #}
+                    <div class="col-md-auto col-12 item">
+                        <div class="copyright">{{ footer_text.footer_bottom[locale].copyright }}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+{% endblock atdev_footer %}
