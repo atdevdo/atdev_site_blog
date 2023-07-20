@@ -46,141 +46,99 @@
     <main class="main">
 
       <div id="parent-container" class="main-inner">
-        <!-- Begin mobile main menu -->
-        <nav class="mob-main-mnu">
-          <div class="mob-main-mnu-content">
-            <ul class="mob-main-mnu-list">
+        {% include "../components/blocks/atdevHeader.block.njk" %}
 
-              <li>
-                <a onclick="mixpanel.track('Go Home button')" href="{{navigation.header_links[locale][0].link}}" data-title="{{ navigation.header_links[locale][0].label }}">
-                  <span style="font-weight: bold;">{{ navigation.header_links[locale][0].label }}</span>
-                </a>
-              </li>
-              {% for page in navigation.header_links[locale] %}
-                <li>
-                  {% if page.label == "Home" or page.label == "Inicio" %}
-                  {% else %}
-                    <a onclick="mixpanel.track('Go ' + page.label + ' button')" href="{{ page.link }}" data-title="{{ page.label }}">
-                      <span style="font-weight: bold;">{{ page.label }}</span>
-                    </a>
-                  {% endif %}
-                </li>
-              {% endfor %}
+        {% from "../components/macros/sort-posts.macro.njk" import macro_sorted_list_title %}
+        {% from "../components/macros/sort-posts.macro.njk" import macro_sorted_list_time %}
+        {% from "../components/macros/sort-posts.macro.njk" import macro_sorted_list_date %}
+        {% from "../components/macros/sort-posts.macro.njk" import macro_no_sort %}
 
-              <!-- <li>
-            <a href="#">Home</a>
-          </li>
-          <li><a href="#">About us</a></li>
-          <li>
-            <a href="#">Services</a>
-          </li>
-          <li>
-            <a href="contact-us.html">Contact Us</a>
-          </li>
-                      <li>
-                          <a href="#" data-title="Blog">
-                              <span>Blog</span>
-                          </a> -->
-            </li>
-          </ul>
-        </div>
+        {% from "../components/macros/introduction.macro.njk" import macro_intro %}
 
-      </nav>
-      <!-- End mobile main menu -->
+        {% set list_length = [] %}
 
-      {% include "../components/blocks/atdevHeader.block.njk" %}
+        {% for item in quote_list.quotes %}
+          {% set list_length = (list_length.push(loop.index), list_length) %}
+        {% endfor %}
 
-      {% from "../components/macros/sort-posts.macro.njk" import macro_sorted_list_title %}
-      {% from "../components/macros/sort-posts.macro.njk" import macro_sorted_list_time %}
-      {% from "../components/macros/sort-posts.macro.njk" import macro_sorted_list_date %}
-      {% from "../components/macros/sort-posts.macro.njk" import macro_no_sort %}
+        <style>
+          .intro {
+            background-image: url("{{banner}}") !important;
+          }
+        </style>
 
-      {% from "../components/macros/introduction.macro.njk" import macro_intro %}
+        {{ macro_intro('Category', category | fixCategory , quote_list.quotes[list_length | random].quote) }}
+        {% include "../components/blocks/header.block.njk" %}
 
-      {% set list_length = [] %}
+        <main id="inner-main" class="category-posts">
 
-      {% for item in quote_list.quotes %}
-        {% set list_length = (list_length.push(loop.index), list_length) %}
-      {% endfor %}
+          {# BEGIN FILTER - SORTING #}
+          <div id="filter-sort-container">
 
-      <style>
-        .intro {
-          background-image: url("{{banner}}") !important;
-        }
-      </style>
+            <div id="sort-by-title-box">
+              <h2>SORT BY</h2>
+            </div>
 
-      {{ macro_intro('Category', category | fixCategory , quote_list.quotes[list_length | random].quote) }}
-      {% include "../components/blocks/header.block.njk" %}
+            <div id="sort-controls">
+              <button id="sort-btn-title">
+                <p>Title</p>
+                <img  src="../../../../assets/icons/sort-az.webp" alt="sort az"/>
+              </button>
+              <button id="sort-btn-time-read">
+                <p>Time</p>
+                <img  src="../../../../assets/icons/sort-time-read.webp" alt="sort time to read"/>
+              </button>
 
-      <main id="inner-main" class="category-posts">
-
-        {# BEGIN FILTER - SORTING #}
-        <div id="filter-sort-container">
-
-          <div id="sort-by-title-box">
-            <h2>SORT BY</h2>
+              <button id="sort-btn-date">
+                <p>Date</p>
+                <img  src="../../../../assets/icons/release-date-icon.webp" alt="sort date"/>
+              </button>
+            </div>
           </div>
+          {# END FILTER - SORTING #}
 
-          <div id="sort-controls">
-            <button id="sort-btn-title">
-              <p>Title</p>
-              <img  src="../../../../assets/icons/sort-az.webp" alt="sort az"/>
-            </button>
-            <button id="sort-btn-time-read">
-              <p>Time</p>
-              <img  src="../../../../assets/icons/sort-time-read.webp" alt="sort time to read"/>
-            </button>
+          {# BEGIN POST LIST #}
+          <div id="sorting">
+            <div id="sorted-title">
+              {{ macro_sorted_list_title(collections[collectionByTitle], to) }}
+            </div>
 
-            <button id="sort-btn-date">
-              <p>Date</p>
-              <img  src="../../../../assets/icons/release-date-icon.webp" alt="sort date"/>
-            </button>
+            <div id="sorted-time">
+              {{ macro_sorted_list_time(collections[collectionByTime], to) }}
+            </div>
+
+            <div id="sorted-date">
+              {{ macro_sorted_list_date(collections[collectionByDate], to) }}
+            </div>
+
+            <div id="not-sorted">
+              {{content | safe}}
+            </div>
           </div>
-        </div>
-        {# END FILTER - SORTING #}
+          {# END POST LIST #}
 
-        {# BEGIN POST LIST #}
-        <div id="sorting">
-          <div id="sorted-title">
-            {{ macro_sorted_list_title(collections[collectionByTitle], to) }}
+          {# BEGIN INNER NAVIGATION #}
+          <div>
+            {% from "../components/macros/category-post.macro.njk" import macro_category_inner_navigation %}
+
+            {{ macro_category_inner_navigation(collections[category] | length, current_page, category_tags) }}
           </div>
+          {# END INNER NAVIGATION #}
+        </main>
+      </div>
 
-          <div id="sorted-time">
-            {{ macro_sorted_list_time(collections[collectionByTime], to) }}
-          </div>
+      {% include "../components/blocks/atdevFooter.block.njk" %}
 
-          <div id="sorted-date">
-            {{ macro_sorted_list_date(collections[collectionByDate], to) }}
-          </div>
+    </main>
+    <!-- End main -->
 
-          <div id="not-sorted">
-            {{content | safe}}
-          </div>
-        </div>
-        {# END POST LIST #}
+    {# BEGIN JS IMPORTS #}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.11/jquery.lazy.min.js" integrity="sha512-eviLb3jW7+OaVLz5N3B5F0hpluwkLb8wTXHOTy0CyNaZM5IlShxX1nEbODak/C0k9UdsrWjqIBKOFY0ELCCArw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"></script>
+    <script src="../../../../assets/js/script.min.js" defer></script>
+    {% include "../components/blocks/jsMinifierCategory.block.njk" %}
+    {# END JS IMPORTS #}
 
-        {# BEGIN INNER NAVIGATION #}
-        <div>
-          {% from "../components/macros/category-post.macro.njk" import macro_category_inner_navigation %}
-
-          {{ macro_category_inner_navigation(collections[category] | length, current_page, category_tags) }}
-        </div>
-        {# END INNER NAVIGATION #}
-      </main>
-    </div>
-
-    {% include "../components/blocks/atdevFooter.block.njk" %}
-
-  </main>
-  <!-- End main -->
-
-  {# BEGIN JS IMPORTS #}
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.11/jquery.lazy.min.js" integrity="sha512-eviLb3jW7+OaVLz5N3B5F0hpluwkLb8wTXHOTy0CyNaZM5IlShxX1nEbODak/C0k9UdsrWjqIBKOFY0ELCCArw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"></script>
-  <script src="../../../../assets/js/script.min.js" defer></script>
-  {% include "../components/blocks/jsMinifierCategory.block.njk" %}
-  {# END JS IMPORTS #}
-
-</body>
+  </body>
 </html>

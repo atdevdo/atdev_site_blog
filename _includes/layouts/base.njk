@@ -48,82 +48,39 @@
     <main class="main">
 
       <div id="parent-container" class="main-inner">
-        <!-- Begin mobile main menu -->
-        <nav class="mob-main-mnu">
-          <div class="mob-main-mnu-content">
-            <ul class="mob-main-mnu-list">
+        {% include "../components/blocks/atdevHeader.block.njk" %}
 
-              <li>
-                <a onclick="mixpanel.track('Go Home button')" href="{{navigation.header_links[locale][0].link}}" data-title="{{ navigation.header_links[locale][0].label }}">
-                  <span style="font-weight: bold;">{{ navigation.header_links[locale][0].label }}</span>
-                </a>
-              </li>
-              {% for page in navigation.header_links[locale] %}
-                <li>
-                  {% if page.label == "Home" or page.label == "Inicio" %}
-                  {% else %}
-                    <a onclick="mixpanel.track('Go ' + page.label + ' button')" href="{{ page.link }}" data-title="{{ page.label }}">
-                      <span style="font-weight: bold;">{{ page.label }}</span>
-                    </a>
-                  {% endif %}
-                </li>
-              {% endfor %}
+        <style>
+          .intro {
+            background-image: url("/assets/images/hombre-usando-tecnologia-inteligente-maqueta-psd-tableta-digital.jpg") !important;
+          }
+        </style>
 
-              <!-- <li>
-            <a href="#">Home</a>
-          </li>
-          <li><a href="#">About us</a></li>
-          <li>
-            <a href="#">Services</a>
-          </li>
-          <li>
-            <a href="contact-us.html">Contact Us</a>
-          </li>
-                      <li>
-                          <a href="#" data-title="Blog">
-                              <span>Blog</span>
-                          </a> -->
-            </li>
-          </ul>
+        {% from "../components/macros/introduction.macro.njk" import macro_intro %}
+
+        {{ macro_intro('Blog', 'ATDEV', 'We build your ideas, we build your team', 'https://deploy-preview-17--atdev-testing.netlify.app/pages/en/') }}
+
+        {% include "../components/blocks/header.block.njk" %}
+
+        {# BEGIN MAIN CONTENT #}
+        <div id="inner-main">
+          {{ content | safe }}
         </div>
-
-      </nav>
-      <!-- End mobile main menu -->
-
-      {% include "../components/blocks/atdevHeader.block.njk" %}
-
-      <style>
-        .intro {
-          background-image: url("/assets/images/hombre-usando-tecnologia-inteligente-maqueta-psd-tableta-digital.jpg") !important;
-        }
-      </style>
-
-      {% from "../components/macros/introduction.macro.njk" import macro_intro %}
-
-      {{ macro_intro('Blog', 'ATDEV', 'We build your ideas, we build your team', 'https://deploy-preview-17--atdev-testing.netlify.app/pages/en/') }}
-
-      {% include "../components/blocks/header.block.njk" %}
-
-      {# BEGIN MAIN CONTENT #}
-      <div id="inner-main">
-        {{ content | safe }}
+        {# END MAIN CONTENT #}
       </div>
-      {# END MAIN CONTENT #}
 
-    </div>
+      {% include "../components/blocks/atdevFooter.block.njk" %}
 
-    {% include "../components/blocks/atdevFooter.block.njk" %}
+    </main>
+    <!-- End main -->
 
-  </main>
-  <!-- End main -->
+    {# BEGIN JS IMPORTS #}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.11/jquery.lazy.min.js" integrity="sha512-eviLb3jW7+OaVLz5N3B5F0hpluwkLb8wTXHOTy0CyNaZM5IlShxX1nEbODak/C0k9UdsrWjqIBKOFY0ELCCArw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"></script>
+    <script src="assets/js/script.min.js" defer></script>
+    {% include "../components/blocks/jsMinifierBase.block.njk" %}
+    {# END JS IMPORTS #}
 
-  {# BEGIN JS IMPORTS #}
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.11/jquery.lazy.min.js" integrity="sha512-eviLb3jW7+OaVLz5N3B5F0hpluwkLb8wTXHOTy0CyNaZM5IlShxX1nEbODak/C0k9UdsrWjqIBKOFY0ELCCArw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"></script>
-  <script src="assets/js/script.min.js" defer></script>
-  {% include "../components/blocks/jsMinifierBase.block.njk" %}
-  {# END JS IMPORTS #}
-
-</body>
+  </body>
 </html>

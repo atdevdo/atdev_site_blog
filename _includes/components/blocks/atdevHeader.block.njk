@@ -1,102 +1,144 @@
 {% block atdev_header %}
-    <!-- Begin header -->
-    <header class="header">
+    <!-- Begin mobile main menu -->
+    <nav class="mob-main-mnu">
+        <div class="mob-main-mnu-content">
+            <ul class="mob-main-mnu-list">
 
-        <!-- Begin header fixed -->
-        <nav class="header-fixed">
-            <div class="container">
-                <div class="row flex-nowrap align-items-center justify-content-between">
-                    <div class="col-auto d-block d-lg-none header-fixed-col">
-                        <div class="main-mnu-btn">
-                            <span class="bar bar-1"></span>
-                            <span class="bar bar-2"></span>
-                            <span class="bar bar-3"></span>
-                            <span class="bar bar-4"></span>
-                        </div>
-                    </div>
-                    <div class="col-auto header-fixed-col">
-                        <!-- Begin logo -->
-                        <a onclick="mixpanel.track('Go Home Button')" href="{{navigation.header_links[locale][0].link}}" class="logo logo-ico-widht-text" title="ATDEV">
-                            <!-- <g-image src="~/img/logo.png" width="36" height="35"/> -->
-                            <!-- <g-image alt="Example image" src="~/favicon.png" width="135" /> -->
-                            <!-- <g-image alt="Example image" src="/img/logo.png" width="36" height="35" /> -->
-                            <img class="lazy logo-ico" data-src="/assets/images/logo.png" zwidth="36" height="35" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="image">
+                <li>
+                    <a onclick="mixpanel.track('Go Home button')" href="{{navigation.header_links[locale][0].link}}" data-title="{{ navigation.header_links[locale][0].label }}">
+                        <span style="font-weight: bold;">{{ navigation.header_links[locale][0].label }}</span>
+                    </a>
+                </li>
+                {% for page in navigation.header_links[locale] %}
+                    <li>
+                        {% if page.label == "Home" or page.label == "Inicio" %}
+                        {% else %}
+                            <a onclick="mixpanel.track('Go ' + page.label + ' button')" href="{{ page.link }}" data-title="{{ page.label }}">
+                                <span style="font-weight: bold;">{{ page.label }}</span>
+                            </a>
+                        {% endif %}
+                    </li>
+                {% endfor %}
 
-                            <!-- <img class="lazy logoT-ico" data-src="img/logo-ico.png" width="36" height="35" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="image"> -->
-                            <span class="logo-text"></span>
-                        </a>
+                <!-- <li>
+            <a href="#">Home</a>
+          </li>
+          <li><a href="#">About us</a></li>
+          <li>
+            <a href="#">Services</a>
+          </li>
+          <li>
+            <a href="contact-us.html">Contact Us</a>
+          </li>
+                      <li>
+                          <a href="#" data-title="Blog">
+                              <span>Blog</span>
+                          </a> -->
+            </li>
+        </ul>
+    </div>
+
+</nav>
+<!-- End mobile main menu -->
+
+<!-- Begin header -->
+<header class="header">
+
+    <!-- Begin header fixed -->
+    <nav class="header-fixed">
+        <div class="container">
+            <div class="row flex-nowrap align-items-center justify-content-between">
+                <div class="col-auto d-block d-lg-none header-fixed-col">
+                    <div class="main-mnu-btn">
+                        <span class="bar bar-1"></span>
+                        <span class="bar bar-2"></span>
+                        <span class="bar bar-3"></span>
+                        <span class="bar bar-4"></span>
                     </div>
-                    <div class="col-lg col-auto col-static header-fixed-col">
-                        <div class="row flex-nowrap align-items-center justify-content-end">
-                            <div class="col-auto header-fixed-col d-none d-lg-block col-static">
-                                <!-- Begin main menu -->
-                                <nav class="main-mnu">
-                                    <ul class="main-mnu-list">
-                                        <li>
-                                            <a onclick="mixpanel.track('Go Home Button')" href="{{navigation.header_links[locale][0].link}}" data-title="{{ navigation.header_links[locale][0].label }}">
-                                                <span style="font-weight: bold;">{{ navigation.header_links[locale][0].label }}</span>
-                                            </a>
-                                        </li>
-                                        {% for page in navigation.header_links[locale] %}
-                                            {% if page.label == "Home" or page.label == "Inicio" %}
-                                            {% else %}
-                                                {% if page.label == "Services" or page.label == "Servicios" %}
-                                                    <li class="main-mnu-item-has-child">
-                                                        <a onclick="mixpanel.track('Go ' + navigation.header_links[locale][1].label + ' button')" href="{{ page.link }}" data-title={{navigation.header_links[locale][1].label}}>
-                                                            <span style="font-weight: bold;">{{ navigation.header_links[locale][1].label }}</span>
-                                                            <i class="material-icons">expand_more</i>
-                                                        </a>
-                                                        <ul>
-                                                            {% for service in services.service[locale] %}
-                                                                <li>
-                                                                    <a onclick="mixpanel.track('Go' + service.label + ' Button')" href="{{ service.link }}" data-title="{{ service.label }}">
-                                                                        <span style="font-weight: bold;">{{ service.label }}</span>
-                                                                    </a>
-                                                                </li>
-                                                            {% endfor %}
-                                                        </ul>
-                                                    </li>
+                </div>
+                <div class="col-auto header-fixed-col">
+                    <!-- Begin logo -->
+                    <a onclick="mixpanel.track('Go Home Button')" href="{{navigation.header_links[locale][0].link}}" class="logo logo-ico-widht-text" title="ATDEV">
+                        <!-- <g-image src="~/img/logo.png" width="36" height="35"/> -->
+                        <!-- <g-image alt="Example image" src="~/favicon.png" width="135" /> -->
+                        <!-- <g-image alt="Example image" src="/img/logo.png" width="36" height="35" /> -->
+                        <img class="lazy logo-ico" data-src="/assets/images/logo.png" zwidth="36" height="35" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="image">
+
+                        <!-- <img class="lazy logoT-ico" data-src="img/logo-ico.png" width="36" height="35" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="image"> -->
+                        <span class="logo-text"></span>
+                    </a>
+                </div>
+                <div class="col-lg col-auto col-static header-fixed-col">
+                    <div class="row flex-nowrap align-items-center justify-content-end">
+                        <div class="col-auto header-fixed-col d-none d-lg-block col-static">
+                            <!-- Begin main menu -->
+                            <nav class="main-mnu">
+                                <ul class="main-mnu-list">
+                                    <li>
+                                        <a onclick="mixpanel.track('Go Home Button')" href="{{navigation.header_links[locale][0].link}}" data-title="{{ navigation.header_links[locale][0].label }}">
+                                            <span style="font-weight: bold;">{{ navigation.header_links[locale][0].label }}</span>
+                                        </a>
+                                    </li>
+                                    {% for page in navigation.header_links[locale] %}
+                                        {% if page.label == "Home" or page.label == "Inicio" %}
+                                        {% else %}
+                                            {% if page.label == "Services" or page.label == "Servicios" %}
+                                                <li class="main-mnu-item-has-child">
+                                                    <a onclick="mixpanel.track('Go ' + navigation.header_links[locale][1].label + ' button')" href="{{ page.link }}" data-title={{navigation.header_links[locale][1].label}}>
+                                                        <span style="font-weight: bold;">{{ navigation.header_links[locale][1].label }}</span>
+                                                        <i class="material-icons">expand_more</i>
+                                                    </a>
+                                                    <ul>
+                                                        {% for service in services.service[locale] %}
+                                                            <li>
+                                                                <a onclick="mixpanel.track('Go' + service.label + ' Button')" href="{{ service.link }}" data-title="{{ service.label }}">
+                                                                    <span style="font-weight: bold;">{{ service.label }}</span>
+                                                                </a>
+                                                            </li>
+                                                        {% endfor %}
+                                                    </ul>
+                                                </li>
+                                                <li>
+
+                                                {% else %}
                                                     <li>
-
-                                                    {% else %}
-                                                        <li>
-                                                            <a href="{{ page.link }}" data-title="{{ page.label }}">
-                                                                <span style="font-weight: bold;">{{ page.label }}</span>
-                                                            </a>
-                                                        </li>
-                                                    {% endif %}
+                                                        <a href="{{ page.link }}" data-title="{{ page.label }}">
+                                                            <span style="font-weight: bold;">{{ page.label }}</span>
+                                                        </a>
+                                                    </li>
                                                 {% endif %}
-                                            {% endfor %}
-                                            <li style="cursor: pointer;">
-                                                <span>
-                                                    <img src="/assets/icons/language.webp" alt="image">
-                                                </span>
-                                                <ul>
-                                                    <li>
-                                                        <a onclick="mixpanel.track('Go to English Page Button')" class="btn-language" data-title="English" lang="en">
-                                                            <span style="font-weight: bold;">English</span>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a onclick="mixpanel.track('Go to Spanish Page Button')" class="btn-language" data-title="Español" lang="es">
-                                                            <span style="font-weight: bold;">Español</span>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li id="dummy">
+                                            {% endif %}
+                                        {% endfor %}
+                                        <li style="cursor: pointer;">
+                                            <span>
+                                                <img src="/assets/icons/language.webp" alt="image">
+                                            </span>
+                                            <ul>
+                                                <li>
+                                                    <a onclick="mixpanel.track('Go to English Page Button')" class="btn-language" data-title="English" lang="en">
+                                                        <span style="font-weight: bold;">English</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a onclick="mixpanel.track('Go to Spanish Page Button')" class="btn-language" data-title="Español" lang="es">
+                                                        <span style="font-weight: bold;">Español</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li id="dummy">
 													lorem
 													</li>
-                                        </ul>
-                                    </nav>
-                                    <!-- End main menu -->
-                                </div>
+                                    </ul>
+                                </nav>
+                                <!-- End main menu -->
                             </div>
                         </div>
                     </div>
                 </div>
-            </nav>
-            <!-- End header fixed -->
-        </header>
-        <!-- End header -->
-    {% endblock atdev_header %}
+            </div>
+        </nav>
+        <!-- End header fixed -->
+    </header>
+    <!-- End header -->
+{% endblock atdev_header %}
