@@ -23,6 +23,16 @@ const service_list = {
 			link: `${origin}/pages/es/services/nearshore/`,
 		},
 	},
+	recruiting: {
+		en: {
+			label: `Recruiting`,
+			link: `${origin}/pages/en/services/recruiting/`,
+		},
+		es: {
+			label: `Reclutamiento`,
+			link: `${origin}/pages/es/services/recruiting/`,
+		},
+	},
 }
 
 const translated_links = {
