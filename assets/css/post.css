@@ -466,8 +466,27 @@ iframe {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	max-height: 10rem;
-	padding-bottom: 2rem;
+	flex-direction: column;
+	padding-bottom: 6rem;
+	margin-top: 8rem;
+}
+
+.subscribe-section-title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 60%;
+}
+
+.subscribe-section-title h2 {
+	font-size: 1.8rem;
+}
+
+.subscribe-section-title p {
+	margin-top: -1.4rem;
+	font-size: 1rem;
+	text-align: center;
 }
 
 .subscribe-section form {
