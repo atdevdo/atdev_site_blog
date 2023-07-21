@@ -232,7 +232,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 100%;
+	width: 80%;
 }
 
 #share-links h2 {
@@ -419,6 +419,20 @@ iframe {
 	}
 }
 
+@media only screen and (max-width: 900px) {
+	.reactions {
+		justify-content: center;
+		width: 100%;
+	}
+
+	.reaction_list {
+		justify-content: center;
+	}
+
+	.reaction_list li {
+		justify-content: center;
+	}
+}
 @media only screen and (min-width: 600px) and (max-width: 900px) {
 	main {
 		padding: 0;
