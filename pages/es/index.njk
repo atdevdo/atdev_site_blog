@@ -17,33 +17,33 @@ dir: 'ltr'
 <div id="filter-sort-container">
 	<div id="filterbox">
 		<div class="field">
-			<input type="search" placeholder="Search..." id="searchField"/>
+			<input type="search" placeholder="Buscar..." id="searchField"/>
 		</div>
 		<ol id="searchResults"></ol>
 		<div id="noResultsFound" style="display: none">
-			<p>No results found.</p>
+			<p>No hay resultados.</p>
 		</div>
 	</div>
 
 	<div id="sort-by-title-box">
-		<h2>SORT BY</h2>
+		<h2>FILTRAR POR</h2>
 	</div>
 
 	<div id="sort-controls">
 		<button id="sort-btn-title">
-			<p>Title</p>
+			<p>Título</p>
 			<img src="/assets/icons/sort-az.webp" alt="sort az"/>
 		</button>
 		<button id="sort-btn-time-read">
-			<p>Time</p>
+			<p>Tiempo</p>
 			<img src="/assets/icons/sort-time-read.webp" alt="sort time to read"/>
 		</button>
 		<button id="sort-btn-category">
-			<P>Category</P>
+			<P>Categoría</P>
 			<img src="/assets/icons/sort-category.webp" alt="sort category"/>
 		</button>
 		<button id="sort-btn-date">
-			<p>Date</p>
+			<p>Fecha</p>
 			<img src="/assets/icons/release-date-icon.webp" alt="sort date"/>
 		</button>
 	</div>
@@ -79,8 +79,8 @@ dir: 'ltr'
 {# BEGIN TECHNOLOGY - CATEGORY #}
 <div class="category-container">
 	<div class="category-container__head">
-		<h2>Technology</h2>
-		<a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/technology/1">View More</a>
+		<h2>Tecnología</h2>
+		<a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/technology/1">Ver Más</a>
 	</div>
 	<div class="posts-container">
 		{{ macro_category_post(collections.technologyCollectionEs, 'technology', 0, 7) }}
@@ -92,8 +92,8 @@ dir: 'ltr'
 {{
   macro_atdev(
     'atdev-content-customsd',
-    'Custom Software Development',
-    'https://atdev-testing.netlify.app/pages/en/services/app-development/',
+    'Desarrollo de Software Personalizado',
+    'https://atdev-testing.netlify.app/pages/es/services/app-development/',
     '/assets/images/customsd.jpg',
     'Custom Software Development Image'
   )
@@ -103,8 +103,8 @@ dir: 'ltr'
 {# BEGIN COMMUNITY - CATEGORY #}
 <div class="category-container">
 	<div class="category-container__head">
-		<h2>Community</h2>
-		<a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/community/1">View More</a>
+		<h2>Comunidad</h2>
+		<a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/community/1">Ver Más</a>
 	</div>
 	<div class="posts-container">
 		{{ macro_category_post(collections.communityCollectionEs, 'community', 0, 7) }}
@@ -116,8 +116,8 @@ dir: 'ltr'
 {{
   macro_atdev(
     'atdev-content-about',
-    'About Us',
-    'https://atdev-testing.netlify.app/pages/en/about/',
+    'Nosotros',
+    'https://atdev-testing.netlify.app/pages/es/about/',
     '/assets/images/about.jpg',
     'About Image'
   )
@@ -127,8 +127,8 @@ dir: 'ltr'
 {# BEGIN GROWTH - CATEGORY #}
 <div class="category-container">
 	<div class="category-container__head">
-		<h2>Growth</h2>
-		<a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/growth/1">View More</a>
+		<h2>Crecimiento</h2>
+		<a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/growth/1">Ver Más</a>
 	</div>
 	<div class="posts-container">
 		{{ macro_category_post(collections.growthCollectionEs, 'growth', 0, 7) }}
@@ -140,8 +140,8 @@ dir: 'ltr'
 {{
   macro_atdev(
     'atdev-content-nearshore',
-    'Nearshore Augmentation',
-    'https://atdev-testing.netlify.app/pages/en/services/nearshore/',
+    'Dotación de Personal',
+    'https://atdev-testing.netlify.app/pages/es/services/nearshore/',
     '/assets/images/nearshore.jpg',
     'Nearshore Image'
   )
@@ -151,8 +151,8 @@ dir: 'ltr'
 {# BEGIN REMOTE WORK - CATEGORY #}
 <div class="category-container">
 	<div class="category-container__head">
-		<h2>Remote Work</h2>
-		<a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/remote-work/1">View More</a>
+		<h2>Trabajo Remoto</h2>
+		<a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/remote-work/1">Ver Más</a>
 	</div>
 	<div class="posts-container">
 		{{ macro_category_post(collections.remoteWorkCollectionEs, 'remote-work', 0, 7) }}

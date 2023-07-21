@@ -13,33 +13,88 @@
 
     <div class="category-inner_navigation">
         {% if collection_length == 1 %}
-            <h2>PAGE 1</h2>
+            {% if locale == "en" %}
+                <h2>PAGE 1</h2>
+            {% else %}
+                <h2>PAGINA 1</h2>
+            {% endif %}
         {% elif collection_length == current_page %}
             {# ? LAST PAGE #}
-            <a onclick="mixpanel.track('Go First Category Post Page Button - Blog')" href="/categories/{{locale}}/{{category_tags}}/1/">FIRST</a>
-            <a onclick="mixpanel.track('Go Back Category Post Page Button - Blog')" href="/categories/{{locale}}/{{category_tags}}/{{ current_page - 1 }}/">BACK</a>
-            <h2>PAGE {{ current_page }} of {{ collection_length }}</h2>
+            {% if locale == "en" %}
+                <a onclick="mixpanel.track('Go First Category Post Page Button - Blog')" href="/categories/{{locale}}/{{category_tags}}/1/">FIRST</a>
+            {% else %}
+                <a onclick="mixpanel.track('Go First Category Post Page Button - Blog')" href="/categories/{{locale}}/{{category_tags}}/1/">PRIMERA</a>
+            {% endif %}
+            {% if locale == "en" %}
+                <a onclick="mixpanel.track('Go Back Category Post Page Button - Blog')" href="/categories/{{locale}}/{{category_tags}}/{{ current_page - 1 }}/">BACK</a>
+            {% else %}
+                <a onclick="mixpanel.track('Go Back Category Post Page Button - Blog')" href="/categories/{{locale}}/{{category_tags}}/{{ current_page - 1 }}/">ATRAS</a>
+            {% endif %}
+            {% if locale == "en" %}
+                <h2>PAGE {{ current_page }} of {{ collection_length }}</h2>
+            {% else %}
+                <h2>PAGINA {{ current_page }} de {{ collection_length }}</h2>
+            {% endif %}
         {% elif collection_length == current_page + 1 %}
             {# ? PENULTIMATE PAGE #}
             {% if max_posts == 2 %}
             {% else %}
-                <a onclick="mixpanel.track('Go Back Category Post Page Button - Blog')" href="/categories/{{locale}}/{{category_tags}}/{{ current_page - 1 }}/">BACK</a>
+                {% if locale == "en" %}
+                    <a onclick="mixpanel.track('Go Back Category Post Page Button - Blog')" href="/categories/{{locale}}/{{category_tags}}/{{ current_page - 1 }}/">BACK</a>
+                {% else %}
+                    <a onclick="mixpanel.track('Go Back Category Post Page Button - Blog')" href="/categories/{{locale}}/{{category_tags}}/{{ current_page - 1 }}/">ATRAS</a>
+                {% endif %}
             {% endif %}
-            <h2>PAGE {{ current_page }} of {{ collection_length }}</h2>
-            <a onclick="mixpanel.track('Go Last Category Post Page Button - Blog')" href="/categories/{{locale}}/{{category_tags}}/{{ collection_length}}/">LAST</a>
+
+            {% if locale == "en" %}
+                <h2>PAGE {{ current_page }} of {{ collection_length }}</h2>
+            {% else %}
+                <h2>PAGINA {{ current_page }} de {{ collection_length }}</h2>
+            {% endif %}
+
+            {% if locale == "en" %}
+                <a onclick="mixpanel.track('Go Last Category Post Page Button - Blog')" href="/categories/{{locale}}/{{category_tags}}/{{ collection_length}}/">LAST</a>
+            {% else %}
+                <a onclick="mixpanel.track('Go Last Category Post Page Button - Blog')" href="/categories/{{locale}}/{{category_tags}}/{{ collection_length}}/">ULTIMA</a>
+            {% endif %}
         {% elif collection_length != current_page + 1 %}
             {# ? ANY PAGE BETWEEN THE FIRST AND THE LAST #}
             {% if current_page == 1 %}
-                <h2>PAGE {{ current_page }} of {{ collection_length }}</h2>
-                <a onclick="mixpanel.track('Go Next Category Post Page Button - Blog')" href="/categories/{{locale}}/{{category_tags}}/{{ current_page + 1}}/">NEXT</a>
+                {% if locale == "en" %}
+                    <h2>PAGE {{ current_page }} of {{ collection_length }}</h2>
+                {% else %}
+                    <h2>PAGINA {{ current_page }} de {{ collection_length }}</h2>
+                {% endif %}
+
+                {% if locale == "en" %}
+                    <a onclick="mixpanel.track('Go Next Category Post Page Button - Blog')" href="/categories/{{locale}}/{{category_tags}}/{{ current_page + 1}}/">NEXT</a>
+                {% else %}
+                    <a onclick="mixpanel.track('Go Next Category Post Page Button - Blog')" href="/categories/{{locale}}/{{category_tags}}/{{ current_page + 1}}/">SIGUIENTE</a>
+                {% endif %}
             {% else %}
                 {% if (current_page - 1) == 1 %}
-                    <a onclick="mixpanel.track('Go Back Category Post Page Button - Blog')" href="/categories/{{locale}}/{{category_tags}}/{{ current_page - 1 }}/">FIRST</a>
+                    {% if locale == "en" %}
+                        <a onclick="mixpanel.track('Go Back Category Post Page Button - Blog')" href="/categories/{{locale}}/{{category_tags}}/{{ current_page - 1 }}/">FIRST</a>
+                    {% else %}
+                        <a onclick="mixpanel.track('Go Back Category Post Page Button - Blog')" href="/categories/{{locale}}/{{category_tags}}/{{ current_page - 1 }}/">PRIMERA</a>
+                    {% endif %}
                 {% else %}
-                    <a onclick="mixpanel.track('Go Back Category Post Page Button - Blog')" href="/categories/{{locale}}/{{category_tags}}/{{ current_page - 1 }}/">BACK</a>
+                    {% if locale == "en" %}
+                        <a onclick="mixpanel.track('Go Back Category Post Page Button - Blog')" href="/categories/{{locale}}/{{category_tags}}/{{ current_page - 1 }}/">BACK</a>
+                    {% else %}
+                        <a onclick="mixpanel.track('Go Back Category Post Page Button - Blog')" href="/categories/{{locale}}/{{category_tags}}/{{ current_page - 1 }}/">ATRAS</a>
+                    {% endif %}
                 {% endif %}
-                <h2>PAGE {{ current_page }} of {{ collection_length }}</h2>
-                <a onclick="mixpanel.track('Go Next Category Post Page Button - Blog')" href="/categories/{{locale}}/{{category_tags}}/{{ current_page + 1}}/">NEXT</a>
+                {% if locale == "en" %}
+                    <h2>PAGE {{ current_page }} of {{ collection_length }}</h2>
+                {% else %}
+                    <h2>PAGINA {{ current_page }} de {{ collection_length }}</h2>
+                {% endif %}
+                {% if locale == "en" %}
+                    <a onclick="mixpanel.track('Go Next Category Post Page Button - Blog')" href="/categories/{{locale}}/{{category_tags}}/{{ current_page + 1}}/">NEXT</a>
+                {% else %}
+                    <a onclick="mixpanel.track('Go Next Category Post Page Button - Blog')" href="/categories/{{locale}}/{{category_tags}}/{{ current_page + 1}}/">SIGUIENTE</a>
+                {% endif %}
             {% endif %}
         {% endif %}
     </div>

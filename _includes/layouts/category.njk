@@ -76,21 +76,37 @@
           <div id="filter-sort-container">
 
             <div id="sort-by-title-box">
-              <h2>SORT BY</h2>
+              {% if locale == "en" %}
+                <h2>SORT BY</h2>
+              {% else %}
+                <h2>FILTRAR POR</h2>
+              {% endif %}
             </div>
 
             <div id="sort-controls">
               <button id="sort-btn-title">
-                <p>Title</p>
+                {% if locale == "en" %}
+                  <p>Title</p>
+                {% else %}
+                  <p>Título</p>
+                {% endif %}
                 <img  src="../../../../assets/icons/sort-az.webp" alt="sort az"/>
               </button>
               <button id="sort-btn-time-read">
-                <p>Time</p>
+                {% if locale == "en" %}
+                  <p>Time</p>
+                {% else %}
+                  <p>Tiempo</p>
+                {% endif %}
                 <img  src="../../../../assets/icons/sort-time-read.webp" alt="sort time to read"/>
               </button>
 
               <button id="sort-btn-date">
-                <p>Date</p>
+                {% if locale == "en" %}
+                  <p>Date</p>
+                {% else %}
+                  <p>Fecha</p>
+                {% endif %}
                 <img  src="../../../../assets/icons/release-date-icon.webp" alt="sort date"/>
               </button>
             </div>
