@@ -1,0 +1,13 @@
+{
+	"layout": "layouts/category.njk",
+	"category": "growth",
+	"category_tags": "growthEn",
+	"collection": "growthCollectionEn",
+	"collectionByTitle": "sortedGrowthByTitleEn",
+	"collectionByTime": "sortedGrowthByTimeEn",
+	"collectionByDate": "sortedGrowthByDateEn",
+	"tags": ["en", "growth", "growthEn"],
+	"locale": "en",
+	"dir": "ltr",
+	"banner": "/assets/images/hombre-usando-tecnologia-inteligente-maqueta-psd-tableta-digital.jpg"
+}

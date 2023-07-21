@@ -8,7 +8,7 @@
     {% endfor %}
 {% endmacro %}
 
-{% macro macro_category_inner_navigation(max_posts, current_page, category_tags) %}
+{% macro macro_category_inner_navigation(max_posts, current_page, category_tags, locale) %}
     {% set collection_length = max_posts %}
 
     <div class="category-inner_navigation">
@@ -16,30 +16,30 @@
             <h2>PAGE 1</h2>
         {% elif collection_length == current_page %}
             {# ? LAST PAGE #}
-            <a onclick="mixpanel.track('Go First Category Post Page Button - Blog')" href="/categories/{{category_tags}}/1/">FIRST</a>
-            <a onclick="mixpanel.track('Go Back Category Post Page Button - Blog')" href="/categories/{{category_tags}}/{{ current_page - 1 }}/">BACK</a>
+            <a onclick="mixpanel.track('Go First Category Post Page Button - Blog')" href="/categories/{{locale}}/{{category_tags}}/1/">FIRST</a>
+            <a onclick="mixpanel.track('Go Back Category Post Page Button - Blog')" href="/categories/{{locale}}/{{category_tags}}/{{ current_page - 1 }}/">BACK</a>
             <h2>PAGE {{ current_page }} of {{ collection_length }}</h2>
         {% elif collection_length == current_page + 1 %}
             {# ? PENULTIMATE PAGE #}
             {% if max_posts == 2 %}
             {% else %}
-                <a onclick="mixpanel.track('Go Back Category Post Page Button - Blog')" href="/categories/{{category_tags}}/{{ current_page - 1 }}/">BACK</a>
+                <a onclick="mixpanel.track('Go Back Category Post Page Button - Blog')" href="/categories/{{locale}}/{{category_tags}}/{{ current_page - 1 }}/">BACK</a>
             {% endif %}
             <h2>PAGE {{ current_page }} of {{ collection_length }}</h2>
-            <a onclick="mixpanel.track('Go Last Category Post Page Button - Blog')" href="/categories/{{category_tags}}/{{ collection_length}}/">LAST</a>
+            <a onclick="mixpanel.track('Go Last Category Post Page Button - Blog')" href="/categories/{{locale}}/{{category_tags}}/{{ collection_length}}/">LAST</a>
         {% elif collection_length != current_page + 1 %}
             {# ? ANY PAGE BETWEEN THE FIRST AND THE LAST #}
             {% if current_page == 1 %}
                 <h2>PAGE {{ current_page }} of {{ collection_length }}</h2>
-                <a onclick="mixpanel.track('Go Next Category Post Page Button - Blog')" href="/categories/{{category_tags}}/{{ current_page + 1}}/">NEXT</a>
+                <a onclick="mixpanel.track('Go Next Category Post Page Button - Blog')" href="/categories/{{locale}}/{{category_tags}}/{{ current_page + 1}}/">NEXT</a>
             {% else %}
                 {% if (current_page - 1) == 1 %}
-                    <a onclick="mixpanel.track('Go Back Category Post Page Button - Blog')" href="/categories/{{category_tags}}/{{ current_page - 1 }}/">FIRST</a>
+                    <a onclick="mixpanel.track('Go Back Category Post Page Button - Blog')" href="/categories/{{locale}}/{{category_tags}}/{{ current_page - 1 }}/">FIRST</a>
                 {% else %}
-                    <a onclick="mixpanel.track('Go Back Category Post Page Button - Blog')" href="/categories/{{category_tags}}/{{ current_page - 1 }}/">BACK</a>
+                    <a onclick="mixpanel.track('Go Back Category Post Page Button - Blog')" href="/categories/{{locale}}/{{category_tags}}/{{ current_page - 1 }}/">BACK</a>
                 {% endif %}
                 <h2>PAGE {{ current_page }} of {{ collection_length }}</h2>
-                <a onclick="mixpanel.track('Go Next Category Post Page Button - Blog')" href="/categories/{{category_tags}}/{{ current_page + 1}}/">NEXT</a>
+                <a onclick="mixpanel.track('Go Next Category Post Page Button - Blog')" href="/categories/{{locale}}/{{category_tags}}/{{ current_page + 1}}/">NEXT</a>
             {% endif %}
         {% endif %}
     </div>

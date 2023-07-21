@@ -1,0 +1,13 @@
+{
+	"layout": "layouts/category.njk",
+	"category": "remote-work",
+	"category_tags": "remote-workEs",
+	"collection": "remoteWorkCollectionEs",
+	"collectionByTitle": "sortedRemoteWorkByTitleEs",
+	"collectionByTime": "sortedRemoteWorkByTimeEs",
+	"collectionByDate": "sortedRemoteWorkByDateEs",
+	"tags": ["es", "remote-work", "remote-workEs"],
+	"locale": "es",
+	"dir": "ltr",
+	"banner": "/assets/images/hombre-usando-tecnologia-inteligente-maqueta-psd-tableta-digital.jpg"
+}

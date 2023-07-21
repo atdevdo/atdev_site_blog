@@ -120,8 +120,7 @@
           {# BEGIN INNER NAVIGATION #}
           <div>
             {% from "../components/macros/category-post.macro.njk" import macro_category_inner_navigation %}
-
-            {{ macro_category_inner_navigation(collections[category] | length, current_page, category_tags) }}
+            {{ macro_category_inner_navigation(collections[category_tags] | length, current_page, category, locale) }}
           </div>
           {# END INNER NAVIGATION #}
         </main>

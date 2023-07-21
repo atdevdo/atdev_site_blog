@@ -1,0 +1,13 @@
+{
+	"layout": "layouts/category.njk",
+	"category": "technology",
+	"category_tags": "technologyEs",
+	"collection": "technologyCollectionEs",
+	"collectionByTitle": "sortedTechnologyByTitleEs",
+	"collectionByTime": "sortedTechnologyByTimeEs",
+	"collectionByDate": "sortedTechnologyByDate",
+	"tags": ["es", "technology", "technologyEs"],
+	"locale": "es",
+	"dir": "ltr",
+	"banner": "/assets/images/hombre-usando-tecnologia-inteligente-maqueta-psd-tableta-digital.jpg"
+}
