@@ -8,7 +8,9 @@ author: No Author
 minRead: 3
 featuredImage: https://geeksontour.com/wp-content/uploads/2023/05/pdf-docs-768x388.jpg
 featuredVideo: https://www.youtube.com/watch?v=U9_igF22r0g
+language: en
 ---
+
 <!--StartFragment-->
 
 PDF files can’t be edited, right? At least that used to be the case. They were a snapshot of the text and images you created and anyone viewing the document would be seeing the exact same thing. There were no worries that someone would change your document without your permission if it was in .pdf format. *Note: .pdf stands for Portable Document Format and it was a creation of the Adobe Acrobat software.*
@@ -19,11 +21,11 @@ There were ways to edit these .pdf documents using the Adobe Acrobat software th
 
 ![](https://geeksontour.com/wp-content/uploads/2023/05/image-2.png)
 
-* Open Google Drive on the web at Drive.Google.com
-* Click the button to Add New and choose File Upload
-* Find the .pdf file you want to work with and click Open
-* The .pdf file is now in your Drive
-* Double click the .pdf file to open it
+-   Open Google Drive on the web at Drive.Google.com
+-   Click the button to Add New and choose File Upload
+-   Find the .pdf file you want to work with and click Open
+-   The .pdf file is now in your Drive
+-   Double click the .pdf file to open it
 
 Now you should be seeing the document and there is a button with a drop-down arrow above it. Click that drop-down arrow and you’ll see the option to open the file with Google Docs. This will create a copy, in the same folder as the original, and that copy will be an editable Google Doc file.
 

@@ -7,6 +7,7 @@ category: technology
 author: Daan
 minRead: 5
 featuredImage: https://miro.medium.com/v2/resize:fit:1100/format:webp/1*6NsIBhzaRwsnV8ecfzGW0Q.jpeg
+language: en
 ---
 
 <!-- @format -->

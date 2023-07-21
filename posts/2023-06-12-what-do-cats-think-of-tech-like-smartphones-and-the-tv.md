@@ -7,7 +7,9 @@ category: technology
 author: No Author
 minRead: 3
 featuredImage: https://media0.giphy.com/media/WPaWGoyXWL4ATFHuQv/200w.webp?cid=ecf05e47ni64bqjrh78ty7ysrplczlyl0fkes8jua19plp6t&ep=v1_gifs_search&rid=200w.webp&ct=g
+language: en
 ---
+
 <!--StartFragment-->
 
 With our homes becoming ‘smarter’ and more connected, you may be wondering what cats make of all the new technology around them. From smart speakers to robot vacuum cleaners, are they baffled by these strange devices, or are they just one more thing to disturb them from a peaceful snooze?
@@ -16,13 +18,13 @@ We asked our cat experts to delve into feline feelings on modern tech…
 
 ![grey and white kitten looking at laptop screen](https://www.cats.org.uk/media/6622/sereja-ris-g3b53pbbfwu-unsplash.jpg?width=415&height=277)
 
- 
+
 
 ## Smart speakers 
 
 Unless you have your speaker’s volume set to incredibly loud, then your cat probably won’t take much notice of it. Cats’ sense of hearing is more fine-tuned towards hearing the noises of their prey (eg high pitched squeaking and rustling leaves) so unless Alexa is doing an impression of a mouse scampering through the grass, your cat will probably ignore her – much like they don’t understand when you tell them they’ve already had their dinner and no amount of meowing will get you to dish up another portion.
 
- 
+
 
 ## Radio 
 
@@ -30,13 +32,13 @@ Again, volume is an important factor, as your cat is likely to be startled by a 
 
 ![tabby cat asleep on sofa](https://www.cats.org.uk/media/6729/steve-mitchell-1whw787c2ue-unsplash.jpg?width=415&height=415)
 
- 
+
 
 ## TV 
 
 Cats are very responsive to movement, so their favourite TV shows are those that feature lots of action. Sports, car chases and of course nature documentaries featuring other animals are all on their watch list, but to be honest even the Netflix loading circle would probably catch their eye. Of course, some cats won’t be bothered at all and will happily let you choose the channel while they have a snooze. If your moggy is a TV fan though, make sure the set is sturdy and secure in case they attempt to get involved in the action and bring it crashing down.
 
- 
+
 
 ### Georgie the telly addict cat
 
@@ -52,7 +54,7 @@ Georgie’s fosterer, Helen Fisher says: “Georgie does love her home entertain
 
 ![black and white cat relaxing on brown chair](https://www.cats.org.uk/media/5780/georgie-chair.jpg?width=415&height=247)
 
- 
+
 
 ## Smartphones 
 

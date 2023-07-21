@@ -9,6 +9,7 @@ author: No Author
 minRead: 10
 featuredImage: https://images.pexels.com/photos/1413412/pexels-photo-1413412.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 featuredVideo: https://www.youtube.com/watch?v=jx-w2o-Lj8g
+language: en
 ---
 
 <!-- @format -->

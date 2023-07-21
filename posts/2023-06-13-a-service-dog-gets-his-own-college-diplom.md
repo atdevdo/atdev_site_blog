@@ -8,7 +8,9 @@ author: Grace Mariani'
 minRead: 3
 featuredImage: https://media.npr.org/assets/img/2023/05/26/justin-service-dog-seton-hall-dipoma_wide-93fc00937fd5eb1b1be1406bf8591259a668d97d-s1200-c85.webp
 featuredVideo: https://www.youtube.com/watch?v=dyd21U1Xx9Y
+language: en
 ---
+
 <!--StartFragment-->
 
 They got through college together — and when Grace Mariani took to the stage to receive her diploma at Seton Hall University this week, her service dog, Justin, was right beside her.

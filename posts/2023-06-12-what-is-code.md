@@ -8,6 +8,7 @@ author: Paul Ford
 minRead: 30
 featuredImage: https://images.unsplash.com/photo-1483817101829-339b08e8d83f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdoYXQlMjBpcyUyMGNvZGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60
 featuredVideo: https://www.youtube.com/watch?v=BEgB7iL9nPI
+language: en
 ---
 
 <!-- @format -->

@@ -10,6 +10,7 @@ author: TIMOTHY A. SCHULER
 minRead: 11
 featuredImage: https://placesjournal.org/wp-content/uploads/2023/03/Puuhonua_O_Waianae-13.CMS_.jpg
 featuredVideo: ''
+language: en
 ---
 
 <!-- @format -->

@@ -9,6 +9,7 @@ author: Karen Koenig
 minRead: 8
 featuredImage: https://images.unsplash.com/photo-1620147461831-a97b99ade1d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bWVudGFsJTIwaGVhbHRofGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60
 featuredVideo: https://www.youtube.com/watch?v=K1lmJaBDIZs
+language: en
 ---
 
 <!-- @format -->

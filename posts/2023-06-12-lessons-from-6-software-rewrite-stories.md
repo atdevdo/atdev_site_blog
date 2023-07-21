@@ -7,6 +7,7 @@ category: technology
 author: Herb Caudill
 minRead: 18
 featuredImage: https://miro.medium.com/v2/resize:fit:3818/format:webp/1*ywYwvB-aydv0Ovx7K-5P3g.jpeg
+language: en
 ---
 
 <!-- @format -->

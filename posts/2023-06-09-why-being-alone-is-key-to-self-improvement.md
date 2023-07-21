@@ -8,6 +8,7 @@ author: Anthony Alayon
 minRead: 5
 featuredImage: https://images.unsplash.com/photo-1499084732479-de2c02d45fcc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1031&q=80
 featuredVideo: https://www.youtube.com/watch?v=e4TFYAFzmPA
+language: en
 ---
 
 <!-- @format -->

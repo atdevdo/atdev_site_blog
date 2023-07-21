@@ -8,6 +8,7 @@ author: David Stock
 minRead: 3
 featuredImage: https://images.unsplash.com/photo-1601132359864-c974e79890ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80
 featuredVideo: https://www.youtube.com/watch?v=n_GJwr7tjYY
+language: en
 ---
 
 <!-- @format -->

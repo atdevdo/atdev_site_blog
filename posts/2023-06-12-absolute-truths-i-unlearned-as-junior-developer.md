@@ -8,6 +8,7 @@ category: technology
 author: Monica Lent
 minRead: 15
 featuredImage: https://monicalent.com/images/typing-with-flowers.jpg
+language: en
 ---
 
 <!-- @format -->

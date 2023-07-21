@@ -7,7 +7,9 @@ category: community
 author: Vivian Paul Thomas
 minRead: 8
 featuredImage: https://images.theconversation.com/files/516900/original/file-20230322-22-l769gr.jpg?ixlib=rb-1.1.0&rect=0%2C18%2C4160%2C3095&q=45&auto=format&w=926&fit=clip
+language: en
 ---
+
 <!--StartFragment-->
 
 The knowledge and control of bronze gave some people who lived between 2200BC and 700BC enormous wealth and power. Their lives and deeds were immortalised by their burial mounds, known as barrows and cairns, which still litter our landscape today. Incredibly though, finding the places where [bronze age](https://www.britannica.com/event/Bronze-Age) people lived has proven to be very difficult.

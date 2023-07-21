@@ -8,7 +8,11 @@ const readerBar = require('eleventy-plugin-reader-bar')
 // * END IMPORTING LIBRARIES
 
 // * BEGIN IMPORTING COLLECTIONS
-const { posts, decapPosts } = require('./_11ty/collections/posts-collections')
+const {
+	posts,
+	decapPostsEn,
+	decapPostsEs,
+} = require('./_11ty/collections/posts-collections')
 const {
 	technologyCollection,
 	communityCollection,
@@ -89,7 +93,8 @@ module.exports = function (eleventyConfig) {
 
 	// ? BEGIN POSTS COLLECTIONS
 	eleventyConfig.addCollection('posts', posts)
-	eleventyConfig.addCollection('decapPosts', decapPosts)
+	eleventyConfig.addCollection('decapPostsEn', decapPostsEn)
+	eleventyConfig.addCollection('decapPostsEs', decapPostsEs)
 	// ? END POSTS COLLECTIONS
 
 	// ? BEGIN SORTED POSTS COLLECTIONS

@@ -7,6 +7,7 @@ category: growth
 author: Sarah Wall
 minRead: 8
 featuredImage: https://images.unsplash.com/photo-1490730141103-6cac27aaab94?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGlmZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60
+language: en
 ---
 
 <!-- @format -->

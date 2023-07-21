@@ -1,14 +1,16 @@
 ---
 layout: layouts/post.njk
 title: How Google Calendar can keep you from missing an event by setting your
-  default notifications.
+    default notifications.
 description: “Where were you last night? We missed you at the party.”
 publishDate: 2021-06-28
 category: technology
 author: No Author
 minRead: 3
 featuredImage: https://geeksontour.com/wp-content/uploads/2019/12/calendar.jpg
+language: en
 ---
+
 <!--StartFragment-->
 
 Don’t you just hate it when you see your friend and they say, “Where were you last night? We missed you at the party.” When the only reason you missed it was that you forgot!
@@ -21,14 +23,14 @@ You can even set your default to give you two notifications if you want, like on
 
 ![](https://geeksontour.com/wp-content/uploads/2023/04/calendar.jpg)
 
-* Open Google Calendar (on Android or iOS – just make sure it is the Google Calendar, not Apple or Samsung.
-* Tap the 3-line menu at top left
-* Scroll down and tap on Settings
-* Tap Events (under your account)
-* Tap Notifications
-* Select your choice
-* You’re done, just tap the Back arrow at top left
-* *note: the icon has changed since this video*, *all else is the same*
+-   Open Google Calendar (on Android or iOS – just make sure it is the Google Calendar, not Apple or Samsung.
+-   Tap the 3-line menu at top left
+-   Scroll down and tap on Settings
+-   Tap Events (under your account)
+-   Tap Notifications
+-   Select your choice
+-   You’re done, just tap the Back arrow at top left
+-   _note: the icon has changed since this video_, *all else is the same*
 
 Never miss a party, or a dentist appointment, or a meeting – ever again!
 

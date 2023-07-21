@@ -9,6 +9,7 @@ author: Mark Christian
 minRead: 7
 featuredImage: https://slack.engineering/wp-content/uploads/sites/7/2020/04/0_cgkWRCMtQXti3jbA-scaled-1.jpeg?resize=1536,1152
 featuredVideo: https://www.youtube.com/watch?v=C9XGKY5gvxI
+language: en
 ---
 
 <!-- @format -->

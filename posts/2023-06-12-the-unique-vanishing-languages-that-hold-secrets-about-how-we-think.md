@@ -2,13 +2,15 @@
 layout: layouts/post.njk
 title: The unique, vanishing languages that hold secrets about how we think
 description: Language isolates, like Chimané from Bolivia, are unrelated to any
-  other known tongue.
+    other known tongue.
 publishDate: 2023-06-09
 category: community
 author: Andrea Valentino
 minRead: 3
 featuredImage: https://images.newscientist.com/wp-content/uploads/2023/06/12122059/SEI_159388966.jpg?width=900
+language: en
 ---
+
 <!--StartFragment-->
 
 LAST February, amid the fjords of southern Chile, an elderly woman died – and a language fell silent. Cristina CalderÓn, a much-loved 93-year-old, was [the last known native speaker of Yaghan](https://www.npr.org/2022/02/18/1081584395/cristina-calderon-chiles-last-known-yaghan-speaker-dies-at-93), which could at one time be heard across the Tierra del Fuego – the Land of Fire – that forms the jagged tip of South America. The loss of any tongue is a tragedy, but Yaghan’s extinction will be felt particularly keenly because this was no ordinary language. It was an “isolate”: a language utterly distinct from those used anywhere else in the world.

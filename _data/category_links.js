@@ -4,7 +4,7 @@ module.exports = {
 	links: [
 		{
 			label: 'Home',
-			link: '/',
+			link: '/pages/en/',
 		},
 		{
 			label: 'Community',

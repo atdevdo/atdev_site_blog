@@ -1,13 +1,15 @@
 ---
 layout: layouts/post.njk
 title: Can’t predict rainfall anymore
-description: "Climate change: farmers in Ghana"
+description: 'Climate change: farmers in Ghana'
 publishDate: 2023-06-12
 category: community
 author: Bernard Keraita
 minRead: 4
 featuredImage: https://images.theconversation.com/files/514889/original/file-20230313-20-opxnhm.jpeg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip
+language: en
 ---
+
 <!--StartFragment-->
 
 [Climate change](https://www.who.int/news-room/fact-sheets/detail/climate-change-and-health) affects all spheres of life, particularly those aspects that depend on the environment. Farming communities are a case in point.

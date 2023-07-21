@@ -8,6 +8,7 @@ author: Laura M. - Senior Editor
 minRead: 4
 featuredImage: https://images.unsplash.com/photo-1485988412941-77a35537dae4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGNvbXB1dGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60
 featuredVideo: https://www.youtube.com/watch?v=CIRGjwYgdT4
+language: en
 ---
 
 <!-- @format -->

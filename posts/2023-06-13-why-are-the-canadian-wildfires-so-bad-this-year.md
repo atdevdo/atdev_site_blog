@@ -8,6 +8,7 @@ author: James MacDonald
 minRead: 5
 featuredImage: https://images.pexels.com/photos/3552472/pexels-photo-3552472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 featuredVideo: https://www.youtube.com/watch?v=xMk1Mgz3G8k
+language: en
 ---
 
 <!--StartFragment-->

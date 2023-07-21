@@ -8,6 +8,7 @@ category: community
 author: DAVID HAJDU
 minRead: 18
 featuredImage: https://placesjournal.org/wp-content/uploads/2023/03/Screen-Shot-2023-03-03-at-11.56.23-AM.CMS_.jpg
+language: en
 ---
 
 <!-- @format -->

@@ -7,6 +7,7 @@ category: technology
 author: Tom Gerken
 minRead: 4
 featuredImage: https://ichef.bbci.co.uk/news/976/cpsprodpb/DD46/production/_130064665_gettyimages-1258039400.jpg.webp
+language: en
 ---
 
 <!--StartFragment-->

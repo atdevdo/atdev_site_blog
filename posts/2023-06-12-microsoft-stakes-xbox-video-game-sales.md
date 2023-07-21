@@ -7,6 +7,7 @@ category: technology
 author: CASEY RODGERS
 minRead: 4
 featuredImage: https://www.usnews.com/object/image/00000188-afbc-ddf1-ad99-fffda6490000/e90b29e8da9a4a0ab3de64d55ea99b13Microsoft_Xbox_Starfield_69852.jpg?update-time=1686574955000&size=responsive970
+language: en
 ---
 
 <!-- @format -->

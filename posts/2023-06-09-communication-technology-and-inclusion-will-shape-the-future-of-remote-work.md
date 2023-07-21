@@ -7,6 +7,7 @@ category: remote-work
 author: Natalie Hamingson
 minRead: 6
 featuredImage: https://images.unsplash.com/photo-1586227740560-8cf2732c1531?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJlbW90ZSUyMHdvcmt8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60
+language: en
 ---
 
 <!-- @format -->

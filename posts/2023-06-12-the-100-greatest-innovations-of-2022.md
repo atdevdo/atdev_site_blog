@@ -8,6 +8,7 @@ author: ' POPSCI STAFF'
 minRead: 29
 featuredImage: https://www.popsci.com/uploads/2022/11/28/BOWN22_MainOpener.jpg?auto=webp&width=1440&height=960
 featuredVideo: https://www.youtube.com/watch?v=mtXUtX0c1YE
+language: en
 ---
 
 <!-- @format -->

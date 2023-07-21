@@ -2,13 +2,15 @@
 layout: layouts/post.njk
 title: Facebook owner Meta plans to create Twitter rival
 description: Meta has shown staff plans for a text-based social network designed
-  to compete with Twitter
+    to compete with Twitter
 publishDate: 2023-05-11
 category: technology
 author: Tom Gerken
 minRead: 3
 featuredImage: https://ichef.bbci.co.uk/news/976/cpsprodpb/CC94/production/_122327325_meta.png.webp
+language: en
 ---
+
 <!--StartFragment-->
 
 It could allow users to follow accounts they already follow on Instagram, Meta's image-sharing app.

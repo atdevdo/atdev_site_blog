@@ -7,6 +7,7 @@ category: technology
 author: Marc Cieslak
 minRead: 3
 featuredImage: https://ichef.bbci.co.uk/news/976/cpsprodpb/1263B/production/_130032357_gettyimages-838190946.jpg.webp
+language: en
 ---
 
 <!--StartFragment-->

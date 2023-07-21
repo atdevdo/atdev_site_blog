@@ -8,6 +8,7 @@ author: Cade Metz
 minRead: 13
 featuredImage: https://static01.nyt.com/images/2021/08/31/autossell/00codex-video1/00codex-video1-superJumbo.jpg
 featuredVideo: https://www.youtube.com/watch?v=_j1eODrkGS4
+language: en
 ---
 
 <!-- @format -->

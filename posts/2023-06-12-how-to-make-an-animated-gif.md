@@ -8,6 +8,7 @@ author: No Author
 minRead: 3
 featuredImage: https://images.pexels.com/photos/1539581/pexels-photo-1539581.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 featuredVideo: https://www.youtube.com/watch?v=lXGC5qgOA0o
+language: en
 ---
 
 <!-- @format -->

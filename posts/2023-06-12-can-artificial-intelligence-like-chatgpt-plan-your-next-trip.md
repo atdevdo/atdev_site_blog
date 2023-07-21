@@ -7,6 +7,7 @@ category: technology
 author: No Author
 minRead: 3
 featuredImage: https://geeksontour.com/wp-content/uploads/2023/04/DALL%C2%B7E-2023-04-04-16.02.52-a-photo-realistic-image-of-the-ocean-at-Acadia-National-Park-with-a-hillside-in-the-foreground-including-a-lighthouse-and-forested-with-trees-in-fall-768x768.png
+language: en
 ---
 
 <!--StartFragment-->

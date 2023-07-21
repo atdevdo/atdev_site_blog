@@ -7,19 +7,19 @@ category: technology
 author: No Author
 minRead: 3
 featuredImage: https://geeksontour.com/wp-content/uploads/2023/02/chatgpt.jpg
+language: en
 ---
+
 <!--StartFragment-->
 
 Have you heard of ChatGPT? It’s all over the news. It’s the latest example of artificial intelligence now doing things you thought only humans could do. It can write an article on almost any subject in about 10 seconds. It can provide correct answers to questions on professional exams. It can even write code, or write poems. You can try it for free.
 
-* Go to <https://chat.openai.com/>
-* Create a username and password – or just login with Google
-* If all is working well, you will see a screen with an empty field at the bottom
-* Just type your request into that field and click Send (looks like paper airplane) at the right end of the field
+-   Go to <https://chat.openai.com/>
+-   Create a username and password – or just login with Google
+-   If all is working well, you will see a screen with an empty field at the bottom
+-   Just type your request into that field and click Send (looks like paper airplane) at the right end of the field
 
-  ![](https://geeksontour.com/wp-content/uploads/2023/02/1-300x232.png)
-
-
+    ![](https://geeksontour.com/wp-content/uploads/2023/02/1-300x232.png)
 
 ## I asked ChatGPT to: “Write a poem about how Jim and Chris from Geeks on Tour like to travel and teach about technology.”
 

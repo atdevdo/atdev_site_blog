@@ -8,6 +8,7 @@ author: Bret Cameron
 minRead: 9
 featuredImage: https://miro.medium.com/v2/resize:fit:2860/format:webp/1*7cRAqUE493wd988uxuTIUg.png
 featuredVideo: https://www.youtube.com/watch?v=oRekCcwSeXs
+language: en
 ---
 
 <!-- @format -->

@@ -8,6 +8,7 @@ category: community
 author: SUSANNE SCHINDLER
 minRead: 18
 featuredImage: https://images.pexels.com/photos/144632/pexels-photo-144632.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+language: en
 ---
 
 <!-- @format -->

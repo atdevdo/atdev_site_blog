@@ -7,7 +7,9 @@ category: technology
 author: Chris Vallance
 minRead: 2
 featuredImage: https://ichef.bbci.co.uk/news/976/cpsprodpb/11B35/production/_130010527_gettyimages-1212708067.jpg.webp
+language: en
 ---
+
 <!--StartFragment-->
 
 **Companies in the future may use brain-monitoring technology to watch or hire workers, the data watchdog says.**

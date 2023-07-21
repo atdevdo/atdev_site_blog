@@ -7,7 +7,9 @@ category: technology
 author: No Author
 minRead: 3
 featuredImage: https://geeksontour.com/wp-content/uploads/2023/02/keyboard-768x593.png
+language: en
 ---
+
 <!--StartFragment-->
 
 Although I did bring a Chromebook laptop with me on this dive vacation, I’ve been using my phone for all basic tasks (including [writing Blog Posts](https://geeksontour.com/2023/02/if-you-can-send-an-email-you-can-write-a-blog/)) and I’ve been reminded of a couple of nice shortcuts that I thought I’d pass along.
