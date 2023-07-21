@@ -1,24 +1,22 @@
-/** @format */
-
-function posts(collection) {
+exports.posts = function (collection) {
 	return [...collection.getFilteredByGlob('./posts/**/*.md')]
 }
 
-function decapPostsEn(collection) {
-	return collection
-		.getFilteredByGlob('./posts/**/*.md')
-		.filter((item) => item.data.language === 'en')
-		.sort((a, b) => b.data.publishDate - a.data.publishDate)
-}
-function decapPostsEs(collection) {
-	return collection
-		.getFilteredByGlob('./posts/**/*.md')
-		.filter((item) => item.data.language === 'es')
-		.sort((a, b) => b.data.publishDate - a.data.publishDate)
+exports.postsEn = function (collection) {
+	return [...collection.getFilteredByGlob('./posts/en/*.md')]
 }
 
-module.exports = {
-	posts,
-	decapPostsEn,
-	decapPostsEs,
+exports.postsEs = function (collection) {
+	return [...collection.getFilteredByGlob('./posts/es/*.md')]
+}
+
+exports.decapPostsEn = function (collection) {
+	return collection
+		.getFilteredByGlob('./posts/en/*.md')
+		.sort((a, b) => b.data.publishDate - a.data.publishDate)
+}
+exports.decapPostsEs = function (collection) {
+	return collection
+		.getFilteredByGlob('./posts/es/*.md')
+		.sort((a, b) => b.data.publishDate - a.data.publishDate)
 }
