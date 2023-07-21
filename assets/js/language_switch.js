@@ -8,7 +8,7 @@ let currentPage = 'pages'
 
 // CONDITIONALS
 if (!window.location.href.includes('pages')) {
-	currentPage = 'services'
+	currentPage = 'categories'
 }
 
 // CONSTANTS
@@ -23,6 +23,10 @@ const newUrl = modifiedUrl.replace(`/${currentPage}/${html.lang}/`, '')
 for (let index = 0; index < btn_language.length; index++) {
 	btn_language[index].addEventListener('click', (e) => {
 		// console.log(`/${currentPage}/${e.target.lang}/${newUrl}`)
-		window.location.href = `/${currentPage}/${e.target.lang}/${newUrl}`
+		if (currentUrl.includes('posts')) {
+			window.location.href = `/pages/${e.target.lang}`
+		} else {
+			window.location.href = `/${currentPage}/${e.target.lang}/${newUrl}`
+		}
 	})
 }

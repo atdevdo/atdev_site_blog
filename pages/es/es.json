@@ -1,6 +1,5 @@
 {
-  "layout": "layouts/base.njk",
-  "tags": "es",
-  "locale": "es",
-  "dir": "ltr"
+	"layout": "layouts/base.njk",
+	"tags": "es",
+	"locale": "es"
 }
