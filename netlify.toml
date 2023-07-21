@@ -1,5 +1,36 @@
+[build]
+  command = "npm run build"
+  publish = "_site"
+
 [[plugins]]
 package = "netlify-plugin-cache"
 
   [plugins.inputs]
   paths = [ ".cache" ]
+
+# redirect to landing pages.
+
+[[redirects]]
+  from = "/"
+  to = "/pages/es/"
+  status = 302
+  force = true
+  conditions = {Language = ["es"]}
+
+[[redirects]]
+  from = "/"
+  to = "/pages/en/"
+  status = 302
+  force = true
+
+# redirect the 404 pages to your specific variant.
+
+[[redirects]]
+  from = "/pages/es/*"
+  to = "/pages/es/404"
+  status = 404
+
+[[redirects]]
+  from = "/pages/en/*"
+  to = "/pages/en/404"
+  status = 404

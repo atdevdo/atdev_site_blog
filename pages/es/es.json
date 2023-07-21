@@ -1,0 +1,6 @@
+{
+  "layout": "layouts/base.njk",
+  "tags": "es",
+  "locale": "es",
+  "dir": "ltr"
+}

@@ -9,7 +9,7 @@
     {% include "../../../assets/js/language_switch.js" %}
     {% endset %}
     <!-- feed it through our jsmin filter to minify -->
-    <script>
+    <script defer>
         {{js | jsmin | safe}}
     </script>
 {% endblock jsMinifierPost %}
