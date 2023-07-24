@@ -313,13 +313,6 @@ iframe {
 	padding-right: 2rem;
 }
 
-#js-toc-id::before {
-	content: 'Content';
-	font-size: 1.1rem;
-	font-weight: bolder;
-	font-family: 'GothamBold', sans-serif !important;
-}
-
 .js-toc > ol {
 	margin-top: 1rem !important;
 }
