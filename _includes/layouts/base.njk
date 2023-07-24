@@ -58,7 +58,7 @@
 
         {% from "../components/macros/introduction.macro.njk" import macro_intro %}
 
-        {{ macro_intro('Blog', 'ATDEV', 'We build your ideas, we build your team', 'https://deploy-preview-17--atdev-testing.netlify.app/pages/en/') }}
+        {{ macro_intro(intro.base.text1[locale], intro.base.text2[locale], intro.base.text3[locale]) }}
 
         {% include "../components/blocks/header.block.njk" %}
 
@@ -78,7 +78,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.11/jquery.lazy.min.js" integrity="sha512-eviLb3jW7+OaVLz5N3B5F0hpluwkLb8wTXHOTy0CyNaZM5IlShxX1nEbODak/C0k9UdsrWjqIBKOFY0ELCCArw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"></script>
-    <script src="assets/js/script.min.js" defer></script>
+    <script src="/assets/js/script.min.js" defer></script>
     {% include "../components/blocks/jsMinifierBase.block.njk" %}
     {# END JS IMPORTS #}
 

@@ -1,9 +1,3 @@
----
-tags: 'en'
-locale: 'en'
-dir: 'ltr'
----
-
 <!DOCTYPE html>
 <html id="html" lang="{{ locale }}"
   dir="{{ dir }}">
@@ -79,7 +73,11 @@ dir: 'ltr'
                     <img  src={{featuredImage}} alt="Post Image">
                   </div>
                   <div class="post__imgBox-textBox">
-                    <p class="post__imgBox-textBox__category">{{ category | fixCategory }}</p>
+                    {% for item in categories.en %}
+                      {% if item == category | fixCategory %}
+                        <p class="post__imgBox-textBox__category">{{categories[locale][loop.index0]}}</p>
+                      {% endif %}
+                    {% endfor %}
                     <p class="post__imgBox-textBox__description">{{ description }}</p>
                     <p class="post__imgBox-textBox__publishDate">{{ publishDate | postDate }}</p>
                   </div>
@@ -87,6 +85,14 @@ dir: 'ltr'
                 {# END FEATURED IMAGE #}
 
                 {# BEGIN TABLE OF CONTENTS #}
+                <style>
+                  #js-toc-id::before {
+                    content: '{{post.tableOfContent[locale]}}';
+                    font-size: 1.1rem;
+                    font-weight: bolder;
+                    font-family: 'GothamBold', sans-serif !important;
+                  }
+                </style>
                 <div data-toc="js-toc-id-data" class="js-toc is-position-fixed"></div>
                 {# END TABLE OF CONTENTS #}
 
@@ -108,7 +114,7 @@ dir: 'ltr'
                 {% if author | capitalize != "No author" %}
                   <div class="post__author">
                     <h3>
-                      <span>Author:</span>
+                      <span>{{post.author[locale]}}:</span>
                       {{ author }}
                     </h3>
                   </div>
@@ -129,7 +135,7 @@ dir: 'ltr'
 
             {# BEGIN POST SHARE LINKS #}
             <aside id="share-links">
-              <h2>SHARE</h2>
+              <h2>{{ post.share[locale] | upper }}</h2>
               <div style="width: 100%; display: flex; justify-content: center; margin-bottom: 2rem;" class="ss-box ss-dark ss-grow" data-ss-content="false" data-ss-social="facebook, whatsapp, twitter, email, linkedin, reddit"></div>
             </aside>
             {# END POST SHARE LINKS #}
@@ -137,15 +143,15 @@ dir: 'ltr'
             <div class="subscribe-box">
               <div class="subscribe-section" style="box-shadow: 0.125rem 0.25rem 1.25rem 0.0875rem rgba(45,45,45,.13) !important">
                 <div class="subscribe-section-title">
-                  <h2>JOIN 100,000+ USERS</h2>
-                  <p>who receive our energizing newsletter every week, filled with only the best handpicked articles X-Teamers are reading about engineering, career growth and X-Team culture.</p>
+                  <h2>{{post.subscribe.title[locale] | upper}}</h2>
+                  <p>{{post.subscribe.description[locale]}}</p>
                 </div>
                 <form action="" class="subscribe-section-form">
                   <div class="subscribe-section-input-box">
-                    <input type="text" name="subscribe-email" id="subscribe-email" placeholder="YOUR E-MAIL ADDRESS">
+                    <input type="text" name="subscribe-email" id="subscribe-email" placeholder="{{post.subscribe.placeholder[locale] | upper}}">
                   </div>
                   <button class="subscribe-section-subscribe-box" type="submit">
-                    <span>SUBSCRIBE</span>
+                    <span>{{post.subscribe.button[locale] | upper}}</span>
                   </button>
                 </form>
               </div>

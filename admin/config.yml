@@ -48,6 +48,13 @@ collections:
                 required: true,
             }
           - {
+                label: 'Language',
+                name: 'language',
+                widget: 'select',
+                options: ['en', 'es'],
+                required: true,
+            }
+          - {
                 label: 'Author',
                 name: 'author',
                 widget: 'string',

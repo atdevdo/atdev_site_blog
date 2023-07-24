@@ -1,0 +1,163 @@
+---
+permalink: /pages/es/
+title: 'ATDEV Blog'
+dir: 'ltr'
+---
+{# BEGIN MACROS - IMPORTS #}
+{% from "../../_includes/components/macros/sort-posts.macro.njk" import macro_sorted_list_title %}
+{% from "../../_includes/components/macros/sort-posts.macro.njk" import macro_sorted_list_time %}
+{% from "../../_includes/components/macros/sort-posts.macro.njk" import macro_sorted_list_category %}
+{% from "../../_includes/components/macros/sort-posts.macro.njk" import macro_sorted_list_date %}
+{% from "../../_includes/components/macros/sort-posts.macro.njk" import macro_no_sort %}
+{% from "../../_includes/components/macros/category-post.macro.njk" import macro_category_post %}
+{% from "../../_includes/components/macros/atdev.macro.njk" import macro_atdev %}
+{# END MACROS - IMPORTS #}
+
+{# BEGIN FILTER - SORTING #}
+<div id="filter-sort-container">
+	<div id="filterbox">
+		<div class="field">
+			<input type="search" placeholder="Buscar..." id="searchField"/>
+		</div>
+		<ol id="searchResults"></ol>
+		<div id="noResultsFound" style="display: none">
+			<p>No hay resultados.</p>
+		</div>
+	</div>
+
+	<div id="sort-by-title-box">
+		<h2>FILTRAR POR</h2>
+	</div>
+
+	<div id="sort-controls">
+		<button id="sort-btn-title">
+			<p>Título</p>
+			<img src="/assets/icons/sort-az.webp" alt="sort az"/>
+		</button>
+		<button id="sort-btn-time-read">
+			<p>Tiempo</p>
+			<img src="/assets/icons/sort-time-read.webp" alt="sort time to read"/>
+		</button>
+		<button id="sort-btn-category">
+			<P>Categoría</P>
+			<img src="/assets/icons/sort-category.webp" alt="sort category"/>
+		</button>
+		<button id="sort-btn-date">
+			<p>Fecha</p>
+			<img src="/assets/icons/release-date-icon.webp" alt="sort date"/>
+		</button>
+	</div>
+</div>
+{# END FILTER - SORTING #}
+
+{# BEGIN POST LIST #}
+<div id="sorting">
+	<div id="sorted-title" style="display: none;">
+		{{ macro_sorted_list_title(collections.sortedByTitleEs, 7, categories, locale) }}
+	</div>
+
+	<div id="sorted-time" style="display: none;">
+		{{ macro_sorted_list_time(collections.sortedByTimeEs, 7, categories, locale) }}
+	</div>
+
+	<div id="sorted-category" style="display: none;">
+		{{ macro_sorted_list_category(collections.sortedByCategoryEs, 7, categories, locale) }}
+	</div>
+
+	<div id="sorted-date" style="display: none;">
+		{{ macro_sorted_list_date(collections.sortedByDateEs, 7, categories, locale) }}
+	</div>
+
+	<div id="not-sorted">
+		{{ macro_no_sort(collections.decapPostsEs, categories, locale) }}
+	</div>
+</div>
+{# END POST LIST #}
+
+{# BEGIN CATEGORIES #}
+
+{# BEGIN TECHNOLOGY - CATEGORY #}
+<div class="category-container">
+	<div class="category-container__head">
+		<h2>Tecnología</h2>
+		<a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/technology/1">Ver Más</a>
+	</div>
+	<div class="posts-container">
+		{{ macro_category_post(collections.technologyCollectionEs, 'technology', 0, 7, categories, locale) }}
+	</div>
+</div>
+{# END TECHNOLOGY - CATEGORY #}
+
+{# BEGIN ATDEV CUSTOM SOFTWARE DEVELOPMENT #}
+{{
+  macro_atdev(
+    'atdev-content-customsd',
+    'Desarrollo de Software Personalizado',
+    'https://atdev-testing.netlify.app/pages/es/services/app-development/',
+    '/assets/images/customsd.jpg',
+    'Custom Software Development Image'
+  )
+}}
+{# END ATDEV CUSTOM SOFTWARE DEVELOPMENT #}
+
+{# BEGIN COMMUNITY - CATEGORY #}
+<div class="category-container">
+	<div class="category-container__head">
+		<h2>Comunidad</h2>
+		<a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/community/1">Ver Más</a>
+	</div>
+	<div class="posts-container">
+		{{ macro_category_post(collections.communityCollectionEs, 'community', 0, 7, categories, locale) }}
+	</div>
+</div>
+{# END COMMUNITY - CATEGORY #}
+
+{# BEGIN ATDEV ABOUT #}
+{{
+  macro_atdev(
+    'atdev-content-about',
+    'Nosotros',
+    'https://atdev-testing.netlify.app/pages/es/about/',
+    '/assets/images/about.jpg',
+    'About Image'
+  )
+}}
+{# END ATDEV ABOUT #}
+
+{# BEGIN GROWTH - CATEGORY #}
+<div class="category-container">
+	<div class="category-container__head">
+		<h2>Crecimiento</h2>
+		<a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/growth/1">Ver Más</a>
+	</div>
+	<div class="posts-container">
+		{{ macro_category_post(collections.growthCollectionEs, 'growth', 0, 7, categories, locale) }}
+	</div>
+</div>
+{# END GROWTH - CATEGORY #}
+
+{# BEGIN ATDEV NEARSHORE #}
+{{
+  macro_atdev(
+    'atdev-content-nearshore',
+    'Dotación de Personal',
+    'https://atdev-testing.netlify.app/pages/es/services/nearshore/',
+    '/assets/images/nearshore.jpg',
+    'Nearshore Image'
+  )
+}}
+{# END ATDEV NEARSHORE #}
+
+{# BEGIN REMOTE WORK - CATEGORY #}
+<div class="category-container">
+	<div class="category-container__head">
+		<h2>Trabajo Remoto</h2>
+		<a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/remote-work/1">Ver Más</a>
+	</div>
+	<div class="posts-container">
+		{{ macro_category_post(collections.remoteWorkCollectionEs, 'remote-work', 0, 7, categories, locale) }}
+	</div>
+</div>
+{# END REMOTE WORK - CATEGORY #}
+
+{# END CATEGORIES #}

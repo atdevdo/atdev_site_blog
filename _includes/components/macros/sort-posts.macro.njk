@@ -3,11 +3,11 @@
 {# END IMPORTS #}
 
 {# BEGIN SORTED BY TITLE MACRO #}
-{% macro macro_sorted_list_title(collection, amount) %}
+{% macro macro_sorted_list_title(collection, amount, categories, locale) %}
     <div class="posts-container">
         {% for post in collection %}
             {% if loop.index < amount %}
-                {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.publishDate, post.data.author, post.data.minRead, post.data.featuredImage, post.url) }}
+                {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.publishDate, post.data.author, post.data.minRead, post.data.featuredImage, post.url, true, categories, locale) }}
             {% endif %}
         {% endfor %}
     </div>
@@ -15,11 +15,11 @@
 {# END SORTED BY TITLE MACRO #}
 
 {# BEGIN SORTED BY TIME MACRO #}
-{% macro macro_sorted_list_time(collection, amount) %}
+{% macro macro_sorted_list_time(collection, amount, categories, locale) %}
     <div class="posts-container">
         {% for post in collection %}
             {% if loop.index < amount %}
-                {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.publishDate, post.data.author, post.data.minRead, post.data.featuredImage, post.url) }}
+                {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.publishDate, post.data.author, post.data.minRead, post.data.featuredImage, post.url, true, categories, locale) }}
             {% endif %}
         {% endfor %}
     </div>
@@ -27,11 +27,11 @@
 {# END SORTED BY TIME MACRO #}
 
 {# BEGIN SORTED BY CATEGORY MACRO #}
-{% macro macro_sorted_list_category(collection, amount) %}
+{% macro macro_sorted_list_category(collection, amount, categories, locale) %}
     <div class="posts-container">
         {% for post in collection %}
             {% if loop.index < amount %}
-                {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.publishDate, post.data.author, post.data.minRead, post.data.featuredImage, post.url) }}
+                {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.publishDate, post.data.author, post.data.minRead, post.data.featuredImage, post.url, true, categories, locale) }}
             {% endif %}
         {% endfor %}
     </div>
@@ -39,11 +39,11 @@
 {# END SORTED BY CATEGORY MACRO #}
 
 {# BEGIN SORTED BY DATE MACRO #}
-{% macro macro_sorted_list_date(collection, amount) %}
+{% macro macro_sorted_list_date(collection, amount, categories, locale) %}
     <div class="posts-container">
         {% for post in collection %}
             {% if loop.index < amount %}
-                {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.publishDate, post.data.author, post.data.minRead, post.data.featuredImage, post.url) }}
+                {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.publishDate, post.data.author, post.data.minRead, post.data.featuredImage, post.url, true, categories, locale) }}
             {% endif %}
         {% endfor %}
     </div>
@@ -51,11 +51,11 @@
 {# END SORTED BY DATE MACRO #}
 
 {# BEGIN NO SORT MACRO #}
-{% macro macro_no_sort(collection) %}
+{% macro macro_no_sort(collection, categories, locale) %}
     <div class="posts-container">
         {% for post in collection %}
             {% if loop.index < 7 %}
-                {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.publishDate, post.data.author, post.data.minRead, post.data.featuredImage, post.url) }}
+                {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.publishDate, post.data.author, post.data.minRead, post.data.featuredImage, post.url, true, categories, locale) }}
             {% endif %}
         {% endfor %}
     </div>

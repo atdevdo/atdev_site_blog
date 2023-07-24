@@ -1,4 +1,4 @@
-{% macro macro_post(title, description, category, publishDate, author, minRead, image, url, lazy) %}
+{% macro macro_post(title, description, category, publishDate, author, minRead, image, url, lazy, categories, locale) %}
 	<a onclick="mixpanel.track('Go to ' + title + ' Page Button - Blog')" href={{url}} class="post-card" >
 		<div class="post-card__imgBox">
 			{% if lazy == true %}
@@ -9,7 +9,11 @@
 		</div>
 		<div class="post-card__contentBox">
 			<div class="post-card__contentBox-category_publishDate">
-				<p class="post-card__contentBox-category">{{ category | fixCategory }}</p>
+				{% for item in categories.en %}
+					{% if item == category | fixCategory %}
+						<p class="post-card__contentBox-category">{{categories[locale][loop.index0]}}</p>
+					{% endif %}
+				{% endfor %}
 				<p class="post__imgBox-textBox__publishDate">{{ publishDate | postDate }}</p>
 			</div>
 			<h2>{{ title }}</h2>
@@ -17,10 +21,10 @@
 			<div class="post-card__contentBox-author_minRead">
 				{% if author | capitalize != "No author" %}
 					<h3>
-						<span>Author: </span>{{ author | capitalize }}
+						<span>Autor: </span>{{ author | capitalize }}
 					</h3>
 				{% endif %}
-				<h4>{{ minRead }} min read</h4>
+				<h4>{{ minRead }} minutos</h4>
 			</div>
 		</div>
 	</a>
