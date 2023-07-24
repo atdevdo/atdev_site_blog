@@ -40,7 +40,12 @@
 		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 		{# END FONT FAMILY - LATO #}
 
-		<title>{{ category | upper }} | CATEGORY </title>
+		{% for item in categories.en %}
+			{% if item == category | fixCategory %}
+				<title>{{categories[locale][loop.index0] | upper }} | {{ categories.label[locale] | upper }}
+				</title>
+			{% endif %}
+		{% endfor %}
 	</head>
 	<body>
 		<main class="main">
@@ -57,8 +62,8 @@
 
 				{% set list_length = [] %}
 
-				{% for item in quote_list.quotes %}
-					{% set list_length = (list_length.push(loop.index), list_length) %}
+				{% for item in quote_list[locale] %}
+					{% set list_length = (list_length.push(loop.index0), list_length) %}
 				{% endfor %}
 
 				<style>
@@ -67,7 +72,11 @@
 					}
 				</style>
 
-				{{ macro_intro('Category', category | fixCategory , quote_list.quotes[list_length | random].quote) }}
+				{% for item in categories.en %}
+					{% if item == category | fixCategory %}
+						{{ macro_intro(categories.label[locale], categories[locale][loop.index0] , quote_list[locale][list_length | random].quote) }}
+					{% endif %}
+				{% endfor %}
 				{% include "../components/blocks/header.block.njk" %}
 
 				<main id="inner-main" class="category-posts">
