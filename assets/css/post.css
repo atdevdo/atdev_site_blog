@@ -515,6 +515,7 @@ iframe {
 
 .subscribe-section-title h2 {
 	font-size: 1.8rem;
+	text-align: center;
 }
 
 .subscribe-section-title p {
@@ -573,5 +574,26 @@ iframe {
 	.subscribe-section form {
 		flex-direction: column;
 		gap: 1rem;
+	}
+
+	.subscribe-section-input-box {
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 1130px) {
+	.subscribe-section-title {
+		width: 100%;
+	}
+
+	.subscribe-section-title h2 {
+		font-size: 1.8rem;
+		text-align: start;
+	}
+
+	.subscribe-section-title p {
+		margin-top: -1.4rem;
+		font-size: 1rem;
+		text-align: start;
 	}
 }
