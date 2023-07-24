@@ -1,9 +1,3 @@
----
-tags: 'en'
-locale: 'en'
-dir: 'ltr'
----
-
 <!DOCTYPE html>
 <html id="html" lang="{{ locale }}"
   dir="{{ dir }}">
@@ -79,7 +73,11 @@ dir: 'ltr'
                     <img  src={{featuredImage}} alt="Post Image">
                   </div>
                   <div class="post__imgBox-textBox">
-                    <p class="post__imgBox-textBox__category">{{ category | fixCategory }}</p>
+                    {% for item in categories.en %}
+                      {% if item == category | fixCategory %}
+                        <p class="post__imgBox-textBox__category">{{categories[locale][loop.index0]}}</p>
+                      {% endif %}
+                    {% endfor %}
                     <p class="post__imgBox-textBox__description">{{ description }}</p>
                     <p class="post__imgBox-textBox__publishDate">{{ publishDate | postDate }}</p>
                   </div>

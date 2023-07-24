@@ -53,23 +53,23 @@ dir: 'ltr'
 {# BEGIN POST LIST #}
 <div id="sorting">
 	<div id="sorted-title" style="display: none;">
-		{{ macro_sorted_list_title(collections.sortedByTitleEs, 7) }}
+		{{ macro_sorted_list_title(collections.sortedByTitleEs, 7, categories, locale) }}
 	</div>
 
 	<div id="sorted-time" style="display: none;">
-		{{ macro_sorted_list_time(collections.sortedByTimeEs, 7) }}
+		{{ macro_sorted_list_time(collections.sortedByTimeEs, 7, categories, locale) }}
 	</div>
 
 	<div id="sorted-category" style="display: none;">
-		{{ macro_sorted_list_category(collections.sortedByCategoryEs, 7) }}
+		{{ macro_sorted_list_category(collections.sortedByCategoryEs, 7, categories, locale) }}
 	</div>
 
 	<div id="sorted-date" style="display: none;">
-		{{ macro_sorted_list_date(collections.sortedByDateEs, 7) }}
+		{{ macro_sorted_list_date(collections.sortedByDateEs, 7, categories, locale) }}
 	</div>
 
 	<div id="not-sorted">
-		{{ macro_no_sort(collections.decapPostsEs) }}
+		{{ macro_no_sort(collections.decapPostsEs, categories, locale) }}
 	</div>
 </div>
 {# END POST LIST #}
@@ -83,7 +83,7 @@ dir: 'ltr'
 		<a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/technology/1">Ver Más</a>
 	</div>
 	<div class="posts-container">
-		{{ macro_category_post(collections.technologyCollectionEs, 'technology', 0, 7) }}
+		{{ macro_category_post(collections.technologyCollectionEs, 'technology', 0, 7, categories, locale) }}
 	</div>
 </div>
 {# END TECHNOLOGY - CATEGORY #}
@@ -107,7 +107,7 @@ dir: 'ltr'
 		<a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/community/1">Ver Más</a>
 	</div>
 	<div class="posts-container">
-		{{ macro_category_post(collections.communityCollectionEs, 'community', 0, 7) }}
+		{{ macro_category_post(collections.communityCollectionEs, 'community', 0, 7, categories, locale) }}
 	</div>
 </div>
 {# END COMMUNITY - CATEGORY #}
@@ -131,7 +131,7 @@ dir: 'ltr'
 		<a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/growth/1">Ver Más</a>
 	</div>
 	<div class="posts-container">
-		{{ macro_category_post(collections.growthCollectionEs, 'growth', 0, 7) }}
+		{{ macro_category_post(collections.growthCollectionEs, 'growth', 0, 7, categories, locale) }}
 	</div>
 </div>
 {# END GROWTH - CATEGORY #}
@@ -155,7 +155,7 @@ dir: 'ltr'
 		<a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/remote-work/1">Ver Más</a>
 	</div>
 	<div class="posts-container">
-		{{ macro_category_post(collections.remoteWorkCollectionEs, 'remote-work', 0, 7) }}
+		{{ macro_category_post(collections.remoteWorkCollectionEs, 'remote-work', 0, 7, categories, locale) }}
 	</div>
 </div>
 {# END REMOTE WORK - CATEGORY #}

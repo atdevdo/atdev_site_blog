@@ -6,5 +6,5 @@ to: 40
 
 {% from "../../../_includes/components/macros/category-post.macro.njk" import macro_category_post %}
 <div class="posts-container">
-    {{ macro_category_post(collections.growthCollectionEn, category, from, to) }}
+	{{ macro_category_post(collections.growthCollectionEn, category, from, to, categories, locale) }}
 </div>
