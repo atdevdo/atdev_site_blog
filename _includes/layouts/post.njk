@@ -2,11 +2,11 @@
 {% set tags = 'en' %}
 
 {% if language == 'en' %}
-  locale = 'en'
-  tags = 'en'
-  {% else %}
-  locale = 'es'
-  tags = 'es'
+  {% set locale = 'en' %}
+  {% set tags = 'en' %}
+{% else %}
+  {% set locale = 'es' %}
+  {% set tags = 'es' %}
 {% endif %}
 
 <!DOCTYPE html>
