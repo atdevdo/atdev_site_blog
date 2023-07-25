@@ -1,4 +1,3 @@
-/** @format */
 const collections = require('./_11ty/collections/collections')
 
 // * BEGIN IMPORTING LIBRARIES
