@@ -10,22 +10,5 @@
 	<body>
 		<!-- Include the script that builds the page and powers Decap CMS -->
 		<script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
-		<script>
-			CMS.registerEventListener({
-				name: 'postPublish',
-				handler: ({ entry }) => {
-					console.log(`entry.newRecord:`, entry.newRecord)
-					console.log(`entry.collection:`, entry.collection)
-					console.log(`entry.data:`, entry.data)
-
-					if (entry.newRecord && entry.collection === 'posts') {
-						const _form_1_submit =
-							document.getElementById('_form_1_submit')
-
-						_form_1_submit.click()
-					}
-				},
-			})
-		</script>
 	</body>
 </html>
