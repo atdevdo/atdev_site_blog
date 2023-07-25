@@ -20,7 +20,7 @@
 	/* BEGIN BOX SHADOW */
 	--box-shadow: 0 1px 1px 0 #1074bc;
 	--box-shadow-hover: 0 1px 10px 0 #6689c4;
-	--box-shadow-post: 0 0.2rem 1rem 0.4rem #1074bc;
+	--box-shadow-post: 0 0 1rem 0.4rem #1074bc;
 	/* END BOX SHADOW */
 
 	/* BEGIN OTHERS */
