@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 title: Primera conexión con el espacio
 description: Como fue la primera conexión con el espacio
-publishDate: 2023-07-03
+publishDate: 2023-06-03
 category: community
 author: Rubén Chicharro
 minRead: 2
