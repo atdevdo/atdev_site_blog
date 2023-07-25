@@ -526,6 +526,37 @@
         #_form_1_ .phone-input-error {
             border: 1px solid #e40e49 !important;
         }
+        #_form_1_ {
+            box-shadow: 0.125rem 0.25rem 1.25rem 0.0875rem rgba(45,45,45,.13) !important;
+            max-width: 60%;
+        }
+        ._form-title {
+            color: #1074BC !important;
+            font-size: 1.8rem !important;
+            font-family: GothamBold,sans-serif !important;
+        }
+        ._html-code {
+            color: #54647a !important;
+            font-size: 1rem !important;
+            font-family: GothamBold,sans-serif !important;
+        }
+        #email {
+            font-size: 1rem !important;
+            border: 0.08rem solid #d4d4e1 !important;
+            font-family: GothamBold,sans-serif !important;
+        }
+        #_form_1_ ._submit {
+            font-size: 1rem !important;
+            background-color: transparent !important;
+            color: #1074BC !important;
+            border: 0.08rem solid #1074bc !important;
+            font-family: GothamBold,sans-serif !important;
+        }
+        #_form_1_ ._inline-style input[type="text"] {
+            font-size: 1rem !important;
+            width: 300px !important;
+            font-family: GothamBold,sans-serif !important;
+        }
     </style>
     <div style="text-align: center;">
         <form method="POST" action="https://atdev21715.activehosted.com/proc.php" id="_form_1_" class="_form _form_1 _inline-form _inline-style _dark" novalidate data-styles-version="1">
@@ -540,14 +571,14 @@
             <div class="_form-content">
                 <div class="_form_element _x44787762 _inline-style _clear" >
                     <div class="_form-title">
-          Subscribe for Email Updates
-        </div>
+                        {{post.subscribe.title[locale] | upper}}
+                    </div>
                 </div>
                 <div class="_form_element _x49187747 _inline-style _clear" >
                     <div class="_html-code">
                         <p>
-            Add a descriptive message telling what your visitor is signing up for here.
-          </p>
+                            {{post.subscribe.description[locale]}}
+                        </p>
                     </div>
                 </div>
                 <div class="_form_element _x64521965 _inline-style " >
@@ -555,27 +586,18 @@
           &nbsp;
         </label>
                     <div class="_field-wrapper">
-                        <input type="text" id="email" name="email" placeholder="Type your email" required/>
+                        <input type="text" id="email" name="email" placeholder="{{post.subscribe.placeholder[locale] | upper}}" required/>
                     </div>
                 </div>
                 <div class="_button-wrapper _inline-style">
                     <button id="_form_1_submit" class="_submit" type="submit">
-          Submit
-        </button>
+                        {{post.subscribe.button[locale] | upper}}
+                    </button>
                 </div>
                 <div class="_clear-element"></div>
             </div>
             <div class="_form-thank-you" style="display:none;"></div>
-            <div class="_form-branding">
-                <div class="_marketing-by">
-        Marketing by
-      </div>
-                <a href="https://www.activecampaign.com/?utm_medium=referral&utm_campaign=acforms" class="_logo">
-                    <span class="form-sr-only">
-          ActiveCampaign
-        </span>
-                </a>
-            </div>
+            <div class="_form-branding"></div>
         </form>
     </div>
     <script type="text/javascript">
