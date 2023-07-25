@@ -42,9 +42,12 @@
 
 <!-- Begin header -->
 <header class="header">
-
+    {% set header_position = 'fixed' %}
+    {% if 'posts' in page.url %}
+        {% set header_position = 'relative' %}
+    {% endif %}
     <!-- Begin header fixed -->
-    <nav class="header-fixed">
+    <nav class="header-fixed" style="position: {{header_position}} !important;">
         <div class="container">
             <div class="row flex-nowrap align-items-center justify-content-between">
                 <div class="col-auto d-block d-lg-none header-fixed-col">
