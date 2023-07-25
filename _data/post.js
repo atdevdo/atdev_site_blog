@@ -14,7 +14,7 @@ module.exports = {
 	subscribe: {
 		title: {
 			en: 'JOIN 100,000+ USERS',
-			es: 'ÚNETE A MÁS DE 100 000 USUARIOS',
+			es: 'ÚNETE A MÁS DE 100,000 USUARIOS',
 		},
 		description: {
 			en: 'who receive our energizing newsletter every week, filled with only the best handpicked articles ATDEV are reading about engineering, career growth and ATDEV culture.',

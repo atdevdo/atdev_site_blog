@@ -151,22 +151,7 @@
             </aside>
             {# END POST SHARE LINKS #}
 
-            <div class="subscribe-box">
-              <div class="subscribe-section" style="box-shadow: 0.125rem 0.25rem 1.25rem 0.0875rem rgba(45,45,45,.13) !important">
-                <div class="subscribe-section-title">
-                  <h2>{{post.subscribe.title[locale] | upper}}</h2>
-                  <p>{{post.subscribe.description[locale]}}</p>
-                </div>
-                <form action="" class="subscribe-section-form">
-                  <div class="subscribe-section-input-box">
-                    <input type="text" name="subscribe-email" id="subscribe-email" placeholder="{{post.subscribe.placeholder[locale] | upper}}">
-                  </div>
-                  <button class="subscribe-section-subscribe-box" type="submit">
-                    <span>{{post.subscribe.button[locale] | upper}}</span>
-                  </button>
-                </form>
-              </div>
-            </div>
+            {% include "../components/blocks/subscribe.njk" %}
 
           </div>
 
