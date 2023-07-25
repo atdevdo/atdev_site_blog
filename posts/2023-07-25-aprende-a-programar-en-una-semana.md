@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 title: Aprende a programar en una semana
 description: Programe rapido que usted pueded
-publishDate: 2023-05-25
+publishDate: 2023-06-26
 category: technology
 language: es
 author: No Author
