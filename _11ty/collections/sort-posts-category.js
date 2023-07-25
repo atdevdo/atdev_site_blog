@@ -1,8 +1,12 @@
 // * BEGIN COLLECTION SORTED BY TITLE
 exports.sortedTechnologyByTitleEn = function (collection) {
 	return collection
-		.getFilteredByGlob('./posts/en/*.md')
-		.filter((item) => item.data.category === 'technology')
+		.getFilteredByGlob('./posts/*.md')
+		.filter(
+			(item) =>
+				item.data.category === 'technology' &&
+				item.data.language === 'en'
+		)
 		.sort(function (a, b) {
 			if (a.data.title && b.data.title) {
 				return a.data.title.localeCompare(b.data.title)
@@ -12,8 +16,12 @@ exports.sortedTechnologyByTitleEn = function (collection) {
 }
 exports.sortedTechnologyByTitleEs = function (collection) {
 	return collection
-		.getFilteredByGlob('./posts/es/*.md')
-		.filter((item) => item.data.category === 'technology')
+		.getFilteredByGlob('./posts/*.md')
+		.filter(
+			(item) =>
+				item.data.category === 'technology' &&
+				item.data.language === 'es'
+		)
 		.sort(function (a, b) {
 			if (a.data.title && b.data.title) {
 				return a.data.title.localeCompare(b.data.title)
@@ -24,8 +32,11 @@ exports.sortedTechnologyByTitleEs = function (collection) {
 
 exports.sortedGrowthByTitleEn = function (collection) {
 	return collection
-		.getFilteredByGlob('./posts/en/*.md')
-		.filter((item) => item.data.category === 'growth')
+		.getFilteredByGlob('./posts/*.md')
+		.filter(
+			(item) =>
+				item.data.category === 'growth' && item.data.language === 'en'
+		)
 		.sort(function (a, b) {
 			if (a.data.title && b.data.title) {
 				return a.data.title.localeCompare(b.data.title)
@@ -35,8 +46,11 @@ exports.sortedGrowthByTitleEn = function (collection) {
 }
 exports.sortedGrowthByTitleEs = function (collection) {
 	return collection
-		.getFilteredByGlob('./posts/es/*.md')
-		.filter((item) => item.data.category === 'growth')
+		.getFilteredByGlob('./posts/*.md')
+		.filter(
+			(item) =>
+				item.data.category === 'growth' && item.data.language === 'es'
+		)
 		.sort(function (a, b) {
 			if (a.data.title && b.data.title) {
 				return a.data.title.localeCompare(b.data.title)
@@ -47,8 +61,12 @@ exports.sortedGrowthByTitleEs = function (collection) {
 
 exports.sortedCommunityByTitleEn = function (collection) {
 	return collection
-		.getFilteredByGlob('./posts/en/*.md')
-		.filter((item) => item.data.category === 'community')
+		.getFilteredByGlob('./posts/*.md')
+		.filter(
+			(item) =>
+				item.data.category === 'community' &&
+				item.data.language === 'en'
+		)
 		.sort(function (a, b) {
 			if (a.data.title && b.data.title) {
 				return a.data.title.localeCompare(b.data.title)
@@ -58,8 +76,12 @@ exports.sortedCommunityByTitleEn = function (collection) {
 }
 exports.sortedCommunityByTitleEs = function (collection) {
 	return collection
-		.getFilteredByGlob('./posts/es/*.md')
-		.filter((item) => item.data.category === 'community')
+		.getFilteredByGlob('./posts/*.md')
+		.filter(
+			(item) =>
+				item.data.category === 'community' &&
+				item.data.language === 'es'
+		)
 		.sort(function (a, b) {
 			if (a.data.title && b.data.title) {
 				return a.data.title.localeCompare(b.data.title)
@@ -70,8 +92,12 @@ exports.sortedCommunityByTitleEs = function (collection) {
 
 exports.sortedRemoteWorkByTitleEn = function (collection) {
 	return collection
-		.getFilteredByGlob('./posts/en/*.md')
-		.filter((item) => item.data.category === 'remote-work')
+		.getFilteredByGlob('./posts/*.md')
+		.filter(
+			(item) =>
+				item.data.category === 'remote-work' &&
+				item.data.language === 'en'
+		)
 		.sort(function (a, b) {
 			if (a.data.title && b.data.title) {
 				return a.data.title.localeCompare(b.data.title)
@@ -81,8 +107,12 @@ exports.sortedRemoteWorkByTitleEn = function (collection) {
 }
 exports.sortedRemoteWorkByTitleEs = function (collection) {
 	return collection
-		.getFilteredByGlob('./posts/es/*.md')
-		.filter((item) => item.data.category === 'remote-work')
+		.getFilteredByGlob('./posts/*.md')
+		.filter(
+			(item) =>
+				item.data.category === 'remote-work' &&
+				item.data.language === 'es'
+		)
 		.sort(function (a, b) {
 			if (a.data.title && b.data.title) {
 				return a.data.title.localeCompare(b.data.title)
@@ -95,53 +125,83 @@ exports.sortedRemoteWorkByTitleEs = function (collection) {
 // * BEGIN COLLECTION SORTED BY TIME
 exports.sortedTechnologyByTimeEn = function (collection) {
 	return collection
-		.getFilteredByGlob('./posts/en/*.md')
-		.filter((item) => item.data.category === 'technology')
+		.getFilteredByGlob('./posts/*.md')
+		.filter(
+			(item) =>
+				item.data.category === 'technology' &&
+				item.data.language === 'en'
+		)
 		.sort((a, b) => b.data.minRead - a.data.minRead)
 }
 exports.sortedTechnologyByTimeEs = function (collection) {
 	return collection
-		.getFilteredByGlob('./posts/es/*.md')
-		.filter((item) => item.data.category === 'technology')
+		.getFilteredByGlob('./posts/*.md')
+		.filter(
+			(item) =>
+				item.data.category === 'technology' &&
+				item.data.language === 'es'
+		)
 		.sort((a, b) => b.data.minRead - a.data.minRead)
 }
 
 exports.sortedGrowthByTimeEn = function (collection) {
 	return collection
-		.getFilteredByGlob('./posts/en/*.md')
-		.filter((item) => item.data.category === 'growth')
+		.getFilteredByGlob('./posts/*.md')
+		.filter(
+			(item) =>
+				item.data.category === 'growth' && item.data.language === 'en'
+		)
 		.sort((a, b) => b.data.minRead - a.data.minRead)
 }
 exports.sortedGrowthByTimeEs = function (collection) {
 	return collection
-		.getFilteredByGlob('./posts/es/*.md')
-		.filter((item) => item.data.category === 'growth')
+		.getFilteredByGlob('./posts/*.md')
+		.filter(
+			(item) =>
+				item.data.category === 'growth' && item.data.language === 'es'
+		)
 		.sort((a, b) => b.data.minRead - a.data.minRead)
 }
 
 exports.sortedCommunityByTimeEn = function (collection) {
 	return collection
-		.getFilteredByGlob('./posts/en/*.md')
-		.filter((item) => item.data.category === 'community')
+		.getFilteredByGlob('./posts/*.md')
+		.filter(
+			(item) =>
+				item.data.category === 'community' &&
+				item.data.language === 'en'
+		)
 		.sort((a, b) => b.data.minRead - a.data.minRead)
 }
 exports.sortedCommunityByTimeEs = function (collection) {
 	return collection
-		.getFilteredByGlob('./posts/es/*.md')
-		.filter((item) => item.data.category === 'community')
+		.getFilteredByGlob('./posts/*.md')
+		.filter(
+			(item) =>
+				item.data.category === 'community' &&
+				item.data.language === 'es'
+		)
 		.sort((a, b) => b.data.minRead - a.data.minRead)
 }
 
 exports.sortedRemoteWorkByTimeEn = function (collection) {
 	return collection
-		.getFilteredByGlob('./posts/en/*.md')
-		.filter((item) => item.data.category === 'remote-work')
+		.getFilteredByGlob('./posts/*.md')
+		.filter(
+			(item) =>
+				item.data.category === 'remote-work' &&
+				item.data.language === 'en'
+		)
 		.sort((a, b) => b.data.minRead - a.data.minRead)
 }
 exports.sortedRemoteWorkByTimeEs = function (collection) {
 	return collection
-		.getFilteredByGlob('./posts/es/*.md')
-		.filter((item) => item.data.category === 'remote-work')
+		.getFilteredByGlob('./posts/*.md')
+		.filter(
+			(item) =>
+				item.data.category === 'remote-work' &&
+				item.data.language === 'es'
+		)
 		.sort((a, b) => b.data.minRead - a.data.minRead)
 }
 // * END COLLECTION SORTED BY TIME
@@ -149,60 +209,90 @@ exports.sortedRemoteWorkByTimeEs = function (collection) {
 // * BEGIN COLLECTION SORTED BY DATE
 exports.sortedTechnologyByDateEn = function (collection) {
 	return collection
-		.getFilteredByGlob('./posts/en/*.md')
-		.filter((item) => item.data.category === 'technology')
+		.getFilteredByGlob('./posts/*.md')
+		.filter(
+			(item) =>
+				item.data.category === 'technology' &&
+				item.data.language === 'en'
+		)
 		.sort((a, b) => b.data.publishDate - a.data.publishDate)
 		.reverse()
 }
 exports.sortedTechnologyByDateEs = function (collection) {
 	return collection
-		.getFilteredByGlob('./posts/es/*.md')
-		.filter((item) => item.data.category === 'technology')
+		.getFilteredByGlob('./posts/*.md')
+		.filter(
+			(item) =>
+				item.data.category === 'technology' &&
+				item.data.language === 'es'
+		)
 		.sort((a, b) => b.data.publishDate - a.data.publishDate)
 		.reverse()
 }
 
 exports.sortedGrowthByDateEn = function (collection) {
 	return collection
-		.getFilteredByGlob('./posts/en/*.md')
-		.filter((item) => item.data.category === 'growth')
+		.getFilteredByGlob('./posts/*.md')
+		.filter(
+			(item) =>
+				item.data.category === 'growth' && item.data.language === 'en'
+		)
 		.sort((a, b) => b.data.publishDate - a.data.publishDate)
 		.reverse()
 }
 exports.sortedGrowthByDateEs = function (collection) {
 	return collection
-		.getFilteredByGlob('./posts/es/*.md')
-		.filter((item) => item.data.category === 'growth')
+		.getFilteredByGlob('./posts/*.md')
+		.filter(
+			(item) =>
+				item.data.category === 'growth' && item.data.language === 'es'
+		)
 		.sort((a, b) => b.data.publishDate - a.data.publishDate)
 		.reverse()
 }
 
 exports.sortedCommunityByDateEn = function (collection) {
 	return collection
-		.getFilteredByGlob('./posts/en/*.md')
-		.filter((item) => item.data.category === 'community')
+		.getFilteredByGlob('./posts/*.md')
+		.filter(
+			(item) =>
+				item.data.category === 'community' &&
+				item.data.language === 'en'
+		)
 		.sort((a, b) => b.data.publishDate - a.data.publishDate)
 		.reverse()
 }
 exports.sortedCommunityByDateEs = function (collection) {
 	return collection
-		.getFilteredByGlob('./posts/es/*.md')
-		.filter((item) => item.data.category === 'community')
+		.getFilteredByGlob('./posts/*.md')
+		.filter(
+			(item) =>
+				item.data.category === 'community' &&
+				item.data.language === 'es'
+		)
 		.sort((a, b) => b.data.publishDate - a.data.publishDate)
 		.reverse()
 }
 
 exports.sortedRemoteWorkByDateEn = function (collection) {
 	return collection
-		.getFilteredByGlob('./posts/en/*.md')
-		.filter((item) => item.data.category === 'remote-work')
+		.getFilteredByGlob('./posts/*.md')
+		.filter(
+			(item) =>
+				item.data.category === 'remote-work' &&
+				item.data.language === 'en'
+		)
 		.sort((a, b) => b.data.publishDate - a.data.publishDate)
 		.reverse()
 }
 exports.sortedRemoteWorkByDateEs = function (collection) {
 	return collection
-		.getFilteredByGlob('./posts/es/*.md')
-		.filter((item) => item.data.category === 'remote-work')
+		.getFilteredByGlob('./posts/*.md')
+		.filter(
+			(item) =>
+				item.data.category === 'remote-work' &&
+				item.data.language === 'es'
+		)
 		.sort((a, b) => b.data.publishDate - a.data.publishDate)
 		.reverse()
 }

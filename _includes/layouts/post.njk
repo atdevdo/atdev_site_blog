@@ -1,6 +1,17 @@
+{% set locale = 'en' %}
+{% set tags = 'en' %}
+
+{% if language == 'en' %}
+  locale = 'en'
+  tags = 'en'
+  {% else %}
+  locale = 'es'
+  tags = 'es'
+{% endif %}
+
 <!DOCTYPE html>
 <html id="html" lang="{{ locale }}"
-  dir="{{ dir }}">
+  dir="ltr">
   <head>
     <meta charset="UTF-8"/>
     <meta
