@@ -19,7 +19,7 @@ const service_list = {
 			link: `${origin}/pages/en/services/nearshore/`,
 		},
 		es: {
-			label: `Aumento de Personal Cerca de la Costa`,
+			label: `Dotación de Personal`,
 			link: `${origin}/pages/es/services/nearshore/`,
 		},
 	},
