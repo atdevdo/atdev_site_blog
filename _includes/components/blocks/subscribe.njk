@@ -558,6 +558,12 @@
         #_form_3_._inline-style {
             padding-top: 2rem !important;
         }
+        #_form_3_submit {
+            transition: transform var(--transition-speed);
+        }
+        #_form_3_submit:hover {
+            transform: scale(1.06);
+        }
     </style>
     <form method="POST" action="https://atdev21715.activehosted.com/proc.php" id="_form_3_" class="_form _form_3 _inline-form  _dark" novalidate data-styles-version="1">
         <input type="hidden" name="u" value="3"/>
@@ -587,7 +593,8 @@
                     <input type="text" id="email" name="email" placeholder="{{post.subscribe.placeholder[locale] | upper}}" required/>
                 </div>
             </div>
-            <div class="_button-wrapper _full_width">
+
+            <div class="_button-wrapper _full_width" style="display: flex; align-items: center; justify-content: end;">
                 <button id="_form_3_submit" class="_submit" type="submit">
                     {{post.subscribe.button[locale] | upper}}
                 </button>
