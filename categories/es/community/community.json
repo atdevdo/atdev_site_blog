@@ -2,7 +2,7 @@
 	"layout": "layouts/category.njk",
 	"category": "community",
 	"category_tags": "communityEs",
-	"collection": "communityCollectionEs",
+	"category_collection": "communityCollectionEs",
 	"collectionByTitle": "sortedCommunityByTitleEs",
 	"collectionByTime": "sortedCommunityByTimeEs",
 	"collectionByDate": "sortedCommunityByDateEs",

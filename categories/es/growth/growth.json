@@ -2,7 +2,7 @@
 	"layout": "layouts/category.njk",
 	"category": "growth",
 	"category_tags": "growthEs",
-	"collection": "growthCollectionEs",
+	"category_collection": "growthCollectionEs",
 	"collectionByTitle": "sortedGrowthByTitleEs",
 	"collectionByTime": "sortedGrowthByTimeEs",
 	"collectionByDate": "sortedGrowthByDateEs",

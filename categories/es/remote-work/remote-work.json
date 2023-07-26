@@ -2,7 +2,7 @@
 	"layout": "layouts/category.njk",
 	"category": "remote-work",
 	"category_tags": "remote-workEs",
-	"collection": "remoteWorkCollectionEs",
+	"category_collection": "remoteWorkCollectionEs",
 	"collectionByTitle": "sortedRemoteWorkByTitleEs",
 	"collectionByTime": "sortedRemoteWorkByTimeEs",
 	"collectionByDate": "sortedRemoteWorkByDateEs",
