@@ -1,7 +1,4 @@
 {% block subscribe %}
-    <style>
-        @import url(https://fonts.bunny.net/css?family=ibm-plex-sans:400,600);
-    </style >
     <style >
         #_form_3_ {
             font-size: 14px;
@@ -446,7 +443,7 @@
         #_form_3_._inline-form ._form-content,
         #_form_3_._inline-form ._submit,
         #_form_3_._inline-form input {
-            font-family: "IBM Plex Sans", Helvetica, sans-serif;
+            font-family: GothamBold, Helvetica, sans-serif;
         }
         #_form_3_ ._form-title {
             font-size: 22px;
@@ -573,7 +570,7 @@
         <input type="hidden" name="m" value="0"/>
         <input type="hidden" name="act" value="sub"/>
         <input type="hidden" name="v" value="2"/>
-        <input type="hidden" name="or" value="f2e04ddadddb19f99fc3406f4e001fd0"/>
+        <input type="hidden" name="or" value="8a9720a017df954593300706f20fd13a"/>
         <div class="_form-content">
             <div class="_form_element _x64406883 _full_width _clear" >
                 <div class="_form-title">
@@ -593,7 +590,6 @@
                     <input type="text" id="email" name="email" placeholder="{{post.subscribe.placeholder[locale] | upper}}" required/>
                 </div>
             </div>
-
             <div class="_button-wrapper _full_width" style="display: flex; align-items: center; justify-content: end;">
                 <button id="_form_3_submit" class="_submit" type="submit">
                     {{post.subscribe.button[locale] | upper}}
@@ -601,7 +597,7 @@
             </div>
             <div class="_clear-element"></div>
         </div>
-        <div class="_form-thank-you" style="display:none;"></div>
+        <div class="_form-thank-you" style="display:none; font-family: 'GothamBold'; color: #1074BC;"></div>
     </form>
     <script type="text/javascript">
         window.cfields = [];
@@ -612,7 +608,11 @@
                 .querySelector('._form-content')
                 .style
                 .display = 'none';
-            thank_you.innerHTML = message;
+            if (location.href.includes('/en/')) {
+                thank_you.innerHTML = 'Thanks for subscribing!';
+            } else {
+                thank_you.innerHTML = '¡Gracias por suscribirte!';
+            }
             thank_you.style.display = 'block';
             const vgoAlias = typeof visitorGlobalObjectAlias === 'undefined'
                 ? 'vgo'
