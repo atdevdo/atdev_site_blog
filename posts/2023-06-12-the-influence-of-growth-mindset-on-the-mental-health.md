@@ -50,8 +50,6 @@ Up to now, few studies have explored the relationship between growth mindsets, m
 
 ## Materials and Methods
 
-### Participants
-
 A total of 2,505 participants were recruited from Huzhou University in China. All participants were 1st-year college students (690 men, 27.54%; 1,815 women, 72.46%; mean age: 18.38 years; see [Table 1](https://www.frontiersin.org/articles/10.3389/fpsyg.2022.821206/full#tab1)). Informed consent was obtained from all participants. The study was reviewed and approved by the Institutional Review Board of the Human Research Ethics Committee of Huzhou University.
 
 Table 1
