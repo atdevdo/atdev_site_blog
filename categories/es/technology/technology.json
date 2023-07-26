@@ -2,7 +2,7 @@
 	"layout": "layouts/category.njk",
 	"category": "technology",
 	"category_tags": "technologyEs",
-	"collection": "technologyCollectionEs",
+	"category_collection": "technologyCollectionEs",
 	"collectionByTitle": "sortedTechnologyByTitleEs",
 	"collectionByTime": "sortedTechnologyByTimeEs",
 	"collectionByDate": "sortedTechnologyByDate",

@@ -13,83 +13,88 @@ dir: 'ltr'
 {% from "../../_includes/components/macros/atdev.macro.njk" import macro_atdev %}
 {# END MACROS - IMPORTS #}
 
-{# BEGIN FILTER - SORTING #}
-<div id="filter-sort-container">
-	<div id="filterbox">
-		<div class="field">
-			<input type="search" placeholder="Buscar..." id="searchField"/>
+{% if collections.decapPostsEs | length != 0 %}
+	{# BEGIN FILTER - SORTING #}
+	<div id="filter-sort-container">
+		<div id="filterbox">
+			<div class="field">
+				<input type="search" placeholder="Buscar..." id="searchField"/>
+			</div>
+			<ol id="searchResults"></ol>
+			<div id="noResultsFound" style="display: none">
+				<p>No hay resultados.</p>
+			</div>
 		</div>
-		<ol id="searchResults"></ol>
-		<div id="noResultsFound" style="display: none">
-			<p>No hay resultados.</p>
+
+		<div id="sort-by-title-box">
+			<h2>FILTRAR POR</h2>
+		</div>
+
+		<div id="sort-controls">
+			<button id="sort-btn-title">
+				<p>Título</p>
+				<img src="/assets/icons/sort-az.webp" alt="sort az"/>
+			</button>
+			<button id="sort-btn-time-read">
+				<p>Tiempo</p>
+				<img src="/assets/icons/sort-time-read.webp" alt="sort time to read"/>
+			</button>
+			<button id="sort-btn-category">
+				<P>Categoría</P>
+				<img src="/assets/icons/sort-category.webp" alt="sort category"/>
+			</button>
+			<button id="sort-btn-date">
+				<p>Fecha</p>
+				<img src="/assets/icons/release-date-icon.webp" alt="sort date"/>
+			</button>
 		</div>
 	</div>
+	{# END FILTER - SORTING #}
 
-	<div id="sort-by-title-box">
-		<h2>FILTRAR POR</h2>
+	{# BEGIN POST LIST #}
+	<div id="sorting">
+		<div id="sorted-title" style="display: none;">
+			{{ macro_sorted_list_title(collections.sortedByTitleEs, 7, categories, locale) }}
+		</div>
+
+		<div id="sorted-time" style="display: none;">
+			{{ macro_sorted_list_time(collections.sortedByTimeEs, 7, categories, locale) }}
+		</div>
+
+		<div id="sorted-category" style="display: none;">
+			{{ macro_sorted_list_category(collections.sortedByCategoryEs, 7, categories, locale) }}
+		</div>
+
+		<div id="sorted-date" style="display: none;">
+			{{ macro_sorted_list_date(collections.sortedByDateEs, 7, categories, locale) }}
+		</div>
+
+		<div id="not-sorted">
+			{{ macro_no_sort(collections.decapPostsEs, categories, locale) }}
+		</div>
 	</div>
+	{# END POST LIST #}
 
-	<div id="sort-controls">
-		<button id="sort-btn-title">
-			<p>Título</p>
-			<img src="/assets/icons/sort-az.webp" alt="sort az"/>
-		</button>
-		<button id="sort-btn-time-read">
-			<p>Tiempo</p>
-			<img src="/assets/icons/sort-time-read.webp" alt="sort time to read"/>
-		</button>
-		<button id="sort-btn-category">
-			<P>Categoría</P>
-			<img src="/assets/icons/sort-category.webp" alt="sort category"/>
-		</button>
-		<button id="sort-btn-date">
-			<p>Fecha</p>
-			<img src="/assets/icons/release-date-icon.webp" alt="sort date"/>
-		</button>
+	{# BEGIN CATEGORIES #}
+
+	{# BEGIN TECHNOLOGY - CATEGORY #}
+	<div class="category-container">
+		<div class="category-container__head">
+			<h2>Tecnología</h2>
+			<a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/es/technology/1">Ver Más</a>
+		</div>
+		<div class="posts-container">
+			{% if collections.technologyCollectionEs | length != 0 %}
+				{{ macro_category_post(collections.technologyCollectionEs, 'technology', 0, 7, categories, locale) }}
+			{% else %}
+				<h2 style="text-align: center; height: 300px; display: flex; align-items: center; justify-content: center;">No Hay Posts Disponibles</h2>
+			{% endif %}
+		</div>
 	</div>
-</div>
-{# END FILTER - SORTING #}
+	{# END TECHNOLOGY - CATEGORY #}
 
-{# BEGIN POST LIST #}
-<div id="sorting">
-	<div id="sorted-title" style="display: none;">
-		{{ macro_sorted_list_title(collections.sortedByTitleEs, 7, categories, locale) }}
-	</div>
-
-	<div id="sorted-time" style="display: none;">
-		{{ macro_sorted_list_time(collections.sortedByTimeEs, 7, categories, locale) }}
-	</div>
-
-	<div id="sorted-category" style="display: none;">
-		{{ macro_sorted_list_category(collections.sortedByCategoryEs, 7, categories, locale) }}
-	</div>
-
-	<div id="sorted-date" style="display: none;">
-		{{ macro_sorted_list_date(collections.sortedByDateEs, 7, categories, locale) }}
-	</div>
-
-	<div id="not-sorted">
-		{{ macro_no_sort(collections.decapPostsEs, categories, locale) }}
-	</div>
-</div>
-{# END POST LIST #}
-
-{# BEGIN CATEGORIES #}
-
-{# BEGIN TECHNOLOGY - CATEGORY #}
-<div class="category-container">
-	<div class="category-container__head">
-		<h2>Tecnología</h2>
-		<a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/es/technology/1">Ver Más</a>
-	</div>
-	<div class="posts-container">
-		{{ macro_category_post(collections.technologyCollectionEs, 'technology', 0, 7, categories, locale) }}
-	</div>
-</div>
-{# END TECHNOLOGY - CATEGORY #}
-
-{# BEGIN ATDEV CUSTOM SOFTWARE DEVELOPMENT #}
-{{
+	{# BEGIN ATDEV CUSTOM SOFTWARE DEVELOPMENT #}
+	{{
   macro_atdev(
     'atdev-content-customsd',
     'Desarrollo de Software Personalizado',
@@ -98,22 +103,26 @@ dir: 'ltr'
     'Custom Software Development Image'
   )
 }}
-{# END ATDEV CUSTOM SOFTWARE DEVELOPMENT #}
+	{# END ATDEV CUSTOM SOFTWARE DEVELOPMENT #}
 
-{# BEGIN COMMUNITY - CATEGORY #}
-<div class="category-container">
-	<div class="category-container__head">
-		<h2>Comunidad</h2>
-		<a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/es/community/1">Ver Más</a>
+	{# BEGIN COMMUNITY - CATEGORY #}
+	<div class="category-container">
+		<div class="category-container__head">
+			<h2>Comunidad</h2>
+			<a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/es/community/1">Ver Más</a>
+		</div>
+		<div class="posts-container">
+			{% if collections.communityCollectionEs | length != 0 %}
+				{{ macro_category_post(collections.communityCollectionEs, 'community', 0, 7, categories, locale) }}
+			{% else %}
+				<h2 style="text-align: center; height: 300px; display: flex; align-items: center; justify-content: center;">No Hay Posts Disponibles</h2>
+			{% endif %}
+		</div>
 	</div>
-	<div class="posts-container">
-		{{ macro_category_post(collections.communityCollectionEs, 'community', 0, 7, categories, locale) }}
-	</div>
-</div>
-{# END COMMUNITY - CATEGORY #}
+	{# END COMMUNITY - CATEGORY #}
 
-{# BEGIN ATDEV ABOUT #}
-{{
+	{# BEGIN ATDEV ABOUT #}
+	{{
   macro_atdev(
     'atdev-content-about',
     'Nosotros',
@@ -122,22 +131,26 @@ dir: 'ltr'
     'About Image'
   )
 }}
-{# END ATDEV ABOUT #}
+	{# END ATDEV ABOUT #}
 
-{# BEGIN GROWTH - CATEGORY #}
-<div class="category-container">
-	<div class="category-container__head">
-		<h2>Crecimiento</h2>
-		<a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/es/growth/1">Ver Más</a>
+	{# BEGIN GROWTH - CATEGORY #}
+	<div class="category-container">
+		<div class="category-container__head">
+			<h2>Crecimiento</h2>
+			<a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/es/growth/1">Ver Más</a>
+		</div>
+		<div class="posts-container">
+			{% if collections.growthCollectionEs | length != 0 %}
+				{{ macro_category_post(collections.growthCollectionEs, 'growth', 0, 7, categories, locale) }}
+			{% else %}
+				<h2 style="text-align: center; height: 300px; display: flex; align-items: center; justify-content: center;">No Hay Posts Disponibles</h2>
+			{% endif %}
+		</div>
 	</div>
-	<div class="posts-container">
-		{{ macro_category_post(collections.growthCollectionEs, 'growth', 0, 7, categories, locale) }}
-	</div>
-</div>
-{# END GROWTH - CATEGORY #}
+	{# END GROWTH - CATEGORY #}
 
-{# BEGIN ATDEV NEARSHORE #}
-{{
+	{# BEGIN ATDEV NEARSHORE #}
+	{{
   macro_atdev(
     'atdev-content-nearshore',
     'Dotación de Personal',
@@ -146,18 +159,26 @@ dir: 'ltr'
     'Nearshore Image'
   )
 }}
-{# END ATDEV NEARSHORE #}
+	{# END ATDEV NEARSHORE #}
 
-{# BEGIN REMOTE WORK - CATEGORY #}
-<div class="category-container">
-	<div class="category-container__head">
-		<h2>Trabajo Remoto</h2>
-		<a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/es/remote-work/1">Ver Más</a>
+	{# BEGIN REMOTE WORK - CATEGORY #}
+	<div class="category-container">
+		<div class="category-container__head">
+			<h2>Trabajo Remoto</h2>
+			<a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/es/remote-work/1">Ver Más</a>
+		</div>
+		<div class="posts-container">
+			{% if collections.remoteWorkCollectionEs | length != 0 %}
+				{{ macro_category_post(collections.remoteWorkCollectionEs, 'remote-work', 0, 7, categories, locale) }}
+			{% else %}
+				<h2 style="text-align: center; height: 300px; display: flex; align-items: center; justify-content: center;">No Hay Posts Disponibles</h2>
+			{% endif %}
+		</div>
 	</div>
-	<div class="posts-container">
-		{{ macro_category_post(collections.remoteWorkCollectionEs, 'remote-work', 0, 7, categories, locale) }}
-	</div>
-</div>
-{# END REMOTE WORK - CATEGORY #}
+	{# END REMOTE WORK - CATEGORY #}
 
-{# END CATEGORIES #}
+	{# END CATEGORIES #}
+
+{% else %}
+	<h2 style="text-align: center; height: 300px; display: flex; align-items: center; justify-content: center;">No Hay Posts Disponibles</h2>
+{% endif %}
