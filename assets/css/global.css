@@ -11,6 +11,10 @@
 	font-family: 'Gotham', 'Lato', 'Gotham', 'Plus Jakarta Sans', sans-serif;
 }
 
+header {
+	background-color: white !important;
+}
+
 /* width */
 ::-webkit-scrollbar {
 	width: 0.125rem;
