@@ -16,7 +16,7 @@
             {% if locale == "en" %}
                 <h2>PAGE 1</h2>
             {% else %}
-                <h2>PAGINA 1</h2>
+                <h2>PÁGINA 1</h2>
             {% endif %}
         {% elif collection_length == current_page %}
             {# ? LAST PAGE #}
@@ -33,7 +33,7 @@
             {% if locale == "en" %}
                 <h2>PAGE {{ current_page }} of {{ collection_length }}</h2>
             {% else %}
-                <h2>PAGINA {{ current_page }} de {{ collection_length }}</h2>
+                <h2>PÁGINA {{ current_page }} de {{ collection_length }}</h2>
             {% endif %}
         {% elif collection_length == current_page + 1 %}
             {# ? PENULTIMATE PAGE #}
@@ -49,7 +49,7 @@
             {% if locale == "en" %}
                 <h2>PAGE {{ current_page }} of {{ collection_length }}</h2>
             {% else %}
-                <h2>PAGINA {{ current_page }} de {{ collection_length }}</h2>
+                <h2>PÁGINA {{ current_page }} de {{ collection_length }}</h2>
             {% endif %}
 
             {% if locale == "en" %}
@@ -63,7 +63,7 @@
                 {% if locale == "en" %}
                     <h2>PAGE {{ current_page }} of {{ collection_length }}</h2>
                 {% else %}
-                    <h2>PAGINA {{ current_page }} de {{ collection_length }}</h2>
+                    <h2>PÁGINA {{ current_page }} de {{ collection_length }}</h2>
                 {% endif %}
 
                 {% if locale == "en" %}
@@ -88,7 +88,7 @@
                 {% if locale == "en" %}
                     <h2>PAGE {{ current_page }} of {{ collection_length }}</h2>
                 {% else %}
-                    <h2>PAGINA {{ current_page }} de {{ collection_length }}</h2>
+                    <h2>PÁGINA {{ current_page }} de {{ collection_length }}</h2>
                 {% endif %}
                 {% if locale == "en" %}
                     <a onclick="mixpanel.track('Go Next Category Post Page Button - Blog')" href="/categories/{{locale}}/{{category_tags}}/{{ current_page + 1}}/">NEXT</a>
