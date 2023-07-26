@@ -386,6 +386,7 @@ module.exports = {
 	sortedByTitleEn: function (collection) {
 		return collection
 			.getFilteredByGlob('./posts/*.md')
+			.filter((item) => item.data.language === 'en')
 			.sort(function (a, b) {
 				if (a.data.title && b.data.title) {
 					return a.data.title.localeCompare(b.data.title)
@@ -396,6 +397,7 @@ module.exports = {
 	sortedByTitleEs: function (collection) {
 		return collection
 			.getFilteredByGlob('./posts/*.md')
+			.filter((item) => item.data.language === 'es')
 			.sort(function (a, b) {
 				if (a.data.title && b.data.title) {
 					return a.data.title.localeCompare(b.data.title)
@@ -406,16 +408,19 @@ module.exports = {
 	sortedByTimeEn: function (collection) {
 		return collection
 			.getFilteredByGlob('./posts/*.md')
+			.filter((item) => item.data.language === 'en')
 			.sort((a, b) => b.data.minRead - a.data.minRead)
 	},
 	sortedByTimeEs: function (collection) {
 		return collection
 			.getFilteredByGlob('./posts/*.md')
+			.filter((item) => item.data.language === 'es')
 			.sort((a, b) => b.data.minRead - a.data.minRead)
 	},
 	sortedByCategoryEn: function (collection) {
 		return collection
 			.getFilteredByGlob('./posts/*.md')
+			.filter((item) => item.data.language === 'en')
 			.sort(function (a, b) {
 				if (a.data.category && b.data.category) {
 					return a.data.category.localeCompare(b.data.category)
@@ -426,6 +431,7 @@ module.exports = {
 	sortedByCategoryEs: function (collection) {
 		return collection
 			.getFilteredByGlob('./posts/*.md')
+			.filter((item) => item.data.language === 'es')
 			.sort(function (a, b) {
 				if (a.data.category && b.data.category) {
 					return a.data.category.localeCompare(b.data.category)
@@ -436,12 +442,14 @@ module.exports = {
 	sortedByDateEn: function (collection) {
 		return collection
 			.getFilteredByGlob('./posts/*.md')
+			.filter((item) => item.data.language === 'en')
 			.sort((a, b) => b.data.publishDate - a.data.publishDate)
 			.reverse()
 	},
 	sortedByDateEs: function (collection) {
 		return collection
 			.getFilteredByGlob('./posts/*.md')
+			.filter((item) => item.data.language === 'es')
 			.sort((a, b) => b.data.publishDate - a.data.publishDate)
 			.reverse()
 	},
