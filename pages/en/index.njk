@@ -14,6 +14,7 @@ dir: 'ltr'
 {% from "../../_includes/components/macros/sort-posts.macro.njk" import macro_no_sort %}
 {% from "../../_includes/components/macros/category-post.macro.njk" import macro_category_post %}
 {% from "../../_includes/components/macros/atdev.macro.njk" import macro_atdev %}
+{% from "../../_includes/components/macros/category.macro.njk" import macro_category %}
 {# END MACROS - IMPORTS #}
 
 {% if collections.decapPostsEs | length != 0 %}
@@ -81,19 +82,7 @@ dir: 'ltr'
 	{# BEGIN CATEGORIES #}
 
 	{# BEGIN TECHNOLOGY - CATEGORY #}
-	<div class="category-container">
-		<div class="category-container__head">
-			<h2>Technology</h2>
-			<a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/en/technology/1">View More</a>
-		</div>
-		<div class="posts-container">
-			{% if collections.technologyCollectionEn | length != 0 %}
-				{{ macro_category_post(collections.technologyCollectionEn, 'technology', 0, 7, categories, locale) }}
-			{% else %}
-				<h2 style="text-align: center; height: 300px; display: flex; align-items: center; justify-content: center;">No Posts Available</h2>
-			{% endif %}
-		</div>
-	</div>
+	{{macro_category('Technology', 'View More', "/categories/en/technology/1", collections.technologyCollectionEn, 'technology', 0, 7, categories, locale, 'No Posts Available')}}
 	{# END TECHNOLOGY - CATEGORY #}
 
 	{# BEGIN ATDEV CUSTOM SOFTWARE DEVELOPMENT #}
@@ -109,19 +98,7 @@ dir: 'ltr'
 	{# END ATDEV CUSTOM SOFTWARE DEVELOPMENT #}
 
 	{# BEGIN COMMUNITY - CATEGORY #}
-	<div class="category-container">
-		<div class="category-container__head">
-			<h2>Community</h2>
-			<a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/en/community/1">View More</a>
-		</div>
-		<div class="posts-container">
-			{% if collections.communityCollectionEn | length != 0 %}
-				{{ macro_category_post(collections.communityCollectionEn, 'community', 0, 7, categories, locale) }}
-			{% else %}
-				<h2 style="text-align: center; height: 300px; display: flex; align-items: center; justify-content: center;">No Posts Available</h2>
-			{% endif %}
-		</div>
-	</div>
+	{{macro_category('Community', 'View More', "/categories/en/community/1", collections.communityCollectionEn, 'community', 0, 7, categories, locale, 'No Posts Available')}}
 	{# END COMMUNITY - CATEGORY #}
 
 	{# BEGIN ATDEV ABOUT #}
@@ -137,19 +114,7 @@ dir: 'ltr'
 	{# END ATDEV ABOUT #}
 
 	{# BEGIN GROWTH - CATEGORY #}
-	<div class="category-container">
-		<div class="category-container__head">
-			<h2>Growth</h2>
-			<a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/en/growth/1">View More</a>
-		</div>
-		<div class="posts-container">
-			{% if collections.growthCollectionEn | length != 0 %}
-				{{ macro_category_post(collections.growthCollectionEn, 'growth', 0, 7, categories, locale) }}
-			{% else %}
-				<h2 style="text-align: center; height: 300px; display: flex; align-items: center; justify-content: center;">No Posts Available</h2>
-			{% endif %}
-		</div>
-	</div>
+	{{macro_category('Growth', 'View More', "/categories/en/growth/1", collections.growthCollectionEn, 'growth', 0, 7, categories, locale, 'No Posts Available')}}
 	{# END GROWTH - CATEGORY #}
 
 	{# BEGIN ATDEV NEARSHORE #}
@@ -165,19 +130,7 @@ dir: 'ltr'
 	{# END ATDEV NEARSHORE #}
 
 	{# BEGIN REMOTE WORK - CATEGORY #}
-	<div class="category-container">
-		<div class="category-container__head">
-			<h2>Remote Work</h2>
-			<a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="/categories/en/remote-work/1">View More</a>
-		</div>
-		<div class="posts-container">
-			{% if collections.remoteWorkCollectionEn | length != 0 %}
-				{{ macro_category_post(collections.remoteWorkCollectionEn, 'remote-work', 0, 7, categories, locale) }}
-			{% else %}
-				<h2 style="text-align: center; height: 300px; display: flex; align-items: center; justify-content: center;">No Posts Available</h2>
-			{% endif %}
-		</div>
-	</div>
+	{{macro_category('Remote Work', 'View More', "/categories/en/remote-work/1", collections.remoteWorkCollectionEn, 'remote-work', 0, 7, categories, locale, 'No Posts Available')}}
 	{# END REMOTE WORK - CATEGORY #}
 
 	{# END CATEGORIES #}

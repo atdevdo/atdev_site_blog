@@ -1,0 +1,17 @@
+{% from "../macros/category-post.macro.njk" import macro_category_post %}
+
+{% macro macro_category(title, view, view_more_link, collection, category, from, to, categories, locale, post_available) %}
+    <div class="category-container">
+        <div class="category-container__head">
+            <h2>{{title}}</h2>
+            <a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="{{view_more_link}}">{{view}}</a>
+        </div>
+        <div class="posts-container">
+            {% if collection | length != 0 %}
+                {{ macro_category_post(collection, category, from, to, categories, locale) }}
+            {% else %}
+                <h2 style="text-align: center; height: 300px; display: flex; align-items: center; justify-content: center;">{{post_available}}</h2>
+            {% endif %}
+        </div>
+    </div>
+{% endmacro %}
