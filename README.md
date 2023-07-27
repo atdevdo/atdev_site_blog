@@ -70,8 +70,9 @@ In this blog you will see articles of different types, such as:
 ### Folder Structure
 
 ```.
-├── _11ty
+├── configuration
     ├── collections
+    ├── minifier
     └── filters
 ├── _data
 ├── _includes
