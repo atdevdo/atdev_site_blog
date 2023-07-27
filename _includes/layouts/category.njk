@@ -74,7 +74,7 @@
 
 				{% for item in categories.en %}
 					{% if item == category | fixCategory %}
-						{{ macro_intro("BLOG - " + categories[locale][loop.index0] | upper , categories[locale][loop.index0] | capitalize , quote_list[locale][list_length | random].quote) }}
+						{{ macro_intro("BLOG - " + categories[locale][loop.index0] | upper) }}
 					{% endif %}
 				{% endfor %}
 				{% include "../components/blocks/header.block.njk" %}
