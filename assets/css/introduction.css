@@ -1,22 +1,27 @@
 /** @format */
 
 .intro {
-	margin-top: 4rem;
 	width: 100%;
-	background-size: 100% auto;
-	background-position: center;
-	background-repeat: no-repeat;
 	height: 24rem;
-	padding: 6rem 12rem;
+	position: relative;
 	box-shadow: 0 10px 6px rgba(0, 33, 41, 0.13295);
+}
+
+.intro img {
+	box-shadow: 0 10px 6px rgba(0, 33, 41, 0.13295);
+	width: 100%;
+	height: 100%;
 }
 
 .intro_text1 {
 	width: 100%;
 	color: #555c6f !important;
+	position: sticky;
+	top: 10rem;
+	padding-left: 10rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
 	/* .intro {
 		padding: 0;
 		padding: 1.4rem;

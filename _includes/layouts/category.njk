@@ -66,15 +66,9 @@
 					{% set list_length = (list_length.push(loop.index0), list_length) %}
 				{% endfor %}
 
-				<style>
-					.intro {
-						background-image: url("{{banner}}") !important;
-					}
-				</style>
-
 				{% for item in categories.en %}
 					{% if item == category | fixCategory %}
-						{{ macro_intro("BLOG - " + categories[locale][loop.index0] | upper) }}
+						{{ macro_intro("BLOG - " + categories[locale][loop.index0] | upper, banner) }}
 					{% endif %}
 				{% endfor %}
 				{% include "../components/blocks/header.block.njk" %}
