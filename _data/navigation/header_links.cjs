@@ -1,6 +1,6 @@
 /** @format */
 
-const navigation = require('./navigation')
+const navigation = require('./navigation.cjs')
 
 module.exports = {
 	en: [

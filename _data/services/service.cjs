@@ -1,9 +1,9 @@
 /** @format */
 
-const navigation = require('../navigation/navigation')
-const service_app_development = require('./service_app_development')
-const service_nearshore = require('./service_nearshore')
-const service_recruiting = require('./service_recruiting')
+const navigation = require('../navigation/navigation.cjs')
+const service_app_development = require('./service_app_development.cjs')
+const service_nearshore = require('./service_nearshore.cjs')
+const service_recruiting = require('./service_recruiting.cjs')
 
 module.exports = {
 	en: [
