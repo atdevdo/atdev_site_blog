@@ -2,14 +2,14 @@
     {% if link != null %}
         <a class="intro">
             <h3 class="intro_text1">{{ text_1 }}</h3>
-            <h1 class="intro_text2">{{ text_2 }}</h1>
-            <h3 class="intro_text3">{{ text_3 }}</h3>
+            <h1 style="visibility: hidden" class="intro_text2">{{ text_2 }}</h1>
+            <h3 style="visibility: hidden" class="intro_text3">{{ text_3 }}</h3>
         </a>
     {% else %}
         <div class="intro">
             <h3 class="intro_text1">{{ text_1 }}</h3>
-            <h1 class="intro_text2">{{ text_2 }}</h1>
-            <h3 class="intro_text3">{{ text_3 }}</h3>
+            <h1 style="visibility: hidden" class="intro_text2">{{ text_2 }}</h1>
+            <h3 style="visibility: hidden" class="intro_text3">{{ text_3 }}</h3>
         </div>
     {% endif %}
 {% endmacro %}

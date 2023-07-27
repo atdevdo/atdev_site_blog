@@ -19,7 +19,8 @@
 .intro_text1,
 .intro_text2,
 .intro_text3 {
-	color: #eeeeee !important;
+	margin-left: -4rem;
+	color: #555c6f !important;
 }
 
 .intro_text2 {
