@@ -15,44 +15,12 @@ dir: 'ltr'
 {% from "../../_includes/components/macros/category-post.macro.njk" import macro_category_post %}
 {% from "../../_includes/components/macros/atdev.macro.njk" import macro_atdev %}
 {% from "../../_includes/components/macros/category.macro.njk" import macro_category %}
+{% from "../../_includes/components/macros/filter.macro.njk" import macro_filter %}
 {# END MACROS - IMPORTS #}
 
 {% if collections.decapPostsEs | length != 0 %}
 	{# BEGIN FILTER - SORTING #}
-	<div id="filter-sort-container">
-		<div id="filterbox">
-			<div class="field">
-				<input type="search" placeholder="Search..." id="searchField"/>
-			</div>
-			<ol id="searchResults"></ol>
-			<div id="noResultsFound" style="display: none">
-				<p>No results found.</p>
-			</div>
-		</div>
-
-		<div id="sort-by-title-box">
-			<h2>SORT BY</h2>
-		</div>
-
-		<div id="sort-controls">
-			<button id="sort-btn-title">
-				<p>Title</p>
-				<img src="/assets/icons/sort-az.webp" alt="sort az"/>
-			</button>
-			<button id="sort-btn-time-read">
-				<p>Time</p>
-				<img src="/assets/icons/sort-time-read.webp" alt="sort time to read"/>
-			</button>
-			<button id="sort-btn-category">
-				<P>Category</P>
-				<img src="/assets/icons/sort-category.webp" alt="sort category"/>
-			</button>
-			<button id="sort-btn-date">
-				<p>Date</p>
-				<img src="/assets/icons/release-date-icon.webp" alt="sort date"/>
-			</button>
-		</div>
-	</div>
+	{{macro_filter("Search...", "No results found.", "SORT BY", "Title", "Time", "Category", "Date")}}
 	{# END FILTER - SORTING #}
 
 	{# BEGIN POST LIST #}
