@@ -2,6 +2,7 @@
 
 .intro {
 	width: 100%;
+	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: #4394ce;
@@ -18,7 +19,8 @@
 .intro_text1,
 .intro_text2,
 .intro_text3 {
-	color: #eeeeee !important;
+	margin-left: -4rem;
+	color: #555c6f !important;
 }
 
 .intro_text2 {
