@@ -1,11 +1,6 @@
-{% macro macro_intro(text_1) %}
-    {% if link != null %}
-        <a class="intro">
-            <h3 class="intro_text1">{{ text_1 }}</h3>
-        </a>
-    {% else %}
-        <div class="intro">
-            <h3 class="intro_text1">{{ text_1 }}</h3>
-        </div>
-    {% endif %}
+{% macro macro_intro(text_1, banner) %}
+    <div class="intro">
+        <h3 class="intro_text1">{{ text_1 }}</h3>
+        <img src="{{banner}}" alt="image">
+    </div>
 {% endmacro %}

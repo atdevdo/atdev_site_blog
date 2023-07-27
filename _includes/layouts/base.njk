@@ -50,15 +50,9 @@
       <div id="parent-container" class="main-inner">
         {% include "../components/blocks/atdevHeader.block.njk" %}
 
-        <style>
-          .intro {
-            background-image: url("/assets/images/banners/banner.jpg") !important;
-          }
-        </style>
-
         {% from "../components/macros/introduction.macro.njk" import macro_intro %}
 
-        {{ macro_intro('BLOG') }}
+        {{ macro_intro('BLOG', "/assets/images/banners/banner.jpg") }}
 
         {% include "../components/blocks/header.block.njk" %}
 
