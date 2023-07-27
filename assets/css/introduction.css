@@ -2,12 +2,13 @@
 
 .intro {
 	width: 100%;
-	height: 24rem;
+	min-height: 24rem;
 	position: relative;
 	box-shadow: 0 10px 6px rgba(0, 33, 41, 0.13295);
 }
 
 .intro img {
+	position: sticky;
 	box-shadow: 0 10px 6px rgba(0, 33, 41, 0.13295);
 	width: 100%;
 	height: 100%;
@@ -17,14 +18,13 @@
 	width: 100%;
 	color: #555c6f !important;
 	position: sticky;
+	z-index: 10;
 	top: 10rem;
 	padding-left: 10rem;
 }
 
 @media only screen and (max-width: 500px) {
 	/* .intro {
-		padding: 0;
-		padding: 1.4rem;
 	} */
 }
 
@@ -32,4 +32,10 @@
 	/* .intro {
 		padding: 6.8rem;
 	} */
+}
+
+@media only screen and (max-width: 1228px) {
+	.intro img {
+		min-height: 24rem !important;
+	}
 }
