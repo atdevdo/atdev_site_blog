@@ -1,0 +1,36 @@
+{% macro macro_filter(placeholder, no_result, sort_by, sort_title, sort_time, sort_category, sort_date) %}
+    <div id="filter-sort-container">
+        <div id="filterbox">
+            <div class="field">
+                <input type="search" placeholder="{{placeholder}}" id="searchField"/>
+            </div>
+            <ol id="searchResults"></ol>
+            <div id="noResultsFound" style="display: none">
+                <p>{{no_result}}</p>
+            </div>
+        </div>
+
+        <div id="sort-by-title-box">
+            <h2>{{sort_by}}</h2>
+        </div>
+
+        <div id="sort-controls">
+            <button id="sort-btn-title">
+                <p>{{sort_title}}</p>
+                <img src="/assets/icons/sort-az.webp" alt="sort az"/>
+            </button>
+            <button id="sort-btn-time-read">
+                <p>{{sort_time}}</p>
+                <img src="/assets/icons/sort-time-read.webp" alt="sort time to read"/>
+            </button>
+            <button id="sort-btn-category">
+                <P>{{sort_category}}</P>
+                <img src="/assets/icons/sort-category.webp" alt="sort category"/>
+            </button>
+            <button id="sort-btn-date">
+                <p>{{sort_date}}</p>
+                <img src="/assets/icons/release-date-icon.webp" alt="sort date"/>
+            </button>
+        </div>
+    </div>
+{% endmacro %}
