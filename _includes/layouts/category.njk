@@ -68,7 +68,7 @@
 
 				{% for item in categories.en %}
 					{% if item == category | fixCategory %}
-						{{ macro_intro("BLOG - " + categories[locale][loop.index0] | upper, banner) }}
+						{{ macro_intro("BLOG - " + categories[locale][loop.index0] | upper, banner, "/assets/images/banners/banner-mobile.jpg") }}
 					{% endif %}
 				{% endfor %}
 				{% include "../components/blocks/header.block.njk" %}
