@@ -39,7 +39,7 @@ module.exports = {
 		},
 		{
 			label: navigation.services.service_list.recruiting.es.label,
-			link: navigation.services.service_list.recruiting.en.link,
+			link: navigation.services.service_list.recruiting.es.link,
 			title: service_recruiting.base.es.title,
 			icon: service_recruiting.base.es.icon,
 			long_description: service_recruiting.base.es.long_description,
