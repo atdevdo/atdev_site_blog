@@ -100,6 +100,8 @@ input {
 	font-size: 0.8rem;
 	/* font-weight: bold; */
 	border-radius: 0.2rem;
+	border: none;
+	outline: none;
 	cursor: pointer;
 	border: none;
 }
