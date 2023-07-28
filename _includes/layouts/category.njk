@@ -143,6 +143,7 @@
 							{{ macro_category_inner_navigation(collections[category_tags] | length, current_page, category, locale) }}
 						</div>
 						{# END INNER NAVIGATION #}
+						{% include "../components/blocks/subscribe.njk" %}
 
 					{% else %}
 						<h2 style="text-align: center; height: 300px; display: flex; align-items: center; justify-content: center;">
@@ -152,8 +153,10 @@
 								No Hay Posts Disponibles
 							{% endif %}
 						</h2>
+						{% include "../components/blocks/subscribe.njk" %}
 					{% endif %}
 				</main>
+
 			</div>
 
 			{% include "../components/blocks/atdevFooter.block.njk" %}
