@@ -1,22 +1,72 @@
 {% macro breadcrumb(page_url, categories, locale, category, post_title) %}
-    <div id="breadcrumb" style="padding-left: 10rem;">
+    {# BEGIN MATERIAL ICONS - HOME #}
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,500,0,200"/>
+    {# END MATERIAL ICONS - HOME #}
+
+    <style>
+        #breadcrumb {
+            width: 85%;
+        }
+
+        #breadcrumb p {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            padding-left: 10rem;
+            margin-top: 5rem;
+            margin-bottom: -1rem;
+        }
+
+        .material-symbols-outlined {
+            padding-bottom: 0.1rem;
+        }
+
+        #breadcrumb-post_title {
+            padding-left: 0 !important;
+        }
+
+        @media only screen and (max-width: 500px) {
+            #breadcrumb {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            #breadcrumb p {
+                padding-left: 0 !important;
+            }
+
+            #breadcrumb-post_title {
+                margin: 0 !important;
+            }
+        }
+
+        @media only screen and (min-width: 2000px) {}
+    </style>
+
+    <div id="breadcrumb">
         {% if category == undefined %}
-            <p>home > <b>Blog</b>
+            <p>
+                <span class="material-symbols-outlined">home</span> > <b style="font-family: GothamBold,Lato,Gotham,'Plus Jakarta Sans',sans-serif;">Blog</b>
             </p>
+
         {% endif %}
 
         {% if category != undefined %}
             {% if post_title != undefined %}
                 {% for item in categories.en %}
                     {% if item == category %}
-                        <p>home > <span>Blog</span> > <span class="breadcrumb-category">{{categories[locale][loop.index0] | capitalize}}</span> > <b class="breadcrumb-post_title">{{post_title | capitalize}}</b>
+                        <p id="breadcrumb-post_title">
+                            <span class="material-symbols-outlined">home</span> > <span>Blog</span> > <span class="breadcrumb-category">{{categories[locale][loop.index0] | capitalize}}</span> > <b class="breadcrumb-post_title" style="font-family: GothamBold,Lato,Gotham,'Plus Jakarta Sans',sans-serif; margin-bottom: 0;">{{post_title | capitalize}}</b>
                         </p>
                     {% endif %}
                 {% endfor %}
             {% else %}
                 {% for item in categories.en %}
                     {% if item == category %}
-                        <p>home > <span>Blog</span> > <b class="breadcrumb-category">{{categories[locale][loop.index0] | capitalize}}</b>
+                        <p>
+                            <span class="material-symbols-outlined">home</span> > <span>Blog</span> > <b class="breadcrumb-category" style="font-family: GothamBold,Lato,Gotham,'Plus Jakarta Sans',sans-serif;">{{categories[locale][loop.index0] | capitalize}}</b>
                         </p>
                     {% endif %}
                 {% endfor %}
