@@ -71,6 +71,11 @@
 						{{ macro_intro("BLOG - " + categories[locale][loop.index0] | upper, banner, "/assets/images/banners/banner-mobile.jpg") }}
 					{% endif %}
 				{% endfor %}
+
+				{% from "../components/macros/breadcrumb.njk" import breadcrumb %}
+
+				{{breadcrumb(page.url, categories, locale, category | fixCategory)}}
+
 				{% include "../components/blocks/header.block.njk" %}
 
 				<main id="inner-main" class="category-posts">

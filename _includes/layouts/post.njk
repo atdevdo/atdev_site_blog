@@ -93,6 +93,9 @@
                     <p class="post__imgBox-textBox__publishDate">{{ publishDate | postDate }}</p>
                   </div>
                 </div>
+                {% from "../components/macros/breadcrumb.njk" import breadcrumb %}
+
+                {{breadcrumb(page.url, categories, locale, category | fixCategory, title)}}
                 {# END FEATURED IMAGE #}
 
                 {# BEGIN TABLE OF CONTENTS #}

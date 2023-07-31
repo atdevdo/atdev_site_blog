@@ -54,6 +54,10 @@
 
         {{ macro_intro('BLOG', "/assets/images/banners/banner.jpg", "/assets/images/banners/banner-mobile.jpg") }}
 
+        {% from "../components/macros/breadcrumb.njk" import breadcrumb %}
+
+        {{breadcrumb(page.url)}}
+
         {% include "../components/blocks/header.block.njk" %}
 
         {# BEGIN MAIN CONTENT #}

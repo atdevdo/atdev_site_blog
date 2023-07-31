@@ -1,0 +1,26 @@
+{% macro breadcrumb(page_url, categories, locale, category, post_title) %}
+    <div id="breadcrumb" style="padding-left: 10rem;">
+        {% if category == undefined %}
+            <p>home > <b>Blog</b>
+            </p>
+        {% endif %}
+
+        {% if category != undefined %}
+            {% if post_title != undefined %}
+                {% for item in categories.en %}
+                    {% if item == category %}
+                        <p>home > <span>Blog</span> > <span class="breadcrumb-category">{{categories[locale][loop.index0] | capitalize}}</span> > <b class="breadcrumb-post_title">{{post_title | capitalize}}</b>
+                        </p>
+                    {% endif %}
+                {% endfor %}
+            {% else %}
+                {% for item in categories.en %}
+                    {% if item == category %}
+                        <p>home > <span>Blog</span> > <b class="breadcrumb-category">{{categories[locale][loop.index0] | capitalize}}</b>
+                        </p>
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+        {% endif %}
+    </div>
+{% endmacro %}
