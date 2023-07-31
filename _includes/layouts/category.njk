@@ -34,12 +34,6 @@
 		{% include "../components/blocks/cssMinifier.block.njk" %}
 		{# END CSS IMPORTS #}
 
-		{# BEGIN FONT FAMILY - LATO #}
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-		{# END FONT FAMILY - LATO #}
-
 		{% for item in categories.en %}
 			{% if item == category | fixCategory %}
 				<title>{{categories[locale][loop.index0] | upper }} | {{ categories.label[locale] | upper }}
@@ -71,6 +65,11 @@
 						{{ macro_intro("BLOG - " + categories[locale][loop.index0] | upper, banner, "/assets/images/banners/banner-mobile.jpg") }}
 					{% endif %}
 				{% endfor %}
+
+				{% from "../components/macros/breadcrumb.njk" import breadcrumb %}
+
+				{{breadcrumb(page.url, categories, locale, category | fixCategory)}}
+
 				{% include "../components/blocks/header.block.njk" %}
 
 				<main id="inner-main" class="category-posts">
