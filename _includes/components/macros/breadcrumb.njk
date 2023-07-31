@@ -1,4 +1,4 @@
-{% macro breadcrumb(page_url, categories, locale, category, post_title) %}
+{% macro breadcrumb(home_link, blog_link, page_url, categories, locale, category, post_title) %}
     {# BEGIN MATERIAL ICONS - HOME #}
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,500,0,200"/>
     {# END MATERIAL ICONS - HOME #}
@@ -48,7 +48,7 @@
     <div id="breadcrumb">
         {% if category == undefined %}
             <p>
-                <span class="material-symbols-outlined">home</span> > <b style="font-family: GothamBold,Lato,Gotham,'Plus Jakarta Sans',sans-serif;">Blog</b>
+                <a href="{{home_link}}" class="material-symbols-outlined">home</a> > <b style="font-family: GothamBold,Lato,Gotham,'Plus Jakarta Sans',sans-serif;">Blog</b>
             </p>
 
         {% endif %}
@@ -58,7 +58,7 @@
                 {% for item in categories.en %}
                     {% if item == category %}
                         <p id="breadcrumb-post_title">
-                            <span class="material-symbols-outlined">home</span> > <span>Blog</span> > <span class="breadcrumb-category">{{categories[locale][loop.index0] | capitalize}}</span> > <b class="breadcrumb-post_title" style="font-family: GothamBold,Lato,Gotham,'Plus Jakarta Sans',sans-serif; margin-bottom: 0;">{{post_title | capitalize}}</b>
+                            <a href="{{home_link}}" class="material-symbols-outlined">home</a> > <a href="{{blog_link}}">Blog</a> > <span class="breadcrumb-category">{{categories[locale][loop.index0] | capitalize}}</span> > <b class="breadcrumb-post_title" style="font-family: GothamBold,Lato,Gotham,'Plus Jakarta Sans',sans-serif; margin-bottom: 0;">{{post_title | capitalize}}</b>
                         </p>
                     {% endif %}
                 {% endfor %}
@@ -66,7 +66,7 @@
                 {% for item in categories.en %}
                     {% if item == category %}
                         <p>
-                            <span class="material-symbols-outlined">home</span> > <span>Blog</span> > <b class="breadcrumb-category" style="font-family: GothamBold,Lato,Gotham,'Plus Jakarta Sans',sans-serif;">{{categories[locale][loop.index0] | capitalize}}</b>
+                            <a href="{{home_link}}" class="material-symbols-outlined">home</a> > <a href="{{blog_link}}">Blog</a> > <b class="breadcrumb-category" style="font-family: GothamBold,Lato,Gotham,'Plus Jakarta Sans',sans-serif;">{{categories[locale][loop.index0] | capitalize}}</b>
                         </p>
                     {% endif %}
                 {% endfor %}

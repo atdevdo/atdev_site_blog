@@ -50,7 +50,7 @@
 
         {% from "../components/macros/breadcrumb.njk" import breadcrumb %}
 
-        {{breadcrumb(page.url)}}
+        {{breadcrumb(navigation.header_links[locale][0].link, '/pages/' + locale + '/', page.url)}}
 
         {% include "../components/blocks/header.block.njk" %}
 

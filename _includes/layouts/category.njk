@@ -68,7 +68,7 @@
 
 				{% from "../components/macros/breadcrumb.njk" import breadcrumb %}
 
-				{{breadcrumb(page.url, categories, locale, category | fixCategory)}}
+				{{breadcrumb(navigation.header_links[locale][0].link, '/pages/' + locale + '/', page.url, categories, locale, category | fixCategory)}}
 
 				{% include "../components/blocks/header.block.njk" %}
 
