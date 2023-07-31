@@ -18,7 +18,7 @@ dir: 'ltr'
 {% from "../../_includes/components/macros/filter.macro.njk" import macro_filter %}
 {# END MACROS - IMPORTS #}
 
-{% if collections.decapPostsEs | length != 0 %}
+{% if collections.decapPostsEn | length != 0 %}
 	{# BEGIN FILTER - SORTING #}
 	{{macro_filter("Search...", "No results found.", "SORT BY", "Title", "Time", "Category", "Date")}}
 	{# END FILTER - SORTING #}

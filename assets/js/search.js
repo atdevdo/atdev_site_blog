@@ -23,13 +23,7 @@
 					;(c.textContent = a), r.appendChild(c)
 				})
 	}
-	fetch('/pages/en/search-index.json').then((l) =>
-		l.json().then((l) => {
-			;(e.searchIndex = elasticlunr.Index.load(l)),
-				t.getElementById('searchField').addEventListener('input', n)
-		})
-	)
-	fetch('/pages/es/search-index.json').then((l) =>
+	fetch('/search-index.json').then((l) =>
 		l.json().then((l) => {
 			;(e.searchIndex = elasticlunr.Index.load(l)),
 				t.getElementById('searchField').addEventListener('input', n)
