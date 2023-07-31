@@ -89,7 +89,7 @@
                 </div>
                 {% from "../components/macros/breadcrumb.njk" import breadcrumb %}
 
-                {{breadcrumb(page.url, categories, locale, category | fixCategory, title)}}
+                {{breadcrumb(navigation.header_links[locale][0].link, '/pages/' + locale + '/', '/categories/' + locale + '/' + category + '/1/', page.url, categories, locale, category | fixCategory, title)}}
                 {# END FEATURED IMAGE #}
 
                 {# BEGIN TABLE OF CONTENTS #}
