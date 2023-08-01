@@ -4,8 +4,28 @@
     {# END MATERIAL ICONS - HOME #}
 
     <style>
+        #breadcrumb * {
+            color: #3C8CCB !important;
+        }
+
         #breadcrumb {
             width: 85%;
+        }
+
+        #breadcrumb a,
+        #breadcrumb b,
+        #breadcrumb span {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        #breadcrumb a,
+        #breadcrumb b,
+        #breadcrumb p,
+        #breadcrumb span {
+            font-size: 0.9rem !important;
         }
 
         #breadcrumb p {
@@ -23,7 +43,7 @@
         }
 
         .material-symbols-outlined {
-            padding-bottom: 0.1rem;
+            padding-top: 0.03rem;
         }
 
         #breadcrumb-post_title {
@@ -52,7 +72,9 @@
     <div id="breadcrumb">
         {% if category == undefined %}
             <p>
-                <a href="{{home_link}}" class="material-symbols-outlined">home</a> > <b style="font-family: GothamBold,Lato,Gotham,'Plus Jakarta Sans',sans-serif;">Blog</b>
+                <a href="{{home_link}}" class="material-symbols-outlined">home</a>
+                <span>></span>
+                <b style="font-family: GothamBold,Lato,Gotham,'Plus Jakarta Sans',sans-serif;">Blog</b>
             </p>
 
         {% endif %}
@@ -62,7 +84,11 @@
                 {% for item in categories.en %}
                     {% if item == category %}
                         <p id="breadcrumb-post_title">
-                            <a href="{{home_link}}" class="material-symbols-outlined">home</a> > <a href="{{blog_link}}">Blog</a> > <a href="{{category_link}}" class="breadcrumb-category">{{categories[locale][loop.index0] | capitalize}}</a> > <b class="breadcrumb-post_title" style="font-family: GothamBold,Lato,Gotham,'Plus Jakarta Sans',sans-serif; margin-bottom: 0;">{{post_title | capitalize}}</b>
+                            <a href="{{home_link}}" class="material-symbols-outlined">home</a>
+                            <span>></span>
+                            <a href="{{blog_link}}">Blog</a>
+                            <span>></span>
+                            <a href="{{category_link}}" class="breadcrumb-category">{{categories[locale][loop.index0] | capitalize}}</a> > <b class="breadcrumb-post_title" style="font-family: GothamBold,Lato,Gotham,'Plus Jakarta Sans',sans-serif; margin-bottom: 0;">{{post_title | capitalize}}</b>
                         </p>
                     {% endif %}
                 {% endfor %}
@@ -70,7 +96,11 @@
                 {% for item in categories.en %}
                     {% if item == category %}
                         <p>
-                            <a href="{{home_link}}" class="material-symbols-outlined">home</a> > <a href="{{blog_link}}">Blog</a> > <b class="breadcrumb-category" style="font-family: GothamBold,Lato,Gotham,'Plus Jakarta Sans',sans-serif;">{{categories[locale][loop.index0] | capitalize}}</b>
+                            <a href="{{home_link}}" class="material-symbols-outlined">home</a>
+                            <span>></span>
+                            <a href="{{blog_link}}">Blog</a>
+                            <span>></span>
+                            <b class="breadcrumb-category" style="font-family: GothamBold,Lato,Gotham,'Plus Jakarta Sans',sans-serif;">{{categories[locale][loop.index0] | capitalize}}</b>
                         </p>
                     {% endif %}
                 {% endfor %}
