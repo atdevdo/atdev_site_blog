@@ -1,6 +1,6 @@
-/** @format */
-
 const elasticlunr = require('elasticlunr')
+
+elasticlunr.clearStopWords()
 
 module.exports = function (collection) {
 	var index = elasticlunr(function () {
