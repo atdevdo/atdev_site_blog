@@ -15,13 +15,15 @@ locale: 'es'
 {% from "../../_includes/components/macros/category-post.macro.njk" import macro_category_post %}
 {% from "../../_includes/components/macros/atdev.macro.njk" import macro_atdev %}
 {% from "../../_includes/components/macros/category.macro.njk" import macro_category %}
-{% from "../../_includes/components/macros/filter.macro.njk" import macro_filter_es %}
+{# {% from "../../_includes/components/macros/filter.macro.njk" import macro_filter_es %} #}
+{% from "../../_includes/components/macros/filter.macro.njk" import macro_filter %}
 {# END MACROS - IMPORTS #}
 
 {% if collections.decapPostsEs | length != 0 %}
 
 	{# BEGIN FILTER - SORTING #}
-	{{macro_filter_es("Buscar...", "No hay resultados.", "FILTRAR POR", "Título", "Tiempo", "Categoría", "Fecha")}}
+	{# {{macro_filter_es("Buscar...", "No hay resultados.", "FILTRAR POR", "Título", "Tiempo", "Categoría", "Fecha")}} #}
+	{{macro_filter("Buscar...", "No hay resultados.", "FILTRAR POR", "Título", "Tiempo", "Categoría", "Fecha")}}
 	{# END FILTER - SORTING #}
 
 	{# BEGIN POST LIST #}
