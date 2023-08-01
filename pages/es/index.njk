@@ -23,6 +23,16 @@ locale: 'es'
 	{# BEGIN FILTER - SORTING #}
 	<script src="/assets/js/searchEs.js" defer></script>
 	{{macro_filter("Buscar...", "No hay resultados.", "FILTRAR POR", "Título", "Tiempo", "Categoría", "Fecha")}}
+	<script defer>
+		const searchFieldValue = document.getElementById('searchField')
+		document.onkeydown = function (e) {
+			if (e.code == "Enter") {
+				console.log(e.code);
+				localStorage.setItem('searchFieldValue', searchFieldValue.value)
+				console.log(localStorage.getItem('searchFieldValue'))
+			}
+		};
+	</script>
 	{# END FILTER - SORTING #}
 
 	{# BEGIN POST LIST #}

@@ -23,6 +23,16 @@ dir: 'ltr'
 	{# BEGIN FILTER - SORTING #}
 	<script src="/assets/js/searchEn.js" defer></script>
 	{{macro_filter("Search...", "No results found.", "SORT BY", "Title", "Time", "Category", "Date")}}
+	<script defer>
+		const searchFieldValue = document.getElementById('searchField')
+		document.onkeydown = function (e) {
+			if (e.code == "Enter") {
+				console.log(e.code);
+				localStorage.setItem('searchFieldValue', searchFieldValue.value)
+				console.log(localStorage.getItem('searchFieldValue'))
+			}
+		};
+	</script>
 	{# END FILTER - SORTING #}
 
 	{# BEGIN POST LIST #}

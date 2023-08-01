@@ -1,0 +1,20 @@
+---
+permalink: /pages/en/collectionOfPosts
+title: 'Posts'
+dir: 'ltr'
+layout: 'layouts/base.njk'
+tags: 'en'
+locale: 'en'
+---
+
+<h1>{{title}}</h1>
+
+{% set filteredPosts = collections.posts | filteredPosts('en', 'h') %}
+
+{% for item in filteredPosts %}
+    {{item.data.title}}
+{% endfor %}
+
+<script defer>
+    console.log('Value:' + localStorage.getItem('searchFieldValue'))
+</script>

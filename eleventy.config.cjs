@@ -53,6 +53,18 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter('search', searchFilter)
 	eleventyConfig.addNunjucksFilter('fixCategory', fixCategory)
 	eleventyConfig.addFilter('postDate', postDate)
+	eleventyConfig.addNunjucksFilter(
+		'filteredPosts',
+		function (collection, lang, word) {
+			return collection
+				.filter(
+					(item) =>
+						item.data.language === lang &&
+						item.data.title[0].toLowerCase() === word
+				)
+				.sort((a, b) => a.data.publishDate - b.data.publishDate)
+		}
+	)
 	eleventyConfig.addNunjucksFilter('dateNow', dateNow)
 	eleventyConfig.addFilter('cssmin', minifiers.cssMinifier)
 	eleventyConfig.addNunjucksAsyncFilter('jsmin', minifiers.jsMinifier)
