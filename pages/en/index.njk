@@ -19,6 +19,7 @@ dir: 'ltr'
 {# END MACROS - IMPORTS #}
 
 {% if collections.decapPostsEn | length != 0 %}
+
 	{# BEGIN FILTER - SORTING #}
 	{{macro_filter("Search...", "No results found.", "SORT BY", "Title", "Time", "Category", "Date")}}
 	{# END FILTER - SORTING #}

@@ -4,9 +4,8 @@ const elasticlunr = require('elasticlunr')
 
 module.exports = function (collection) {
 	var index = elasticlunr(function () {
-		// @ts-ignore
 		this.addField('title')
-		// @ts-ignore
+		this.addField('description')
 		this.setRef('id')
 	})
 
@@ -14,6 +13,7 @@ module.exports = function (collection) {
 		index.addDoc({
 			id: page.url,
 			title: page.template.frontMatter.data.title,
+			description: page.template.frontMatter.data.description,
 		})
 	})
 

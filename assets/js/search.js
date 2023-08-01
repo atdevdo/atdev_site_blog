@@ -1,32 +1,92 @@
-!(function (e, t) {
+;(function (window, document) {
 	'use strict'
-	let n = (n) => {
-		let l = e.searchIndex.search(n.target.value, {
-				bool: 'OR',
-				expand: !0,
-			}),
-			d = t.getElementById('searchResults')
-		t.getElementById('noResultsFound'),
-			(d.innerHTML = ''),
-			l &&
-				l.map((e) => {
-					let { id: n, title: l, description: a } = e.doc,
-						r = t.createElement('li')
-					d.appendChild(r)
-					let s = t.createElement('h3')
-					r.appendChild(s)
-					let h = t.createElement('a')
-					h.setAttribute('href', n),
-						(h.textContent = l),
-						s.appendChild(h)
-					let c = t.createElement('p')
-					;(c.textContent = a), r.appendChild(c)
-				})
+
+	const search = (e) => {
+		const results = window.searchIndex.search(e.target.value, {
+			bool: 'OR',
+			expand: true,
+		})
+
+		const resEl = document.getElementById('searchResults')
+		const noResultsEl = document.getElementById('noResultsFound')
+
+		resEl.innerHTML = ''
+		if (results) {
+			noResultsEl.style.display = 'none'
+			results.map((r) => {
+				const { id, title, description } = r.doc
+				const el = document.createElement('li')
+				resEl.appendChild(el)
+
+				const h3 = document.createElement('h3')
+				el.appendChild(h3)
+
+				const a = document.createElement('a')
+				a.setAttribute('href', id)
+				a.textContent = title
+				h3.appendChild(a)
+
+				const p = document.createElement('p')
+				p.textContent = description
+				el.appendChild(p)
+			})
+		} else {
+			noResultsEl.style.display = 'block'
+		}
 	}
-	fetch('/search-index.json').then((l) =>
-		l.json().then((l) => {
-			;(e.searchIndex = elasticlunr.Index.load(l)),
-				t.getElementById('searchField').addEventListener('input', n)
+
+	fetch('/search-index-en.json').then((response) =>
+		response.json().then((rawIndex) => {
+			window.searchIndex = elasticlunr.Index.load(rawIndex)
+			document
+				.getElementById('searchField')
+				.addEventListener('input', search)
+		})
+	)
+})(window, document)
+;(function (window, document) {
+	'use strict'
+
+	const searchEs = (e) => {
+		const resultsEs = window.searchIndex.search(e.target.value, {
+			bool: 'OR',
+			expand: true,
+		})
+
+		const resElEs = document.getElementById('searchResultsEs')
+		const noResultsElEs = document.getElementById('noResultsFoundEs')
+
+		resElEs.innerHTML = ''
+		if (resultsEs) {
+			noResultsElEs.style.display = 'none'
+			resultsEs.map((r) => {
+				const { id, title, description } = r.doc
+				const el = document.createElement('li')
+				resElEs.appendChild(el)
+
+				const h3 = document.createElement('h3')
+				el.appendChild(h3)
+
+				const a = document.createElement('a')
+				a.setAttribute('href', id + 'es')
+				a.textContent = title
+				h3.appendChild(a)
+
+				const p = document.createElement('p')
+				p.textContent = description
+				el.appendChild(p)
+			})
+		} else {
+			noResultsElEs.style.display = 'block'
+		}
+	}
+
+	fetch('/search-index-es.json').then((response) =>
+		response.json().then((rawIndex) => {
+			window.searchIndex = elasticlunr.Index.load(rawIndex)
+			document
+				.getElementById('searchFieldEs')
+				.addEventListener('input', searchEs)
 		})
 	)
 })(window, document)
