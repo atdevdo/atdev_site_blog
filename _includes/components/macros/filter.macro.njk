@@ -2,7 +2,24 @@
     <div id="filter-sort-container">
         <div id="filterbox">
             <div class="field">
-                <input type="search" placeholder="{{placeholder}}" id="searchField"/>
+                {% set inputValue = '' %}
+                <input type="search" placeholder="{{placeholder}}" value="{{inputValue}}" id="searchField"/>
+
+                <script>
+                    // JavaScript code to handle input field changes
+                    const inputField = document.getElementById("searchField");
+
+                    inputField.addEventListener("input", (event) => {
+                        const newValue = event.target.value;
+                        // Update the Nunjucks variable by calling a function (if using a framework like Vue or React, the update could be automatic)
+                        updateNunjucksVariable(newValue);
+                    });
+
+                    function updateNunjucksVariable(value) {
+                        window.inputValue = value;
+                        localStorage.setItem('ayo', window.inputValue)
+                    }
+                </script>
             </div>
             <ol id="searchResults"></ol>
             <div id="noResultsFound" style="display: none">
