@@ -5,7 +5,7 @@
             <ul class="mob-main-mnu-list">
                 <li>
                     <a onclick="mixpanel.track('Go Home button')" href="{{navigation.header_links[locale][0].link}}" data-title="{{ navigation.header_links[locale][0].label }}">
-                        <span style="font-weight: bold; font-family: 'GothamBold' !important;">{{ navigation.header_links[locale][0].label }}</span>
+                        <span style="font-weight: bold; font-family: 'figtree' !important;">{{ navigation.header_links[locale][0].label }}</span>
                     </a>
                 </li>
                 {% for page in navigation.header_links[locale] %}
@@ -78,7 +78,7 @@
                                 <ul class="main-mnu-list">
                                     <li>
                                         <a onclick="mixpanel.track('Go Home Button')" href="{{navigation.header_links[locale][0].link}}" data-title="{{ navigation.header_links[locale][0].label }}">
-                                            <span style="font-weight: bold; font-family: 'GothamBold' !important;">{{ navigation.header_links[locale][0].label }}</span>
+                                            <span style="font-weight: bold; font-family: 'figtree' !important;">{{ navigation.header_links[locale][0].label }}</span>
                                         </a>
                                     </li>
                                     {% for page in navigation.header_links[locale] %}
@@ -87,14 +87,14 @@
                                             {% if page.label == "Services" or page.label == "Servicios" %}
                                                 <li class="main-mnu-item-has-child">
                                                     <a onclick="mixpanel.track('Go ' + navigation.header_links[locale][1].label + ' button')" href="{{ page.link }}" data-title={{navigation.header_links[locale][1].label}}>
-                                                        <span style="font-weight: bold; font-family: 'GothamBold' !important;">{{ navigation.header_links[locale][1].label }}</span>
+                                                        <span style="font-weight: bold; font-family: 'figtree' !important;">{{ navigation.header_links[locale][1].label }}</span>
                                                         <i class="material-icons">expand_more</i>
                                                     </a>
                                                     <ul>
                                                         {% for service in services.service[locale] %}
                                                             <li>
                                                                 <a onclick="mixpanel.track('Go' + service.label + ' Button')" href="{{ service.link }}" data-title="{{ service.label }}">
-                                                                    <span style="font-weight: bold; font-family: 'GothamBold' !important;">{{ service.label }}</span>
+                                                                    <span style="font-weight: bold; font-family: 'figtree' !important;">{{ service.label }}</span>
                                                                 </a>
                                                             </li>
                                                         {% endfor %}
@@ -105,7 +105,7 @@
                                                 {% else %}
                                                     <li>
                                                         <a href="{{ page.link }}" data-title="{{ page.label }}">
-                                                            <span style="font-weight: bold; font-family: 'GothamBold' !important;">{{ page.label }}</span>
+                                                            <span style="font-weight: bold; font-family: 'figtree' !important;">{{ page.label }}</span>
                                                         </a>
                                                     </li>
                                                 {% endif %}
@@ -118,12 +118,12 @@
                                             <ul>
                                                 <li>
                                                     <a onclick="mixpanel.track('Go to English Page Button')" class="btn-language" data-title="English" lang="en">
-                                                        <span style="font-weight: bold; font-family: 'GothamBold' !important;">English</span>
+                                                        <span style="font-weight: bold; font-family: 'figtree' !important;">English</span>
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a onclick="mixpanel.track('Go to Spanish Page Button')" class="btn-language" data-title="Español" lang="es">
-                                                        <span style="font-weight: bold; font-family: 'GothamBold' !important;">Español</span>
+                                                        <span style="font-weight: bold; font-family: 'figtree' !important;">Español</span>
                                                     </a>
                                                 </li>
                                             </ul>

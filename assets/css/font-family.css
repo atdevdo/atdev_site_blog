@@ -1,10 +1,15 @@
-/* START GOTHAM */
 @font-face {
+	font-family: 'figtree';
+	src: url(/assets/fonts/figtree/Figtree-VariableFont_wght.ttf);
+}
+
+/* START GOTHAM */
+/* @font-face {
 	font-family: 'Gotham';
 	src: url(/assets/fonts/GOTHAM2ND/Gotham-Book.otf);
 }
 @font-face {
 	font-family: 'GothamBold';
 	src: url(/assets/fonts/GOTHAM2ND/Gotham-Bold.otf);
-}
+} */
 /* END GOTHAM */
