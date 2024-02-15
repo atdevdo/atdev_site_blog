@@ -2,180 +2,176 @@
 {% set tags = 'en' %}
 
 {% if language == 'en' %}
-  {% set locale = 'en' %}
-  {% set tags = 'en' %}
+{% set locale = 'en' %}
+{% set tags = 'en' %}
 {% else %}
-  {% set locale = 'es' %}
-  {% set tags = 'es' %}
+{% set locale = 'es' %}
+{% set tags = 'es' %}
 {% endif %}
 
 <!DOCTYPE html>
-<html id="html" lang="{{ locale }}"
-  dir="ltr">
-  <head>
-    <meta charset="UTF-8"/>
-    <meta
-      name="description"
-      content="ATDEV Blog"/>
-    <meta
-      http-equiv="X-UA-Compatible"
-      content="IE=edge"/>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"/>
-    <link
-      rel="shortcut icon"
-      href=""
-      type="image/x-icon"/>
-    <link rel="shortcut icon" href="../../../assets/icons/favicon.ico" type="image/x-icon">
+<html id="html" lang="{{ locale }}" dir="ltr">
 
-    {# <link rel="icon" href="/img/favicon/favicon.ico" type="image/x-icon"> #}
-    <link rel="icon" type="image/png" href="../../../assets/images/favicon/favicon-32x32.jpg" sizes="32x32"/>
-    <link rel="icon" type="image/png" href="../../../assets/images/favicon/favicon-16x16.jpg" sizes="16x16"/>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="ATDEV Blog" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="" type="image/x-icon" />
+  <link rel="shortcut icon" href="../../../assets/icons/favicon.ico" type="image/x-icon">
 
-    <link href="https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp" rel="stylesheet">
+  {#
+  <link rel="icon" href="/img/favicon/favicon.ico" type="image/x-icon"> #}
+  <link rel="icon" type="image/png" href="../../../assets/images/favicon/favicon-32x32.jpg" sizes="32x32" />
+  <link rel="icon" type="image/png" href="../../../assets/images/favicon/favicon-16x16.jpg" sizes="16x16" />
 
-    {# BEGIN SOCIAL SHARE IMPORTS #}
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/assisfery/SocialShareJS@1.4/social-share.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
-    <script src="https://cdn.jsdelivr.net/gh/assisfery/SocialShareJS@1.4/social-share.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
-    {# END SOCIAL SHARE IMPORTS #}
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp" rel="stylesheet">
 
-    {# + BEGIN TABLE OF CONTENT PLUGIN CDN #}
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.1.1/tocbot.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.1.1/tocbot.min.js"></script>
-    {# + END TABLE OF CONTENT PLUGIN CDN #}
+  {# BEGIN SOCIAL SHARE IMPORTS #}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/assisfery/SocialShareJS@1.4/social-share.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/assisfery/SocialShareJS@1.4/social-share.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+  {# END SOCIAL SHARE IMPORTS #}
 
-    {# BEGIN FONT FAMILY - LATO #}
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    {# END FONT FAMILY - LATO #}
+  {# + BEGIN TABLE OF CONTENT PLUGIN CDN #}
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.1.1/tocbot.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.1.1/tocbot.min.js"></script>
+  {# + END TABLE OF CONTENT PLUGIN CDN #}
 
-    {# BEGIN CSS IMPORTS #}
-    {% include "../components/blocks/cssMinifier.block.njk" %}
-    {# END CSS IMPORTS #}
+  {# BEGIN FONT FAMILY - LATO #}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  {# END FONT FAMILY - LATO #}
 
-    <title>{{ title }}</title>
-  </head>
-  <body>
-    <div class="reader-bar-start">
-      <main class="main">
+  {# BEGIN CSS IMPORTS #}
+  {% include "../components/blocks/cssMinifier.block.njk" %}
+  {# END CSS IMPORTS #}
 
-        <div id="parent-container" class="main-inner">
+  <title>{{ title }}</title>
+</head>
 
-          {% include "../components/blocks/atdevHeader.block.njk" %}
+<body>
+  <div class="reader-bar-start">
+    <main class="main">
 
-          <div id="body-tag-post-wrapper">
-            {% include "../components/blocks/header.block.njk" %}
-            <main id="inner-main">
-              <div class="post">
-                {# BEGIN FEATURED IMAGE #}
-                <div class="post__imgBox">
-                  <div class="post__imgBox-title">
-                    <h1>{{ title }}</h1>
-                    <img  src={{featuredImage}} alt="Post Image">
-                  </div>
-                  <div class="post__imgBox-textBox">
-                    {% for item in categories.en %}
-                      {% if item == category | fixCategory %}
-                        <p class="post__imgBox-textBox__category">{{categories[locale][loop.index0]}}</p>
-                      {% endif %}
-                    {% endfor %}
-                    <p class="post__imgBox-textBox__description">{{ description }}</p>
-                    <p class="post__imgBox-textBox__publishDate">{{ publishDate | postDate }}</p>
-                  </div>
-                </div>
-                {% from "../components/macros/breadcrumb.njk" import breadcrumb %}
+      <div id="parent-container" class="main-inner">
 
-                {{breadcrumb(navigation.header_links[locale][0].link, '/pages/' + locale + '/', '/categories/' + locale + '/' + category + '/1/', page.url, categories, locale, category | fixCategory, title)}}
-                {# END FEATURED IMAGE #}
+        {% include "../components/blocks/atdevHeader.block.njk" %}
 
-                {# BEGIN TABLE OF CONTENTS #}
-                <style>
-                  #js-toc-id::before {
-                    content: '{{post.tableOfContent[locale]}}';
-                    font-size: 1.1rem;
-                    font-weight: bolder;
-                    font-family: 'figtree', sans-serif !important;
-                  }
-                </style>
-                <div data-toc="js-toc-id-data" class="js-toc is-position-fixed"></div>
-                {# END TABLE OF CONTENTS #}
-
-                {# BEGIN POST CONTENT #}
-                <div class="post__mainContent js-toc-content js-toc-content">
-                  {{ content | safe }}
-                </div>
-                {# END POST CONTENT #}
-
-                {# BEGIN FEATURED VIDEO #}
-                {% if featuredVideo != undefined %}
-                  <div class="iframe-container">
-                    <iframe src={{ featuredVideo }} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                  </div>
-                {% endif %}
-                {# END FEATURED VIDEO #}
-
-                {# BEGIN AUTHOR #}
-                {% if author | capitalize != "No author" %}
-                  <div class="post__author">
-                    <h3>
-                      <span>{{post.author[locale]}}:</span>
-                      {{ author }}
-                    </h3>
-                  </div>
-                {% endif %}
-                {# END AUTHOR #}
-              </div>
-            </main>
-
-            {# BEGIN POST REACTION #}
-            <div class="reactions">
-              <ul class="reaction_list">
-                <li class="reaction_box__like">
-                  <img  src="../../../assets/icons/like-icon.jpg" alt="Like Icon">
-                </li>
-              </ul>
-            </div>
-            {# END POST REACTION #}
-
-            {# BEGIN POST SHARE LINKS #}
-            <aside id="share-links">
-              <h2>{{ post.share[locale] | upper }}</h2>
-              <div style="width: 100%; display: flex; justify-content: center; margin-bottom: 2rem;" class="ss-box ss-dark ss-grow" data-ss-content="false" data-ss-social="facebook, whatsapp, twitter, email, linkedin, reddit"></div>
-            </aside>
-            {# END POST SHARE LINKS #}
-
-            {% include "../components/blocks/subscribe.njk" %}
-
+        <div id="body-tag-post-wrapper">
+          <div style="margin-left: 10em;">
+            {% from "../components/macros/breadcrumb.njk" import breadcrumb %}
+            {{breadcrumb(navigation.header_links[locale][0].link, '/pages/' + locale + '/', '/categories/' + locale + '/' + category + '/1/', page.url, categories, locale, category | fixCategory, title)}}
           </div>
+          {# BEGIN FEATURED IMAGE #}
+          {% include "../components/blocks/header.block.njk" %}
+          <main id="inner-main">
+            <div class="post">
+              <div class="post__imgBox">
+                <div class="post__imgBox-title">
+                  <h1>{{ title }}</h1>
+                  <img src={{featuredImage}} alt="Post Image">
+                </div>
+                <div class="post__imgBox-textBox">
+                  {% for item in categories.en %}
+                  {% if item == category | fixCategory %}
+                  <p class="post__imgBox-textBox__category">{{categories[locale][loop.index0]}}</p>
+                  {% endif %}
+                  {% endfor %}
+                  <p class="post__imgBox-textBox__description">{{ description }}</p>
+                  <p class="post__imgBox-textBox__publishDate">{{ publishDate | postDate }}</p>
+                </div>
+              </div>
+
+              {# END FEATURED IMAGE #}
+
+              {# BEGIN TABLE OF CONTENTS #}
+              <style>
+                #js-toc-id::before {
+                  content: '{{post.tableOfContent[locale]}}';
+                  font-size: 1.1rem;
+                  font-weight: bolder;
+                  font-family: 'figtree', sans-serif !important;
+                }
+              </style>
+              <div data-toc="js-toc-id-data" class="js-toc is-position-fixed"></div>
+              {# END TABLE OF CONTENTS #}
+
+              {# BEGIN POST CONTENT #}
+              <div class="post__mainContent js-toc-content js-toc-content">
+                {{ content | safe }}
+              </div>
+              {# END POST CONTENT #}
+
+              {# BEGIN FEATURED VIDEO #}
+              {% if featuredVideo != undefined %}
+              <div class="iframe-container">
+                <iframe src={{ featuredVideo }} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+              {% endif %}
+              {# END FEATURED VIDEO #}
+
+              {# BEGIN AUTHOR #}
+              {% if author | capitalize != "No author" %}
+              <div class="post__author">
+                <h3>
+                  <span>{{post.author[locale]}}:</span>
+                  {{ author }}
+                </h3>
+              </div>
+              {% endif %}
+              {# END AUTHOR #}
+            </div>
+          </main>
+
+          {# BEGIN POST REACTION #}
+          <div class="reactions">
+            <ul class="reaction_list">
+              <li class="reaction_box__like">
+                <img src="../../../assets/icons/like-icon.jpg" alt="Like Icon">
+              </li>
+            </ul>
+          </div>
+          {# END POST REACTION #}
+
+          {# BEGIN POST SHARE LINKS #}
+          <aside id="share-links">
+            <h2>{{ post.share[locale] | upper }}</h2>
+            <div style="width: 100%; display: flex; justify-content: center; margin-bottom: 2rem;" class="ss-box ss-dark ss-grow" data-ss-content="false" data-ss-social="facebook, whatsapp, twitter, email, linkedin, reddit"></div>
+          </aside>
+          {# END POST SHARE LINKS #}
+
+          {% include "../components/blocks/subscribe.njk" %}
 
         </div>
 
-        {% include "../components/blocks/atdevFooter.block.njk" %}
+      </div>
 
-        {% readerBar "8px",
-        "#EEEEEE",
-        "#1074BC" %}
+      {% include "../components/blocks/atdevFooter.block.njk" %}
 
-      </main>
-      <!-- End main -->
+      {% readerBar "8px",
+      "#EEEEEE",
+      "#1074BC" %}
 
-      {# BEGIN TABLE OF CONTENTS #}
-      <div class="js-toc is-position-fixed"></div>
-      {# END TABLE OF CONTENTS #}
-    </div>
+    </main>
+    <!-- End main -->
 
-    {# BEGIN JAVASCRIPT IMPORTS #}
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.11/jquery.lazy.min.js" integrity="sha512-eviLb3jW7+OaVLz5N3B5F0hpluwkLb8wTXHOTy0CyNaZM5IlShxX1nEbODak/C0k9UdsrWjqIBKOFY0ELCCArw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"></script>
-    <script src="../../../assets/js/script.min.js" defer></script>
-    {% include "../components/blocks/jsMinifierPost.block.njk" %}
+    {# BEGIN TABLE OF CONTENTS #}
+    <div class="js-toc is-position-fixed"></div>
+    {# END TABLE OF CONTENTS #}
+  </div>
 
-    {# END JAVASCRIPT IMPORTS #}
+  {# BEGIN JAVASCRIPT IMPORTS #}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.11/jquery.lazy.min.js" integrity="sha512-eviLb3jW7+OaVLz5N3B5F0hpluwkLb8wTXHOTy0CyNaZM5IlShxX1nEbODak/C0k9UdsrWjqIBKOFY0ELCCArw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"></script>
+  <script src="../../../assets/js/script.min.js" defer></script>
+  {% include "../components/blocks/jsMinifierPost.block.njk" %}
 
-  </body>
+  {# END JAVASCRIPT IMPORTS #}
+
+</body>
+
 </html>

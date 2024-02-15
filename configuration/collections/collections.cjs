@@ -54,6 +54,26 @@ module.exports = {
 			)
 			.sort((a, b) => b.data.publishDate - a.data.publishDate)
 	},
+	generalCollectionEn: function (collection) {
+		return collection
+			.getFilteredByGlob('./posts/*.md')
+			.filter(
+				(item) =>
+					item.data.category === 'general' &&
+					item.data.language === 'en'
+			)
+			.sort((a, b) => b.data.publishDate - a.data.publishDate)
+	},
+	generalCollectionEs: function (collection) {
+		return collection
+			.getFilteredByGlob('./posts/*.md')
+			.filter(
+				(item) =>
+					item.data.category === 'general' &&
+					item.data.language === 'es'
+			)
+			.sort((a, b) => b.data.publishDate - a.data.publishDate)
+	},
 	growthCollectionEn: function (collection) {
 		return collection
 			.getFilteredByGlob('./posts/*.md')
@@ -184,6 +204,36 @@ module.exports = {
 				return 0
 			})
 	},
+	sortedGeneralByTitleEn: function (collection) {
+		return collection
+			.getFilteredByGlob('./posts/*.md')
+			.filter(
+				(item) =>
+					item.data.category === 'general' &&
+					item.data.language === 'en'
+			)
+			.sort(function (a, b) {
+				if (a.data.title && b.data.title) {
+					return a.data.title.localeCompare(b.data.title)
+				}
+				return 0
+			})
+	},
+	sortedGeneralByTitleEs: function (collection) {
+		return collection
+			.getFilteredByGlob('./posts/*.md')
+			.filter(
+				(item) =>
+					item.data.category === 'general' &&
+					item.data.language === 'es'
+			)
+			.sort(function (a, b) {
+				if (a.data.title && b.data.title) {
+					return a.data.title.localeCompare(b.data.title)
+				}
+				return 0
+			})
+	},
 
 	sortedRemoteWorkByTitleEn: function (collection) {
 		return collection
@@ -275,6 +325,26 @@ module.exports = {
 			)
 			.sort((a, b) => b.data.minRead - a.data.minRead)
 	},
+	sortedGeneralByTimeEn: function (collection) {
+		return collection
+			.getFilteredByGlob('./posts/*.md')
+			.filter(
+				(item) =>
+					item.data.category === 'general' &&
+					item.data.language === 'en'
+			)
+			.sort((a, b) => b.data.minRead - a.data.minRead)
+	},
+	sortedGeneralByTimeEs: function (collection) {
+		return collection
+			.getFilteredByGlob('./posts/*.md')
+			.filter(
+				(item) =>
+					item.data.category === 'general' &&
+					item.data.language === 'es'
+			)
+			.sort((a, b) => b.data.minRead - a.data.minRead)
+	},
 	sortedRemoteWorkByTimeEn: function (collection) {
 		return collection
 			.getFilteredByGlob('./posts/*.md')
@@ -356,6 +426,28 @@ module.exports = {
 			.filter(
 				(item) =>
 					item.data.category === 'community' &&
+					item.data.language === 'es'
+			)
+			.sort((a, b) => b.data.publishDate - a.data.publishDate)
+			.reverse()
+	},
+	sortedGeneralByDateEn: function (collection) {
+		return collection
+			.getFilteredByGlob('./posts/*.md')
+			.filter(
+				(item) =>
+					item.data.category === 'general' &&
+					item.data.language === 'en'
+			)
+			.sort((a, b) => b.data.publishDate - a.data.publishDate)
+			.reverse()
+	},
+	sortedGeneralByDateEs: function (collection) {
+		return collection
+			.getFilteredByGlob('./posts/*.md')
+			.filter(
+				(item) =>
+					item.data.category === 'general' &&
 					item.data.language === 'es'
 			)
 			.sort((a, b) => b.data.publishDate - a.data.publishDate)
