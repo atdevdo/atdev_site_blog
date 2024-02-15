@@ -172,50 +172,98 @@
                   </div>
 
                   <div class="post__mainContent-box-col2">
-                    {{ content | safe }}
+                    <div class="post__mainContent-box-col2-content">
+                      {{ content | safe }}
+                    </div>
+
+                    <div class="post__mainContent-box-col2-others">
+                      {# BEGIN FEATURED VIDEO #}
+                      {% if featuredVideo != undefined %}
+                        <div class="iframe-container">
+                          <iframe src={{ featuredVideo }} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                      {% endif %}
+                      {# END FEATURED VIDEO #}
+
+                      {# BEGIN AUTHOR #}
+                      {% if author | capitalize != "No author" %}
+                        {# <div class="post__author">
+                          <h3>
+                            <span>{{post.author[locale]}}:</span>
+                            {{ author }}
+                          </h3>
+                        </div> #}
+                        <div class="post__author">
+                          <p>
+                            <span>{{post.author[locale]}}:</span>
+                            {{ author }}
+                          </p>
+                        </div>
+                      {% endif %}
+                      {# END AUTHOR #}
+
+                      {# BEGIN POST REACTION #}
+                      <div class="reactions">
+                        <ul class="reaction_list">
+                          <li class="reaction_box__like">
+                            <img src="../../../assets/icons/like-icon.jpg" alt="Like Icon">
+                          </li>
+                        </ul>
+                      </div>
+                      {# END POST REACTION #}
+
+                      {# BEGIN POST SHARE LINKS #}
+                      <aside id="share-links">
+                        <h2>{{ post.share[locale] | upper }}</h2>
+                        <div style="width: 100%; display: flex; justify-content: center; margin-bottom: 2rem;" class="ss-box ss-dark ss-grow" data-ss-content="false" data-ss-social="facebook, whatsapp, twitter, email, linkedin, reddit"></div>
+                      </aside>
+                      {# END POST SHARE LINKS #}
+
+                      {% include "../components/blocks/subscribe.njk" %}
+                    </div>
                   </div>
                 </div>
                 {# END POST CONTENT #}
 
                 {# BEGIN FEATURED VIDEO #}
-                {% if featuredVideo != undefined %}
+                {# {% if featuredVideo != undefined %}
                   <div class="iframe-container">
                     <iframe src={{ featuredVideo }} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                   </div>
-                {% endif %}
+                {% endif %} #}
                 {# END FEATURED VIDEO #}
 
                 {# BEGIN AUTHOR #}
-                {% if author | capitalize != "No author" %}
+                {# {% if author | capitalize != "No author" %}
                   <div class="post__author">
                     <h3>
                       <span>{{post.author[locale]}}:</span>
                       {{ author }}
                     </h3>
                   </div>
-                {% endif %}
+                {% endif %} #}
                 {# END AUTHOR #}
               </div>
             </main>
 
             {# BEGIN POST REACTION #}
-            <div class="reactions">
+            {# <div class="reactions">
               <ul class="reaction_list">
                 <li class="reaction_box__like">
                   <img src="../../../assets/icons/like-icon.jpg" alt="Like Icon">
                 </li>
               </ul>
-            </div>
+            </div> #}
             {# END POST REACTION #}
 
             {# BEGIN POST SHARE LINKS #}
-            <aside id="share-links">
+            {# <aside id="share-links">
               <h2>{{ post.share[locale] | upper }}</h2>
               <div style="width: 100%; display: flex; justify-content: center; margin-bottom: 2rem;" class="ss-box ss-dark ss-grow" data-ss-content="false" data-ss-social="facebook, whatsapp, twitter, email, linkedin, reddit"></div>
-            </aside>
+            </aside> #}
             {# END POST SHARE LINKS #}
 
-            {% include "../components/blocks/subscribe.njk" %}
+            {# {% include "../components/blocks/subscribe.njk" %} #}
 
           </div>
 
@@ -243,12 +291,11 @@
     {% include "../components/blocks/jsMinifierPost.block.njk" %}
     <script>
       const e = document.querySelector('#js-toc-id')
-      console.log('Element: ', e)
 
       window.addEventListener('scroll', function () {
         if (window.scrollY > window.innerHeight) {
-          console.log('Scroll: ', window.scrollY)
-          console.log('Inner Height: ', window.innerHeight)
+          // console.log('Scroll: ', window.scrollY)
+          // console.log('Inner Height: ', window.innerHeight)
           e.classList.add('dev-make-fixed')
         } else {
           e.classList.remove('dev-make-fixed')

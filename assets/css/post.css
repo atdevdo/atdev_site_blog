@@ -238,6 +238,16 @@
 	width: 80%;
 }
 
+.post__mainContent-box-col2-others {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.post__mainContent-box-col2-others .post__author {
+
+}
+
 .reactions {
 	display: flex;
 	align-items: center;
@@ -286,8 +296,9 @@
 	color: var(--color-h1);
 }
 
-.post__author h3 {
+.post__author p {
 	font-size: 1rem;
+	font-weight: bold;
 	color: var(--color-paragraph-secondary);
 }
 
