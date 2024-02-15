@@ -9,7 +9,7 @@
 		</div>
 		<div class="post-card__contentBox">
 			<div class="post-card__contentBox-category_publishDate">
-				{% for item in categories.en %}
+				{% for item in categories[locale] %}
 					{% if item == category | fixCategory %}
 						<p class="post-card__contentBox-category">{{categories[locale][loop.index0]}}</p>
 					{% endif %}
@@ -21,10 +21,10 @@
 			<div class="post-card__contentBox-author_minRead">
 				{% if author | capitalize != "No author" %}
 					<h3>
-						<span>Autor: </span>{{ author | capitalize }}
+						<span>{{categories.author[locale]}}: </span>{{ author | capitalize }}
 					</h3>
 				{% endif %}
-				<h4>{{ minRead }} minutos</h4>
+				<h4>{{ minRead }} {{categories.minutes[locale]}}</h4>
 			</div>
 		</div>
 	</a>

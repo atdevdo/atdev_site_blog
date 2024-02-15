@@ -5,4 +5,12 @@ module.exports = {
 	},
 	en: ['community', 'growth', 'remote work', 'technology'],
 	es: ['comunidad', 'crecimiento', 'trabajo remoto', 'tecnología'],
+	author: {
+		en: 'Author',
+		es: 'Autor',
+	},
+	minutes: {
+		en: 'minutes',
+		es: 'minutos',
+	}
 }

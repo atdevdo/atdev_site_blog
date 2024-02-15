@@ -126,7 +126,7 @@
 	flex-direction: column;
 	align-items: center;
 	gap: 0.8rem;
-	width: 85%;
+	/* width: 85%; */
 }
 
 .post__imgBox-title {
@@ -158,6 +158,7 @@
 .post__imgBox-textBox__category {
 	color: var(--color-h1);
 	text-align: start;
+	width: 12em;
 }
 
 .post__imgBox-textBox__description {
@@ -168,6 +169,7 @@
 .post__imgBox-textBox__publishDate {
 	text-align: end;
 	color: var(--color-h1);
+	width: 12em;
 }
 
 .post__imgBox-textBox__category,
@@ -178,9 +180,9 @@
 }
 
 .post__mainContent {
-	width: 85%;
+	width: 100%;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row-reverse;
 	gap: 1rem;
 }
 
@@ -226,6 +228,14 @@
 .post__mainContent h6,
 .post__mainContent img {
 	padding-top: 2rem;
+}
+
+.post__mainContent-box-col1 {
+	width: 20%;
+}
+
+.post__mainContent-box-col2 {
+	width: 80%;
 }
 
 .reactions {
@@ -309,9 +319,9 @@ iframe {
 }
 
 .body-tag-post-table {
-	width: 86%;
+	width: 100%;
 	padding-left: 0;
-	padding-right: 2rem;
+	padding-right: 2;
 }
 
 .js-toc>ol {
@@ -329,13 +339,14 @@ iframe {
 }
 
 .is-position-fixed {
+	position: relative !important;
 	/* position: -webkit-sticky; */
-	position: fixed !important;
-	padding-top: 4rem;
-	top: 40% !important;
-	left: 85% !important;
-	-webkit-transform: translate(-50%, -50%) !important;
-	transform: translate(-50%, -50%) !important;
+	/* position: absolute !important; */
+	/* padding-top: 4rem; */
+	/* top: 40% !important; */
+	/* left: 85% !important; */
+	/* -webkit-transform: translate(-50%, -50%) !important;
+	transform: translate(-50%, -50%) !important; */
 	font-family: 'figtree', sans-serif;
 	font-weight: 600 !important;
 }
@@ -392,12 +403,13 @@ iframe {
 		right: 0.1rem;
 		width: 20rem; */
 
-		position: unset !important;
+		/* position: unset !important; */
+		/* position: fixed !important;
 		padding-top: 0;
 		top: 0 !important;
 		left: 0 !important;
 		-webkit-transform: translate(0, 0) !important;
-		transform: translate(0, 0) !important;
+		transform: translate(0, 0) !important; */
 	}
 
 	.toc-list-item {
@@ -459,12 +471,13 @@ iframe {
 		right: 0.1rem;
 		width: 20rem; */
 
-		position: unset !important;
+		/* position: unset !important; */
+		/* position: fixed !important;
 		padding-top: 0;
 		top: 0 !important;
 		left: 0 !important;
 		-webkit-transform: translate(0, 0) !important;
-		transform: translate(0, 0) !important;
+		transform: translate(0, 0) !important; */
 	}
 
 	.toc-list-item {
