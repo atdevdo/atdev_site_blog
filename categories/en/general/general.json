@@ -1,0 +1,17 @@
+{
+	"layout": "layouts/category.njk",
+	"category": "general",
+	"category_tags": "generalEn",
+	"category_collection": "generalCollectionEn",
+	"collectionByTitle": "sortedGeneralByTitleEn",
+	"collectionByTime": "sortedGeneralByTimeEn",
+	"collectionByDate": "sortedGeneralByDateEn",
+	"tags": [
+		"en",
+		"general",
+		"generalEn"
+	],
+	"locale": "en",
+	"dir": "ltr",
+	"banner": "/assets/images/banners/banner.jpg"
+}

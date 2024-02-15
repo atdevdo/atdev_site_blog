@@ -5,7 +5,7 @@
 	"main": ".eleventy.js",
 	"scripts": {
 		"start": "eleventy --serve",
-		"dev": "rm -rf _site && eleventy --serve --watch",
+		"dev": "clear && rm -rf _site && npx @11ty/eleventy --serve --watch",
 		"build": "eleventy"
 	},
 	"keywords": [],

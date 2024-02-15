@@ -6,8 +6,9 @@
 	flex-direction: column;
 	width: 55.4vw;
 }
+
 #filterbox h2 {
-	font-family: 'GothamBold' !important;
+	font-family: 'figtree' !important;
 	font-weight: bold !important;
 }
 
@@ -45,7 +46,8 @@ input {
 
 #searchField::placeholder #searchFieldEs::placeholder {
 	color: var(--color-h1);
-	opacity: 1; /* Firefox */
+	opacity: 1;
+	/* Firefox */
 }
 
 #searchField:-ms-input-placeholder,
@@ -209,7 +211,7 @@ input {
 	transition: transform var(--transition-speed);
 	font-weight: bolder !important;
 	font-size: 1rem;
-	font-family: 'GothamBold';
+	font-family: 'figtree';
 	text-transform: uppercase;
 }
 
@@ -236,5 +238,4 @@ input {
 	}
 }
 
-@media only screen and (min-width: 600px) and (max-width: 900px) {
-}
+@media only screen and (min-width: 600px) and (max-width: 900px) {}

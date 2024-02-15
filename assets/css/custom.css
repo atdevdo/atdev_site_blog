@@ -7,6 +7,7 @@
 	font-weight: 700;
 	color: #1074bc;
 }
+
 .title:before {
 	content: '';
 	position: absolute;
@@ -18,6 +19,7 @@
 	background-color: #f70037;
 	background-color: #1074bc;
 }
+
 .title:after {
 	content: '';
 	position: absolute;
@@ -30,15 +32,18 @@
 	background-color: #f70037;
 	background-color: #1074bc;
 }
+
 .how-section1 {
 	margin-top: -15%;
 	padding: 10%;
 }
+
 .how-section1 h4 {
 	color: #1074bc;
 	font-weight: bold;
 	font-size: 30px;
 }
+
 .how-section1 .subheading {
 	color: #3c92cf;
 	font-size: 20px;
@@ -55,9 +60,11 @@
 .how-section1 .row {
 	margin-top: 10%;
 }
+
 .how-img {
 	text-align: center;
 }
+
 .how-img img {
 	zzwidth: 40%;
 }
@@ -65,6 +72,7 @@
 .main-banner-title {
 	color: #1074bc;
 }
+
 .main-banner-desc {
 	font-size: larger;
 }
@@ -142,15 +150,15 @@
 	color: #303036;
 }
 
-#error-page > * {
+#error-page>* {
 	font-weight: 400;
 }
 
-#error-page > h1 {
+#error-page>h1 {
 	font-size: 4rem;
 }
 
-#error-page > h3 {
+#error-page>h3 {
 	font-size: 1.9rem;
 	line-height: 3rem;
 }
@@ -161,7 +169,7 @@ h3 {
 	/* font-size: 3rem !important; */
 	font-weight: 700 !important;
 	color: #1074bc !important;
-	font-family: 'GothamBold', sans-serif !important;
+	font-family: 'figtree', sans-serif !important;
 }
 
 #upBtn {

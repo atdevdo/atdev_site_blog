@@ -1,6 +1,6 @@
 /** @format */
 
-const origin = `https://atdev-testing.netlify.app`
+const origin = `https://atdev.do`
 
 const service_list = {
 	app_development: {
