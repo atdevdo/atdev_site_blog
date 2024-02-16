@@ -1,4 +1,5 @@
-const post__mainContent = document.querySelector('.post__mainContent')
+// const post__mainContent = document.querySelector('.post__mainContent')
+const post__mainContent = document.querySelector('.post__mainContent-box-col2-content')
 const elements = post__mainContent.children
 const js_toc_id_data = document.querySelector('[data-toc]')
 
@@ -30,7 +31,7 @@ if (
 		fixedSidebarOffset: 'auto',
 		scrollSmoothDuration: 100,
 		disableTocScrollSync: false,
-		contentSelector: '.post__mainContent-box-col2',
+		contentSelector: '.post__mainContent-box-col2-content'
 	})
 	tocbot.refresh()
 }

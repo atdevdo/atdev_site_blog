@@ -126,7 +126,7 @@
 	flex-direction: column;
 	align-items: center;
 	gap: 0.8rem;
-	/* width: 85%; */
+	width: 100%;
 }
 
 .post__imgBox-title {
@@ -138,6 +138,8 @@
 }
 
 .post__imgBox-title h1 {
+	color: #565A70 !important;
+	font-size: 2em !important;
 	text-align: center;
 	text-transform: uppercase;
 	color: var(--color-h1);
@@ -184,6 +186,12 @@
 	display: flex;
 	flex-direction: row-reverse;
 	gap: 1rem;
+}
+
+@media only screen and (max-width: 1000px) {
+	.post__mainContent {
+		flex-direction: column;
+	}
 }
 
 .post__mainContent h1,
@@ -238,6 +246,27 @@
 	width: 80%;
 }
 
+@media only screen and (max-width: 1000px) {
+	.post__mainContent-box-col1,
+	.post__mainContent-box-col2 {
+		width: 100%;
+	}
+
+	.post__mainContent-box-col1 {
+		margin-bottom: 4em;
+	}
+}
+
+.post__mainContent-box-col2-others {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.post__mainContent-box-col2-others .post__author {
+
+}
+
 .reactions {
 	display: flex;
 	align-items: center;
@@ -272,6 +301,7 @@
 .reaction_list li img {
 	width: 100%;
 	height: 100%;
+	padding-top: 0;
 }
 
 .reaction_box__like {
@@ -286,8 +316,9 @@
 	color: var(--color-h1);
 }
 
-.post__author h3 {
+.post__author p {
 	font-size: 1rem;
+	font-weight: bold;
 	color: var(--color-paragraph-secondary);
 }
 
@@ -349,6 +380,10 @@ iframe {
 	transform: translate(-50%, -50%) !important; */
 	font-family: 'figtree', sans-serif;
 	font-weight: 600 !important;
+}
+
+@media only screen and (max-width: 1000px) {
+	.is-position-fixed {}
 }
 
 .toc-list-item {
