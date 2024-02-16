@@ -27,7 +27,7 @@ locale: 'es'
 		const searchFieldValue = document.getElementById('searchField')
 		document.onkeydown = function (e) {
 			if (e.code == "Enter") {
-				console.log(e.code);
+				console.log("Entered Code: ", e.code);
 				localStorage.setItem('searchFieldValue', searchFieldValue.value)
 				console.log(localStorage.getItem('searchFieldValue'))
 			}

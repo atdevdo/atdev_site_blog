@@ -31,6 +31,7 @@ if (
 		fixedSidebarOffset: 'auto',
 		scrollSmoothDuration: 100,
 		disableTocScrollSync: false,
+		contentSelector: '.post__mainContent-box-col2-content'
 	})
 	tocbot.refresh()
 }

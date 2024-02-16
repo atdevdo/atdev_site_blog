@@ -60,7 +60,8 @@
 
       #animated-header h2 {
         position: absolute;
-        color: #565A70 !important;
+        /* color: #565A70 !important; */
+        color: white !important;
         z-index: 2;
         top: 0;
         left: 0;
@@ -99,6 +100,13 @@
         font-family: 'figtree', sans-serif;
         font-weight: 600 !important;
       }
+
+      .dev-custom-width-1 {
+        width: 100% !important;
+      }
+      .dev-custom-width-2 {
+        width: 0% !important;
+      }
     </style>
   </head>
 
@@ -113,11 +121,14 @@
           <div id="body-tag-post-wrapper">
             <div id="animated-header">
               <h2>BLOG ATDEV</h2>
-              <video src="../../../assets/videos/video-2@c.mp4" autoplay muted loop></video>
+              {# <video src="../../../assets/videos/video-2@c.mp4" autoplay muted loop></video> #}
+              <video id="dev-banner-video" src="../../../assets/videos/bannerVid.mp4" autoplay muted loop></video>
             </div>
-            <div style="margin-left: 10em;">
+            <div>
               {% from "../components/macros/breadcrumb.njk" import breadcrumb %}
-              {{breadcrumb(navigation.header_links[locale][0].link, '/pages/' + locale + '/', '/categories/' + locale + '/' + category + '/1/', page.url, categories, locale, category | fixCategory, title)}}
+              <div>
+                {{breadcrumb(navigation.header_links[locale][0].link, '/pages/' + locale + '/', '/categories/' + locale + '/' + category + '/1/', page.url, categories, locale, category | fixCategory, title)}}
+              </div>
             </div>
             {# BEGIN FEATURED IMAGE #}
             {% include "../components/blocks/header.block.njk" %}
@@ -179,7 +190,7 @@
                     <div class="post__mainContent-box-col2-others">
                       {# BEGIN FEATURED VIDEO #}
                       {% if featuredVideo != undefined %}
-                        <div class="iframe-container">
+                        <div class="iframe-container" style="margin-bottom: 2em;">
                           <iframe src={{ featuredVideo }} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                       {% endif %}
@@ -292,15 +303,32 @@
     <script>
       const e = document.querySelector('#js-toc-id')
 
+      const box1 = document.querySelector(".post__mainContent-box-col1")
+      const box2 = document.querySelector(".post__mainContent-box-col2")
+
+      if(e?.querySelector('.toc-list')) {
+        console.log('Exist')
+        box1.classList.remove('dev-custom-width-1')
+        box2.classList.remove('dev-custom-width-2')
+      } else {
+        console.log('Not exist')
+        box1.classList.add('dev-custom-width-2')
+        box2.classList.add('dev-custom-width-1')
+      }
+
       window.addEventListener('scroll', function () {
-        if (window.scrollY > window.innerHeight) {
+        if (window.scrollY > window.innerHeight && window.innerWidth > 1000) {
           // console.log('Scroll: ', window.scrollY)
           // console.log('Inner Height: ', window.innerHeight)
+          // console.log('Inner Width: ', window.innerWidth)
           e.classList.add('dev-make-fixed')
         } else {
           e.classList.remove('dev-make-fixed')
         }
       });
+
+      const v = document.getElementById("#dev-banner-video");
+      v.playbackRate = 4.2;
     </script>
     {# END JAVASCRIPT IMPORTS #}
 
