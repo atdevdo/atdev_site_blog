@@ -1,46 +1,42 @@
-/** @format */
-
 .intro {
+	margin-top: 5.15em;
 	width: 100%;
-	min-height: 24rem;
+	height: 16em;
 	position: relative;
-	box-shadow: 0 10px 6px rgba(0, 33, 41, 0.13295);
+	z-index: 1;
 }
 
-.intro img {
-	position: sticky;
-	box-shadow: 0 10px 6px rgba(0, 33, 41, 0.13295);
+.intro-txt-container {
+	z-index: 2;
+	position: absolute;
 	width: 100%;
-	height: 100%;
+	text-align: center;
+	top: 1.8em;
 }
 
 .intro_text1 {
 	width: 100%;
 	color: #555c6f !important;
-	position: sticky;
-	z-index: 10;
-	top: 10rem;
-	padding-left: 10rem;
+	padding: 0;
+	margin: 0;
 }
 
-@media only screen and (max-width: 500px) {
-	/* .intro {
-	} */
+.intro img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	box-shadow: 0 10px 6px rgba(0, 33, 41, 0.13295);
+}
 
-	.intro_text1 {
-		text-align: center;
-		padding-left: 0;
+@media only screen and (max-width: 991px) {
+	.intro {
+		margin-top: 3.71em;
 	}
 }
 
-@media only screen and (min-width: 600px) and (max-width: 900px) {
-	/* .intro {
-		padding: 6.8rem;
-	} */
-}
-
-@media only screen and (max-width: 1228px) {
-	.intro img {
-		min-height: 24rem !important;
+@media only screen and (min-width: 800px) {
+	.intro-txt-container {
+		text-align: start;
+		padding: 0 8em;
 	}
 }

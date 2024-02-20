@@ -59,9 +59,10 @@
       }
 
       #animated-header h2 {
-        position: absolute;
+        display: none;
+        /* position: absolute; */
         /* color: #565A70 !important; */
-        color: white !important;
+        /* color: white !important;
         z-index: 2;
         top: 0;
         left: 0;
@@ -69,10 +70,10 @@
         height: 100%;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: center; */
       }
 
-      #animated-header video {
+      #animated-header img {
         position: absolute;
         top: 0;
         left: 0;
@@ -83,11 +84,11 @@
       }
 
       #animated-header::before {
-        content: '';
+        /* content: '';
         position: absolute;
         inset: 0;
         background: rgba(15, 21, 37, .8);
-        z-index: 1;
+        z-index: 1; */
       }
 
       .dev-make-fixed {
@@ -112,21 +113,24 @@
 
   <body>
     <div class="reader-bar-start">
+      {% include "../components/blocks/atdevHeader.block.njk" %}
+      {% from "../components/macros/introduction.macro.njk" import macro_intro %}
+      {{ macro_intro('BLOG', "/assets/images/banners/banner.jpg", "/assets/images/banners/banner-mobile.jpg") }}
+      
       <main class="main">
-
-        <div id="parent-container" class="main-inner">
-
-          {% include "../components/blocks/atdevHeader.block.njk" %}
+        <div id="parent-container" class="main-inner">          
 
           <div id="body-tag-post-wrapper">
-            <div id="animated-header">
-              <h2>BLOG ATDEV</h2>
+            {# <div id="animated-header"> #}
+              {# <h2>BLOG ATDEV</h2> #}
               {# <video src="../../../assets/videos/video-2@c.mp4" autoplay muted loop></video> #}
-              <video id="dev-banner-video" src="../../../assets/videos/bannerVid.mp4" autoplay muted loop></video>
-            </div>
+              {# <video id="dev-banner-video" src="../../../assets/videos/bannerVid.mp4" autoplay muted loop></video> #}
+              {# <img src="/assets/images/banners/banner.jpg"> #}
+            {# </div> #}
+            
             <div>
               {% from "../components/macros/breadcrumb.njk" import breadcrumb %}
-              <div>
+              <div style="padding-left: 4em;">
                 {{breadcrumb(navigation.header_links[locale][0].link, '/pages/' + locale + '/', '/categories/' + locale + '/' + category + '/1/', page.url, categories, locale, category | fixCategory, title)}}
               </div>
             </div>
