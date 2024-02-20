@@ -1,9 +1,12 @@
 {% macro macro_intro(text_1, banner, mobile_banner) %}
     <div class="intro">
-        <h3 class="intro_text1">{{ text_1 }}</h3>
-        <picture>
+        <div class="intro-txt-container">
+            <h3 class="intro_text1">{{ text_1 }}</h3>
+        </div>
+        {# <picture>
             <source media="(max-width: 500px)" srcset="{{mobile_banner}}">
             <img src="{{banner}}" alt="image">
-        </picture>
+        </picture> #}
+        <img src="{{banner}}" alt="image">
     </div>
 {% endmacro %}

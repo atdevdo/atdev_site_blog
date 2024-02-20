@@ -139,7 +139,7 @@
 
 .post__imgBox-title h1 {
 	color: #565A70 !important;
-	font-size: 2em !important;
+	font-size: 1.6em !important;
 	text-align: center;
 	text-transform: uppercase;
 	color: var(--color-h1);
@@ -186,6 +186,10 @@
 	display: flex;
 	flex-direction: row-reverse;
 	gap: 1rem;
+}
+
+.reader-bar-start .intro {
+	margin-top: 0;
 }
 
 @media only screen and (max-width: 1000px) {

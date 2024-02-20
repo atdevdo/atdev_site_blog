@@ -201,6 +201,7 @@ input {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-wrap: wrap;
 	gap: 3rem;
 	width: 100%;
 }
@@ -227,9 +228,9 @@ input {
 }
 
 @media only screen and (max-width: 600px) {
-	#category-filter__list {
+	/* #category-filter__list {
 		flex-wrap: wrap;
-	}
+	} */
 
 	#sort-controls {
 		/* flex-direction: column; */
