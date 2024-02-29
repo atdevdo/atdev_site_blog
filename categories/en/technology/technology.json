@@ -6,7 +6,11 @@
 	"collectionByTitle": "sortedTechnologyByTitleEn",
 	"collectionByTime": "sortedTechnologyByTimeEn",
 	"collectionByDate": "sortedTechnologyByDateEn",
-	"tags": ["en", "technology", "technologyEn"],
+	"tags": [
+		"en",
+		"technology",
+		"technologyEn"
+	],
 	"locale": "en",
 	"dir": "ltr",
 	"banner": "/assets/images/banners/banner.jpg"
