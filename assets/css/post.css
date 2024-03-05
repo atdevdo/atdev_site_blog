@@ -336,7 +336,7 @@
 }
 
 .post__imgBox-textBox__category {
-	text-align: center;
+	text-align: start;
 }
 
 .post__imgBox-textBox__description {
@@ -345,7 +345,7 @@
 }
 
 .post__imgBox-textBox__publishDate {
-	text-align: center;
+	text-align: end;
 }
 
 iframe {
