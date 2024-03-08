@@ -4,8 +4,8 @@ module.exports = {
 		es: 'Contenido',
 	},
 	author: {
-		en: 'Author',
-		es: 'Autor',
+		en: 'By',
+		es: 'Por',
 	},
 	share: {
 		en: 'share',

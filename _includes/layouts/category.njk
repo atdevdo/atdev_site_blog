@@ -62,7 +62,8 @@
 
 				{% for item in categories.en %}
 					{% if item == category | fixCategory %}
-						{{ macro_intro("BLOG - " + categories[locale][loop.index0] | upper, banner, "/assets/images/banners/banner-mobile.jpg") }}
+						{# {{ macro_intro("BLOG - " + categories[locale][loop.index0] | upper, banner, "/assets/images/banners/banner-mobile.jpg") }} #}
+						{{ macro_intro("/assets/images/banners/banner1.png", "ATDEV Blog", "Technology insights") }}
 					{% endif %}
 				{% endfor %}
 
