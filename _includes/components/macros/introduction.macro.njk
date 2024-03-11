@@ -1,12 +1,12 @@
-{% macro macro_intro(text_1, banner, mobile_banner) %}
-    <div class="intro">
-        <div class="intro-txt-container">
-            <h3 class="intro_text1">{{ text_1 }}</h3>
+{% macro macro_intro(banner, title, description) %}
+    <div class="banner-macro">
+        <div class="banner-macro-content">
+            <h1 class="banner-macro__title">{{ title }}</h1>
+            <p class="banner-macro__description">{{ description }}</p>
         </div>
-        {# <picture>
-            <source media="(max-width: 500px)" srcset="{{mobile_banner}}">
-            <img src="{{banner}}" alt="image">
-        </picture> #}
-        <img src="{{banner}}" alt="image">
+        <img class="banner-macro__banner" src="{{banner}}" alt="image">
+        <div class="banner-macro__iconBox">
+            <img class="banner-macro__icon" src="/assets/icons/LOGO-ATDEV.png" alt="image">
+        </div>
     </div>
 {% endmacro %}

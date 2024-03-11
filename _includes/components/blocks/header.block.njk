@@ -2,7 +2,12 @@
     <header id="category-filter">
         <nav id="category-filter__list">
             {% for item in category_links[locale].links %}
-                <a href="{{item.link}}">{{item.label}}</a>
+            {% if category %}
+                    <a href="{{item.link}}" class="{% if item.label | lower == category | fixCategory | lower %} header-active-link {% else %}  {% endif %}">{{item.label}}</a>
+                {% else %}
+                    <a href="{{item.link}}">{{item.label}}</a>
+            {% endif %}
+
             {% endfor %}
         </nav>
     </header>
