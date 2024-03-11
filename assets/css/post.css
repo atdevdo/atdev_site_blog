@@ -121,16 +121,27 @@
 	line-height: 2rem;
 }
 
+.post-breadcrumb {
+	align-self: start !important;
+	margin-top: -3em;
+}
+
+.post-breadcrumb #breadcrumb #breadcrumb-post_title {
+	margin-top: 0 !important;
+}
+
 .hero {
 	width: 100%;
+	height: 40em;
+	display: grid;
+	gap: 1em;
+	margin-top: 1em;
 }
 
 .hero-row1 {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-top: 3em;
-	margin-bottom: 1em;
 }
 
 .hero-row1 * {
@@ -150,7 +161,7 @@
 
 .hero-row2 {
 	width: 100%;
-	height: 100%;
+	overflow: hidden;
 }
 
 .hero-row2 img {
@@ -163,7 +174,6 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-top: 1em;
 }
 
 .hero-row3-category {

@@ -114,9 +114,16 @@
         font-size: 1.1rem;
         font-weight: bolder;
         font-family: 'figtree', sans-serif !important;
+        color: var(--color-paragraph) !important;
       }
 
-      @media only screen and () {}
+      .post-content-description {
+        color: var(--color-paragraph) !important;
+      }
+
+      .hero-row3-read {
+      font-weight: 600 !important;
+      }
     </style>
   </head>
 
@@ -130,21 +137,20 @@
           <div id="body-tag-post-wrapper">
             {# BEGIN FEATURED IMAGE #}
             {% include "../components/blocks/header.block.njk" %}
-            <div>
-              {% from "../components/macros/breadcrumb.njk" import breadcrumb %}
-              <div style="padding-left: 6em;">
-                {{breadcrumb(navigation.header_links[locale][0].link, '/pages/' + locale + '/', '/categories/' + locale + '/' + category + '/1/', page.url, categories, locale, category | fixCategory, title)}}
-              </div>
-            </div>
             <main id="inner-main">
               <div class="post">
+              {% from "../components/macros/breadcrumb.njk" import breadcrumb %}
+              <div class="post-breadcrumb">
+                {{breadcrumb(navigation.header_links[locale][0].link, '/pages/' + locale + '/', '/categories/' + locale + '/' + category + '/1/', page.url, categories, locale, category | fixCategory, title)}}
+              </div>
                 <div class="hero">
                   <div class="hero-row1">
                     <h1>{{ title }}</h1>
                     {# BEGIN AUTHOR #}
                     {% if author | capitalize != "No author" %}
                       <div class="post__author">
-                        <p><span>{{post.author[locale]}}:</span>{{ author }}</p>
+                        <p>
+                          <span>{{post.author[locale]}}:</span>{{ author }}</p>
                       </div>
                     {% endif %}
                     {# END AUTHOR #}
@@ -180,7 +186,7 @@
 
                   <div class="post__mainContent-box-col2">
                     <div class="post__mainContent-box-col2-content">
-                    <h3 class="hero-row3-category">{{ description }}</h3>
+                      <h3 class="post-content-description">{{ description }}</h3>
                       {{ content | safe }}
                     </div>
 
