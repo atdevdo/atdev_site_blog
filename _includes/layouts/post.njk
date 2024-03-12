@@ -288,7 +288,9 @@ const observer = new IntersectionObserver((entries) => {
       e.classList.remove('dev-make-fixed');
     } else {
       console.log("Not visible");
-      e.classList.add('dev-make-fixed');
+      if (window.innerWidth > 1099) {
+        e.classList.add('dev-make-fixed');
+      }
     }
   });
 }, viOpt);
