@@ -1,0 +1,17 @@
+{% macro viewMore(txt, link) %}
+  <style>
+    .view-more-btn {
+      color: var(--color-paragraph);
+      font-weight: 700;
+      font-size: 1.2rem;
+      transition: transform .2s ease-in-out;
+      text-decoration: none !important;
+    }
+
+    .view-more-btn:hover {
+      transform: scale(1.22);
+    }
+  </style>
+
+  <a class="view-more-btn" onclick="mixpanel.track('Go to View More Page Button - Blog')" href="{{link}}">{{txt}}</a>
+{% endmacro %}
