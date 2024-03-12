@@ -122,7 +122,7 @@
       }
 
       .hero-row3-read {
-      font-weight: 600 !important;
+        font-weight: 600 !important;
       }
     </style>
   </head>
@@ -139,11 +139,11 @@
             {% include "../components/blocks/header.block.njk" %}
             <main id="inner-main">
               <div class="post">
-              {% from "../components/macros/breadcrumb.njk" import breadcrumb %}
-              <div class="post-breadcrumb">
-                {{breadcrumb(navigation.header_links[locale][0].link, '/pages/' + locale + '/', '/categories/' + locale + '/' + category + '/1/', page.url, categories, locale, category | fixCategory, title)}}
-              </div>
-                <div class="hero">
+                {% from "../components/macros/breadcrumb.njk" import breadcrumb %}
+                <div class="post-breadcrumb">
+                  {{breadcrumb(navigation.header_links[locale][0].link, '/pages/' + locale + '/', '/categories/' + locale + '/' + category + '/1/', page.url, categories, locale, category | fixCategory, title)}}
+                </div>
+                <div id="post-hero" class="hero">
                   <div class="hero-row1">
                     <h1>{{ title }}</h1>
                     {# BEGIN AUTHOR #}
@@ -177,7 +177,7 @@
                 {# BEGIN TABLE OF CONTENTS #}
 
                 {# BEGIN POST CONTENT #}
-                <div class="post__mainContent js-toc-content js-toc-content">
+                <div id="post__mainContent" class="post__mainContent js-toc-content js-toc-content">
                   <div class="post__mainContent-box-col1">
                     {# BEGIN TABLE OF CONTENTS #}
                     <div data-toc="js-toc-id-data" class="js-toc is-position-fixed"></div>
@@ -275,19 +275,40 @@
           .add('dev-custom-width-1')
       }
 
+      const viEle = document.getElementById("post-hero");
+const viOpt = {
+  root: null, // Observe the entire viewport
+  threshold: 0.1, // Consider element visible when 50% or more is in view
+};
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      console.log("Visible");
+      e.classList.remove('dev-make-fixed');
+    } else {
+      console.log("Not visible");
+      e.classList.add('dev-make-fixed');
+    }
+  });
+}, viOpt);
+
+window.addEventListener('load', () => {
+  observer.observe(viEle);
+})
+
       function TableOfContentPostDev() {
-        if (window.scrollY > (window.innerHeight + 300) && window.innerWidth > 1000)
-          e
-            .classList
-            .add('dev-make-fixed');
-        else
-          e
-            .classList
-            .remove('dev-make-fixed');
+        // if (window.scrollY > (window.innerHeight + 300) && window.innerWidth > 1000)
+        //   e.classList.add('dev-make-fixed');
+        // else
+        //   e.classList.remove('dev-make-fixed');
+
         window.requestAnimationFrame(TableOfContentPostDev);
       }
 
-      TableOfContentPostDev();
+      // window.addEventListener('load', () => {
+      //   TableOfContentPostDev();
+      // })
 
       const v = document.getElementById("#dev-banner-video");
       v.playbackRate = 4.2;

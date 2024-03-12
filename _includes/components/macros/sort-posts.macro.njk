@@ -7,6 +7,7 @@
     <div class="posts-container">
         {% for post in collection %}
             {% if loop.index < amount %}
+            URL: {{post.url}}
                 {{ macro_post(post.data.title, post.data.description, post.data.category, post.data.publishDate, post.data.author, post.data.minRead, post.data.featuredImage, post.url, true, categories, locale) }}
             {% endif %}
         {% endfor %}

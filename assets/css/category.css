@@ -20,17 +20,6 @@
 	text-transform: uppercase;
 }
 
-.category-container__head a {
-	color: var(--color-paragraph);
-	font-weight: 700;
-	font-size: 1.2rem;
-	transition: transform var(--transition-speed);
-}
-
-.category-container__head a:hover {
-	transform: scale(1.22);
-}
-
 /* BEGIN CATEGORY POSTS */
 .category-posts h1 {
 	text-align: center;
