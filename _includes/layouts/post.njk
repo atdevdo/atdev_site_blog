@@ -285,8 +285,10 @@ const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
       console.log("Visible");
+      e.classList.remove('dev-make-fixed');
     } else {
       console.log("Not visible");
+      e.classList.add('dev-make-fixed');
     }
   });
 }, viOpt);
@@ -296,25 +298,17 @@ window.addEventListener('load', () => {
 })
 
       function TableOfContentPostDev() {
-        if (window.scrollY > (window.innerHeight + 300) && window.innerWidth > 1000)
-          e
-            .classList
-            .add('dev-make-fixed');
-        else
-          e
-            .classList
-            .remove('dev-make-fixed');
-
-          /*const devEle = document.getElementById("post-hero");*/
-          // const devEle = document.getElementById("post__mainContent");
-          // const devEleCat = document.getElementById("category-filter");
+        // if (window.scrollY > (window.innerHeight + 300) && window.innerWidth > 1000)
+        //   e.classList.add('dev-make-fixed');
+        // else
+        //   e.classList.remove('dev-make-fixed');
 
         window.requestAnimationFrame(TableOfContentPostDev);
       }
 
-      window.addEventListener('load', () => {
-        TableOfContentPostDev();
-      })
+      // window.addEventListener('load', () => {
+      //   TableOfContentPostDev();
+      // })
 
       const v = document.getElementById("#dev-banner-video");
       v.playbackRate = 4.2;
