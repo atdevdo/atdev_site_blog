@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: Tips for Becoming a Competent JavaScript Developer
+title: Consejos para convertirse en un desarrollador de JavaScript competente
 description: Para avanzar hacia el siguiente nivel, centrémonos en ciertas áreas
 publishDate: 2024-03-12
 category: general
