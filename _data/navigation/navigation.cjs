@@ -6,49 +6,49 @@ const service_list = {
 	app_development: {
 		en: {
 			label: `Custom Software Development`,
-			link: `${origin}/pages/en/services/app-development`,
+			link: `${origin}/en/services/custom-software-development/`,
 		},
 		es: {
 			label: `Desarrollo de Software Personalizado`,
-			link: `${origin}/pages/es/services/app-development`,
+			link: `${origin}/es/services/custom-software-development/`,
 		},
 	},
 	nearshore: {
 		en: {
 			label: `Nearshore Staff Augmentation`,
-			link: `${origin}/pages/en/services/nearshore/`,
+			link: `${origin}/en/services/nearshore/`,
 		},
 		es: {
 			label: `Dotación de Personal`,
-			link: `${origin}/pages/es/services/nearshore/`,
+			link: `${origin}/es/services/nearshore/`,
 		},
 	},
 	recruiting: {
 		en: {
 			label: `Recruiting`,
-			link: `${origin}/pages/en/services/recruiting/`,
+			link: `${origin}/en/services/recruiting/`,
 		},
 		es: {
 			label: `Reclutamiento`,
-			link: `${origin}/pages/es/services/recruiting/`,
+			link: `${origin}/es/services/recruiting/`,
 		},
 	},
 }
 
 const translated_links = {
 	en: {
-		home: `${origin}/pages/en/`,
-		services: `${origin}/pages/en/services`,
-		careers: `${origin}/pages/en/careersus`,
-		about: `${origin}/pages/en/about`,
-		contact: `${origin}/pages/en/contact`,
+		home: `${origin}/en/`,
+		services: `${origin}/en/services`,
+		careers: `${origin}/en/careersus`,
+		about: `${origin}/en/about`,
+		contact: `${origin}/en/contact`,
 	},
 	es: {
-		home: `${origin}/pages/es/`,
-		services: `${origin}/pages/es/services`,
-		careers: `${origin}/pages/es/careersus`,
-		about: `${origin}/pages/es/about`,
-		contact: `${origin}/pages/es/contact`,
+		home: `${origin}/es/`,
+		services: `${origin}/es/services`,
+		careers: `${origin}/es/careersus`,
+		about: `${origin}/es/about`,
+		contact: `${origin}/es/contact`,
 	},
 }
 
@@ -59,8 +59,8 @@ module.exports = {
 			es: `Inicio`,
 		},
 		link: {
-			en: `${origin}/pages/en/`,
-			es: `${origin}/pages/es/`,
+			en: `${origin}/en/`,
+			es: `${origin}/es/`,
 		},
 		translated_link: {
 			en: translated_links.en.home,
@@ -73,8 +73,8 @@ module.exports = {
 			es: `Servicios`,
 		},
 		link: {
-			en: `${origin}/pages/en/service`,
-			es: `${origin}/pages/es/service`,
+			en: `${origin}/en/services`,
+			es: `${origin}/es/services`,
 		},
 		translated_link: {
 			en: translated_links.en.services,
@@ -88,8 +88,8 @@ module.exports = {
 			es: `Carreras`,
 		},
 		link: {
-			en: `${origin}/pages/en/careersus`,
-			es: `${origin}/pages/es/careersus`,
+			en: `${origin}/en/careersus`,
+			es: `${origin}/es/careersus`,
 		},
 		translated_link: {
 			en: translated_links.en.careers,
@@ -102,8 +102,8 @@ module.exports = {
 			es: `Nosotros`,
 		},
 		link: {
-			en: `${origin}/pages/en/about`,
-			es: `${origin}/pages/es/about`,
+			en: `${origin}/en/about`,
+			es: `${origin}/es/about`,
 		},
 		translated_link: {
 			en: translated_links.en.about,
@@ -116,8 +116,8 @@ module.exports = {
 			es: `Contactos`,
 		},
 		link: {
-			en: `${origin}/pages/en/contact`,
-			es: `${origin}/pages/es/contact`,
+			en: `${origin}/en/contact`,
+			es: `${origin}/es/contact`,
 		},
 		translated_link: {
 			en: translated_links.en.contact,
