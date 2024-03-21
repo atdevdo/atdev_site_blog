@@ -98,7 +98,7 @@
 	gap: 1rem;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1099px) {
 	.post__mainContent {
 		flex-direction: column;
 	}
@@ -156,7 +156,7 @@
 	width: 80%;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1099px) {
 	.post__mainContent-box-col1,
 	.post__mainContent-box-col2 {
 		width: 100%;
@@ -292,7 +292,7 @@ iframe {
 	font-weight: 600 !important;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1099px) {
 	.is-position-fixed {}
 }
 
