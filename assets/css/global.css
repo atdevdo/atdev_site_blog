@@ -78,6 +78,25 @@ img {
 	background-color: var(--color-h1) !important;
 }
 
+.post-card-general-section {
+	padding-top: 4em !important;
+	padding-bottom: 4em !important;
+	position: relative !important;
+	z-index: 1 !important;
+}
+
+.post-card-general-section::before {
+	content: 's' !important;
+	color: transparent !important;
+	background-color: #F8FBFF !important;
+	position: absolute !important;
+	width: 9000vw !important;
+	height: 100% !important;
+	transform: translateX(-500vw) !important;
+	top: 0 !important;
+	z-index: -1 !important;
+}
+
 @media only screen and (max-width: 600px) {}
 
 @media only screen and (min-width: 600px) and (max-width: 900px) {
