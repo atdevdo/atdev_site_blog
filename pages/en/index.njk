@@ -6,6 +6,7 @@ tags: 'en'
 locale: 'en'
 dir: 'ltr'
 ---
+
 {# BEGIN MACROS - IMPORTS #}
 {% from "../../_includes/components/macros/sort-posts.macro.njk" import macro_sorted_list_title %}
 {% from "../../_includes/components/macros/sort-posts.macro.njk" import macro_sorted_list_time %}
@@ -36,7 +37,7 @@ dir: 'ltr'
 	{# END FILTER - SORTING #}
 
 	{# BEGIN POST LIST #}
-	<div id="sorting">
+	<div id="sorting" class="post-card-general-section">
 		<div id="sorted-title" style="display: none;">
 			{{ macro_sorted_list_title(collections.sortedByTitleEn, 7, categories, locale) }}
 		</div>

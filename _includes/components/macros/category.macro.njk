@@ -8,7 +8,7 @@
             {{viewMore(view, view_more_link)}}
             {# <a onclick="mixpanel.track('Go to View More Page Button - Blog')" href="{{view_more_link}}">{{view}}</a> #}
         </div>
-        <div class="posts-container">
+        <div class="posts-container post-card-general-section">
             {% if collection | length != 0 %}
                 {{ macro_category_post(collection, category, from, to, categories, locale) }}
             {% else %}
