@@ -1,0 +1,88 @@
+{
+  "en": {
+    "companyDescription": "ATDEV is a company that focuses on providing Cloud Software Solutions and Nearshore Staff Augmentation. Founded in 2016 with the premise of helping every company to fulfill the full potential of cloud computing.",
+    "menu": {
+      "title": "Menu",
+      "links": [
+        { "label": "Home", "link": "https://atdev.do/en/" },
+        { "label": "Services", "link": "https://atdev.do/en/services" },
+        { "label": "Careers", "link": "https://atdev.do/en/careers" },
+        { "label": "About", "link": "https://atdev.do/en/about" },
+        { "label": "Contact", "link": "https://atdev.do/en/contact" },
+        { "label": "Blog", "link": "/pages/en/" }
+      ]
+    },
+    "offer": {
+      "title": "What We Offer",
+      "links": [
+        { "label": "Nearshore Staff Augmentation", "link": "https://atdev.do/en/services/nearshore/" },
+        { "label": "Recruiting", "link": "https://atdev.do/en/services/recruiting/" },
+        { "label": "Custom Software Development", "link": "https://atdev.do/en/services/custom-software-development" }
+      ]
+    },
+    "about": {
+      "title": "Who We Are",
+      "links": [
+        { "label": "Our Story", "link": "https://atdev.do/en/about/our-story/" },
+        { "label": "Our Team", "link": "https://atdev.do/en/about/our-team/" },
+        { "label": "Frequently Asked Questions", "link": "https://atdev.do/en/about/faq" }
+      ]
+    },
+    "contact": {
+      "title": "Our Contacts",
+      "links": [
+        { "item1": "Aut: San Isidro, Santo Domingo este. Plaza Coral Mall, Pyhex Work 3" },
+        { "item1": "info@atdev.do" },
+        { "item1": "(267) 314-8036", "item2": "(809)-332-1203" }
+      ]
+    },
+    "copyright": {
+			"terms": "Terms and Conditions",
+			"privacy": "Privacy Policy",
+			"copyright": "© 2023 ATDEV. All rights reserved."
+		}
+  },
+  "es": {
+    "companyDescription": "ATDEV es una empresa que se enfoca en brindar soluciones de software en la nube y aumento de personal en el entorno cercano. Fundada en 2016 con la premisa de ayudar a cada empresa a aprovechar todo el potencial de la computación en la nube.",
+    "menu": {
+      "title": "Menu",
+      "links": [
+        { "label": "Inicio", "link": "https://atdev.do/es/" },
+        { "label": "Servicios", "link": "https://atdev.do/es/services" },
+        { "label": "Carreras", "link": "https://atdev.do/es/careers" },
+        { "label": "Nosotros", "link": "https://atdev.do/es/about" },
+        { "label": "Contactos", "link": "https://atdev.do/es/contact" },
+        { "label": "Blog", "link": "/pages/es/" }
+      ]
+    },
+    "offer": {
+      "title": "Ofrecemos",
+      "links": [
+        { "label": "Aumento del personal", "link": "https://atdev.do/es/services/nearshore/" },
+        { "label": "Reclutamiento", "link": "https://atdev.do/es/services/recruiting/" },
+        { "label": "Software personalizado", "link": "https://atdev.do/es/services/custom-software-development" }
+      ]
+    },
+    "about": {
+      "title": "Quienes somos",
+      "links": [
+        { "label": "Nuestra historia", "link": "https://atdev.do/es/about/our-story/" },
+        { "label": "Nuestro Equipo", "link": "https://atdev.do/es/about/our-team/" },
+        { "label": "Preguntas frecuentes", "link": "https://atdev.do/es/about/faq" }
+      ]
+    },
+    "contact": {
+      "title": "Nuestros Contactos",
+      "links": [
+        { "item1": "Aut: San Isidro, Santo Domingo este. Plaza Coral Mall, Pyhex Work 3" },
+        { "item1": "info@atdev.do" },
+        { "item1": "(267) 314-8036", "item2": "(809)-332-1203" }
+      ]
+    },
+    "copyright": {
+			"terms": "Términos y condiciones",
+			"privacy": "Política de privacidad",
+			"copyright": "© 2024 ATDEV. Todos los derechos reservados."
+		}
+  }
+}
